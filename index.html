@@ -1,0 +1,805 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>German Vocabulary Trainer — Unified v2</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+:root {
+  --bg:#1a1f2e; --panel:#212840; --sidebar:#161b28;
+  --card:#252d48; --card-tint:#252d48; --border:#3b4565; --border-hover:#6366f1;
+  --accent:#6366f1; --accent-bg:#4338ca; --accent-light:#a5b4fc;
+  --text:#eef0f6; --muted:#9ba4b8; --green:#10b981;
+  /* section colors (static, for sidebar) */
+  --c-rest:#818cf8; --c-verben:#c084fc; --c-noun:#2dd4bf; --c-conj:#fbbf24;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;background:var(--bg);color:var(--text);display:flex;min-height:100vh}
+
+/* ===== SIDEBAR ===== */
+#sidebar{width:230px;background:var(--sidebar);border-right:1px solid var(--border);display:flex;flex-direction:column;position:fixed;top:0;left:0;height:100vh;z-index:50;transition:transform .25s}
+.sidebar-hdr{padding:18px 16px;border-bottom:1px solid var(--border);display:flex;justify-content:space-between;align-items:center}
+.sidebar-hdr h2{font-size:15px;font-weight:700;letter-spacing:.4px;background:linear-gradient(135deg,#6366f1,#a855f7,#14b8a6,#f59e0b);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text}
+#sidebar-close{display:none;background:none;border:none;color:var(--muted);font-size:20px;cursor:pointer}
+.nav-btn{display:flex;align-items:center;gap:10px;width:100%;padding:14px 16px;border:none;background:none;color:var(--muted);font-size:14px;cursor:pointer;text-align:left;border-left:3px solid transparent;transition:all .2s}
+.nav-btn:hover{background:rgba(255,255,255,.06);color:var(--text)}
+.nav-btn[data-section="rest"]:hover,.nav-btn[data-section="rest"].active{border-left-color:var(--c-rest);color:var(--c-rest)}
+.nav-btn[data-section="verben"]:hover,.nav-btn[data-section="verben"].active{border-left-color:var(--c-verben);color:var(--c-verben)}
+.nav-btn[data-section="noun"]:hover,.nav-btn[data-section="noun"].active{border-left-color:var(--c-noun);color:var(--c-noun)}
+.nav-btn[data-section="conjunctions"]:hover,.nav-btn[data-section="conjunctions"].active{border-left-color:var(--c-conj);color:var(--c-conj)}
+.nav-btn.active{background:rgba(255,255,255,.07)}
+.nav-icon{font-size:18px;width:24px;text-align:center}
+.nav-label{flex:1;font-weight:600}
+.nav-count{font-size:11px;padding:2px 8px;border-radius:999px;color:var(--muted);border:1px solid var(--border)}
+.nav-btn[data-section="rest"] .nav-count{border-color:rgba(99,102,241,.3)}
+.nav-btn[data-section="verben"] .nav-count{border-color:rgba(168,85,247,.3)}
+.nav-btn[data-section="noun"] .nav-count{border-color:rgba(20,184,166,.3)}
+.nav-btn[data-section="conjunctions"] .nav-count{border-color:rgba(245,158,11,.3)}
+.sidebar-foot{margin-top:auto;padding:12px;border-top:1px solid var(--border);display:flex;flex-direction:column;gap:6px}
+.sidebar-foot button{padding:8px;border-radius:8px;border:1px solid var(--border);background:rgba(255,255,255,.06);color:var(--text);cursor:pointer;font-size:12px;transition:border-color .2s}
+.sidebar-foot button:hover{border-color:var(--accent)}
+
+/* ===== HAMBURGER ===== */
+#hamburger{display:none;position:fixed;top:10px;left:10px;z-index:60;background:var(--panel);border:1px solid var(--border);border-radius:8px;color:var(--text);font-size:20px;padding:6px 10px;cursor:pointer}
+
+/* ===== MAIN ===== */
+#main{margin-left:230px;flex:1;display:flex;flex-direction:column;min-width:0}
+header{position:sticky;top:0;z-index:10;background:rgba(26,31,46,.94);backdrop-filter:blur(8px);border-bottom:1px solid var(--border);padding:12px 16px}
+.section-header{display:none}
+.section-header.active{display:block}
+.controls{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.hdr-title{font-size:15px;font-weight:700;margin-bottom:8px;color:var(--accent-light);display:flex;align-items:center;gap:8px}
+.hdr-title::before{content:'';display:inline-block;width:4px;height:16px;border-radius:2px;background:var(--accent)}
+
+button,select,input[type=search]{background:rgba(255,255,255,.08);color:#fff;border:1px solid var(--border);border-radius:8px;padding:8px 12px;cursor:pointer;font-size:13px;transition:border-color .15s,background .15s}
+input[type=search]{min-width:180px;outline:none}
+input[type=search]:focus{border-color:var(--accent);background:rgba(255,255,255,.12)}
+select{cursor:pointer}
+button:hover{border-color:var(--accent);background:rgba(255,255,255,.12)}
+button.active{background:var(--accent-bg);border-color:var(--accent);color:#fff}
+.pill{font-size:11px;background:rgba(255,255,255,.05);padding:4px 10px;border-radius:999px;color:var(--accent-light);border:1px solid rgba(255,255,255,.08);cursor:default}
+.training-toggle{background:rgba(16,185,129,.15);border-color:rgba(16,185,129,.4);color:var(--green)}
+.training-toggle:hover{background:rgba(16,185,129,.25)}
+.training-toggle.active{background:var(--green);border-color:#34d399;color:#fff}
+
+/* ===== GRID ===== */
+#grid{padding:16px;display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:12px}
+.card{background:var(--card-tint);border:1px solid var(--border);border-left:4px solid var(--accent);border-radius:12px;padding:14px;cursor:pointer;min-height:80px;display:flex;flex-direction:column;justify-content:center;transition:all .2s}
+.card:hover{border-color:var(--accent);transform:translateY(-2px);box-shadow:0 6px 24px rgba(0,0,0,.25)}
+.card .word{font-size:16px;font-weight:700}
+.card .word.audio-hidden{display:none}
+.card .sub{font-size:12px;color:var(--accent-light);margin-top:6px;opacity:.7}
+.card .btn-row{display:flex;align-items:center;gap:4px;margin-top:6px}
+.card .mini-btn{font-size:11px;padding:2px 6px;border-radius:6px;background:rgba(255,255,255,.1);border:1px solid var(--border);cursor:pointer;color:var(--text);transition:all .15s}
+.card .mini-btn:hover{background:var(--accent-bg);border-color:var(--accent)}
+
+/* ===== POPUP OVERLAY ===== */
+.popup-overlay{position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,.7);display:flex;justify-content:center;align-items:center;z-index:100;opacity:0;visibility:hidden;transition:opacity .2s,visibility .2s}
+.popup-overlay.show{opacity:1;visibility:visible}
+.popup-box{background:#252d48;border:1px solid var(--accent);border-top:3px solid var(--accent);border-radius:16px;padding:24px;max-width:540px;width:90%;max-height:80vh;overflow-y:auto;box-shadow:0 8px 40px rgba(0,0,0,.4)}
+.popup-title{font-size:20px;font-weight:700;margin-bottom:14px;color:var(--accent-light);display:flex;align-items:center;gap:10px}
+.popup-section{margin-bottom:12px}
+.popup-label{font-size:11px;color:var(--muted);text-transform:uppercase;margin-bottom:3px;display:flex;align-items:center;gap:8px;letter-spacing:.5px}
+.popup-val{font-size:15px;line-height:1.5}
+.popup-hidden{background:rgba(255,255,255,.07);border:1px dashed var(--border);border-radius:8px;padding:10px;cursor:pointer;text-align:center;color:var(--muted);font-size:13px;transition:all .2s}
+.popup-hidden:hover{background:rgba(255,255,255,.12);border-color:var(--accent)}
+.popup-revealed{background:transparent;border:none;cursor:default;text-align:left;color:var(--text);padding:0}
+.popup-close-btn{margin-top:14px;width:100%;padding:10px;background:var(--accent-bg);border:none;border-radius:8px;color:#fff;font-size:14px;cursor:pointer;transition:background .15s}
+.popup-close-btn:hover{background:var(--accent)}
+.popup-speak{font-size:11px;padding:2px 6px;border-radius:6px;background:rgba(255,255,255,.1);border:1px solid var(--border);cursor:pointer;color:var(--text);transition:all .15s}
+.popup-speak:hover{background:var(--accent-bg);border-color:var(--accent)}
+
+/* Verben modal rows */
+.modal-row{display:grid;grid-template-columns:140px 1fr;gap:8px;padding:8px 0;border-bottom:1px dashed rgba(255,255,255,.1)}
+.modal-row:last-child{border-bottom:none}
+.modal-key{color:var(--muted);font-size:11px;text-transform:uppercase;letter-spacing:.5px;cursor:pointer}
+.modal-val{font-size:14px;line-height:1.5}
+.example-row{display:flex;gap:8px;align-items:flex-start;margin:6px 0}
+.example-text{flex:1;font-size:14px}
+
+/* ===== TRAINING ===== */
+#training-view{display:none;padding:24px 16px;max-width:640px;margin:0 auto}
+#training-view.active{display:block}
+.train-counter{text-align:center;font-size:13px;color:var(--muted);margin-bottom:14px}
+.train-prompt{background:var(--card-tint);border:1px solid var(--border);border-left:3px solid var(--accent);border-radius:16px;padding:28px 24px;font-size:19px;line-height:1.6;text-align:center;margin-bottom:14px}
+.train-reveal{background:rgba(255,255,255,.04);border:2px dashed var(--border);border-radius:16px;padding:28px 24px;text-align:center;cursor:pointer;min-height:100px;display:flex;flex-direction:column;justify-content:center;align-items:center;transition:all .2s;margin-bottom:18px}
+.train-reveal:hover{border-color:var(--accent);background:rgba(255,255,255,.07)}
+.train-reveal.revealed{border-style:solid;border-color:var(--accent-bg);background:var(--card-tint);cursor:default;align-items:stretch}
+.train-reveal-hint{color:#8892a4;font-size:14px}
+.train-german{font-size:19px;font-weight:700;color:var(--accent-light);margin-bottom:14px;text-align:center;line-height:1.5}
+.train-details{display:grid;grid-template-columns:auto 1fr;gap:5px 12px;font-size:13px;text-align:left}
+.train-details .lbl{color:var(--muted);font-weight:600;white-space:nowrap}
+.train-details .val{color:#e5e7eb}
+.train-nav{display:flex;justify-content:center;align-items:center;gap:14px}
+.train-nav button{background:rgba(255,255,255,.1);border:1px solid var(--border);border-radius:50%;width:44px;height:44px;font-size:20px;color:#fff;cursor:pointer;display:flex;align-items:center;justify-content:center;padding:0;transition:all .15s}
+.train-nav button:hover{background:var(--accent-bg);border-color:var(--accent)}
+#btn-train-speak{border-radius:8px;width:auto;padding:6px 14px;font-size:13px}
+.train-sub{text-align:center;color:var(--muted);font-size:12px;margin-top:8px}
+
+.footer-text{text-align:center;color:var(--muted);font-size:11px;padding:10px;margin-top:auto}
+
+/* ===== MOBILE ===== */
+@media(max-width:768px){
+  #sidebar{transform:translateX(-100%)}
+  #sidebar.open{transform:translateX(0)}
+  #sidebar-close{display:block}
+  #hamburger{display:block}
+  #main{margin-left:0}
+  .controls{gap:6px}
+  button,select,input[type=search]{padding:6px 8px;font-size:12px}
+  #grid{padding:10px;gap:8px;grid-template-columns:repeat(auto-fill,minmax(160px,1fr))}
+}
+</style>
+</head>
+<body>
+
+<!-- ===== SIDEBAR ===== -->
+<nav id="sidebar">
+  <div class="sidebar-hdr">
+    <h2>Almanca Trainer</h2>
+    <button id="sidebar-close" onclick="closeSidebar()">&#10005;</button>
+  </div>
+  <button class="nav-btn active" data-section="rest">
+    <span class="nav-icon">&#128221;</span>
+    <span class="nav-label">Rest</span>
+    <span class="nav-count" id="cnt-rest">0</span>
+  </button>
+  <button class="nav-btn" data-section="verben">
+    <span class="nav-icon">&#128260;</span>
+    <span class="nav-label">Verben</span>
+    <span class="nav-count" id="cnt-verben">0</span>
+  </button>
+  <button class="nav-btn" data-section="noun">
+    <span class="nav-icon">&#128230;</span>
+    <span class="nav-label">Noun</span>
+    <span class="nav-count" id="cnt-noun">0</span>
+  </button>
+  <button class="nav-btn" data-section="conjunctions">
+    <span class="nav-icon">&#128279;</span>
+    <span class="nav-label">Conjunctions</span>
+    <span class="nav-count" id="cnt-conj">0</span>
+  </button>
+  <div class="sidebar-foot">
+    <button id="btn-import">Import JSON</button>
+    <button id="btn-export">Export JSON</button>
+    <input type="file" id="fileInput" accept=".json" hidden>
+  </div>
+</nav>
+
+<button id="hamburger" onclick="openSidebar()">&#9776;</button>
+
+<!-- ===== MAIN ===== -->
+<div id="main">
+<header>
+  <!-- REST HEADER -->
+  <div id="hdr-rest" class="section-header active">
+    <div class="hdr-title">Kelimeler (Rest)</div>
+    <div class="controls">
+      <button class="r-mode active" data-m="de">German</button>
+      <button class="r-mode" data-m="en">English</button>
+      <button class="r-mode" data-m="audio">Audio Only</button>
+      <select id="flt-rest-cat"><option value="">Tum kategoriler</option></select>
+      <input type="search" id="q-rest" placeholder="Ara...">
+      <button id="btn-r-normal">Normal</button>
+      <button id="btn-r-training" class="training-toggle">Training</button>
+      <button id="btn-r-daily">Daily (10)</button>
+      <button class="btn-shuffle" data-s="rest">Shuffle</button>
+      <button class="btn-orig" data-s="rest">Sifirla</button>
+      <span class="pill" id="pill-rest">0 kelime</span>
+    </div>
+  </div>
+  <!-- VERBEN HEADER -->
+  <div id="hdr-verben" class="section-header">
+    <div class="hdr-title">Fiiller (Verben)</div>
+    <div class="controls">
+      <button class="v-mode active" data-m="en">English</button>
+      <button class="v-mode" data-m="de">German</button>
+      <button class="v-mode" data-m="praet">Prateritum</button>
+      <button class="v-mode" data-m="perf">Perfekt</button>
+      <button class="v-mode" data-m="exde">Cumle DE</button>
+      <button class="v-mode" data-m="exen">Cumle EN</button>
+      <input type="search" id="q-verben" placeholder="Ara...">
+      <button id="btn-v-normal">Normal</button>
+      <button id="btn-v-training" class="training-toggle">Training</button>
+      <button id="btn-v-daily">Daily (10)</button>
+      <button class="btn-shuffle" data-s="verben">Shuffle</button>
+      <button class="btn-orig" data-s="verben">Sifirla</button>
+      <span class="pill" id="pill-verben">0 fiil</span>
+    </div>
+  </div>
+  <!-- NOUN HEADER -->
+  <div id="hdr-noun" class="section-header">
+    <div class="hdr-title">Isimler (Noun)</div>
+    <div class="controls">
+      <button class="n-mode active" data-m="full">Full</button>
+      <button class="n-mode" data-m="noun">Noun</button>
+      <button class="n-mode" data-m="meaning">Meaning</button>
+      <select id="flt-noun-cat"><option value="">Tum kategoriler</option></select>
+      <input type="search" id="q-noun" placeholder="Ara...">
+      <button id="btn-n-normal">Normal</button>
+      <button id="btn-n-training" class="training-toggle">Training</button>
+      <button class="btn-shuffle" data-s="noun">Shuffle</button>
+      <button class="btn-orig" data-s="noun">Sifirla</button>
+      <span class="pill" id="pill-noun">0 isim</span>
+    </div>
+  </div>
+  <!-- CONJUNCTIONS HEADER -->
+  <div id="hdr-conj" class="section-header">
+    <div class="hdr-title">Baglaclar (Conjunctions)</div>
+    <div class="controls">
+      <select id="flt-conj-type"><option value="">Tum tipler</option></select>
+      <input type="search" id="q-conj" placeholder="Ara...">
+      <button id="btn-c-normal">Normal</button>
+      <button id="btn-c-training" class="training-toggle">Training</button>
+      <button class="btn-shuffle" data-s="conjunctions">Shuffle</button>
+      <button class="btn-orig" data-s="conjunctions">Sifirla</button>
+      <span class="pill" id="pill-conj">0 baglac</span>
+    </div>
+  </div>
+</header>
+
+<div id="grid"></div>
+
+<!-- TRAINING VIEW -->
+<div id="training-view">
+  <div class="train-counter" id="train-counter"></div>
+  <div class="train-prompt" id="train-prompt"></div>
+  <div class="train-reveal" id="train-reveal">
+    <div class="train-reveal-hint">Cevabi gormek icin tikla</div>
+  </div>
+  <div class="train-nav" id="train-nav">
+    <button id="btn-train-prev" title="Onceki">&#8592;</button>
+    <button id="btn-train-speak" title="Dinle">&#128266; Dinle</button>
+    <button id="btn-train-next" title="Sonraki">&#8594;</button>
+  </div>
+  <div class="train-sub">&#8592; &#8594; ok tuslari | Space/Enter cevap | Esc kapat</div>
+</div>
+
+<div class="footer-text">Tikla = kart cevir &bull; <kbd>/</kbd> arama &bull; Import ile JSON yukle</div>
+</div>
+
+<!-- POPUP OVERLAY -->
+<div class="popup-overlay" id="popupOverlay">
+  <div class="popup-box" id="popupBox"></div>
+</div>
+
+<script>
+/* ==================== STATE ==================== */
+let DATA = { rest:{}, verben:{}, noun:[], conjunctions:[] };
+let ORIG = { rest:{}, verben:{}, noun:[], conjunctions:[] };
+let SEC = 'rest';
+let TRAINING = false;
+
+const S = {
+  rest:  { mode:'de', cat:'', q:'', daily:null, audio:{} },
+  verben:{ mode:'en', q:'', daily:null, order:null },
+  noun:  { mode:'full', cat:'', q:'' },
+  conj:  { type:'', q:'' }
+};
+
+let tList=[], tIdx=0, tRevealed=false;
+
+/* ==================== SECTION THEMES ==================== */
+const THEMES = {
+  rest:         { accent:'#818cf8', accentBg:'#5b63d3', accentLight:'#c7d2fe', cardTint:'#232b50' },
+  verben:       { accent:'#c084fc', accentBg:'#9261d4', accentLight:'#ddd6fe', cardTint:'#2d2548' },
+  noun:         { accent:'#2dd4bf', accentBg:'#14b8a6', accentLight:'#99f6e4', cardTint:'#1e3038' },
+  conjunctions: { accent:'#fbbf24', accentBg:'#d97706', accentLight:'#fde68a', cardTint:'#302a1e' }
+};
+
+function applyTheme(sec){
+  const t = THEMES[sec];
+  const r = document.documentElement.style;
+  r.setProperty('--accent', t.accent);
+  r.setProperty('--accent-bg', t.accentBg);
+  r.setProperty('--accent-light', t.accentLight);
+  r.setProperty('--card-tint', t.cardTint);
+  r.setProperty('--border-hover', t.accent);
+}
+
+/* ==================== TTS ==================== */
+let deVoice=null, voiceReady=false;
+function chooseVoice(){
+  const v=speechSynthesis.getVoices();
+  deVoice=v.find(x=>(x.name||'').toLowerCase().includes('petra')&&(x.name||'').toLowerCase().includes('premium'))
+    ||v.find(x=>(x.name||'').toLowerCase().includes('petra'))
+    ||v.find(x=>(x.name||'').toLowerCase().includes('anna'))
+    ||v.find(x=>(x.lang||'').toLowerCase().startsWith('de'));
+  if(deVoice) voiceReady=true;
+}
+function loadVoices(n=0){chooseVoice();if(!voiceReady&&n<25)setTimeout(()=>loadVoices(n+1),150)}
+speechSynthesis.onvoiceschanged=()=>loadVoices();
+loadVoices();
+function speak(t){if(!t)return;speechSynthesis.cancel();const u=new SpeechSynthesisUtterance(t);u.lang='de-DE';if(deVoice)u.voice=deVoice;u.rate=1;speechSynthesis.speak(u)}
+
+/* ==================== HELPERS ==================== */
+function esc(s){return String(s||'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]))}
+function $(id){return document.getElementById(id)}
+const grid=$('grid'), popupOverlay=$('popupOverlay'), popupBox=$('popupBox');
+
+/* ==================== SIDEBAR ==================== */
+function openSidebar(){$('sidebar').classList.add('open')}
+function closeSidebar(){$('sidebar').classList.remove('open')}
+document.querySelectorAll('.nav-btn').forEach(btn=>{
+  btn.onclick=()=>{
+    switchSection(btn.dataset.section);
+    closeSidebar();
+  };
+});
+
+function switchSection(sec){
+  if(TRAINING) exitTraining();
+  SEC=sec;
+  applyTheme(sec);
+  document.querySelectorAll('.nav-btn').forEach(b=>b.classList.toggle('active',b.dataset.section===sec));
+  document.querySelectorAll('.section-header').forEach(h=>h.classList.remove('active'));
+  const map={rest:'hdr-rest',verben:'hdr-verben',noun:'hdr-noun',conjunctions:'hdr-conj'};
+  $(map[sec]).classList.add('active');
+  render();
+}
+
+/* ==================== COUNTS ==================== */
+function updateCounts(){
+  $('cnt-rest').textContent=Object.keys(DATA.rest).length;
+  $('cnt-verben').textContent=Object.keys(DATA.verben).length;
+  $('cnt-noun').textContent=DATA.noun.length;
+  $('cnt-conj').textContent=DATA.conjunctions.length;
+}
+
+/* ==================== RENDER DISPATCH ==================== */
+function render(){
+  if(TRAINING) return;
+  grid.style.display='';
+  $('training-view').classList.remove('active');
+  if(SEC==='rest') renderRest();
+  else if(SEC==='verben') renderVerben();
+  else if(SEC==='noun') renderNoun();
+  else renderConj();
+}
+
+/* ==================== REST ==================== */
+function buildRestCats(){
+  const cats=new Set();
+  Object.values(DATA.rest).forEach(v=>{if(v.category)cats.add(v.category)});
+  const sel=$('flt-rest-cat');
+  sel.innerHTML='<option value="">Tum kategoriler</option>';
+  [...cats].sort().forEach(c=>{const o=document.createElement('option');o.value=c;o.textContent=c;sel.appendChild(o)});
+}
+function renderRest(){
+  grid.innerHTML='';
+  const st=S.rest, src=st.daily||DATA.rest, q=st.q.toLowerCase();
+  let count=0;
+  Object.entries(src).forEach(([word,obj])=>{
+    if(st.cat && obj.category!==st.cat) return;
+    if(q && !word.toLowerCase().includes(q) && !(obj.meaning||'').toLowerCase().includes(q)) return;
+    count++;
+    const card=document.createElement('div'); card.className='card';
+    const txt=document.createElement('div'); txt.className='word';
+    const btnRow=document.createElement('div'); btnRow.className='btn-row';
+    const spk=document.createElement('button'); spk.className='mini-btn'; spk.textContent='\u{1F50A}';
+    spk.onclick=e=>{e.stopPropagation();speak(word)};
+    const info=document.createElement('button'); info.className='mini-btn'; info.textContent='i'; info.style.fontWeight='bold';
+    info.onclick=e=>{e.stopPropagation();showRestPopup(word,obj)};
+    btnRow.appendChild(spk); btnRow.appendChild(info);
+    const cat=document.createElement('div'); cat.className='sub';
+
+    if(st.mode==='audio'){
+      if(!(word in st.audio)) st.audio[word]=0;
+      function setAV(){
+        const s=st.audio[word]||0;
+        if(s===0){txt.classList.add('audio-hidden')}
+        else{txt.classList.remove('audio-hidden');txt.textContent=s===1?word:obj.meaning}
+        cat.textContent='';
+      }
+      setAV();
+      card.onclick=()=>{st.audio[word]=((st.audio[word]||0)+1)%3;setAV()};
+    } else {
+      txt.textContent=st.mode==='de'?word:obj.meaning;
+      cat.textContent=obj.category||'';
+      let flipped=false;
+      card.onclick=()=>{flipped=!flipped;txt.textContent=flipped?(st.mode==='de'?obj.meaning:word):(st.mode==='de'?word:obj.meaning)};
+    }
+    card.appendChild(txt);card.appendChild(btnRow);card.appendChild(cat);
+    grid.appendChild(card);
+  });
+  $('pill-rest').textContent=count+' kelime';
+}
+
+function showRestPopup(word,obj){
+  popupBox.innerHTML=`
+    <div class="popup-title">${esc(word)} <button class="popup-speak" id="pp-spk">\u{1F50A}</button></div>
+    <div class="popup-section"><div class="popup-label">MEANING</div><div class="popup-val">${esc(obj.meaning)}</div></div>
+    <div class="popup-section"><div class="popup-label">SENTENCE <button class="popup-speak" id="pp-sent-spk">\u{1F50A}</button></div>
+      <div class="popup-hidden" id="pp-sent" data-c="${esc(obj.sentence||'-')}">Goruntulemek icin tikla</div></div>
+    <div class="popup-section"><div class="popup-label">TRANSLATION</div>
+      <div class="popup-hidden" id="pp-trans" data-c="${esc(obj.translation||'-')}">Goruntulemek icin tikla</div></div>
+    <button class="popup-close-btn" id="pp-close">Kapat</button>`;
+  popupOverlay.classList.add('show');
+  $('pp-spk').onclick=()=>speak(word);
+  $('pp-sent-spk').onclick=()=>{const s=obj.sentence;if(s&&s!=='-')speak(s)};
+  $('pp-sent').onclick=function(){if(this.classList.contains('popup-hidden')){this.textContent=this.dataset.c;this.classList.remove('popup-hidden');this.classList.add('popup-revealed')}};
+  $('pp-trans').onclick=function(){if(this.classList.contains('popup-hidden')){this.textContent=this.dataset.c;this.classList.remove('popup-hidden');this.classList.add('popup-revealed')}};
+  $('pp-close').onclick=hidePopup;
+}
+
+/* ==================== VERBEN ==================== */
+function renderVerben(){
+  grid.innerHTML='';
+  const st=S.verben, src=st.daily||DATA.verben, q=st.q.toLowerCase();
+  const keys=st.order&&Object.keys(src).length===st.order.length?st.order:Object.keys(src);
+  let count=0;
+  keys.forEach(key=>{
+    const v=src[key]; if(!v) return;
+    if(q){
+      const hay=[key,v.de||'',v.praet||'',v.perf||'',v.pres||''].join(' ').toLowerCase();
+      if(!hay.includes(q)) return;
+    }
+    count++;
+    const m=st.mode;
+    const label=m==='en'?key:m==='de'?(v.de||'-'):m==='praet'?(v.praet||'-'):m==='perf'?(v.perf||'-'):m==='exde'?(v.exde||'-'):(v.exen||'-');
+    const card=document.createElement('div');card.className='card';
+    card.innerHTML=`<div class="word">${esc(label)}</div>`;
+    card.onclick=()=>showVerbenModal(key,v);
+    grid.appendChild(card);
+  });
+  $('pill-verben').textContent=count+' fiil';
+}
+
+function showVerbenModal(key,v){
+  const rows=[
+    ['INFINITIVE',v.de],['ER/SIE/ES (PRASENS)',v.pres],['PRATERITUM',v.praet],
+    ['PERFEKT',v.perf],['CASE / VERB TYPE',v.case],['NOTES',v.notes]
+  ].map(([k,val])=>`<div class="modal-row"><div class="modal-key" onclick="this.nextElementSibling.style.display=this.nextElementSibling.style.display==='none'?'block':'none'">${k}</div><div class="modal-val" style="display:none">${esc(val||'-')}</div></div>`).join('');
+
+  let exHtml='';
+  if(v.exen||v.exde){
+    exHtml=`<div style="margin-top:12px;background:rgba(255,255,255,.06);border:1px solid var(--border);padding:12px;border-radius:10px">
+      <div style="font-size:14px">${esc(v.exen||'-')}</div>
+      <div id="vb-exde" style="color:var(--accent-light);font-size:13px;margin-top:6px;display:none">${esc(v.exde||'-')}</div>
+      <button class="mini-btn" id="vb-show-de" style="margin-top:6px">Almanca Cumle</button>
+    </div>`;
+  }
+
+  popupBox.innerHTML=`
+    <div class="popup-title">
+      <span style="font-size:12px;color:var(--muted)">${esc(key)}</span>
+    </div>
+    <div style="font-size:20px;font-weight:700;margin-bottom:12px;display:flex;align-items:center;gap:10px">
+      ${esc(v.de||'-')} <button class="popup-speak" id="vb-spk">\u{1F50A}</button>
+    </div>
+    ${rows}${exHtml}
+    <button class="popup-close-btn" id="vb-close">Kapat</button>`;
+  popupOverlay.classList.add('show');
+  $('vb-spk').onclick=()=>speak(v.de||'');
+  $('vb-close').onclick=hidePopup;
+  const showDe=$('vb-show-de');
+  if(showDe) showDe.onclick=()=>{$('vb-exde').style.display='block';showDe.remove()};
+}
+
+/* ==================== NOUN ==================== */
+function buildNounCats(){
+  const cats=new Set(DATA.noun.map(x=>x.category));
+  const sel=$('flt-noun-cat');
+  sel.innerHTML='<option value="">Tum kategoriler</option>';
+  [...cats].sort().forEach(c=>{const o=document.createElement('option');o.value=c;o.textContent=c;sel.appendChild(o)});
+}
+function renderNoun(){
+  grid.innerHTML='';
+  const st=S.noun, q=st.q.toLowerCase();
+  let count=0;
+  DATA.noun.forEach(it=>{
+    if(st.cat && it.category!==st.cat) return;
+    if(q && !it.noun.toLowerCase().includes(q) && !it.full.toLowerCase().includes(q) && !(it.meaning||'').toLowerCase().includes(q)) return;
+    count++;
+    const card=document.createElement('div');card.className='card';
+    card.innerHTML=`<div class="word">${esc(st.mode==='full'?it.full:st.mode==='noun'?it.noun:it.meaning)}</div>`;
+    card.onclick=()=>showNounPopup(it);
+    grid.appendChild(card);
+  });
+  $('pill-noun').textContent=count+' isim';
+}
+
+function showNounPopup(it){
+  popupBox.innerHTML=`
+    <div class="popup-title">${esc(it.noun)} <button class="popup-speak" id="np-spk">\u{1F50A}</button></div>
+    <div class="popup-section"><div class="popup-label">FULL</div><div class="popup-val">${esc(it.full)}</div></div>
+    <div class="popup-section"><div class="popup-label">ARTICLE</div><div class="popup-val">${esc(it.article||'')}</div></div>
+    <div class="popup-section"><div class="popup-label">PLURAL</div><div class="popup-val">${esc(it.plural||'')}</div></div>
+    <div class="popup-section"><div class="popup-label">MEANING</div><div class="popup-val">${esc(it.meaning)}</div></div>
+    ${it.notes?`<div class="popup-section"><div class="popup-label">NOTES</div><div class="popup-val">${esc(it.notes)}</div></div>`:''}
+    <button class="popup-close-btn" id="np-close">Kapat</button>`;
+  popupOverlay.classList.add('show');
+  $('np-spk').onclick=()=>speak(it.noun);
+  $('np-close').onclick=hidePopup;
+}
+
+/* ==================== CONJUNCTIONS ==================== */
+function buildConjTypes(){
+  const types=new Set(DATA.conjunctions.map(x=>x.type));
+  const sel=$('flt-conj-type');
+  sel.innerHTML='<option value="">Tum tipler</option>';
+  [...types].sort().forEach(c=>{const o=document.createElement('option');o.value=c;o.textContent=c;sel.appendChild(o)});
+}
+function renderConj(){
+  grid.innerHTML='';
+  const st=S.conj, q=st.q.toLowerCase();
+  let count=0;
+  DATA.conjunctions.forEach(it=>{
+    if(st.type && it.type!==st.type) return;
+    if(q && !(it.word||'').toLowerCase().includes(q) && !(it.meaning||'').toLowerCase().includes(q) && !(it.examples||[]).join(' ').toLowerCase().includes(q)) return;
+    count++;
+    const card=document.createElement('div');card.className='card';
+    card.innerHTML=`<div class="word">${esc(it.word)}</div><div class="sub">${esc(it.meaning)}</div>`;
+    card.onclick=()=>showConjPopup(it);
+    grid.appendChild(card);
+  });
+  $('pill-conj').textContent=count+' baglac';
+}
+
+function showConjPopup(it){
+  const ex=Array.isArray(it.examples)?it.examples:[];
+  const exRows=ex.length?ex.map((x,i)=>`<div class="example-row"><div class="example-text">&bull; ${esc(x)}</div><button class="popup-speak ex-sp" data-i="${i}">\u{1F50A}</button></div>`).join(''):'<span style="color:var(--muted)">(ornek yok)</span>';
+  popupBox.innerHTML=`
+    <div class="popup-title">${esc(it.word)} <button class="popup-speak" id="cp-spk">\u{1F50A}</button></div>
+    <div class="popup-section"><div class="popup-label">TYPE</div><div class="popup-val">${esc(it.type)}</div></div>
+    <div class="popup-section"><div class="popup-label">MEANING</div><div class="popup-val">${esc(it.meaning)}</div></div>
+    ${it.notes?`<div class="popup-section"><div class="popup-label">NOTES</div><div class="popup-val">${esc(it.notes)}</div></div>`:''}
+    <hr style="border:0;border-top:1px solid var(--border);margin:10px 0">
+    <div class="popup-section"><div class="popup-label">EXAMPLES</div>${exRows}</div>
+    <button class="popup-close-btn" id="cp-close">Kapat</button>`;
+  popupOverlay.classList.add('show');
+  $('cp-spk').onclick=()=>speak(it.word);
+  $('cp-close').onclick=hidePopup;
+  popupBox.querySelectorAll('.ex-sp').forEach(btn=>{
+    btn.onclick=e=>{e.stopPropagation();speak(ex[+btn.dataset.i])};
+  });
+}
+
+/* ==================== POPUP COMMON ==================== */
+function hidePopup(){popupOverlay.classList.remove('show')}
+popupOverlay.onclick=e=>{if(e.target===popupOverlay)hidePopup()};
+
+/* ==================== TRAINING ==================== */
+function enterTraining(){
+  TRAINING=true;
+  grid.style.display='none';
+  $('training-view').classList.add('active');
+  setTrainingBtnActive(true);
+  buildTrainList();
+  tIdx=0; tRevealed=false;
+  renderTrain();
+}
+function exitTraining(){
+  TRAINING=false;
+  $('training-view').classList.remove('active');
+  grid.style.display='';
+  setTrainingBtnActive(false);
+}
+function setTrainingBtnActive(on){
+  const map={rest:'btn-r-training',verben:'btn-v-training',noun:'btn-n-training',conjunctions:'btn-c-training'};
+  const b=$(map[SEC]); if(b)b.classList.toggle('active',on);
+}
+
+function buildTrainList(){
+  if(SEC==='rest'){
+    const src=S.rest.daily||DATA.rest;
+    tList=Object.entries(src).filter(([w,o])=>{
+      if(S.rest.cat && o.category!==S.rest.cat) return false;
+      if(!o.translation||o.translation==='-') return false;
+      return true;
+    }).map(([w,o])=>({word:w,...o}));
+  } else if(SEC==='verben'){
+    const src=S.verben.daily||DATA.verben;
+    tList=Object.entries(src).map(([k,v])=>({key:k,...v}));
+  } else if(SEC==='noun'){
+    let list=DATA.noun;
+    if(S.noun.cat) list=list.filter(x=>x.category===S.noun.cat);
+    tList=list.slice();
+  } else {
+    let list=DATA.conjunctions;
+    if(S.conj.type) list=list.filter(x=>x.type===S.conj.type);
+    tList=list.slice();
+  }
+  for(let i=tList.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[tList[i],tList[j]]=[tList[j],tList[i]]}
+}
+
+function renderTrain(){
+  const counter=$('train-counter'), prompt=$('train-prompt'), reveal=$('train-reveal'), spkBtn=$('btn-train-speak');
+  if(!tList.length){counter.textContent='';prompt.textContent='Veri bulunamadi. JSON import edin.';reveal.style.display='none';spkBtn.style.display='none';return}
+  reveal.style.display='';
+  counter.textContent=`${tIdx+1} / ${tList.length}`;
+  const it=tList[tIdx];
+
+  if(SEC==='rest'){
+    prompt.textContent=it.translation;
+    if(tRevealed){
+      reveal.classList.add('revealed');
+      reveal.innerHTML=`<div class="train-german">${esc(it.sentence||'-')}</div>
+        <div class="train-details">
+          <div class="lbl">Kelime</div><div class="val">${esc(it.word)}</div>
+          <div class="lbl">Anlami</div><div class="val">${esc(it.meaning)}</div>
+          <div class="lbl">Kategori</div><div class="val">${esc(it.category||'')}</div>
+        </div>`;
+      spkBtn.style.display='';
+    } else {
+      reveal.classList.remove('revealed');
+      reveal.innerHTML='<div class="train-reveal-hint">Almancasini gormek icin tikla</div>';
+      spkBtn.style.display='none';
+    }
+  } else if(SEC==='verben'){
+    const show=Math.random()<0.5?it.key:(it.de||'-');
+    prompt.textContent=show;
+    reveal.classList.remove('revealed');
+    reveal.innerHTML='<div class="train-reveal-hint">Detaylari gormek icin tikla</div>';
+    spkBtn.style.display='none';
+  } else if(SEC==='noun'){
+    const show=Math.random()<0.5?(it.noun||''):(it.meaning||'');
+    prompt.textContent=show;
+    reveal.classList.remove('revealed');
+    reveal.innerHTML='<div class="train-reveal-hint">Detaylari gormek icin tikla</div>';
+    spkBtn.style.display='none';
+  } else {
+    const show=Math.random()<0.5?(it.word||''):(it.meaning||'');
+    prompt.textContent=show;
+    reveal.classList.remove('revealed');
+    reveal.innerHTML='<div class="train-reveal-hint">Tikla ve dinle</div>';
+    spkBtn.style.display='none';
+  }
+}
+
+$('train-reveal').onclick=function(){
+  if(!tList.length) return;
+  const it=tList[tIdx];
+  if(SEC==='rest'){
+    if(!tRevealed){tRevealed=true;renderTrain()}
+  } else if(SEC==='verben'){
+    showVerbenModal(it.key,it);
+  } else if(SEC==='noun'){
+    showNounPopup(it);
+  } else {
+    speak(it.word);
+    showConjPopup(it);
+  }
+};
+
+$('btn-train-speak').onclick=function(){
+  if(!tList.length) return;
+  const it=tList[tIdx];
+  if(SEC==='rest' && it.sentence) speak(it.sentence);
+  else if(SEC==='verben') speak(it.de||'');
+  else if(SEC==='noun') speak(it.noun||'');
+  else speak(it.word||'');
+};
+
+function trainPrev(){if(!tList.length)return;tIdx=(tIdx-1+tList.length)%tList.length;tRevealed=false;renderTrain()}
+function trainNext(){if(!tList.length)return;tIdx=(tIdx+1)%tList.length;tRevealed=false;renderTrain()}
+$('btn-train-prev').onclick=trainPrev;
+$('btn-train-next').onclick=trainNext;
+
+/* ==================== SHUFFLE / RESET ==================== */
+function shuffleSection(sec){
+  if(sec==='rest'){
+    const e=Object.entries(DATA.rest);for(let i=e.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[e[i],e[j]]=[e[j],e[i]]}
+    DATA.rest=Object.fromEntries(e);
+  } else if(sec==='verben'){
+    const k=Object.keys(S.verben.daily||DATA.verben);for(let i=k.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[k[i],k[j]]=[k[j],k[i]]}
+    S.verben.order=k;
+  } else if(sec==='noun'){
+    for(let i=DATA.noun.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[DATA.noun[i],DATA.noun[j]]=[DATA.noun[j],DATA.noun[i]]}
+  } else {
+    for(let i=DATA.conjunctions.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[DATA.conjunctions[i],DATA.conjunctions[j]]=[DATA.conjunctions[j],DATA.conjunctions[i]]}
+  }
+  if(TRAINING){buildTrainList();tIdx=0;tRevealed=false;renderTrain()}
+  else render();
+}
+
+function resetOrder(sec){
+  if(sec==='rest') DATA.rest=JSON.parse(JSON.stringify(ORIG.rest));
+  else if(sec==='verben'){DATA.verben=JSON.parse(JSON.stringify(ORIG.verben));S.verben.order=null;S.verben.daily=null}
+  else if(sec==='noun') DATA.noun=JSON.parse(JSON.stringify(ORIG.noun));
+  else DATA.conjunctions=JSON.parse(JSON.stringify(ORIG.conjunctions));
+  if(TRAINING){buildTrainList();tIdx=0;tRevealed=false;renderTrain()}
+  else render();
+}
+
+document.querySelectorAll('.btn-shuffle').forEach(b=>b.onclick=()=>shuffleSection(b.dataset.s));
+document.querySelectorAll('.btn-orig').forEach(b=>b.onclick=()=>resetOrder(b.dataset.s));
+
+/* ==================== MODE BUTTONS ==================== */
+document.querySelectorAll('.r-mode').forEach(b=>b.onclick=()=>{
+  if(TRAINING)exitTraining();
+  document.querySelectorAll('.r-mode').forEach(x=>x.classList.remove('active'));b.classList.add('active');
+  S.rest.mode=b.dataset.m;S.rest.audio={};render();
+});
+document.querySelectorAll('.v-mode').forEach(b=>b.onclick=()=>{
+  document.querySelectorAll('.v-mode').forEach(x=>x.classList.remove('active'));b.classList.add('active');
+  S.verben.mode=b.dataset.m;render();
+});
+document.querySelectorAll('.n-mode').forEach(b=>b.onclick=()=>{
+  document.querySelectorAll('.n-mode').forEach(x=>x.classList.remove('active'));b.classList.add('active');
+  S.noun.mode=b.dataset.m;render();
+});
+
+/* ==================== FILTERS ==================== */
+$('flt-rest-cat').onchange=function(){S.rest.cat=this.value;if(TRAINING){buildTrainList();tIdx=0;tRevealed=false;renderTrain()}else render()};
+$('flt-noun-cat').onchange=function(){S.noun.cat=this.value;if(TRAINING){buildTrainList();tIdx=0;tRevealed=false;renderTrain()}else render()};
+$('flt-conj-type').onchange=function(){S.conj.type=this.value;if(TRAINING){buildTrainList();tIdx=0;tRevealed=false;renderTrain()}else render()};
+
+/* ==================== SEARCH ==================== */
+$('q-rest').oninput=function(){S.rest.q=this.value;render()};
+$('q-verben').oninput=function(){S.verben.q=this.value;render()};
+$('q-noun').oninput=function(){S.noun.q=this.value;render()};
+$('q-conj').oninput=function(){S.conj.q=this.value;render()};
+
+/* ==================== NORMAL / TRAINING / DAILY ==================== */
+$('btn-r-normal').onclick=()=>{exitTraining();S.rest.daily=null;S.rest.q='';$('q-rest').value='';render()};
+$('btn-r-training').onclick=()=>{if(TRAINING)exitTraining();else enterTraining()};
+$('btn-r-daily').onclick=()=>{
+  exitTraining();
+  const src=S.rest.cat?Object.entries(DATA.rest).filter(([,o])=>o.category===S.rest.cat):Object.entries(DATA.rest);
+  const shuffled=[...src].sort(()=>Math.random()-.5).slice(0,10);
+  S.rest.daily=Object.fromEntries(shuffled);S.rest.q='';$('q-rest').value='';render();
+};
+
+$('btn-v-normal').onclick=()=>{exitTraining();S.verben.daily=null;S.verben.order=null;S.verben.q='';$('q-verben').value='';render()};
+$('btn-v-training').onclick=()=>{if(TRAINING)exitTraining();else enterTraining()};
+$('btn-v-daily').onclick=()=>{
+  exitTraining();
+  const keys=Object.keys(DATA.verben);for(let i=keys.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[keys[i],keys[j]]=[keys[j],keys[i]]}
+  const sub={};keys.slice(0,10).forEach(k=>sub[k]=DATA.verben[k]);
+  S.verben.daily=sub;S.verben.order=Object.keys(sub);S.verben.q='';$('q-verben').value='';render();
+};
+
+$('btn-n-normal').onclick=()=>{exitTraining();S.noun.q='';$('q-noun').value='';render()};
+$('btn-n-training').onclick=()=>{if(TRAINING)exitTraining();else enterTraining()};
+
+$('btn-c-normal').onclick=()=>{exitTraining();S.conj.q='';$('q-conj').value='';render()};
+$('btn-c-training').onclick=()=>{if(TRAINING)exitTraining();else enterTraining()};
+
+/* ==================== IMPORT / EXPORT ==================== */
+$('btn-import').onclick=()=>$('fileInput').click();
+$('fileInput').onchange=async function(){
+  const f=this.files[0]; if(!f)return;
+  try{
+    const obj=JSON.parse(await f.text());
+    if(obj.rest) DATA.rest=obj.rest;
+    if(obj.verben) DATA.verben=obj.verben;
+    if(obj.noun) DATA.noun=obj.noun;
+    if(obj.conjunctions) DATA.conjunctions=obj.conjunctions;
+    ORIG=JSON.parse(JSON.stringify(DATA));
+    buildRestCats();buildNounCats();buildConjTypes();
+    updateCounts();
+    if(TRAINING){buildTrainList();tIdx=0;tRevealed=false;renderTrain()}
+    else render();
+  }catch(e){alert('JSON okuma hatasi: '+e.message)}
+  this.value='';
+};
+
+$('btn-export').onclick=()=>{
+  const obj={rest:DATA.rest,verben:DATA.verben,noun:DATA.noun,conjunctions:DATA.conjunctions};
+  const blob=new Blob([JSON.stringify(obj,null,2)],{type:'application/json'});
+  const a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download='unified.json';a.click();URL.revokeObjectURL(a.href);
+};
+
+/* ==================== KEYBOARD ==================== */
+document.addEventListener('keydown',e=>{
+  if(e.key==='Escape'){hidePopup();if(TRAINING){exitTraining();render()}}
+  if(e.key==='/'&&!['INPUT','TEXTAREA','SELECT'].includes(document.activeElement.tagName)){
+    e.preventDefault();
+    const map={rest:'q-rest',verben:'q-verben',noun:'q-noun',conjunctions:'q-conj'};
+    $(map[SEC]).focus();
+  }
+  if(TRAINING){
+    if(e.key==='ArrowLeft'){e.preventDefault();trainPrev()}
+    if(e.key==='ArrowRight'){e.preventDefault();trainNext()}
+    if(e.key===' '||e.key==='Enter'){e.preventDefault();$('train-reveal').click()}
+  }
+});
+
+/* ==================== INIT ==================== */
+applyTheme('rest');
+updateCounts();
+render();
+</script>
+</body>
+</html>
