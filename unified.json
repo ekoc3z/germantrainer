@@ -19987,6 +19987,36 @@
       "exen": "On weekends we like to hike in the mountains and enjoy the fresh air.",
       "case": "Intransitiv",
       "notes": "To hike or go on a long walk in nature. Uses 'sein' as auxiliary (movement verb). Also figurative: 'Der Brief wanderte in den Papierkorb' = the letter ended up in the trash. Related to 'die Wanderung' (hike)."
+    },
+    "to kill — öldürmek": {
+      "de": "töten",
+      "pres": "tötet",
+      "praet": "tötete",
+      "perf": "hat getötet",
+      "exde": "Der Jäger hat das Tier mit einem einzigen Schuss getötet.",
+      "exen": "The hunter killed the animal with a single shot.",
+      "case": "Akkusativ",
+      "notes": "To kill (general term). Regular weak verb. Unlike 'umbringen' (colloquial, to kill/murder) or 'ermorden' (to murder, premeditated), 'töten' is the most neutral and broad term for causing death. Can be used for people, animals, or figuratively: 'die Zeit töten' = to kill time."
+    },
+    "to kill / to murder (colloquial) — öldürmek (günlük dil)": {
+      "de": "umbringen",
+      "pres": "bringt um",
+      "praet": "brachte um",
+      "perf": "hat umgebracht",
+      "exde": "Er hat gedroht, ihn umzubringen, aber niemand hat ihn ernst genommen.",
+      "exen": "He threatened to kill him, but nobody took him seriously.",
+      "case": "Akkusativ",
+      "notes": "Colloquial/everyday term for killing. Separable strong verb: bringt um, brachte um, hat umgebracht. More informal than 'töten'. Also reflexive: 'sich umbringen' = to kill oneself (commit suicide). Common idiom: 'Das bringt mich um!' = That's killing me! (figurative)."
+    },
+    "to murder — katletmek / cinayete kurban etmek": {
+      "de": "ermorden",
+      "pres": "ermordet",
+      "praet": "ermordete",
+      "perf": "hat ermordet",
+      "exde": "Der Journalist wurde wegen seiner kritischen Berichte ermordet.",
+      "exen": "The journalist was murdered because of his critical reports.",
+      "case": "Akkusativ",
+      "notes": "To murder — implies intentional, premeditated killing. Inseparable verb, regular conjugation. Stronger than 'töten' (to kill) and more formal than 'umbringen'. Related to 'der Mord' (murder) and 'der Mörder' (murderer). Legally distinct from 'totschlagen' (manslaughter)."
     }
   },
   "noun": [
