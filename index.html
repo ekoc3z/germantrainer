@@ -255,7 +255,7 @@ button.active{background:var(--accent-bg);border-color:var(--accent);color:#fff}
   <div class="train-sub">&#8592; &#8594; ok tuslari | Space/Enter cevap | Esc kapat</div>
 </div>
 
-<div class="footer-text">Tikla = kart cevir &bull; <kbd>/</kbd> arama &bull; Import ile JSON yukle</div>
+<div class="footer-text">Tikla = kart cevir &bull; <kbd>/</kbd> arama &bull; JSON otomatik yuklenir</div>
 </div>
 
 <!-- POPUP OVERLAY -->
@@ -756,21 +756,51 @@ $('btn-n-training').onclick=()=>{if(TRAINING)exitTraining();else enterTraining()
 $('btn-c-normal').onclick=()=>{exitTraining();S.conj.q='';$('q-conj').value='';render()};
 $('btn-c-training').onclick=()=>{if(TRAINING)exitTraining();else enterTraining()};
 
+/* ==================== LOAD DATA (shared) ==================== */
+function loadData(obj){
+  if(obj.rest) DATA.rest=obj.rest;
+  if(obj.verben) DATA.verben=obj.verben;
+  if(obj.noun) DATA.noun=obj.noun;
+  if(obj.conjunctions) DATA.conjunctions=obj.conjunctions;
+  ORIG=JSON.parse(JSON.stringify(DATA));
+  buildRestCats();buildNounCats();buildConjTypes();
+  updateCounts();
+  if(TRAINING){buildTrainList();tIdx=0;tRevealed=false;renderTrain()}
+  else render();
+}
+
+/* ==================== AUTO-FETCH + LOCALSTORAGE ==================== */
+const LS_KEY='german-trainer-data';
+
+function saveToLS(){
+  try{localStorage.setItem(LS_KEY,JSON.stringify({rest:DATA.rest,verben:DATA.verben,noun:DATA.noun,conjunctions:DATA.conjunctions}))}catch(e){}
+}
+
+async function autoLoad(){
+  // 1) localStorage'dan hemen yukle (aninda acilsin)
+  try{
+    const cached=localStorage.getItem(LS_KEY);
+    if(cached){loadData(JSON.parse(cached))}
+  }catch(e){}
+  // 2) fetch ile guncel veriyi cek
+  try{
+    const res=await fetch('unified.json?t='+Date.now());
+    if(res.ok){
+      const obj=await res.json();
+      loadData(obj);
+      saveToLS();
+    }
+  }catch(e){/* offline — localStorage verisi zaten yuklendi */}
+}
+
 /* ==================== IMPORT / EXPORT ==================== */
 $('btn-import').onclick=()=>$('fileInput').click();
 $('fileInput').onchange=async function(){
   const f=this.files[0]; if(!f)return;
   try{
     const obj=JSON.parse(await f.text());
-    if(obj.rest) DATA.rest=obj.rest;
-    if(obj.verben) DATA.verben=obj.verben;
-    if(obj.noun) DATA.noun=obj.noun;
-    if(obj.conjunctions) DATA.conjunctions=obj.conjunctions;
-    ORIG=JSON.parse(JSON.stringify(DATA));
-    buildRestCats();buildNounCats();buildConjTypes();
-    updateCounts();
-    if(TRAINING){buildTrainList();tIdx=0;tRevealed=false;renderTrain()}
-    else render();
+    loadData(obj);
+    saveToLS();
   }catch(e){alert('JSON okuma hatasi: '+e.message)}
   this.value='';
 };
@@ -800,6 +830,7 @@ document.addEventListener('keydown',e=>{
 applyTheme('rest');
 updateCounts();
 render();
+autoLoad();
 </script>
 </body>
 </html>
