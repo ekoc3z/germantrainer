@@ -8315,6 +8315,18 @@
       "category": "Fixed Expressions / Feste Ausdrücke",
       "sentence": "Wie hieß der Film nochmal? Ich weiß es nicht mehr. Er hat irgendwas gesagt, aber genau weiß ich es nicht mehr.",
       "translation": "Filmin adı neydi? Hatırlamıyorum. Bir şey dedi ama tam olarak hatırlamıyorum."
+    },
+    "also gut": {
+      "meaning": "alright then, okay then / peki o zaman, tamam öyleyse",
+      "category": "Colloquial Expressions / Umgangssprache",
+      "sentence": "Also gut, ich komme mit, aber nur wenn wir nicht zu lange bleiben.",
+      "translation": "Peki tamam, gelirim ama sadece çok uzun kalmazsak."
+    },
+    "na gut": {
+      "meaning": "well okay, fine then / neyse tamam, peki öyleyse",
+      "category": "Colloquial Expressions / Umgangssprache",
+      "sentence": "Na gut, dann machen wir es eben so, wie du willst.",
+      "translation": "Neyse tamam, o zaman senin istediğin gibi yapalım."
     }
   },
   "verben": {
