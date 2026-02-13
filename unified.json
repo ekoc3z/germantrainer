@@ -2803,16 +2803,16 @@
       "translation": "Diğerleri bozuk olduğu için kendi aletlerimi kullandım."
     },
     "eigentlich (adv.)": {
-      "meaning": "actually, really / aslında, gerçekten",
+      "meaning": "actually, in reality / aslında, gerçekte (bir şeyin asıl halini belirtir)",
       "category": "Adverbs / Adverbien",
-      "sentence": "(Asıl niyet) Ich wollte eigentlich nach Hause gehen, aber dann bin ich doch geblieben. (Merak/Soru) Was machst du eigentlich beruflich? (Yumuşak düzeltme) Eigentlich ist das nicht so schwer, man muss nur üben. (Beklenmedik durum) Das Essen war eigentlich ganz lecker, ich hatte es nicht erwartet.",
-      "translation": "(Asıl niyet) Aslında eve gitmek istiyordum ama sonunda kaldım. (Merak/Soru) Sen aslında ne iş yapıyorsun? (Yumuşak düzeltme) Aslında o kadar zor değil, sadece pratik yapmak lazım. (Beklenmedik durum) Yemek aslında oldukça lezzetliydi, beklemiyordum."
+      "sentence": "Ich wollte eigentlich nach Hause gehen, aber dann bin ich doch geblieben. Eigentlich ist das nicht so schwer, man muss nur üben.",
+      "translation": "Aslında eve gitmek istiyordum ama sonunda kaldım. Aslında o kadar zor değil, sadece pratik yapmak lazım."
     },
-    "eigentlich (particle)": {
-      "meaning": "actually / aslında",
+    "eigentlich (modal)": {
+      "meaning": "by the way / so actually / işin aslı, peki asıl (sorularda konunun özüne iner, merak ifade eder)",
       "category": "Modal Particles / Modalpartikeln",
-      "sentence": "(Asıl niyet) Ich wollte eigentlich nach Hause gehen, aber dann bin ich doch geblieben. (Merak/Soru) Was machst du eigentlich beruflich? (Yumuşak düzeltme) Eigentlich ist das nicht so schwer, man muss nur üben. (Beklenmedik durum) Das Essen war eigentlich ganz lecker, ich hatte es nicht erwartet.",
-      "translation": "(Asıl niyet) Aslında eve gitmek istiyordum ama sonunda kaldım. (Merak/Soru) Sen aslında ne iş yapıyorsun? (Yumuşak düzeltme) Aslında o kadar zor değil, sadece pratik yapmak lazım. (Beklenmedik durum) Yemek aslında oldukça lezzetliydi, beklemiyordum."
+      "sentence": "Was machst du eigentlich beruflich? Wie heißt du eigentlich? Hast du eigentlich schon gegessen?",
+      "translation": "Sen aslında ne iş yapıyorsun? Senin adın ne peki? Bu arada yemek yedin mi?"
     },
     "bereits": {
       "meaning": "already / çoktan, zaten",
@@ -8327,6 +8327,24 @@
       "category": "Colloquial Expressions / Umgangssprache",
       "sentence": "Na gut, dann machen wir es eben so, wie du willst.",
       "translation": "Neyse tamam, o zaman senin istediğin gibi yapalım."
+    },
+    "Wie wäre es mit...?": {
+      "meaning": "What about...? / How about...? / ...ya nasıl olur? / peki ...?",
+      "category": "Fixed Expressions / Feste Ausdrücke",
+      "sentence": "Wie wäre es mit diesem Lokal? Die anderen waren dir ja nicht gut genug.",
+      "translation": "Bu mekana ne dersin? Diğerleri sana yeterince iyi değildi ya."
+    },
+    "etwa (modal)": {
+      "meaning": "don't tell me...? / surely not...? / yoksa...mı?! / sakın...mı?! (cevabın hayır olmasını umarak sorarsın)",
+      "category": "Modal Particles / Modalpartikeln",
+      "sentence": "Willst du etwa, dass wir wieder alles gleich haben? Hast du etwa gelogen?",
+      "translation": "Yoksa her şeyin yine aynı olmasını mı istiyorsun?! Yoksa yalan mı söyledin?!"
+    },
+    "sonst": {
+      "meaning": "otherwise, or else; apart from that / yoksa, aksi takdirde; bunun dışında",
+      "category": "Adverbs / Adverbien",
+      "sentence": "Beeil dich, sonst kommen wir zu spät. Sonst noch Fragen?",
+      "translation": "Acele et, yoksa geç kalırız. Başka sorunuz var mı?"
     }
   },
   "verben": {
@@ -41370,6 +41388,24 @@
       "article": "die",
       "plural": "Leitern",
       "notes": "die Leiter = ladder (fem.), der Leiter = leader/conductor (masc.)"
+    },
+    {
+      "category": "daily abstract concepts / objects",
+      "noun": "Sammlung",
+      "full": "-e Sammlung-en",
+      "meaning": "collection — koleksiyon / toplama",
+      "article": "die",
+      "plural": "Sammlungen",
+      "notes": "From sammeln (to collect). Eine Briefmarkensammlung = stamp collection, eine Kunstsammlung = art collection."
+    },
+    {
+      "category": "places & city",
+      "noun": "Lokal",
+      "full": "-s Lokal-e",
+      "meaning": "restaurant, pub, venue — mekan, lokanta",
+      "article": "das",
+      "plural": "Lokale",
+      "notes": "Everyday word for a place to eat/drink. More casual than Restaurant, broader than Kneipe. \"ein nettes Lokal\" = a nice place to eat."
     }
   ],
   "conjunctions": [
