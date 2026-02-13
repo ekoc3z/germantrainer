@@ -8417,6 +8417,36 @@
       "category": "Adverbs / Adverbien",
       "sentence": "Gegebenenfalls müssen wir den Termin verschieben.",
       "translation": "Gerekirse randevuyu ertelememiz gerekecek."
+    },
+    "diesmal": {
+      "meaning": "this time / bu sefer, bu kez",
+      "category": "Temporal Adverbs / Temporaladverbien",
+      "sentence": "Diesmal hat es geklappt! Letztes Mal war es schwieriger.",
+      "translation": "Bu sefer oldu! Geçen sefer daha zordu."
+    },
+    "voll (adj.)": {
+      "meaning": "full, crowded / dolu, kalabalık",
+      "category": "Adjectives / Adjektive",
+      "sentence": "Der Club ist voll, wir kommen nicht rein. Der Bus war so voll, dass ich stehen musste.",
+      "translation": "Kulüp dolu, giremiyoruz. Otobüs o kadar kalabalıktı ki ayakta durmak zorunda kaldım."
+    },
+    "überfüllt": {
+      "meaning": "overcrowded, packed / tıklım tıklım, aşırı kalabalık",
+      "category": "Adjectives / Adjektive",
+      "sentence": "Der Zug war so überfüllt, dass viele Leute auf dem Boden sitzen mussten.",
+      "translation": "Tren o kadar tıklım tıklımdı ki birçok kişi yerde oturmak zorunda kaldı."
+    },
+    "andere/r/s": {
+      "meaning": "other, another; others / diğer, başka; diğerleri, başkaları",
+      "category": "Determiners / Determinanten",
+      "sentence": "Ich muss andere überzeugen. Der andere ist klüger. Hast du eine andere Idee?",
+      "translation": "Başkalarını ikna etmeliyim. Diğeri daha zeki. Başka bir fikrin var mı?"
+    },
+    "anders": {
+      "meaning": "differently, different / farklı, başka türlü",
+      "category": "Adverbs / Adverbien",
+      "sentence": "Er denkt anders als die meisten. Das schmeckt anders, als ich erwartet habe.",
+      "translation": "Çoğu kişiden farklı düşünüyor. Tadı beklediğimden farklı."
     }
   },
   "verben": {
@@ -20179,6 +20209,26 @@
       "exen": "Sorry, I misclicked and deleted the wrong email.",
       "case": "Reflexiv",
       "notes": "Reflexive verb: sich verklicken. Very common in everyday digital German. The prefix 'ver-' indicates doing something wrong, like 'sich versprechen' (to misspeak), 'sich verwählen' (to misdial)."
+    },
+    "to be true / to apply — doğru olmak / geçerli olmak": {
+      "de": "zutreffen",
+      "pres": "trifft zu",
+      "praet": "traf zu",
+      "perf": "hat zugetroffen",
+      "exde": "Das trifft diesmal zu. Die Beschreibung trifft genau auf ihn zu.",
+      "exen": "That is true this time. The description fits him exactly.",
+      "case": "Intransitiv (auf + Akkusativ)",
+      "notes": "Separable strong verb: trifft zu, traf zu, hat zugetroffen. 'Das trifft zu' = that's correct/true. 'Das trifft auf mich zu' = that applies to me. 'Das trifft nicht zu' = that's not the case. Common in formal contexts and forms."
+    },
+    "to joke / to kid — şaka yapmak / espri yapmak": {
+      "de": "scherzen",
+      "pres": "scherzt",
+      "praet": "scherzte",
+      "perf": "hat gescherzt",
+      "exde": "Ich scherze nur, nimm das nicht ernst! Er scherzt gerne über sich selbst.",
+      "exen": "I'm just joking, don't take it seriously! He likes to joke about himself.",
+      "case": "Intransitiv",
+      "notes": "To joke or jest. Regular weak verb. 'Scherz' = joke (der Scherz). 'Ich scherze nur' = I'm just kidding. Slightly more formal than 'Spaß machen' or 'Witze machen' (more colloquial alternatives)."
     }
   },
   "noun": [
