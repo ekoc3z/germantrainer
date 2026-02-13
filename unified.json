@@ -642,7 +642,7 @@
       "sentence": "Keiner wusste die Antwort, obwohl die Frage einfach war.",
       "translation": "Soru kolay olmasına rağmen hiç kimse cevabı bilmiyordu."
     },
-    "nichts": {
+    "nichts / nix": {
       "meaning": "nothing / hiçbir şey",
       "category": "Degree & Quantity Adverbs / Grad- und Mengenadverbien",
       "sentence": "Ich habe nichts verstanden, weil er zu schnell gesprochen hat.",
@@ -6463,10 +6463,10 @@
       "translation": "Yeni veriler gönderdi ve buna ek olarak bir yorum daha ekledi."
     },
     "auch wenn": {
-      "meaning": "even though / olsa bile",
+      "meaning": "even though, even if / olsa bile, olsa da",
       "category": "Conjunctions / Konjunktionen",
-      "sentence": "Ich komme, auch wenn ich müde bin.",
-      "translation": "Yorgun olsam bile geliyorum."
+      "sentence": "Ich komme, auch wenn ich müde bin. Auch wenn es regnet, gehe ich spazieren.",
+      "translation": "Yorgun olsam bile geliyorum. Yağmur yağsa bile yürüyüşe çıkıyorum."
     },
     "unwohl": {
       "meaning": "unwell / rahatsız, kötü hisseden",
@@ -8345,6 +8345,36 @@
       "category": "Adverbs / Adverbien",
       "sentence": "Beeil dich, sonst kommen wir zu spät. Sonst noch Fragen?",
       "translation": "Acele et, yoksa geç kalırız. Başka sorunuz var mı?"
+    },
+    "na dann": {
+      "meaning": "well then, alright then / ee o zaman, hadi o zaman",
+      "category": "Colloquial Expressions / Umgangssprache",
+      "sentence": "Na dann, lass uns gehen! Na dann, viel Spaß!",
+      "translation": "Hadi o zaman, gidelim! Ee o zaman, iyi eğlenceler!"
+    },
+    "circa": {
+      "meaning": "approximately, about / yaklaşık, aşağı yukarı",
+      "category": "Adverbs / Adverbien",
+      "sentence": "Die Fahrt dauert circa eine Stunde, je nach Verkehr.",
+      "translation": "Yolculuk trafiğe bağlı olarak yaklaşık bir saat sürüyor."
+    },
+    "wegen": {
+      "meaning": "because of, due to / yüzünden, -den dolayı",
+      "category": "Prepositions / Präpositionen",
+      "sentence": "Wegen des Regens bleiben wir zu Hause. Wegen dir habe ich den Bus verpasst.",
+      "translation": "Yağmur yüzünden evde kalıyoruz. Senin yüzünden otobüsü kaçırdım."
+    },
+    "mein Fehler": {
+      "meaning": "my bad, my mistake / benim hatam",
+      "category": "Colloquial Expressions / Umgangssprache",
+      "sentence": "Oh, mein Fehler! Ich habe dir die falsche Adresse geschickt.",
+      "translation": "Ah, benim hatam! Sana yanlış adresi göndermişim."
+    },
+    "meine Schuld": {
+      "meaning": "my fault / benim suçum, benim hatam",
+      "category": "Colloquial Expressions / Umgangssprache",
+      "sentence": "Es war meine Schuld, dass wir zu spät gekommen sind. Ich habe verschlafen.",
+      "translation": "Geç kalmamız benim suçumdu. Uyuyakalmışım."
     }
   },
   "verben": {
@@ -20047,6 +20077,66 @@
       "exen": "The journalist was murdered because of his critical reports.",
       "case": "Akkusativ",
       "notes": "To murder — implies intentional, premeditated killing. Inseparable verb, regular conjugation. Stronger than 'töten' (to kill) and more formal than 'umbringen'. Related to 'der Mord' (murder) and 'der Mörder' (murderer). Legally distinct from 'totschlagen' (manslaughter)."
+    },
+    "to mark / to highlight — işaretlemek / vurgulamak": {
+      "de": "markieren",
+      "pres": "markiert",
+      "praet": "markierte",
+      "perf": "hat markiert",
+      "exde": "Kannst du die wichtigen Stellen im Text markieren?",
+      "exen": "Can you mark the important parts in the text?",
+      "case": "Akkusativ",
+      "notes": "To mark, highlight, or select. Used for text highlighting, selecting items, or marking positions. 'einen Text markieren' = to highlight a text. Also used in sports: 'einen Spieler markieren' = to mark a player."
+    },
+    "to tag — etiketlemek / taglemek": {
+      "de": "taggen",
+      "pres": "taggt",
+      "praet": "taggte",
+      "perf": "hat getaggt",
+      "exde": "Ich habe dich auf dem Foto getaggt, damit du es siehst.",
+      "exen": "I tagged you in the photo so you can see it.",
+      "case": "Akkusativ",
+      "notes": "Borrowed from English. Used mainly in social media context: to tag someone in a photo or post. Fully integrated with German conjugation."
+    },
+    "to label / to mark — etiketlemek / işaretlemek (resmi)": {
+      "de": "kennzeichnen",
+      "pres": "kennzeichnet",
+      "praet": "kennzeichnete",
+      "perf": "hat gekennzeichnet",
+      "exde": "Alle Produkte müssen klar gekennzeichnet werden.",
+      "exen": "All products must be clearly labeled.",
+      "case": "Akkusativ",
+      "notes": "Formal term for labeling or marking. Used for products, warnings, signs. Related to 'das Kennzeichen' (license plate, characteristic). More official than 'markieren'."
+    },
+    "to label / to put a label on — etiket yapıştırmak": {
+      "de": "etikettieren",
+      "pres": "etikettiert",
+      "praet": "etikettierte",
+      "perf": "hat etikettiert",
+      "exde": "Die Mitarbeiterin hat alle Pakete sorgfältig etikettiert.",
+      "exen": "The employee carefully labeled all the packages.",
+      "case": "Akkusativ",
+      "notes": "To physically put a label/sticker on something. Related to 'das Etikett' (label/tag). Used for packages, products, price tags."
+    },
+    "to click — tıklamak": {
+      "de": "klicken",
+      "pres": "klickt",
+      "praet": "klickte",
+      "perf": "hat geklickt",
+      "exde": "Klick auf den Link, um die Datei herunterzuladen.",
+      "exen": "Click on the link to download the file.",
+      "case": "Intransitiv (auf + Akkusativ)",
+      "notes": "To click (mouse/button). 'auf etwas klicken' = to click on something. 'anklicken' = to click on (separable, more specific). Related to 'der Klick' (click)."
+    },
+    "to misclick — yanlış yere tıklamak": {
+      "de": "sich verklicken",
+      "pres": "verklickt sich",
+      "praet": "verklickte sich",
+      "perf": "hat sich verklickt",
+      "exde": "Entschuldigung, ich habe mich verklickt und die falsche E-Mail gelöscht.",
+      "exen": "Sorry, I misclicked and deleted the wrong email.",
+      "case": "Reflexiv",
+      "notes": "Reflexive verb: sich verklicken. Very common in everyday digital German. The prefix 'ver-' indicates doing something wrong, like 'sich versprechen' (to misspeak), 'sich verwählen' (to misdial)."
     }
   },
   "noun": [
@@ -41406,6 +41496,15 @@
       "article": "das",
       "plural": "Lokale",
       "notes": "Everyday word for a place to eat/drink. More casual than Restaurant, broader than Kneipe. \"ein nettes Lokal\" = a nice place to eat."
+    },
+    {
+      "category": "daily abstract concepts / objects",
+      "noun": "Etikett",
+      "full": "-s Etikett-en",
+      "meaning": "label, tag — etiket",
+      "article": "das",
+      "plural": "Etiketten",
+      "notes": "Physical label/tag on products, clothing, packages. Also figurative: jemandem ein Etikett aufdrücken = to label someone."
     }
   ],
   "conjunctions": [
