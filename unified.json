@@ -2928,7 +2928,7 @@
       "sentence": "Er kommt wahrscheinlich gleich, weil er vorhin geschrieben hat.",
       "translation": "Az önce yazdığı için muhtemelen birazdan gelir."
     },
-    "vielleicht": {
+    "vielleicht / vllt": {
       "meaning": "maybe, perhaps / belki",
       "category": "Sentence Adverbs / Satzadverbien",
       "sentence": "Vielleicht rufe ich später an, weil ich jetzt beschäftigt bin.",
@@ -2994,13 +2994,13 @@
       "sentence": "Im Allgemeinen funktioniert das gut, weil es einfach ist.",
       "translation": "Genel olarak bu iyi çalışır çünkü basittir."
     },
-    "keine Ahnung (fixed expressions)": {
+    "keine Ahnung (kA) (fixed expressions)": {
       "meaning": "no idea / fikrim yok",
       "category": "Fixed Expressions / Feste Ausdrücke",
       "sentence": "Ich habe keine Ahnung, warum er nicht antwortet.",
       "translation": "Neden cevap vermediği hakkında hiçbir fikrim yok."
     },
-    "keine Ahnung (colloq.)": {
+    "keine Ahnung (kA) (colloq.)": {
       "meaning": "no idea / hiçbir fikrim yok",
       "category": "Colloquial Expressions / Umgangssprache",
       "sentence": "Keine Ahnung, wo er gerade ist. Er hat sich nicht gemeldet.",
@@ -3582,7 +3582,7 @@
       "sentence": "Du kannst jederzeit kommen, weil wir sowieso zu Hause sind.",
       "translation": "Zaten evde olduğumuz için istediğin zaman gelebilirsin."
     },
-    "irgendwann": {
+    "irgendwann (iwann)": {
       "meaning": "sometime / bir gün, bir ara",
       "category": "Temporal Adverbs / Temporaladverbien",
       "sentence": "Ich möchte das irgendwann machen, auch wenn ich jetzt keine Zeit habe.",
@@ -5820,7 +5820,7 @@
       "sentence": "Ich war unterwegs, als du mir geschrieben hast.",
       "translation": "Sen bana yazdığında yoldaydım."
     },
-    "irgendwo": {
+    "irgendwo (iwo)": {
       "meaning": "somewhere / bir yerde",
       "category": "Adverbs / Adverbien",
       "sentence": "Der Schlüssel muss irgendwo liegen, sobald ich aufgeräumt habe.",
@@ -6114,7 +6114,7 @@
       "sentence": "Ich habe irgendwas gerochen, sodass ich sofort das Fenster geöffnet habe.",
       "translation": "Bir şey kokladım ve bu yüzden hemen pencereyi açtım."
     },
-    "irgendwie": {
+    "irgendwie (iwie)": {
       "meaning": "somehow / bir şekilde",
       "category": "Adverbs / Adverbien",
       "sentence": "Wir haben es irgendwie geschafft, obwohl die Umstände schwierig waren.",
@@ -6858,7 +6858,7 @@
       "sentence": "Okay, das war's für heute. Wir sehen uns morgen!",
       "translation": "Tamam, bugünlük bu kadar. Yarın görüşürüz!"
     },
-    "Bock haben / kein Bock haben": {
+    "Bock haben / kein Bock haben (kb)": {
       "meaning": "to feel like / to not feel like / canı istemek / hiç canı istememek",
       "category": "Colloquial Expressions / Umgangssprache",
       "sentence": "Hast du Bock auf Kino heute Abend? Es läuft ein guter Film. / Ich hab kein Bock auf Lernen, lass uns lieber was anderes machen.",
@@ -8358,7 +8358,7 @@
       "sentence": "Die Fahrt dauert circa eine Stunde, je nach Verkehr.",
       "translation": "Yolculuk trafiğe bağlı olarak yaklaşık bir saat sürüyor."
     },
-    "wegen": {
+    "wegen (wg)": {
       "meaning": "because of, due to / yüzünden, -den dolayı",
       "category": "Prepositions / Präpositionen",
       "sentence": "Wegen des Regens bleiben wir zu Hause. Wegen dir habe ich den Bus verpasst.",
@@ -8375,6 +8375,48 @@
       "category": "Colloquial Expressions / Umgangssprache",
       "sentence": "Es war meine Schuld, dass wir zu spät gekommen sind. Ich habe verschlafen.",
       "translation": "Geç kalmamız benim suçumdu. Uyuyakalmışım."
+    },
+    "ganz oben": {
+      "meaning": "right at the top / en üstte, en tepede",
+      "category": "Adverbs / Adverbien",
+      "sentence": "Ich wohne ganz oben im fünften Stock. Das Buch steht ganz oben im Regal.",
+      "translation": "En üstte beşinci katta oturuyorum. Kitap rafın en üstünde duruyor."
+    },
+    "ganz unten": {
+      "meaning": "right at the bottom / en altta, en dipte",
+      "category": "Adverbs / Adverbien",
+      "sentence": "Die Garage ist ganz unten im Untergeschoss. Such ganz unten in der Schublade.",
+      "translation": "Garaj en altta bodrum katta. Çekmecenin en altına bak."
+    },
+    "Da bin ich ganz bei dir": {
+      "meaning": "I totally agree with you / sana tamamen katılıyorum",
+      "category": "Colloquial Expressions / Umgangssprache",
+      "sentence": "Das Essen hier ist viel zu teuer. — Da bin ich ganz bei dir, lass uns woanders hingehen.",
+      "translation": "Buradaki yemek çok pahalı. — Sana tamamen katılıyorum, başka bir yere gidelim."
+    },
+    "das war's eigentlich": {
+      "meaning": "that's basically it / aslında bu kadar, hepsi bu",
+      "category": "Colloquial Expressions / Umgangssprache",
+      "sentence": "Das war's eigentlich, ich wollte nur kurz Bescheid sagen. Hast du noch Fragen? — Nein, das war's eigentlich.",
+      "translation": "Aslında bu kadardı, sadece kısaca haber vermek istedim. Başka sorun var mı? — Hayır, aslında bu kadar."
+    },
+    "zum Beispiel (zB)": {
+      "meaning": "for example / mesela, örneğin",
+      "category": "Adverbs / Adverbien",
+      "sentence": "Es gibt viele Möglichkeiten, zum Beispiel könnten wir ins Kino gehen.",
+      "translation": "Birçok seçenek var, mesela sinemaya gidebiliriz."
+    },
+    "zusammen (zs)": {
+      "meaning": "together / birlikte, beraber",
+      "category": "Adverbs / Adverbien",
+      "sentence": "Wollen wir zusammen essen gehen? Zusammen macht es mehr Spaß.",
+      "translation": "Birlikte yemeğe gidelim mi? Beraber daha eğlenceli oluyor."
+    },
+    "gegebenenfalls (ggf)": {
+      "meaning": "if necessary, if applicable / gerekirse, gerektiğinde",
+      "category": "Adverbs / Adverbien",
+      "sentence": "Gegebenenfalls müssen wir den Termin verschieben.",
+      "translation": "Gerekirse randevuyu ertelememiz gerekecek."
     }
   },
   "verben": {
@@ -29210,7 +29252,7 @@
       "meaning": "floor — kat",
       "article": "der",
       "plural": "Stöcke",
-      "notes": ""
+      "notes": "im ersten Stock = 1. katta, im zweiten Stock = 2. katta, im dritten Stock = 3. katta. Synonym: das Stockwerk. 'Wie viele Stockwerke hat das Gebäude?' = Bina kaç katlı?"
     },
     {
       "category": "house",
@@ -41505,6 +41547,33 @@
       "article": "das",
       "plural": "Etiketten",
       "notes": "Physical label/tag on products, clothing, packages. Also figurative: jemandem ein Etikett aufdrücken = to label someone."
+    },
+    {
+      "category": "daily abstract concepts / objects",
+      "noun": "Kennzeichen",
+      "full": "-s Kennzeichen-",
+      "meaning": "license plate; characteristic, mark — plaka; ayırt edici özellik, işaret",
+      "article": "das",
+      "plural": "Kennzeichen",
+      "notes": "Two main uses: 1) car license plate (Autokennzeichen, Nummernschild), 2) distinguishing feature/characteristic (ein besonderes Kennzeichen = a distinguishing mark)."
+    },
+    {
+      "category": "house",
+      "noun": "Untergeschoss",
+      "full": "-s Untergeschoss-e",
+      "meaning": "basement floor — alt kat, bodrum kat",
+      "article": "das",
+      "plural": "Untergeschosse",
+      "notes": "Abbreviated UG. Also called Kellergeschoss. The floor below Erdgeschoss."
+    },
+    {
+      "category": "house",
+      "noun": "Dachgeschoss",
+      "full": "-s Dachgeschoss-e",
+      "meaning": "attic floor, top floor — çatı katı",
+      "article": "das",
+      "plural": "Dachgeschosse",
+      "notes": "Abbreviated DG. The floor directly under the roof. Often converted into apartments (Dachgeschosswohnung)."
     }
   ],
   "conjunctions": [
