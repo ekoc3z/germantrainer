@@ -42319,5 +42319,3347 @@
       ],
       "notes": "Genel “zu + fiil” yapısı."
     }
+  ],
+  "redemittel": [
+    {
+      "phrase": "... ist aus Holz, Pappe/Karton, Papier, Glas, Plastik/Kunststoff, Metall, Keramik, Stoff, Leder, ...",
+      "meaning": "... ahsap, karton, kagit, cam, plastik, metal, seramik, kumas, deri malzemelerden yapilmistir / ... is made of wood, cardboard, paper, glass, plastic, metal, ceramic, fabric, leather, ...",
+      "category": "Form und Material beschreiben / Form ve Malzeme Tarifi",
+      "level": "B2.3",
+      "kapitel": "K7",
+      "example": "Der Stuhl ist aus Holz und Leder gefertigt.",
+      "translation": "Sandalye ahsap ve deriden yapilmistir."
+    },
+    {
+      "phrase": "... ist rechteckig, quadratisch, drei-/sechseckig, rund, oval, geschwungen, ...",
+      "meaning": "... dikdortgen, kare, ucgen/altigen, yuvarlak, oval, kivrimli / ... is rectangular, square, triangular/hexagonal, round, oval, curved",
+      "category": "Form und Material beschreiben / Form ve Malzeme Tarifi",
+      "level": "B2.3",
+      "kapitel": "K7",
+      "example": "Die Vase ist rund und aus Keramik.",
+      "translation": "Vazo yuvarlak ve seramikten."
+    },
+    {
+      "phrase": "Der/Das/Die ... wurde von ... entworfen/designt.",
+      "meaning": "... tarafindan tasarlandi / ... was designed by ...",
+      "category": "Objekte beschreiben / Nesne Tarifi",
+      "level": "B2.3",
+      "kapitel": "K7",
+      "example": "Das Regal wurde von einem bekannten Designer entworfen.",
+      "translation": "Raf, taninmis bir tasarimci tarafindan tasarlandi."
+    },
+    {
+      "phrase": "Er/Es/Sie eignet sich sehr gut zum ...",
+      "meaning": "... icin cok uygun / It is very suitable for ...",
+      "category": "Objekte beschreiben / Nesne Tarifi",
+      "level": "B2.3",
+      "kapitel": "K7",
+      "example": "Der Rucksack eignet sich sehr gut zum Wandern.",
+      "translation": "Sirt cantasi yuruyus icin cok uygun."
+    },
+    {
+      "phrase": "Man braucht/benutzt/verwendet ihn/es/sie, um ...",
+      "meaning": "... icin kullanilir / One uses it in order to ...",
+      "category": "Objekte beschreiben / Nesne Tarifi",
+      "level": "B2.3",
+      "kapitel": "K7",
+      "example": "Man benutzt sie, um Lebensmittel frisch zu halten.",
+      "translation": "Yiyecekleri taze tutmak icin kullanilir."
+    },
+    {
+      "phrase": "Mich uberzeugt ... (nicht).",
+      "meaning": "Beni ikna ediyor (etmiyor) / ... (doesn't) convince(s) me.",
+      "category": "Objekte beschreiben / Nesne Tarifi",
+      "level": "B2.3",
+      "kapitel": "K7",
+      "example": "Mich uberzeugt das Design dieses Produkts.",
+      "translation": "Bu urunun tasarimi beni ikna ediyor."
+    },
+    {
+      "phrase": "Das Besondere ist ...",
+      "meaning": "Ozel olan sey ... / The special thing is ...",
+      "category": "Objekte beschreiben / Nesne Tarifi",
+      "level": "B2.3",
+      "kapitel": "K7",
+      "example": "Das Besondere ist die Kombination aus Holz und Metall.",
+      "translation": "Ozel olan, ahsap ve metal kombinasyonu."
+    },
+    {
+      "phrase": "Ich bin der Meinung/Ansicht, dass ...",
+      "meaning": "... gorusundeyim / I am of the opinion that ...",
+      "category": "Meinung auessern / Gorus Bildirmek",
+      "level": "B2.3",
+      "kapitel": "K7",
+      "example": "Ich bin der Meinung, dass nachhaltiges Design wichtiger wird.",
+      "translation": "Surdurulebilir tasarimin daha onemli hale geldigini dusunuyorum."
+    },
+    {
+      "phrase": "Ein grosser/wichtiger Vorteil/Nachteil von ... ist, dass ...",
+      "meaning": "...'in buyuk/onemli avantaji/dezavantaji ... / A major advantage/disadvantage of ... is that ...",
+      "category": "Meinung auessern / Gorus Bildirmek",
+      "level": "B2.3",
+      "kapitel": "K7",
+      "example": "Ein grosser Vorteil von Homeoffice ist, dass man flexibler ist.",
+      "translation": "Evden calismanin buyuk avantaji daha esnek olmanizdir."
+    },
+    {
+      "phrase": "Mir ist es wichtig, ...",
+      "meaning": "Benim icin onemli olan ... / It is important to me ...",
+      "category": "Meinung auessern / Gorus Bildirmek",
+      "level": "B2.3",
+      "kapitel": "K7",
+      "example": "Mir ist es wichtig, dass die Qualitat stimmt.",
+      "translation": "Benim icin kalitenin dogru olmasi onemli."
+    },
+    {
+      "phrase": "Fur mich ist es am wichtigsten, dass ...",
+      "meaning": "Benim icin en onemli olan ... / For me the most important thing is that ...",
+      "category": "Meinung auessern / Gorus Bildirmek",
+      "level": "B2.3",
+      "kapitel": "K7",
+      "example": "Fur mich ist es am wichtigsten, dass das Produkt langlebig ist.",
+      "translation": "Benim icin en onemli olan urunun dayanikli olmasi."
+    },
+    {
+      "phrase": "Ich kann/koennte mir gut vorstellen, dass ...",
+      "meaning": "... oldugunu iyi hayal edebilirim / I can well imagine that ...",
+      "category": "Vermutungen ausdruecken / Tahmin Belirtmek",
+      "level": "B2.3",
+      "kapitel": "K7",
+      "example": "Ich koennte mir gut vorstellen, dass Elektroautos bald guenstiger werden.",
+      "translation": "Elektrikli arabalarin yakinda daha ucuz olacagini hayal edebilirim."
+    },
+    {
+      "phrase": "Es ist denkbar/moeglich/vorstellbar, dass ...",
+      "meaning": "... dusunulebilir/mumkun/hayal edilebilir / It is conceivable/possible/imaginable that ...",
+      "category": "Vermutungen ausdruecken / Tahmin Belirtmek",
+      "level": "B2.3",
+      "kapitel": "K7",
+      "example": "Es ist moeglich, dass die Preise weiter steigen.",
+      "translation": "Fiyatlarin daha da artmasi mumkun."
+    },
+    {
+      "phrase": "Wahrscheinlich/Vermutlich/Vielleicht ist/macht ...",
+      "meaning": "Muhtemelen/Tahminen/Belki ... / Probably/Presumably/Perhaps ...",
+      "category": "Vermutungen ausdruecken / Tahmin Belirtmek",
+      "level": "B2.3",
+      "kapitel": "K7",
+      "example": "Wahrscheinlich wird es morgen regnen.",
+      "translation": "Muhtemelen yarin yagmur yagacak."
+    },
+    {
+      "phrase": "In dem/diesem Text geht es um ...",
+      "meaning": "Bu metin ... hakkinda / This text is about ...",
+      "category": "Zusammenfassung / Ozet Yapma",
+      "level": "B2.3",
+      "kapitel": "K7",
+      "example": "In diesem Text geht es um die Zukunft der Arbeit.",
+      "translation": "Bu metin isin gelecegi hakkinda."
+    },
+    {
+      "phrase": "Der Artikel/Text handelt von ...",
+      "meaning": "Makale/Metin ...'den bahsediyor / The article/text deals with ...",
+      "category": "Zusammenfassung / Ozet Yapma",
+      "level": "B2.3",
+      "kapitel": "K7",
+      "example": "Der Artikel handelt von den Auswirkungen des Klimawandels.",
+      "translation": "Makale iklim degisikliginin etkilerinden bahsediyor."
+    },
+    {
+      "phrase": "Die Autorin / Der Autor haelt es fuer positiv/negativ, dass ...",
+      "meaning": "Yazar bunu olumlu/olumsuz buluyor / The author considers it positive/negative that ...",
+      "category": "Zusammenfassung / Ozet Yapma",
+      "level": "B2.3",
+      "kapitel": "K7",
+      "example": "Die Autorin haelt es fuer positiv, dass mehr Menschen Fahrrad fahren.",
+      "translation": "Yazar daha fazla insanin bisiklet surmesini olumlu buluyor."
+    },
+    {
+      "phrase": "Ich halte diese Vorstellung/Idee/Einstellung fuer ...",
+      "meaning": "Bu fikri/dusunceyi ... olarak degerlendiriyorum / I consider this idea/attitude ...",
+      "category": "Stellung nehmen / Tavir Almak",
+      "level": "B2.3",
+      "kapitel": "K7",
+      "example": "Ich halte diese Idee fuer sehr innovativ.",
+      "translation": "Bu fikri cok yenilikci buluyorum."
+    },
+    {
+      "phrase": "Ich kann dem (nicht) zustimmen.",
+      "meaning": "Buna katiliyorum (katilmiyorum) / I (don't) agree with that.",
+      "category": "Stellung nehmen / Tavir Almak",
+      "level": "B2.3",
+      "kapitel": "K7",
+      "example": "Ich kann dem nicht zustimmen, weil die Argumente schwach sind.",
+      "translation": "Buna katilmiyorum cunku arguemanlar zayif."
+    },
+    {
+      "phrase": "Meiner Meinung/Ansicht nach ...",
+      "meaning": "Bence / Gorusume gore ... / In my opinion ...",
+      "category": "Stellung nehmen / Tavir Almak",
+      "level": "B2.3",
+      "kapitel": "K7",
+      "example": "Meiner Meinung nach sollte man mehr in Bildung investieren.",
+      "translation": "Bence egitime daha fazla yatirim yapilmali."
+    },
+    {
+      "phrase": "Es tut mir sehr leid, ...",
+      "meaning": "Cok uzgunuem ... / I am very sorry ...",
+      "category": "Offizielle Nachrichten / Resmi Yazilar",
+      "level": "B2.3",
+      "kapitel": "K8",
+      "example": "Es tut mir sehr leid, dass ich den Termin nicht einhalten konnte.",
+      "translation": "Randevuyu tutamadim icin cok uzgunum."
+    },
+    {
+      "phrase": "Bitte entschuldigen Sie, dass ...",
+      "meaning": "Lutfen ... icin ozur dileyin / Please excuse that ...",
+      "category": "Offizielle Nachrichten / Resmi Yazilar",
+      "level": "B2.3",
+      "kapitel": "K8",
+      "example": "Bitte entschuldigen Sie, dass ich so spaet antworte.",
+      "translation": "Bu kadar gec cevap verdigim icin lutfen beni affedin."
+    },
+    {
+      "phrase": "Ich bedauere sehr, ...",
+      "meaning": "Cok uzulerek belirtiyorum ki ... / I very much regret ...",
+      "category": "Offizielle Nachrichten / Resmi Yazilar",
+      "level": "B2.3",
+      "kapitel": "K8",
+      "example": "Ich bedauere sehr, Ihnen mitteilen zu muessen, dass die Veranstaltung abgesagt wurde.",
+      "translation": "Etkinligin iptal edildigini bildirmek zorunda oldugum icin cok uzgunuem."
+    },
+    {
+      "phrase": "Die Situation / Das Problem laesst sich wie folgt beschreiben: ...",
+      "meaning": "Durum/Sorun su sekilde tanimlanabilir: ... / The situation/problem can be described as follows: ...",
+      "category": "Offizielle Nachrichten / Resmi Yazilar",
+      "level": "B2.3",
+      "kapitel": "K8",
+      "example": "Das Problem laesst sich wie folgt beschreiben: Die Lieferung war beschaedigt.",
+      "translation": "Sorun su sekilde tanimlanabilir: Teslimat hasarli idi."
+    },
+    {
+      "phrase": "Koennten Sie ... bitte ...?",
+      "meaning": "... lutfen ... yapabilir misiniz? / Could you please ...?",
+      "category": "Offizielle Nachrichten / Resmi Yazilar",
+      "level": "B2.3",
+      "kapitel": "K8",
+      "example": "Koennten Sie mir bitte die Unterlagen zusenden?",
+      "translation": "Belgeleri bana gonderebilir misiniz lutfen?"
+    },
+    {
+      "phrase": "Ich wuerde vorschlagen, dass ...",
+      "meaning": "... oneriyorum / I would suggest that ...",
+      "category": "Offizielle Nachrichten / Resmi Yazilar",
+      "level": "B2.3",
+      "kapitel": "K8",
+      "example": "Ich wuerde vorschlagen, dass wir uns naechste Woche treffen.",
+      "translation": "Gelecek hafta bulusmamizi oneriyorum."
+    },
+    {
+      "phrase": "Ich bitte Sie um Verstaendnis, dass ...",
+      "meaning": "... icin anlayisinizi rica ediyorum / I ask for your understanding that ...",
+      "category": "Offizielle Nachrichten / Resmi Yazilar",
+      "level": "B2.3",
+      "kapitel": "K8",
+      "example": "Ich bitte Sie um Verstaendnis, dass die Bearbeitung laenger dauert.",
+      "translation": "Islemin daha uzun surecegi icin anlayisinizi rica ediyorum."
+    },
+    {
+      "phrase": "Herzlichen/Vielen Dank (im Voraus) fuer ...",
+      "meaning": "... icin (onceden) cok tesekkur ederim / Many thanks (in advance) for ...",
+      "category": "Offizielle Nachrichten / Resmi Yazilar",
+      "level": "B2.3",
+      "kapitel": "K8",
+      "example": "Vielen Dank im Voraus fuer Ihre schnelle Rueckmeldung.",
+      "translation": "Hizli geri donus icin simdiden cok tesekkurler."
+    },
+    {
+      "phrase": "Ich vermute/denke/glaube, dass ...",
+      "meaning": "Tahmin ediyorum/dusunuyorum/inaniyorum ki ... / I suspect/think/believe that ...",
+      "category": "Vermutungen auessern / Tahmin Belirtmek",
+      "level": "B2.3",
+      "kapitel": "K8",
+      "example": "Ich vermute, dass die Karikaturistin die Gesellschaft kritisieren will.",
+      "translation": "Karikaturistin toplumu elestirmek istedigini tahmin ediyorum."
+    },
+    {
+      "phrase": "In meinem Land ist es so, dass ...",
+      "meaning": "Benim ulkemde durum soyle ki ... / In my country it is so that ...",
+      "category": "Regelungen erklaeren / Kural Aciklamak",
+      "level": "B2.3",
+      "kapitel": "K8",
+      "example": "In meinem Land ist es so, dass man 28 Tage Urlaub hat.",
+      "translation": "Benim ulkemde 28 gun izin hakki var."
+    },
+    {
+      "phrase": "Soweit ich weiss, ...",
+      "meaning": "Bildigim kadariyla ... / As far as I know ...",
+      "category": "Regelungen erklaeren / Kural Aciklamak",
+      "level": "B2.3",
+      "kapitel": "K8",
+      "example": "Soweit ich weiss, gibt es in Deutschland sechs Wochen bezahlten Urlaub.",
+      "translation": "Bildigim kadariyla Almanya'da alti hafta ucretli izin var."
+    },
+    {
+      "phrase": "Einer meiner Lieblingsorte ist ... / Eines meiner Lieblingsprojekte ist ...",
+      "meaning": "En sevdigim yerlerden biri ... / Projelerimden biri ... / One of my favorite places/projects is ...",
+      "category": "Projekte vorstellen / Proje Tanitma",
+      "level": "B2.3",
+      "kapitel": "K9",
+      "example": "Einer meiner Lieblingsorte ist der Botanische Garten in Berlin.",
+      "translation": "En sevdigim yerlerden biri Berlin'deki Botanik Bahcesi."
+    },
+    {
+      "phrase": "Bei dem Projekt handelt es sich um ...",
+      "meaning": "Proje ... ile ilgili / The project is about ...",
+      "category": "Projekte vorstellen / Proje Tanitma",
+      "level": "B2.3",
+      "kapitel": "K9",
+      "example": "Bei dem Projekt handelt es sich um ein Gemeinschaftsgarten-Konzept.",
+      "translation": "Proje bir topluluk bahcesi konsepti ile ilgili."
+    },
+    {
+      "phrase": "Besonders toll/beeindruckend/ueberzeugend finde ich, dass ...",
+      "meaning": "Ozellikle harika/etkileyici/ikna edici buluyorum ki ... / I find it especially great/impressive that ...",
+      "category": "Projekte vorstellen / Proje Tanitma",
+      "level": "B2.3",
+      "kapitel": "K9",
+      "example": "Besonders beeindruckend finde ich, dass so viele Freiwillige mitmachen.",
+      "translation": "Ozellikle bu kadar cok gonullunun katilmasini etkileyici buluyorum."
+    },
+    {
+      "phrase": "Ich stehe auf dem Standpunkt, dass ...",
+      "meaning": "... gorusundeyim / I take the position that ...",
+      "category": "Meinung und Erwartung / Gorus ve Beklenti",
+      "level": "B2.3",
+      "kapitel": "K9",
+      "example": "Ich stehe auf dem Standpunkt, dass Bildung fuer alle zugaenglich sein sollte.",
+      "translation": "Egitimin herkes icin erisilebilir olmasi gerektigini savunuyorum."
+    },
+    {
+      "phrase": "Meines Erachtens ...",
+      "meaning": "Kanaatime gore ... / In my estimation ...",
+      "category": "Meinung und Erwartung / Gorus ve Beklenti",
+      "level": "B2.3",
+      "kapitel": "K9",
+      "example": "Meines Erachtens sollte man mehr in erneuerbare Energien investieren.",
+      "translation": "Kanaatime gore yenilenebilir enerjilere daha fazla yatirim yapilmali."
+    },
+    {
+      "phrase": "Ich muss gestehen, dass ...",
+      "meaning": "Itiraf etmeliyim ki ... / I must confess that ...",
+      "category": "Meinung und Erwartung / Gorus ve Beklenti",
+      "level": "B2.3",
+      "kapitel": "K9",
+      "example": "Ich muss gestehen, dass ich davon noch nie gehoert habe.",
+      "translation": "Itiraf etmeliyim ki bunu hic duymamistim."
+    },
+    {
+      "phrase": "Ich verspreche mir von ..., dass ...",
+      "meaning": "...'den bekledigim sey ... / What I expect from ... is that ...",
+      "category": "Meinung und Erwartung / Gorus ve Beklenti",
+      "level": "B2.3",
+      "kapitel": "K9",
+      "example": "Ich verspreche mir von dem Projekt, dass es die Nachbarschaft staerkt.",
+      "translation": "Projeden mahalleyi guclendirmesini bekliyorum."
+    },
+    {
+      "phrase": "... befindet sich / liegt in/auf ...",
+      "meaning": "... su konumda bulunuyor / ... is located in/on ...",
+      "category": "UNESCO Welterbe / UNESCO Dunya Mirasi",
+      "level": "B2.3",
+      "kapitel": "K9",
+      "example": "Die Altstadt befindet sich am Ufer des Rheins.",
+      "translation": "Eski sehir Ren Nehri kiyisinda bulunuyor."
+    },
+    {
+      "phrase": "... zaehlt/zaehlen zu den groessten/bedeutendsten/aeltesten ... weltweit.",
+      "meaning": "... dunyanin en buyuk/onemli/eski ... arasinda sayilir / ... counts among the largest/most significant/oldest ... worldwide.",
+      "category": "UNESCO Welterbe / UNESCO Dunya Mirasi",
+      "level": "B2.3",
+      "kapitel": "K9",
+      "example": "Der Koelner Dom zaehlt zu den bedeutendsten Bauwerken Europas.",
+      "translation": "Koln Katedrali Avrupa'nin en onemli yapilari arasinda sayilir."
+    },
+    {
+      "phrase": "... wurde im Jahr ... in das UNESCO Welterbe aufgenommen.",
+      "meaning": "... yilinda UNESCO Dunya Mirasi'na alindi / ... was added to the UNESCO World Heritage in ...",
+      "category": "UNESCO Welterbe / UNESCO Dunya Mirasi",
+      "level": "B2.3",
+      "kapitel": "K9",
+      "example": "Die Zeche Zollverein wurde 2001 in das UNESCO Welterbe aufgenommen.",
+      "translation": "Zollverein Madeni 2001 yilinda UNESCO Dunya Mirasi'na alindi."
+    },
+    {
+      "phrase": "Zusammenfassend kann man sagen, dass ...",
+      "meaning": "Ozetleyecek olursak ... / To summarize, one can say that ...",
+      "category": "Zusammenfassung / Ozet Yapma",
+      "level": "B2.4",
+      "kapitel": "K10",
+      "example": "Zusammenfassend kann man sagen, dass die Studie interessante Ergebnisse liefert.",
+      "translation": "Ozetleyecek olursak, calisma ilginc sonuclar sunuyor."
+    },
+    {
+      "phrase": "Der Text beschaeftigt sich mit ...",
+      "meaning": "Metin ... ile ilgileniyor / The text deals with ...",
+      "category": "Zusammenfassung / Ozet Yapma",
+      "level": "B2.4",
+      "kapitel": "K10",
+      "example": "Der Text beschaeftigt sich mit dem Thema kuenstliche Intelligenz.",
+      "translation": "Metin yapay zeka konusuyla ilgileniyor."
+    },
+    {
+      "phrase": "Aus meiner Erfahrung kann ich sagen, ...",
+      "meaning": "Tecrubemden soyleyebilirim ki ... / From my experience I can say ...",
+      "category": "Zusammenfassung / Ozet Yapma",
+      "level": "B2.4",
+      "kapitel": "K10",
+      "example": "Aus meiner Erfahrung kann ich sagen, dass Teamarbeit sehr wichtig ist.",
+      "translation": "Tecrubemden takim calismasinin cok onemli oldugunu soyleyebilirim."
+    },
+    {
+      "phrase": "Ich fuehle/fuehlte mich ...",
+      "meaning": "Kendimi ... hissediyorum/hissettim / I feel/felt ...",
+      "category": "Gedanken und Gefuehle / Dusunce ve Duygular",
+      "level": "B2.4",
+      "kapitel": "K10",
+      "example": "Ich fuehlte mich nach dem Gespraech erleichtert.",
+      "translation": "Konusmadan sonra kendimi rahatlamis hissettim."
+    },
+    {
+      "phrase": "... macht mich traurig/wuetend/stolz ...",
+      "meaning": "... beni uzuyor/kizdiriyor/gururlandiriyor / ... makes me sad/angry/proud",
+      "category": "Gedanken und Gefuehle / Dusunce ve Duygular",
+      "level": "B2.4",
+      "kapitel": "K10",
+      "example": "Diese Nachricht macht mich sehr traurig.",
+      "translation": "Bu haber beni cok uzuyor."
+    },
+    {
+      "phrase": "Ich habe gute/schlechte Erfahrungen mit ... gemacht.",
+      "meaning": "... ile iyi/kotu deneyimlerim oldu / I have had good/bad experiences with ...",
+      "category": "Gedanken und Gefuehle / Dusunce ve Duygular",
+      "level": "B2.4",
+      "kapitel": "K10",
+      "example": "Ich habe gute Erfahrungen mit Online-Kursen gemacht.",
+      "translation": "Online kurslarla iyi deneyimlerim oldu."
+    },
+    {
+      "phrase": "Der Film beginnt mit ... / Am Anfang des Filmes sieht man ...",
+      "meaning": "Film ... ile basliyor / Filmin basinda ... goruluyor / The film begins with ... / At the beginning one sees ...",
+      "category": "Werbespot beschreiben / Reklam Filmi Tarifi",
+      "level": "B2.4",
+      "kapitel": "K10",
+      "example": "Der Film beginnt mit einer Szene in einer Grossstadt.",
+      "translation": "Film buyuk bir sehirdeki bir sahneyle basliyor."
+    },
+    {
+      "phrase": "Das Fazit der Geschichte ist, dass ...",
+      "meaning": "Hikayenin sonucu su ki ... / The conclusion of the story is that ...",
+      "category": "Werbespot beschreiben / Reklam Filmi Tarifi",
+      "level": "B2.4",
+      "kapitel": "K10",
+      "example": "Das Fazit der Geschichte ist, dass Freundschaft wichtiger als Geld ist.",
+      "translation": "Hikayenin sonucu, arkadasligin paradan daha onemli oldugu."
+    },
+    {
+      "phrase": "Ich haette nicht gedacht, dass ...",
+      "meaning": "... oldugunu dusunmezdim / I would not have thought that ...",
+      "category": "Persoenliche Erfahrungen / Kisisel Deneyimler",
+      "level": "B2.4",
+      "kapitel": "K11",
+      "example": "Ich haette nicht gedacht, dass es so schwierig wird.",
+      "translation": "Bu kadar zor olacagini dusunmezdim."
+    },
+    {
+      "phrase": "Leider musste ich feststellen, dass ...",
+      "meaning": "Maalesef ... oldugunu tespit etmek zorunda kaldim / Unfortunately I had to realize that ...",
+      "category": "Beschwerde / Sikayet",
+      "level": "B2.4",
+      "kapitel": "K11",
+      "example": "Leider musste ich feststellen, dass das Produkt beschaedigt war.",
+      "translation": "Maalesef urunun hasarli oldugunu tespit etmek zorunda kaldim."
+    },
+    {
+      "phrase": "Ich moechte mich ueber ... beschweren.",
+      "meaning": "... hakkinda sikayet etmek istiyorum / I would like to complain about ...",
+      "category": "Beschwerde / Sikayet",
+      "level": "B2.4",
+      "kapitel": "K11",
+      "example": "Ich moechte mich ueber den schlechten Service beschweren.",
+      "translation": "Kotu hizmet hakkinda sikayet etmek istiyorum."
+    },
+    {
+      "phrase": "Ich erwarte, dass ...",
+      "meaning": "... bekliyorum / I expect that ...",
+      "category": "Beschwerde / Sikayet",
+      "level": "B2.4",
+      "kapitel": "K11",
+      "example": "Ich erwarte, dass Sie mir den vollen Betrag erstatten.",
+      "translation": "Bana tam tutari iade etmenizi bekliyorum."
+    },
+    {
+      "phrase": "Meine Forderung ist daher, ...",
+      "meaning": "Bu nedenle talebim ... / My demand is therefore ...",
+      "category": "Beschwerde / Sikayet",
+      "level": "B2.4",
+      "kapitel": "K11",
+      "example": "Meine Forderung ist daher, dass die defekte Ware ausgetauscht wird.",
+      "translation": "Bu nedenle talebim arizali malin degistirilmesi."
+    },
+    {
+      "phrase": "Waeren Sie einverstanden, wenn ...",
+      "meaning": "... olsa kabul eder misiniz / Would you agree if ...",
+      "category": "Beschwerde / Sikayet",
+      "level": "B2.4",
+      "kapitel": "K11",
+      "example": "Waeren Sie einverstanden, wenn wir einen neuen Liefertermin vereinbaren?",
+      "translation": "Yeni bir teslimat tarihi belirlersek kabul eder misiniz?"
+    },
+    {
+      "phrase": "Ich bin der Ansicht/Meinung, dass ...",
+      "meaning": "... gorusundeyim / I am of the view/opinion that ...",
+      "category": "Persoenliche Ansichten / Kisisel Gorusler",
+      "level": "B2.4",
+      "kapitel": "K11",
+      "example": "Ich bin der Ansicht, dass jeder Mensch ein Recht auf Bildung hat.",
+      "translation": "Her insanin egitim hakkina sahip oldugu gorusundeyim."
+    },
+    {
+      "phrase": "... ist ein(e) ehemalige(s/r) ...",
+      "meaning": "... eski bir ... / ... is a former ...",
+      "category": "Gebaeude vorstellen / Bina Tanitma",
+      "level": "B2.4",
+      "kapitel": "K12",
+      "example": "Das Gebaeude ist eine ehemalige Fabrik.",
+      "translation": "Bina eski bir fabrika."
+    },
+    {
+      "phrase": "... wurde modernisiert/saniert/restauriert/umgenutzt.",
+      "meaning": "... modernize/restore/yenilendi/amaci degistirildi / ... was modernized/renovated/restored/repurposed.",
+      "category": "Gebaeude vorstellen / Bina Tanitma",
+      "level": "B2.4",
+      "kapitel": "K12",
+      "example": "Die alte Fabrik wurde zu einem Kulturzentrum umgenutzt.",
+      "translation": "Eski fabrika bir kultur merkezine donusturuldu."
+    },
+    {
+      "phrase": "Viele verbinden mit ...",
+      "meaning": "Bircoklari ... ile bagdastirir / Many associate with ...",
+      "category": "Historische Entwicklungen / Tarihi Gelismeler",
+      "level": "B2.4",
+      "kapitel": "K12",
+      "example": "Viele verbinden mit dem Ruhrgebiet die Schwerindustrie.",
+      "translation": "Bircok kisi Ruhr bolgesiyle agir sanayiyi bagdastirir."
+    },
+    {
+      "phrase": "... hatte zur Folge, dass ...",
+      "meaning": "... sonucunda ... oldu / ... resulted in ...",
+      "category": "Historische Entwicklungen / Tarihi Gelismeler",
+      "level": "B2.4",
+      "kapitel": "K12",
+      "example": "Die Industrialisierung hatte zur Folge, dass viele Menschen in die Staedte zogen.",
+      "translation": "Sanayilesme bircok insanin sehirlere tasinmasina yol acti."
+    },
+    {
+      "phrase": "... fuehrt dazu, dass ...",
+      "meaning": "... su sonuca yol aciyor / ... leads to ...",
+      "category": "Gruende und Folgen / Nedenler ve Sonuclar",
+      "level": "B2.4",
+      "kapitel": "K12",
+      "example": "Der Klimawandel fuehrt dazu, dass extreme Wetterereignisse zunehmen.",
+      "translation": "Iklim degisikligi asiri hava olaylarinin artmasina yol aciyor."
+    },
+    {
+      "phrase": "Aufgrund ... / Wegen ...",
+      "meaning": "... nedeniyle / Due to ... / Because of ...",
+      "category": "Gruende und Folgen / Nedenler ve Sonuclar",
+      "level": "B2.4",
+      "kapitel": "K12",
+      "example": "Aufgrund der hohen Nachfrage wurden neue Wohnungen gebaut.",
+      "translation": "Yuksek talep nedeniyle yeni daireler insa edildi."
+    },
+    {
+      "phrase": "In meinem Kommentar geht es ...",
+      "meaning": "Yorumumda ... hakkinda / My comment is about ...",
+      "category": "Kommentar schreiben / Yorum Yazma",
+      "level": "C1.1",
+      "kapitel": "K1",
+      "example": "In meinem Kommentar geht es um die Digitalisierung der Schulen.",
+      "translation": "Yorumum okullarin dijitallesmesi hakkinda."
+    },
+    {
+      "phrase": "Zum Schluss moechte ich noch einmal hervorheben/betonen, ...",
+      "meaning": "Son olarak bir kez daha vurgulamak istiyorum ... / In conclusion I would like to emphasize ...",
+      "category": "Kommentar schreiben / Yorum Yazma",
+      "level": "C1.1",
+      "kapitel": "K1",
+      "example": "Zum Schluss moechte ich noch einmal betonen, dass Bildung der Schluessel ist.",
+      "translation": "Son olarak egitimin anahtar oldugunu bir kez daha vurgulamak istiyorum."
+    },
+    {
+      "phrase": "Die vorliegende Grafik gibt Informationen ueber ...",
+      "meaning": "Mevcut grafik ... hakkinda bilgi veriyor / The present graph gives information about ...",
+      "category": "Grafik beschreiben / Grafik Tarifi",
+      "level": "C1.1",
+      "kapitel": "K1",
+      "example": "Die vorliegende Grafik gibt Informationen ueber den Energieverbrauch in Deutschland.",
+      "translation": "Mevcut grafik Almanya'daki enerji tuketimi hakkinda bilgi veriyor."
+    },
+    {
+      "phrase": "An erster/letzter Stelle steht ...",
+      "meaning": "Birinci/son sirada ... yer aliyor / In first/last place is ...",
+      "category": "Grafik beschreiben / Grafik Tarifi",
+      "level": "C1.1",
+      "kapitel": "K1",
+      "example": "An erster Stelle steht Deutschland mit 40 Prozent.",
+      "translation": "Birinci sirada yuzde 40 ile Almanya yer aliyor."
+    },
+    {
+      "phrase": "Auffaellig/Ueberraschend/Interessant ist ...",
+      "meaning": "Dikkat cekici/Sasirtici/Ilginc olan ... / Striking/Surprising/Interesting is ...",
+      "category": "Grafik beschreiben / Grafik Tarifi",
+      "level": "C1.1",
+      "kapitel": "K1",
+      "example": "Auffaellig ist, dass der Anteil der erneuerbaren Energien stark gestiegen ist.",
+      "translation": "Dikkat cekici olan yenilenebilir enerjilerin payinin guclu bir sekilde artmis olmasi."
+    },
+    {
+      "phrase": "Mein Standpunkt zu ... lautet: ...",
+      "meaning": "... hakkindaki gorusum su: ... / My position on ... is: ...",
+      "category": "Kommentar schreiben / Yorum Yazma",
+      "level": "C1.1",
+      "kapitel": "K1",
+      "example": "Mein Standpunkt zu diesem Thema lautet: Wir brauchen mehr Investitionen.",
+      "translation": "Bu konu hakkindaki gorusum su: Daha fazla yatirima ihtiyacimiz var."
+    },
+    {
+      "phrase": "Ich moechte mich darueber beschweren, dass ...",
+      "meaning": "... hakkinda sikayet etmek istiyorum / I would like to complain that ...",
+      "category": "Beschwerde schreiben / Sikayet Yazma",
+      "level": "C1.1",
+      "kapitel": "K2",
+      "example": "Hiermit moechte ich mich ueber den mangelhaften Service beschweren.",
+      "translation": "Bu yaziyla yetersiz hizmet hakkinda sikayet etmek istiyorum."
+    },
+    {
+      "phrase": "Ich vertrete die Ansicht, dass ...",
+      "meaning": "... gorusunu savunuyorum / I hold the view that ...",
+      "category": "Meinung auessern / Gorus Bildirmek",
+      "level": "C1.1",
+      "kapitel": "K2",
+      "example": "Ich vertrete die Ansicht, dass Recycling verpflichtend sein sollte.",
+      "translation": "Geri donusumun zorunlu olmasi gerektigini savunuyorum."
+    },
+    {
+      "phrase": "Ein wichtiges Argument dafuer/dagegen ist ...",
+      "meaning": "Bunun icin/buna karsi onemli bir arguman ... / An important argument for/against is ...",
+      "category": "Meinung auessern / Gorus Bildirmek",
+      "level": "C1.1",
+      "kapitel": "K2",
+      "example": "Ein wichtiges Argument dagegen ist der hohe Kostenaufwand.",
+      "translation": "Buna karsi onemli bir arguman yuksek maliyet."
+    },
+    {
+      "phrase": "Sehr geehrte Damen und Herren, ...",
+      "meaning": "Saygin Bayanlar ve Baylar, ... / Dear Ladies and Gentlemen, ...",
+      "category": "Formeller Brief / Resmi Mektup",
+      "level": "C1.1",
+      "kapitel": "K2",
+      "example": "Sehr geehrte Damen und Herren, ich schreibe Ihnen bezueglich meines Antrags.",
+      "translation": "Saygin Bayanlar ve Baylar, basvurumla ilgili size yaziyorum."
+    },
+    {
+      "phrase": "Ueber eine schriftliche Rueckmeldung wuerde ich mich freuen.",
+      "meaning": "Yazili bir geri donus almaktan memnuniyet duyarim / I would appreciate a written response.",
+      "category": "Formeller Brief / Resmi Mektup",
+      "level": "C1.1",
+      "kapitel": "K2",
+      "example": "Ueber eine schriftliche Rueckmeldung bis Ende des Monats wuerde ich mich freuen.",
+      "translation": "Ay sonuna kadar yazili bir geri donus almaktan memnuniyet duyarim."
+    },
+    {
+      "phrase": "Ich habe neulich / vor kurzem einen Artikel darueber gelesen.",
+      "meaning": "Gecenlerde / kisa sure once bu konuda bir makale okudum / I recently read an article about it.",
+      "category": "Text zusammenfassen / Metin Ozetleme",
+      "level": "C1.1",
+      "kapitel": "K3",
+      "example": "Ich habe neulich einen Artikel darueber gelesen, wie KI die Medizin veraendert.",
+      "translation": "Gecenlerde YZ'nin tibbi nasil degistirdigine dair bir makale okudum."
+    },
+    {
+      "phrase": "In dem Artikel ging es auch um ... / darum, dass ...",
+      "meaning": "Makalede ayrica ... da ele alinmisti / The article was also about ...",
+      "category": "Text zusammenfassen / Metin Ozetleme",
+      "level": "C1.1",
+      "kapitel": "K3",
+      "example": "In dem Artikel ging es auch darum, dass die Kosten sinken koennten.",
+      "translation": "Makalede ayrica maliyetlerin dusebilecegi de ele alinmisti."
+    },
+    {
+      "phrase": "Das Thema ... hat in letzter Zeit an Bedeutung gewonnen.",
+      "meaning": "... konusu son zamanlarda onem kazandi / The topic ... has recently gained importance.",
+      "category": "Differenzierte Stellungnahme / Ayrintili Tavir Alma",
+      "level": "C1.1",
+      "kapitel": "K3",
+      "example": "Das Thema Datenschutz hat in letzter Zeit an Bedeutung gewonnen.",
+      "translation": "Veri koruma konusu son zamanlarda onem kazandi."
+    },
+    {
+      "phrase": "Dafuer spricht, dass ... / Dagegen spricht, dass ...",
+      "meaning": "Bunun icin/buna karsi ... gosterir / In favor of this ... / Against this ...",
+      "category": "Differenzierte Stellungnahme / Ayrintili Tavir Alma",
+      "level": "C1.1",
+      "kapitel": "K3",
+      "example": "Dafuer spricht, dass die Technologie bereits erprobt ist.",
+      "translation": "Bunun lehine olan, teknolojinin zaten test edilmis olmasi."
+    },
+    {
+      "phrase": "Daraus laesst sich ableiten, dass ...",
+      "meaning": "Bundan su cikarilabilir ki ... / From this it can be derived that ...",
+      "category": "Differenzierte Stellungnahme / Ayrintili Tavir Alma",
+      "level": "C1.1",
+      "kapitel": "K3",
+      "example": "Daraus laesst sich ableiten, dass die Massnahmen wirksam waren.",
+      "translation": "Bundan onlemlerin etkili oldugu cikarilabilir."
+    },
+    {
+      "phrase": "Fuer ... spricht ... / Ein weiteres Argument fuer ... ist ...",
+      "meaning": "... lehine ... / ... icin bir diger arguman ... / In favor of ... / Another argument for ... is ...",
+      "category": "Pro- und Contra-Argumente / Lehte ve Aleyhte Argumanlar",
+      "level": "C1.1",
+      "kapitel": "K4",
+      "example": "Ein weiteres Argument fuer Homeoffice ist die bessere Work-Life-Balance.",
+      "translation": "Evden calisma lehine bir diger arguman daha iyi is-yasam dengesi."
+    },
+    {
+      "phrase": "Gegen ... spricht ... / Das Hauptargument gegen ... ist ...",
+      "meaning": "... aleyhine ... / ... karsi ana arguman ... / Against ... / The main argument against ... is ...",
+      "category": "Pro- und Contra-Argumente / Lehte ve Aleyhte Argumanlar",
+      "level": "C1.1",
+      "kapitel": "K4",
+      "example": "Das Hauptargument gegen diese Regelung ist der hohe buerokratische Aufwand.",
+      "translation": "Bu duzenlemeye karsi ana arguman yuksek burokratik yuktur."
+    },
+    {
+      "phrase": "Ich bin (nicht) ueberzeugt von ...",
+      "meaning": "... ikna oldum (olmadim) / I am (not) convinced by ...",
+      "category": "Pro- und Contra-Argumente / Lehte ve Aleyhte Argumanlar",
+      "level": "C1.1",
+      "kapitel": "K4",
+      "example": "Ich bin nicht ueberzeugt von dieser Loesung.",
+      "translation": "Bu cozumden ikna olmadim."
+    },
+    {
+      "phrase": "Der Autor / Die Autorin erlaeutert in zwei/drei/vier Abschnitten ...",
+      "meaning": "Yazar iki/uc/dort bolumde ... acikliyor / The author explains in two/three/four sections ...",
+      "category": "Text zusammenfassen / Metin Ozetleme",
+      "level": "C1.1",
+      "kapitel": "K4",
+      "example": "Die Autorin erlaeutert in drei Abschnitten die Ursachen des Problems.",
+      "translation": "Yazar uc bolumde sorunun nedenlerini acikliyor."
+    },
+    {
+      "phrase": "Ich bin ueberzeugt davon, dass ...",
+      "meaning": "... olduguna ikna olmus durumdayim / I am convinced that ...",
+      "category": "Ueberzeugung ausdruecken / Inanc Ifade Etme",
+      "level": "C1.1",
+      "kapitel": "K4",
+      "example": "Ich bin ueberzeugt davon, dass Technologie die Bildung verbessern wird.",
+      "translation": "Teknolojinin egitime iyilestirecegine ikna olmus durumdayim."
+    },
+    {
+      "phrase": "Es besteht die Gefahr, dass ...",
+      "meaning": "... tehlikesi mevcut / There is a danger that ...",
+      "category": "Ueberzeugung ausdruecken / Inanc Ifade Etme",
+      "level": "C1.1",
+      "kapitel": "K4",
+      "example": "Es besteht die Gefahr, dass persoenliche Daten missbraucht werden.",
+      "translation": "Kisisel verilerin kotuye kullanilmasi tehlikesi mevcut."
+    },
+    {
+      "phrase": "Ich sehe grosses Potential darin, dass ...",
+      "meaning": "... konusunda buyuk potansiyel goruyorum / I see great potential in ...",
+      "category": "Ueberzeugung ausdruecken / Inanc Ifade Etme",
+      "level": "C1.1",
+      "kapitel": "K4",
+      "example": "Ich sehe grosses Potential darin, dass KI in der Medizin eingesetzt wird.",
+      "translation": "YZ'nin tipta kullanilmasinda buyuk potansiyel goruyorum."
+    },
+    {
+      "phrase": "Wichtig ist, dass ... / ... ist (nicht) von grosser Bedeutung.",
+      "meaning": "Onemli olan ... / ... (buyuk) onem tasimiyor / It is important that ... / ... is (not) of great importance.",
+      "category": "Etwas kommentieren / Yorum Yapmak",
+      "level": "C1.1",
+      "kapitel": "K5",
+      "example": "Wichtig ist, dass alle Beteiligten informiert werden.",
+      "translation": "Onemli olan tum ilgililerin bilgilendirilmesi."
+    },
+    {
+      "phrase": "Einerseits ..., andererseits ...",
+      "meaning": "Bir yandan ..., diger yandan ... / On the one hand ..., on the other hand ...",
+      "category": "Etwas kommentieren / Yorum Yapmak",
+      "level": "C1.1",
+      "kapitel": "K5",
+      "example": "Einerseits bringt die Technologie Vorteile, andererseits gibt es Risiken.",
+      "translation": "Bir yandan teknoloji avantajlar getiriyor, diger yandan riskler var."
+    },
+    {
+      "phrase": "Fuer mich kommt ... nicht in Frage.",
+      "meaning": "Benim icin ... soz konusu degil / For me ... is out of the question.",
+      "category": "Etwas kommentieren / Yorum Yapmak",
+      "level": "C1.1",
+      "kapitel": "K5",
+      "example": "Fuer mich kommt ein Leben ohne Internet nicht in Frage.",
+      "translation": "Benim icin internetsiz bir hayat soz konusu degil."
+    },
+    {
+      "phrase": "Ich bezweifle (jedoch), dass ...",
+      "meaning": "(Ancak) ... oldugunu suphe ediyorum / I (however) doubt that ...",
+      "category": "Stellung beziehen / Pozisyon Almak",
+      "level": "C1.1",
+      "kapitel": "K5",
+      "example": "Ich bezweifle jedoch, dass diese Loesung langfristig funktioniert.",
+      "translation": "Ancak bu cozumun uzun vadede ise yarayacagindan suphe ediyorum."
+    },
+    {
+      "phrase": "Ich sehe grosse Chancen darin, ...",
+      "meaning": "... konusunda buyuk firsatlar goruyorum / I see great opportunities in ...",
+      "category": "Stellung beziehen / Pozisyon Almak",
+      "level": "C1.1",
+      "kapitel": "K5",
+      "example": "Ich sehe grosse Chancen darin, erneuerbare Energien auszubauen.",
+      "translation": "Yenilenebilir enerjilerin genisletilmesinde buyuk firsatlar goruyorum."
+    },
+    {
+      "phrase": "... halte ich fuer (extrem) problematisch.",
+      "meaning": "... bence (son derece) sorunlu / I consider ... (extremely) problematic.",
+      "category": "Stellung beziehen / Pozisyon Almak",
+      "level": "C1.1",
+      "kapitel": "K5",
+      "example": "Die Ueberwachung oeffentlicher Plaetze halte ich fuer problematisch.",
+      "translation": "Kamusal alanlarin gozetlenmesini sorunlu buluyorum."
+    },
+    {
+      "phrase": "Ich halte ... fuer ...",
+      "meaning": "... olarak degerlendiriyorum / I consider ... to be ...",
+      "category": "Argumentieren / Arguemantasyon",
+      "level": "C1.1",
+      "kapitel": "K5",
+      "example": "Ich halte Videospiele fuer ein wertvolles Medium.",
+      "translation": "Video oyunlarini degerli bir medya olarak degerlendiriyorum."
+    },
+    {
+      "phrase": "Besonders wichtig/interessant/bemerkenswert finde ich ...",
+      "meaning": "Ozellikle onemli/ilginc/dikkat cekici buluyorum ... / I find especially important/interesting/noteworthy ...",
+      "category": "Argumentieren / Arguemantasyon",
+      "level": "C1.1",
+      "kapitel": "K5",
+      "example": "Besonders bemerkenswert finde ich die steigende Akzeptanz von E-Sports.",
+      "translation": "Ozellikle dikkat cekici buluyorum E-spor'un artan kabulunu."
+    },
+    {
+      "phrase": "Ich (persoenlich) bin der Meinung / (davon) ueberzeugt, dass ...",
+      "meaning": "(Kisisel olarak) ... olduguna inaniyorum / I (personally) am of the opinion / convinced that ...",
+      "category": "Meinung ausdruecken / Gorus Ifade Etme",
+      "level": "C1.1",
+      "kapitel": "K6",
+      "example": "Ich bin davon ueberzeugt, dass kuenstliche Intelligenz unser Leben veraendern wird.",
+      "translation": "Yapay zekanin hayatimizi degistirecegine inaniyorum."
+    },
+    {
+      "phrase": "Ich habe den Eindruck / das Gefuehl, dass ...",
+      "meaning": "... izlenimine/hissine sahibim / I have the impression / feeling that ...",
+      "category": "Meinung ausdruecken / Gorus Ifade Etme",
+      "level": "C1.1",
+      "kapitel": "K6",
+      "example": "Ich habe den Eindruck, dass die Qualitaet der Medien sinkt.",
+      "translation": "Medya kalitesinin dustugu izlenimine sahibim."
+    },
+    {
+      "phrase": "Mich stoert es / Mich spricht es an, wenn ...",
+      "meaning": "... oldugunda beni rahatsiz ediyor / hosuma gidiyor / It bothers me / appeals to me when ...",
+      "category": "Eigenes Empfinden / Kisisel Duygu",
+      "level": "C1.1",
+      "kapitel": "K6",
+      "example": "Mich stoert es, wenn Werbung zu aufdringlich ist.",
+      "translation": "Reklamlarin cok israrci olmas beni rahatsiz ediyor."
+    },
+    {
+      "phrase": "... empfinde ich als angenehm/stoerend.",
+      "meaning": "... hos/rahatsiz edici olarak algiliyorum / I perceive ... as pleasant/disturbing.",
+      "category": "Eigenes Empfinden / Kisisel Duygu",
+      "level": "C1.1",
+      "kapitel": "K6",
+      "example": "Personalisierte Werbung empfinde ich als stoerend.",
+      "translation": "Kisisellstirilmis reklami rahatsiz edici olarak algiliyorum."
+    },
+    {
+      "phrase": "Wir koennten doch ...? / Mein Vorschlag waere ...",
+      "meaning": "... yapabilirdik? / Onerim ... olabilir / We could ...? / My suggestion would be ...",
+      "category": "Vorschlaege machen / Oneri Yapmak",
+      "level": "C1.1",
+      "kapitel": "K7",
+      "example": "Mein Vorschlag waere, dass wir zuerst die Daten analysieren.",
+      "translation": "Onerim once verileri analiz etmemiz."
+    },
+    {
+      "phrase": "Das hoert sich gut an. / Das klingt ueberzeugend.",
+      "meaning": "Kulaga iyi geliyor. / Ikna edici gorunuyor. / That sounds good. / That sounds convincing.",
+      "category": "Vorschlaege machen / Oneri Yapmak",
+      "level": "C1.1",
+      "kapitel": "K7",
+      "example": "Das klingt ueberzeugend, ich bin einverstanden.",
+      "translation": "Ikna edici gorunuyor, kabul ediyorum."
+    },
+    {
+      "phrase": "Dann sind wir uns ja einig. / Gut, so machen wir das.",
+      "meaning": "O zaman anlasmis olduk. / Tamam, oyle yapalim. / Then we agree. / OK, let's do it that way.",
+      "category": "Sich einigen / Anlasmak",
+      "level": "C1.1",
+      "kapitel": "K7",
+      "example": "Gut, dann sind wir uns ja einig. Ich kuemmere mich um die Organisation.",
+      "translation": "Tamam, o zaman anlasmis olduk. Organizasyonu ben hallediyorum."
+    },
+    {
+      "phrase": "Ich kann mir (gut) vorstellen, dass ... / Das waere schon denkbar.",
+      "meaning": "... oldugunu hayal edebiliyorum / Bu dusunulebilir / I can (well) imagine that ... / That would be conceivable.",
+      "category": "Realisierbarkeit / Gerceklestirilebilirlik",
+      "level": "C1.1",
+      "kapitel": "K7",
+      "example": "Das waere schon denkbar, wenn genuegend Mittel zur Verfuegung stehen.",
+      "translation": "Yeterli kaynak varsa bu dusunulebilir."
+    },
+    {
+      "phrase": "Das ließe sich leicht umsetzen.",
+      "meaning": "Bu kolayca uygulanabilir / That could easily be implemented.",
+      "category": "Realisierbarkeit / Gerceklestirilebilirlik",
+      "level": "C1.1",
+      "kapitel": "K7",
+      "example": "Die neue Regelung ließe sich leicht umsetzen.",
+      "translation": "Yeni duzenleme kolayca uygulanabilir."
+    },
+    {
+      "phrase": "Fuer mich waere das nicht denkbar. / Das geht doch gar nicht.",
+      "meaning": "Bu benim icin dusunulemez. / Bu hic olmaz ki. / For me that would not be conceivable. / That just won't work.",
+      "category": "Realisierbarkeit / Gerceklestirilebilirlik",
+      "level": "C1.1",
+      "kapitel": "K7",
+      "example": "Fuer mich waere das nicht denkbar, weil die Risiken zu gross sind.",
+      "translation": "Bu benim icin dusunulemez cunku riskler cok buyuk."
+    },
+    {
+      "phrase": "Aus der Statistik/Grafik geht ... hervor.",
+      "meaning": "Istatistikten/Grafikten ... ortaya cikiyor / From the statistics/graph ... emerges.",
+      "category": "Grafik beschreiben / Grafik Tarifi",
+      "level": "C1.1",
+      "kapitel": "K7",
+      "example": "Aus der Grafik geht hervor, dass die Arbeitslosigkeit gesunken ist.",
+      "translation": "Grafikten issizligin dustugu ortaya cikiyor."
+    },
+    {
+      "phrase": "Spitzenreiter ist ... / Schlusslicht ist ...",
+      "meaning": "Lider ... / Son sirada ... / The frontrunner is ... / Bringing up the rear is ...",
+      "category": "Grafik beschreiben / Grafik Tarifi",
+      "level": "C1.1",
+      "kapitel": "K7",
+      "example": "Spitzenreiter ist Norwegen mit dem hoechsten Lebensstandard.",
+      "translation": "Lider en yuksek yasam standardi ile Norvec."
+    },
+    {
+      "phrase": "Der/Das/Die ... der Firma ... ist ...",
+      "meaning": "Firmanin ... ... dir / The company's ... is ...",
+      "category": "Objekte beschreiben / Nesne Tarifi",
+      "level": "B2.3",
+      "kapitel": "K7",
+      "example": "Der Stuhl der Firma Vitra ist ein Designklassiker.",
+      "translation": "Vitra firmasinin sandalyesi bir tasarim klasigi."
+    },
+    {
+      "phrase": "Der/Das/Die ... kam ... auf den Markt.",
+      "meaning": "... piyasaya cikti / ... came to market.",
+      "category": "Objekte beschreiben / Nesne Tarifi",
+      "level": "B2.3",
+      "kapitel": "K7",
+      "example": "Das Produkt kam 2015 auf den Markt.",
+      "translation": "Urun 2015'te piyasaya cikti."
+    },
+    {
+      "phrase": "Er/Es/Sie ist schwer/leicht/...",
+      "meaning": "Agir/hafif/... / It is heavy/light/...",
+      "category": "Objekte beschreiben / Nesne Tarifi",
+      "level": "B2.3",
+      "kapitel": "K7",
+      "example": "Der Koffer ist erstaunlich leicht.",
+      "translation": "Bavul sasirtici derecede hafif."
+    },
+    {
+      "phrase": "Er/Es/Sie ist / besteht aus Holz/Metall/Plastik/...",
+      "meaning": "Ahsap/metal/plastikten yapilmistir / It is made of / consists of wood/metal/plastic/...",
+      "category": "Objekte beschreiben / Nesne Tarifi",
+      "level": "B2.3",
+      "kapitel": "K7",
+      "example": "Die Lampe besteht aus Metall und Glas.",
+      "translation": "Lamba metal ve camdan olusuyor."
+    },
+    {
+      "phrase": "Die Form erinnert mich an ...",
+      "meaning": "Formu bana ...'i hatirlatiyor / The shape reminds me of ...",
+      "category": "Objekte beschreiben / Nesne Tarifi",
+      "level": "B2.3",
+      "kapitel": "K7",
+      "example": "Die Form erinnert mich an eine Blume.",
+      "translation": "Formu bana bir cicegi hatirlatiyor."
+    },
+    {
+      "phrase": "Charakteristisch fuer ... ist ...",
+      "meaning": "... icin karakteristik olan ... / Characteristic of ... is ...",
+      "category": "Objekte beschreiben / Nesne Tarifi",
+      "level": "B2.3",
+      "kapitel": "K7",
+      "example": "Charakteristisch fuer dieses Design ist die schlichte Form.",
+      "translation": "Bu tasarim icin karakteristik olan sade formu."
+    },
+    {
+      "phrase": "Oben/Unten/Vorne/Hinten befindet sich / ist / sieht man ...",
+      "meaning": "Ustte/Altta/Onde/Arkada ... var/goruluyor / At the top/bottom/front/back there is ...",
+      "category": "Objekte beschreiben / Nesne Tarifi",
+      "level": "B2.3",
+      "kapitel": "K7",
+      "example": "Oben befindet sich ein Griff aus Leder.",
+      "translation": "Ustte deriden bir kulp var."
+    },
+    {
+      "phrase": "Er/Es/Sie eignet sich fuer alle, die ...",
+      "meaning": "... olan herkes icin uygun / It is suitable for all who ...",
+      "category": "Objekte beschreiben / Nesne Tarifi",
+      "level": "B2.3",
+      "kapitel": "K7",
+      "example": "Er eignet sich fuer alle, die gerne wandern.",
+      "translation": "Yuruyus yapmayi sevenler icin uygun."
+    },
+    {
+      "phrase": "Zum ... / Fuer ... ist er/es/sie nuetzlich/praktisch/funktional/..., weil ...",
+      "meaning": "... icin faydali/pratik/fonksiyonel cunku ... / For ... it is useful/practical/functional because ...",
+      "category": "Objekte beschreiben / Nesne Tarifi",
+      "level": "B2.3",
+      "kapitel": "K7",
+      "example": "Zum Kochen ist er sehr praktisch, weil er leicht zu reinigen ist.",
+      "translation": "Pisirmek icin cok pratik cunku temizlenmesi kolay."
+    },
+    {
+      "phrase": "... hat mich (nicht) ueberzeugt.",
+      "meaning": "... beni ikna etti (etmedi) / ... (didn't) convinced me.",
+      "category": "Objekte beschreiben / Nesne Tarifi",
+      "level": "B2.3",
+      "kapitel": "K7",
+      "example": "Das Design hat mich sofort ueberzeugt.",
+      "translation": "Tasarim beni hemen ikna etti."
+    },
+    {
+      "phrase": "Ein Highlight ist ...",
+      "meaning": "One onemli ozellik ... / A highlight is ...",
+      "category": "Objekte beschreiben / Nesne Tarifi",
+      "level": "B2.3",
+      "kapitel": "K7",
+      "example": "Ein Highlight ist die innovative Beleuchtung.",
+      "translation": "One cikan ozellik yenilikci aydinlatma."
+    },
+    {
+      "phrase": "Ein Vorteil/Nachteil des/der ... ist, ...",
+      "meaning": "...'in avantaji/dezavantaji ... / An advantage/disadvantage of ... is ...",
+      "category": "Objekte beschreiben / Nesne Tarifi",
+      "level": "B2.3",
+      "kapitel": "K7",
+      "example": "Ein Nachteil des Materials ist, dass es leicht zerkratzt.",
+      "translation": "Malzemenin dezavantaji kolayca cizilebilmesi."
+    },
+    {
+      "phrase": "... hat mich enttaeuscht.",
+      "meaning": "... beni hayal kirikligina ugratti / ... disappointed me.",
+      "category": "Objekte beschreiben / Nesne Tarifi",
+      "level": "B2.3",
+      "kapitel": "K7",
+      "example": "Die Qualitaet hat mich enttaeuscht.",
+      "translation": "Kalite beni hayal kirikligina ugratti."
+    },
+    {
+      "phrase": "Ein weiterer Aspekt ist ...",
+      "meaning": "Bir diger husus ... / A further aspect is ...",
+      "category": "Meinung auessern / Gorus Bildirmek",
+      "level": "B2.3",
+      "kapitel": "K7",
+      "example": "Ein weiterer Aspekt ist die Nachhaltigkeit.",
+      "translation": "Bir diger husus surdurulebilirlik."
+    },
+    {
+      "phrase": "Ich sehe ein Problem bei ...",
+      "meaning": "...'de bir sorun goruyorum / I see a problem with ...",
+      "category": "Meinung auessern / Gorus Bildirmek",
+      "level": "B2.3",
+      "kapitel": "K7",
+      "example": "Ich sehe ein Problem bei der Umsetzung.",
+      "translation": "Uygulamada bir sorun goruyorum."
+    },
+    {
+      "phrase": "Ein wichtiger Punkt ist ...",
+      "meaning": "Onemli bir nokta ... / An important point is ...",
+      "category": "Meinung auessern / Gorus Bildirmek",
+      "level": "B2.3",
+      "kapitel": "K7",
+      "example": "Ein wichtiger Punkt ist die Benutzerfreundlichkeit.",
+      "translation": "Onemli bir nokta kullanici dostlugu."
+    },
+    {
+      "phrase": "Entscheidend fuer ... ist, ...",
+      "meaning": "... icin belirleyici olan ... / Decisive for ... is ...",
+      "category": "Meinung auessern / Gorus Bildirmek",
+      "level": "B2.3",
+      "kapitel": "K7",
+      "example": "Entscheidend fuer den Erfolg ist die Qualitaet.",
+      "translation": "Basari icin belirleyici olan kalitedir."
+    },
+    {
+      "phrase": "... bedeutet viel/wenig fuer mich.",
+      "meaning": "... benim icin cok/az anlam ifade ediyor / ... means a lot/little to me.",
+      "category": "Meinung auessern / Gorus Bildirmek",
+      "level": "B2.3",
+      "kapitel": "K7",
+      "example": "Gutes Design bedeutet viel fuer mich.",
+      "translation": "Iyi tasarim benim icin cok anlam ifade ediyor."
+    },
+    {
+      "phrase": "An erster Stelle steht fuer mich ...",
+      "meaning": "Benim icin ilk sirada ... var / In first place for me is ...",
+      "category": "Meinung auessern / Gorus Bildirmek",
+      "level": "B2.3",
+      "kapitel": "K7",
+      "example": "An erster Stelle steht fuer mich die Funktionalitaet.",
+      "translation": "Benim icin ilk sirada islevsellik var."
+    },
+    {
+      "phrase": "Es kann/koennte gut sein, dass ...",
+      "meaning": "... olabilir / It may well be that ...",
+      "category": "Vermutungen ausdruecken / Tahmin Belirtmek",
+      "level": "B2.3",
+      "kapitel": "K7",
+      "example": "Es koennte gut sein, dass die Preise sinken.",
+      "translation": "Fiyatlarin dusmesi mumkun."
+    },
+    {
+      "phrase": "Es ist wahrscheinlich, dass ...",
+      "meaning": "Muhtemelen ... / It is probable that ...",
+      "category": "Vermutungen ausdruecken / Tahmin Belirtmek",
+      "level": "B2.3",
+      "kapitel": "K7",
+      "example": "Es ist wahrscheinlich, dass die Nachfrage steigt.",
+      "translation": "Muhtemelen talep artacak."
+    },
+    {
+      "phrase": "Das Thema des Textes ist ...",
+      "meaning": "Metnin konusu ... / The topic of the text is ...",
+      "category": "Zusammenfassung / Ozet Yapma",
+      "level": "B2.3",
+      "kapitel": "K7",
+      "example": "Das Thema des Textes ist die Digitalisierung.",
+      "translation": "Metnin konusu dijitallesme."
+    },
+    {
+      "phrase": "Im ersten/zweiten/naechsten Abschnitt geht es um ...",
+      "meaning": "Birinci/ikinci/sonraki bolumde konu ... / In the first/second/next section it is about ...",
+      "category": "Zusammenfassung / Ozet Yapma",
+      "level": "B2.3",
+      "kapitel": "K7",
+      "example": "Im ersten Abschnitt geht es um die Geschichte des Designs.",
+      "translation": "Birinci bolumde tasarim tarihi ele aliniyor."
+    },
+    {
+      "phrase": "Als Argument fuer/gegen ... wird genannt, dass ...",
+      "meaning": "... lehine/aleyhine arguman olarak ... gosteriliyor / As an argument for/against ... it is stated that ...",
+      "category": "Zusammenfassung / Ozet Yapma",
+      "level": "B2.3",
+      "kapitel": "K7",
+      "example": "Als Argument fuer Recycling wird genannt, dass es Ressourcen spart.",
+      "translation": "Geri donusum lehine arguman olarak kaynak tasarrufu gosteriliyor."
+    },
+    {
+      "phrase": "Ich stimme der Autorin / dem Autor (nicht) zu, dass ...",
+      "meaning": "Yazara katiliyorum (katilmiyorum) ki ... / I (don't) agree with the author that ...",
+      "category": "Stellung nehmen / Tavir Almak",
+      "level": "B2.3",
+      "kapitel": "K7",
+      "example": "Ich stimme dem Autor zu, dass Bildung wichtig ist.",
+      "translation": "Yazara egitimin onemli oldugu konusunda katiliyorum."
+    },
+    {
+      "phrase": "Entschuldigen Sie vielmals ...",
+      "meaning": "Cok ozur dilerim ... / Please accept my sincerest apologies ...",
+      "category": "Offizielle Nachrichten / Resmi Yazilar",
+      "level": "B2.3",
+      "kapitel": "K8",
+      "example": "Entschuldigen Sie vielmals die Unannehmlichkeiten.",
+      "translation": "Rahatsizlik icin cok ozur dilerim."
+    },
+    {
+      "phrase": "Bedauerlicherweise ...",
+      "meaning": "Maalesef ... / Regrettably ...",
+      "category": "Offizielle Nachrichten / Resmi Yazilar",
+      "level": "B2.3",
+      "kapitel": "K8",
+      "example": "Bedauerlicherweise koennen wir Ihrem Wunsch nicht entsprechen.",
+      "translation": "Maalesef isteginizi karsilayamiyoruz."
+    },
+    {
+      "phrase": "Im Moment / Inzwischen ist die Situation so, dass ...",
+      "meaning": "Su anda / Bu arada durum soyle ki ... / At the moment the situation is such that ...",
+      "category": "Offizielle Nachrichten / Resmi Yazilar",
+      "level": "B2.3",
+      "kapitel": "K8",
+      "example": "Im Moment ist die Situation so, dass wir keine freien Plaetze haben.",
+      "translation": "Su anda durum soyle ki bos yerimiz yok."
+    },
+    {
+      "phrase": "Es passiert immer wieder, dass ...",
+      "meaning": "Surekli ... oluyor / It keeps happening that ...",
+      "category": "Offizielle Nachrichten / Resmi Yazilar",
+      "level": "B2.3",
+      "kapitel": "K8",
+      "example": "Es passiert immer wieder, dass die Heizung ausfaellt.",
+      "translation": "Surekli isitma bozuluyor."
+    },
+    {
+      "phrase": "Ich wuerde Sie bitten, ...",
+      "meaning": "Sizden ... rica ederim / I would ask you to ...",
+      "category": "Offizielle Nachrichten / Resmi Yazilar",
+      "level": "B2.3",
+      "kapitel": "K8",
+      "example": "Ich wuerde Sie bitten, das Problem schnell zu loesen.",
+      "translation": "Sorunu hizla cozmenizi rica ederim."
+    },
+    {
+      "phrase": "Ich kann gut verstehen, dass ...",
+      "meaning": "... oldugunu iyi anlayabiliyorum / I can well understand that ...",
+      "category": "Offizielle Nachrichten / Resmi Yazilar",
+      "level": "B2.3",
+      "kapitel": "K8",
+      "example": "Ich kann gut verstehen, dass Sie veraergert sind.",
+      "translation": "Kizigin oldugunuzu iyi anlayabiliyorum."
+    },
+    {
+      "phrase": "Fuer ... haette ich folgenden Vorschlag: ...",
+      "meaning": "... icin su onerim var: ... / For ... I would have the following suggestion: ...",
+      "category": "Offizielle Nachrichten / Resmi Yazilar",
+      "level": "B2.3",
+      "kapitel": "K8",
+      "example": "Fuer das Problem haette ich folgenden Vorschlag: eine Versammlung.",
+      "translation": "Sorun icin su onerim var: bir toplanti."
+    },
+    {
+      "phrase": "Ich moechte mich (recht) herzlich fuer ... bedanken.",
+      "meaning": "... icin (ictenlikle) tesekkur etmek istiyorum / I would like to thank you (sincerely) for ...",
+      "category": "Offizielle Nachrichten / Resmi Yazilar",
+      "level": "B2.3",
+      "kapitel": "K8",
+      "example": "Ich moechte mich herzlich fuer Ihre Unterstuetzung bedanken.",
+      "translation": "Desteginiz icin ictenlikle tesekkur etmek istiyorum."
+    },
+    {
+      "phrase": "Die Karikaturistin will vermutlich sagen, dass ...",
+      "meaning": "Karikaturist muhtemelen ... demek istiyor / The caricaturist probably wants to say that ...",
+      "category": "Vermutungen auessern / Tahmin Belirtmek",
+      "level": "B2.3",
+      "kapitel": "K8",
+      "example": "Die Karikaturistin will vermutlich sagen, dass wir zu viel konsumieren.",
+      "translation": "Karikaturist muhtemelen cok fazla tukettigimizi soylemek istiyor."
+    },
+    {
+      "phrase": "In dieser/der Karikatur geht es vermutlich um ...",
+      "meaning": "Bu karikatur muhtemelen ... hakkinda / This caricature is probably about ...",
+      "category": "Vermutungen auessern / Tahmin Belirtmek",
+      "level": "B2.3",
+      "kapitel": "K8",
+      "example": "In dieser Karikatur geht es vermutlich um die Digitalisierung.",
+      "translation": "Bu karikatur muhtemelen dijitallesme hakkinda."
+    },
+    {
+      "phrase": "Normalerweise ...",
+      "meaning": "Normalde ... / Normally ...",
+      "category": "Regelungen erklaeren / Kural Aciklamak",
+      "level": "B2.3",
+      "kapitel": "K8",
+      "example": "Normalerweise hat man in Deutschland 30 Tage Urlaub.",
+      "translation": "Normalde Almanya'da 30 gun izin hakki vardir."
+    },
+    {
+      "phrase": "In ... hat man Anspruch auf ...",
+      "meaning": "...'da ... hakki var / In ... one is entitled to ...",
+      "category": "Regelungen erklaeren / Kural Aciklamak",
+      "level": "B2.3",
+      "kapitel": "K8",
+      "example": "In Deutschland hat man Anspruch auf Elternzeit.",
+      "translation": "Almanya'da ebeveyn izni hakki vardir."
+    },
+    {
+      "phrase": "Ich habe gehoert, dass ...",
+      "meaning": "... oldugunu duydum / I have heard that ...",
+      "category": "Regelungen erklaeren / Kural Aciklamak",
+      "level": "B2.3",
+      "kapitel": "K8",
+      "example": "Ich habe gehoert, dass die Regelung geaendert wurde.",
+      "translation": "Duzenlemenin degistigini duydum."
+    },
+    {
+      "phrase": "Aus meiner Sicht ...",
+      "meaning": "Benim bakis acimdan ... / From my point of view ...",
+      "category": "Regelungen erklaeren / Kural Aciklamak",
+      "level": "B2.3",
+      "kapitel": "K8",
+      "example": "Aus meiner Sicht ist die Regelung fair.",
+      "translation": "Benim bakis acimdan duzenleme adil."
+    },
+    {
+      "phrase": "Gegruendet wurde der Verein ...",
+      "meaning": "Dernek ... kuruldu / The association was founded ...",
+      "category": "Projekte vorstellen / Proje Tanitma",
+      "level": "B2.3",
+      "kapitel": "K9",
+      "example": "Gegruendet wurde der Verein im Jahr 2005.",
+      "translation": "Dernek 2005 yilinda kuruldu."
+    },
+    {
+      "phrase": "Das Projekt gibt es seit ...",
+      "meaning": "Proje ...'den beri var / The project has existed since ...",
+      "category": "Projekte vorstellen / Proje Tanitma",
+      "level": "B2.3",
+      "kapitel": "K9",
+      "example": "Das Projekt gibt es seit zehn Jahren.",
+      "translation": "Proje on yildir var."
+    },
+    {
+      "phrase": "Das Gebaeude wurde frueher fuer ... genutzt.",
+      "meaning": "Bina eskiden ... icin kullaniliyordu / The building was formerly used for ...",
+      "category": "Projekte vorstellen / Proje Tanitma",
+      "level": "B2.3",
+      "kapitel": "K9",
+      "example": "Das Gebaeude wurde frueher fuer die Textilproduktion genutzt.",
+      "translation": "Bina eskiden tekstil uretimi icin kullaniliyordu."
+    },
+    {
+      "phrase": "Ich finde dieses Projekt so faszinierend/inspirierend, weil ...",
+      "meaning": "Bu projeyi cok buyuleyici/ilham verici buluyorum cunku ... / I find this project so fascinating/inspiring because ...",
+      "category": "Projekte vorstellen / Proje Tanitma",
+      "level": "B2.3",
+      "kapitel": "K9",
+      "example": "Ich finde dieses Projekt so inspirierend, weil es Menschen verbindet.",
+      "translation": "Bu projeyi cok ilham verici buluyorum cunku insanlari birlestiriyor."
+    },
+    {
+      "phrase": "Das Faszinierende daran ist ...",
+      "meaning": "Bunun buyuleyici yani ... / The fascinating thing about it is ...",
+      "category": "Projekte vorstellen / Proje Tanitma",
+      "level": "B2.3",
+      "kapitel": "K9",
+      "example": "Das Faszinierende daran ist die Kreativitaet der Kuenstler.",
+      "translation": "Bunun buyuleyici yani sanatcilarin yaraticiligi."
+    },
+    {
+      "phrase": "Ich finde es ueberraschend/merkwuerdig, dass ...",
+      "meaning": "... oldugunu sasirtici/garip buluyorum / I find it surprising/strange that ...",
+      "category": "Meinung und Erwartung / Gorus ve Beklenti",
+      "level": "B2.3",
+      "kapitel": "K9",
+      "example": "Ich finde es ueberraschend, dass so wenige Menschen das kennen.",
+      "translation": "Bu kadar az insanin bunu bilmesini sasirtici buluyorum."
+    },
+    {
+      "phrase": "Ich bin geteilter Meinung: ...",
+      "meaning": "Kararsizim / Farkli dusunuyorum: ... / I am of mixed opinion: ...",
+      "category": "Meinung und Erwartung / Gorus ve Beklenti",
+      "level": "B2.3",
+      "kapitel": "K9",
+      "example": "Ich bin geteilter Meinung: einerseits finde ich es gut, andererseits ...",
+      "translation": "Kararsizim: bir yandan iyi buluyorum, diger yandan ..."
+    },
+    {
+      "phrase": "Ich denke da zum Beispiel an ...",
+      "meaning": "Ornegin aklima ... geliyor / I'm thinking for example of ...",
+      "category": "Meinung und Erwartung / Gorus ve Beklenti",
+      "level": "B2.3",
+      "kapitel": "K9",
+      "example": "Ich denke da zum Beispiel an den Botanischen Garten.",
+      "translation": "Ornegin aklima Botanik Bahcesi geliyor."
+    },
+    {
+      "phrase": "Das erwarte ich von ...",
+      "meaning": "...'den bekledigim bu / That is what I expect from ...",
+      "category": "Meinung und Erwartung / Gorus ve Beklenti",
+      "level": "B2.3",
+      "kapitel": "K9",
+      "example": "Das erwarte ich von einer guten Universitaet.",
+      "translation": "Iyi bir universiteden bekledigim bu."
+    },
+    {
+      "phrase": "... war/ist der/das/die groesste/bedeutendste/aelteste in ...",
+      "meaning": "... en buyuk/onemli/eski ... idi/dir / ... was/is the largest/most significant/oldest in ...",
+      "category": "UNESCO Welterbe / UNESCO Dunya Mirasi",
+      "level": "B2.3",
+      "kapitel": "K9",
+      "example": "Der Dom war das groesste Gebaeude der Stadt.",
+      "translation": "Katedral sehrin en buyuk binasiydi."
+    },
+    {
+      "phrase": "... ist/sind ein wichtiges Beispiel fuer ...",
+      "meaning": "... icin onemli bir ornek / ... is an important example of ...",
+      "category": "UNESCO Welterbe / UNESCO Dunya Mirasi",
+      "level": "B2.3",
+      "kapitel": "K9",
+      "example": "Die Altstadt ist ein wichtiges Beispiel fuer mittelalterliche Architektur.",
+      "translation": "Eski sehir ortacag mimarisi icin onemli bir ornek."
+    },
+    {
+      "phrase": "Noch heute ist/sind ... gut erhalten.",
+      "meaning": "Bugun hala ... iyi korunmus durumda / Even today ... is/are well preserved.",
+      "category": "UNESCO Welterbe / UNESCO Dunya Mirasi",
+      "level": "B2.3",
+      "kapitel": "K9",
+      "example": "Noch heute sind die Stadtmauern gut erhalten.",
+      "translation": "Bugun hala sehir surlari iyi korunmus durumda."
+    },
+    {
+      "phrase": "Mit dem Thema habe ich schon Erfahrungen gemacht.",
+      "meaning": "Bu konuyla ilgili deneyimim var / I already have experience with this topic.",
+      "category": "Zusammenfassung / Ozet Yapma",
+      "level": "B2.4",
+      "kapitel": "K10",
+      "example": "Mit dem Thema Umweltschutz habe ich schon Erfahrungen gemacht.",
+      "translation": "Cevre koruma konusuyla ilgili deneyimim var."
+    },
+    {
+      "phrase": "Abschliessend kann man festhalten, dass ...",
+      "meaning": "Sonuc olarak soylenebilir ki ... / In conclusion it can be stated that ...",
+      "category": "Zusammenfassung / Ozet Yapma",
+      "level": "B2.4",
+      "kapitel": "K10",
+      "example": "Abschliessend kann man festhalten, dass die Ergebnisse positiv sind.",
+      "translation": "Sonuc olarak sonuclarin olumlu oldugu soylenebilir."
+    },
+    {
+      "phrase": "Mir geht/ging es ..., wenn ...",
+      "meaning": "... oldugunda kendimi ... hissediyorum/hissettim / I feel/felt ... when ...",
+      "category": "Gedanken und Gefuehle / Dusunce ve Duygular",
+      "level": "B2.4",
+      "kapitel": "K10",
+      "example": "Mir ging es schlecht, wenn ich an die Pruefung dachte.",
+      "translation": "Sinavi dusundugumde kendimi kotu hissettim."
+    },
+    {
+      "phrase": "Ich bin/war enttaeuscht, dass ...",
+      "meaning": "... oldugundan hayal kirikligina ugradim / I am/was disappointed that ...",
+      "category": "Gedanken und Gefuehle / Dusunce ve Duygular",
+      "level": "B2.4",
+      "kapitel": "K10",
+      "example": "Ich war enttaeuscht, dass das Konzert abgesagt wurde.",
+      "translation": "Konserin iptal edilmesinden hayal kirikligina ugradim."
+    },
+    {
+      "phrase": "Ich habe mich wohl/unwohl gefuehlt.",
+      "meaning": "Kendimi iyi/rahatsiz hissettim / I felt comfortable/uncomfortable.",
+      "category": "Gedanken und Gefuehle / Dusunce ve Duygular",
+      "level": "B2.4",
+      "kapitel": "K10",
+      "example": "Bei dem Vorstellungsgespraech habe ich mich unwohl gefuehlt.",
+      "translation": "Is gorusmesinde kendimi rahatsiz hissettim."
+    },
+    {
+      "phrase": "Fuer mich ist/war wichtig/wertvoll/hilfreich, dass ...",
+      "meaning": "Benim icin onemli/degerli/faydali olan ... / For me it is/was important/valuable/helpful that ...",
+      "category": "Gedanken und Gefuehle / Dusunce ve Duygular",
+      "level": "B2.4",
+      "kapitel": "K10",
+      "example": "Fuer mich war wichtig, dass ich Unterstuetzung hatte.",
+      "translation": "Benim icin onemli olan destege sahip olmamdi."
+    },
+    {
+      "phrase": "Ich kann mich noch erinnern, dass ...",
+      "meaning": "... oldugunu hala hatirliyorum / I can still remember that ...",
+      "category": "Gedanken und Gefuehle / Dusunce ve Duygular",
+      "level": "B2.4",
+      "kapitel": "K10",
+      "example": "Ich kann mich noch erinnern, dass wir im Park gespielt haben.",
+      "translation": "Parkta oynadigimizi hala hatirliyorum."
+    },
+    {
+      "phrase": "Die Hauptfigur ist ... / Man kann sich (nicht) mit ihr identifizieren, weil ...",
+      "meaning": "Ana karakter ... / Onunla ozdeslesebilir(sin/iz) cunku ... / The main character is ... / One can (not) identify with them because ...",
+      "category": "Werbespot beschreiben / Reklam Filmi Tarifi",
+      "level": "B2.4",
+      "kapitel": "K10",
+      "example": "Die Hauptfigur ist ein junger Mann. Man kann sich gut mit ihm identifizieren.",
+      "translation": "Ana karakter genc bir adam. Onunla kolayca ozdeslesebilirsiniz."
+    },
+    {
+      "phrase": "Als Zuschauer ist man gespannt, wie/warum ...",
+      "meaning": "Izleyici olarak merak ediyorsunuz nasil/neden ... / As a viewer one is curious how/why ...",
+      "category": "Werbespot beschreiben / Reklam Filmi Tarifi",
+      "level": "B2.4",
+      "kapitel": "K10",
+      "example": "Als Zuschauer ist man gespannt, wie die Geschichte endet.",
+      "translation": "Izleyici olarak hikayenin nasil bitecegini merak ediyorsunuz."
+    },
+    {
+      "phrase": "Ich bin ueberrascht, dass ...",
+      "meaning": "... olmasina sasirdim / I am surprised that ...",
+      "category": "Persoenliche Erfahrungen / Kisisel Deneyimler",
+      "level": "B2.4",
+      "kapitel": "K11",
+      "example": "Ich bin ueberrascht, dass so viele Leute zustimmen.",
+      "translation": "Bu kadar cok kisinin onaylamasina sasirdim."
+    },
+    {
+      "phrase": "Ich habe beschlossen, ...",
+      "meaning": "... yapmaya karar verdim / I have decided to ...",
+      "category": "Persoenliche Erfahrungen / Kisisel Deneyimler",
+      "level": "B2.4",
+      "kapitel": "K11",
+      "example": "Ich habe beschlossen, weniger Fleisch zu essen.",
+      "translation": "Daha az et yemeye karar verdim."
+    },
+    {
+      "phrase": "In meinem Leben spielt ... eine/keine grosse Rolle.",
+      "meaning": "Hayatimda ... buyuk/hicbir rol oynamiyor / In my life ... plays a big/no role.",
+      "category": "Persoenliche Erfahrungen / Kisisel Deneyimler",
+      "level": "B2.4",
+      "kapitel": "K11",
+      "example": "In meinem Leben spielt Sport eine grosse Rolle.",
+      "translation": "Hayatimda spor buyuk rol oynuyor."
+    },
+    {
+      "phrase": "Meines Erachtens ist es nicht in Ordnung, dass ...",
+      "meaning": "Kanaatime gore ... olmasi dogru degil / In my view it is not acceptable that ...",
+      "category": "Beschwerde / Sikayet",
+      "level": "B2.4",
+      "kapitel": "K11",
+      "example": "Meines Erachtens ist es nicht in Ordnung, dass die Lieferung so spaet kam.",
+      "translation": "Kanaatime gore teslimatim bu kadar gec gelmesi dogru degil."
+    },
+    {
+      "phrase": "Zu meinem Bedauern hat ... nicht meinen Erwartungen entsprochen.",
+      "meaning": "Maalesef ... beklentilerimi karsilamadi / To my regret ... did not meet my expectations.",
+      "category": "Beschwerde / Sikayet",
+      "level": "B2.4",
+      "kapitel": "K11",
+      "example": "Zu meinem Bedauern hat der Service nicht meinen Erwartungen entsprochen.",
+      "translation": "Maalesef hizmet beklentilerimi karsilamadi."
+    },
+    {
+      "phrase": "Deshalb moechte ich Sie auffordern, ...",
+      "meaning": "Bu nedenle sizden ... yapmanizi talep ediyorum / Therefore I would like to ask you to ...",
+      "category": "Beschwerde / Sikayet",
+      "level": "B2.4",
+      "kapitel": "K11",
+      "example": "Deshalb moechte ich Sie auffordern, den Betrag zu erstatten.",
+      "translation": "Bu nedenle sizden tutari iade etmenizi talep ediyorum."
+    },
+    {
+      "phrase": "Ich wuerde Ihnen gern anbieten, dass ...",
+      "meaning": "Size ... onerebilirim / I would like to offer you that ...",
+      "category": "Beschwerde / Sikayet",
+      "level": "B2.4",
+      "kapitel": "K11",
+      "example": "Ich wuerde Ihnen gern anbieten, dass wir einen Ersatz schicken.",
+      "translation": "Size yedek bir urun gondermemizi onerebilirim."
+    },
+    {
+      "phrase": "Ich habe die Erfahrung gemacht, dass ...",
+      "meaning": "... olduguna dair deneyimim var / I have experienced that ...",
+      "category": "Persoenliche Ansichten / Kisisel Gorusler",
+      "level": "B2.4",
+      "kapitel": "K11",
+      "example": "Ich habe die Erfahrung gemacht, dass fruehes Aufstehen produktiver ist.",
+      "translation": "Erken kalkmanin daha verimli olduguna dair deneyimim var."
+    },
+    {
+      "phrase": "Nach meiner Erfahrung ...",
+      "meaning": "Deneyimime gore ... / In my experience ...",
+      "category": "Persoenliche Ansichten / Kisisel Gorusler",
+      "level": "B2.4",
+      "kapitel": "K11",
+      "example": "Nach meiner Erfahrung ist Teamarbeit der Schluessel zum Erfolg.",
+      "translation": "Deneyimime gore takim calismasi basarinin anahtari."
+    },
+    {
+      "phrase": "... wurde ... von ... erbaut.",
+      "meaning": "... tarafindan insa edildi / ... was built by ...",
+      "category": "Gebaeude vorstellen / Bina Tanitma",
+      "level": "B2.4",
+      "kapitel": "K12",
+      "example": "Das Schloss wurde 1870 von Koenig Ludwig erbaut.",
+      "translation": "Sato 1870'te Kral Ludwig tarafindan insa edildi."
+    },
+    {
+      "phrase": "... diente als ... / ... wurde als ... genutzt.",
+      "meaning": "... olarak hizmet etti / kullanildi / ... served as ... / was used as ...",
+      "category": "Gebaeude vorstellen / Bina Tanitma",
+      "level": "B2.4",
+      "kapitel": "K12",
+      "example": "Das Gebaeude diente als Kaserne.",
+      "translation": "Bina kisla olarak hizmet etti."
+    },
+    {
+      "phrase": "... entwickelte sich zu ...",
+      "meaning": "... haline geldi / ... developed into ...",
+      "category": "Gebaeude vorstellen / Bina Tanitma",
+      "level": "B2.4",
+      "kapitel": "K12",
+      "example": "Der kleine Ort entwickelte sich zu einer modernen Stadt.",
+      "translation": "Kucuk kasaba modern bir sehir haline geldi."
+    },
+    {
+      "phrase": "... wurde (im Jahr ...) stillgelegt/eingestellt.",
+      "meaning": "... (yilinda) kapatildi/durduruldu / ... was decommissioned/discontinued (in the year ...).",
+      "category": "Gebaeude vorstellen / Bina Tanitma",
+      "level": "B2.4",
+      "kapitel": "K12",
+      "example": "Die Fabrik wurde im Jahr 1990 stillgelegt.",
+      "translation": "Fabrika 1990 yilinda kapatildi."
+    },
+    {
+      "phrase": "Das Ziel war/ist, ...",
+      "meaning": "Amac ... idi/dir / The goal was/is ...",
+      "category": "Gebaeude vorstellen / Bina Tanitma",
+      "level": "B2.4",
+      "kapitel": "K12",
+      "example": "Das Ziel war, den historischen Charakter zu erhalten.",
+      "translation": "Amac tarihi karakteri korumakti."
+    },
+    {
+      "phrase": "... gelten als typisch fuer ...",
+      "meaning": "... icin tipik sayilir / ... are considered typical of ...",
+      "category": "Historische Entwicklungen / Tarihi Gelismeler",
+      "level": "B2.4",
+      "kapitel": "K12",
+      "example": "Fachwerkhaeuser gelten als typisch fuer diese Region.",
+      "translation": "Ahsap karkas evler bu bolge icin tipik sayilir."
+    },
+    {
+      "phrase": "... hat/haben ... gepraegt.",
+      "meaning": "... etkisi altinda kalmistir / ... has/have shaped ...",
+      "category": "Historische Entwicklungen / Tarihi Gelismeler",
+      "level": "B2.4",
+      "kapitel": "K12",
+      "example": "Die Industrie hat die Region stark gepraegt.",
+      "translation": "Sanayi bolgeyi guclu bir sekilde etkilemistir."
+    },
+    {
+      "phrase": "Wo frueher ... ist heute ...",
+      "meaning": "Eskiden ... olan yerde bugun ... var / Where formerly ... today there is ...",
+      "category": "Historische Entwicklungen / Tarihi Gelismeler",
+      "level": "B2.4",
+      "kapitel": "K12",
+      "example": "Wo frueher Kohle abgebaut wurde, ist heute ein Park.",
+      "translation": "Eskiden komur cikarilan yerde bugun bir park var."
+    },
+    {
+      "phrase": "... hat zur Folge, dass ...",
+      "meaning": "... sonucunda ... / ... has the consequence that ...",
+      "category": "Gruende und Folgen / Nedenler ve Sonuclar",
+      "level": "B2.4",
+      "kapitel": "K12",
+      "example": "Der Strukturwandel hat zur Folge, dass neue Arbeitsplaetze entstehen.",
+      "translation": "Yapisal degisim yeni is alanlarinin olusmasina yol aciyor."
+    },
+    {
+      "phrase": "Deshalb ... / Daher/Darum ...",
+      "meaning": "Bu nedenle ... / Therefore ...",
+      "category": "Gruende und Folgen / Nedenler ve Sonuclar",
+      "level": "B2.4",
+      "kapitel": "K12",
+      "example": "Daher muessen neue Loesungen gefunden werden.",
+      "translation": "Bu nedenle yeni cozumler bulunmali."
+    },
+    {
+      "phrase": "Der/Ein Grund dafuer ist/sind ...",
+      "meaning": "Bunun nedeni ... / The/A reason for this is ...",
+      "category": "Gruende und Folgen / Nedenler ve Sonuclar",
+      "level": "B2.4",
+      "kapitel": "K12",
+      "example": "Ein Grund dafuer ist die steigende Nachfrage.",
+      "translation": "Bunun bir nedeni artan talep."
+    },
+    {
+      "phrase": "Ueber das Thema ... wird heutzutage viel diskutiert, denn ...",
+      "meaning": "... konusu bugunlerde cok tartisiliyor cunku ... / The topic ... is much discussed nowadays because ...",
+      "category": "Kommentar schreiben / Yorum Yazma",
+      "level": "C1.1",
+      "kapitel": "K1",
+      "example": "Ueber das Thema KI wird heutzutage viel diskutiert, denn sie veraendert alles.",
+      "translation": "YZ konusu bugunlerde cok tartisiliyor cunku her seyi degistiriyor."
+    },
+    {
+      "phrase": "Viele Menschen sind der Ansicht, dass ...",
+      "meaning": "Bircok insan ... gorusunde / Many people are of the view that ...",
+      "category": "Kommentar schreiben / Yorum Yazma",
+      "level": "C1.1",
+      "kapitel": "K1",
+      "example": "Viele Menschen sind der Ansicht, dass Technologie mehr Vorteile bringt.",
+      "translation": "Bircok insan teknolojinin daha fazla avantaj getirdigi gorusunde."
+    },
+    {
+      "phrase": "Man muss sich fragen, ...",
+      "meaning": "Sormak gerekiyor ... / One has to ask ...",
+      "category": "Kommentar schreiben / Yorum Yazma",
+      "level": "C1.1",
+      "kapitel": "K1",
+      "example": "Man muss sich fragen, ob dieser Trend nachhaltig ist.",
+      "translation": "Bu trendin surdurulebilir olup olmadigini sormak gerekiyor."
+    },
+    {
+      "phrase": "Ein gutes Beispiel dafuer ist ...",
+      "meaning": "Bunun iyi bir ornegi ... / A good example of this is ...",
+      "category": "Kommentar schreiben / Yorum Yazma",
+      "level": "C1.1",
+      "kapitel": "K1",
+      "example": "Ein gutes Beispiel dafuer ist die Energiewende in Deutschland.",
+      "translation": "Bunun iyi bir ornegi Almanya'daki enerji donusumu."
+    },
+    {
+      "phrase": "Zusammenfassend laesst sich sagen ...",
+      "meaning": "Ozetle soylecek olursak ... / In summary it can be said ...",
+      "category": "Kommentar schreiben / Yorum Yazma",
+      "level": "C1.1",
+      "kapitel": "K1",
+      "example": "Zusammenfassend laesst sich sagen, dass beide Seiten gute Argumente haben.",
+      "translation": "Ozetle, her iki tarafin da iyi argumanlari var."
+    },
+    {
+      "phrase": "Die Grafik informiert ueber / beschreibt / stellt dar ...",
+      "meaning": "Grafik ... hakkinda bilgi verir / tanimlar / gosterir / The graph informs about / describes / depicts ...",
+      "category": "Grafik beschreiben / Grafik Tarifi",
+      "level": "C1.1",
+      "kapitel": "K1",
+      "example": "Die Grafik stellt den Energieverbrauch verschiedener Laender dar.",
+      "translation": "Grafik farkli ulkelerin enerji tuketimini gosteriyor."
+    },
+    {
+      "phrase": "Die Zahl der ... ist gesunken/gestiegen.",
+      "meaning": "... sayisi dustu/yukseldi / The number of ... has decreased/increased.",
+      "category": "Grafik beschreiben / Grafik Tarifi",
+      "level": "C1.1",
+      "kapitel": "K1",
+      "example": "Die Zahl der Arbeitslosen ist im letzten Jahr gesunken.",
+      "translation": "Issiz sayisi gecen yil dustu."
+    },
+    {
+      "phrase": "Der Anteil der ... hat abgenommen/zugenommen.",
+      "meaning": "...'in payi azaldi/artti / The share of ... has decreased/increased.",
+      "category": "Grafik beschreiben / Grafik Tarifi",
+      "level": "C1.1",
+      "kapitel": "K1",
+      "example": "Der Anteil der erneuerbaren Energien hat zugenommen.",
+      "translation": "Yenilenebilir enerjilerin payi artti."
+    },
+    {
+      "phrase": "Die meisten / Die wenigsten ...",
+      "meaning": "Cogunluk / En az ... / The most / The fewest ...",
+      "category": "Grafik beschreiben / Grafik Tarifi",
+      "level": "C1.1",
+      "kapitel": "K1",
+      "example": "Die meisten Befragten bevorzugen das Homeoffice.",
+      "translation": "Ankete katilanlarin cogunlugu evden calismayi tercih ediyor."
+    },
+    {
+      "phrase": "Ich musste leider feststellen, dass ...",
+      "meaning": "Maalesef ... oldugunu tespit ettim / Unfortunately I had to realize that ...",
+      "category": "Beschwerde schreiben / Sikayet Yazma",
+      "level": "C1.1",
+      "kapitel": "K2",
+      "example": "Ich musste leider feststellen, dass die Ware beschaedigt war.",
+      "translation": "Maalesef malin hasarli oldugunu tespit ettim."
+    },
+    {
+      "phrase": "Mir ist aufgefallen, dass ...",
+      "meaning": "... oldugunu fark ettim / I have noticed that ...",
+      "category": "Beschwerde schreiben / Sikayet Yazma",
+      "level": "C1.1",
+      "kapitel": "K2",
+      "example": "Mir ist aufgefallen, dass der Betrag falsch berechnet wurde.",
+      "translation": "Tutarin yanlis hesaplanddigini fark ettim."
+    },
+    {
+      "phrase": "Sie verstehen sicher, dass ich ...",
+      "meaning": "Eminim anlayabilirsiniz ki ben ... / You surely understand that I ...",
+      "category": "Beschwerde schreiben / Sikayet Yazma",
+      "level": "C1.1",
+      "kapitel": "K2",
+      "example": "Sie verstehen sicher, dass ich eine Erstattung erwarte.",
+      "translation": "Eminim bir geri odeme bekledigimi anlayabilirsiniz."
+    },
+    {
+      "phrase": "Aus meiner Sicht ist es ...",
+      "meaning": "Benim bakis acimdan ... / From my perspective it is ...",
+      "category": "Meinung auessern / Gorus Bildirmek",
+      "level": "C1.1",
+      "kapitel": "K2",
+      "example": "Aus meiner Sicht ist es notwendig, die Regeln zu aendern.",
+      "translation": "Benim bakis acimdan kurallarin degistirilmesi gerekli."
+    },
+    {
+      "phrase": "Ich bin der Auffassung, dass ...",
+      "meaning": "... gorusundeyim / I am of the opinion that ...",
+      "category": "Meinung auessern / Gorus Bildirmek",
+      "level": "C1.1",
+      "kapitel": "K2",
+      "example": "Ich bin der Auffassung, dass Datenschutz wichtiger wird.",
+      "translation": "Veri korumanin daha onemli hale geldigi gorusundeyim."
+    },
+    {
+      "phrase": "Man darf nicht vergessen, dass ...",
+      "meaning": "Unutulmamali ki ... / One must not forget that ...",
+      "category": "Meinung auessern / Gorus Bildirmek",
+      "level": "C1.1",
+      "kapitel": "K2",
+      "example": "Man darf nicht vergessen, dass nicht alle davon profitieren.",
+      "translation": "Herkesin bundan fayda saglayamayacagi unutulmamali."
+    },
+    {
+      "phrase": "Ich bitte Sie daher, ...",
+      "meaning": "Bu nedenle sizden ... rica ediyorum / I therefore ask you to ...",
+      "category": "Formeller Brief / Resmi Mektup",
+      "level": "C1.1",
+      "kapitel": "K2",
+      "example": "Ich bitte Sie daher, meinen Antrag erneut zu pruefen.",
+      "translation": "Bu nedenle sizden basvurumu tekrar incelemenizi rica ediyorum."
+    },
+    {
+      "phrase": "Mit freundlichen Gruessen",
+      "meaning": "Saygilarimla / Yours sincerely",
+      "category": "Formeller Brief / Resmi Mektup",
+      "level": "C1.1",
+      "kapitel": "K2",
+      "example": "Mit freundlichen Gruessen, Max Mustermann",
+      "translation": "Saygilarimla, Max Mustermann"
+    },
+    {
+      "phrase": "In dem/einem Artikel stand, dass ...",
+      "meaning": "Makalede ... yazmaktaydi / In the article it said that ...",
+      "category": "Text zusammenfassen / Metin Ozetleme",
+      "level": "C1.1",
+      "kapitel": "K3",
+      "example": "In dem Artikel stand, dass die Kosten gestiegen sind.",
+      "translation": "Makalede maliyetlerin arttigini yazmaktaydi."
+    },
+    {
+      "phrase": "Es ist wohl/anscheinend so, dass ...",
+      "meaning": "Gorunuse gore ... / It seems/apparently that ...",
+      "category": "Text zusammenfassen / Metin Ozetleme",
+      "level": "C1.1",
+      "kapitel": "K3",
+      "example": "Es ist anscheinend so, dass die Massnahmen wirken.",
+      "translation": "Gorunuse gore onlemler ise yariyor."
+    },
+    {
+      "phrase": "Ich meine mich zu erinnern, dass ...",
+      "meaning": "... oldugunu hatirladigimi saniyorum / I seem to remember that ...",
+      "category": "Text zusammenfassen / Metin Ozetleme",
+      "level": "C1.1",
+      "kapitel": "K3",
+      "example": "Ich meine mich zu erinnern, dass im Artikel auch Gegenargumente standen.",
+      "translation": "Makalede karsi argumanlarin da oldugunu hatirladigimi saniyorum."
+    },
+    {
+      "phrase": "Ausserdem kommt hinzu, dass ...",
+      "meaning": "Ayrica su da var ki ... / In addition there is the fact that ...",
+      "category": "Differenzierte Stellungnahme / Ayrintili Tavir Alma",
+      "level": "C1.1",
+      "kapitel": "K3",
+      "example": "Ausserdem kommt hinzu, dass die Infrastruktur verbessert werden muss.",
+      "translation": "Ayrica altyapinin iyilestirilmesi gerektigi de var."
+    },
+    {
+      "phrase": "Hinzu kommt, dass ...",
+      "meaning": "Buna ek olarak ... / In addition ...",
+      "category": "Differenzierte Stellungnahme / Ayrintili Tavir Alma",
+      "level": "C1.1",
+      "kapitel": "K3",
+      "example": "Hinzu kommt, dass die Nachfrage staendig waechst.",
+      "translation": "Buna ek olarak talep surekli artiyor."
+    },
+    {
+      "phrase": "Folglich ...",
+      "meaning": "Dolayisiyla ... / Consequently ...",
+      "category": "Differenzierte Stellungnahme / Ayrintili Tavir Alma",
+      "level": "C1.1",
+      "kapitel": "K3",
+      "example": "Folglich muessen wir unsere Strategie aendern.",
+      "translation": "Dolayisiyla stratejimizi degistirmemiz gerekiyor."
+    },
+    {
+      "phrase": "Meiner Einschaetzung nach ...",
+      "meaning": "Degerlendirmeme gore ... / In my assessment ...",
+      "category": "Differenzierte Stellungnahme / Ayrintili Tavir Alma",
+      "level": "C1.1",
+      "kapitel": "K3",
+      "example": "Meiner Einschaetzung nach wird sich die Lage verbessern.",
+      "translation": "Degerlendirmeme gore durum iyilesecek."
+    },
+    {
+      "phrase": "Ich kann dir das gerne erklaeren: ...",
+      "meaning": "Bunu sana aciklayabilirim: ... / I can gladly explain this to you: ...",
+      "category": "Informationen wiedergeben / Bilgi Aktarma",
+      "level": "C1.1",
+      "kapitel": "K3",
+      "example": "Ich kann dir das gerne erklaeren: Es geht um eine neue Regelung.",
+      "translation": "Bunu sana aciklayabilirim: Yeni bir duzenleme hakkinda."
+    },
+    {
+      "phrase": "Ich habe es so verstanden, dass ...",
+      "meaning": "Ben soyle anladim ki ... / I understood it as ...",
+      "category": "Informationen wiedergeben / Bilgi Aktarma",
+      "level": "C1.1",
+      "kapitel": "K3",
+      "example": "Ich habe es so verstanden, dass die Frist verlaengert wurde.",
+      "translation": "Ben surenin uzatildigini anladim."
+    },
+    {
+      "phrase": "Es bringt wenig, wenn ...",
+      "meaning": "... yapilirsa pek ise yaramaz / It doesn't help much if ...",
+      "category": "Pro- und Contra-Argumente / Lehte ve Aleyhte Argumanlar",
+      "level": "C1.1",
+      "kapitel": "K4",
+      "example": "Es bringt wenig, wenn man nur die Symptome behandelt.",
+      "translation": "Sadece belirtileri tedavi etmek pek ise yaramaz."
+    },
+    {
+      "phrase": "Ich glaube ganz fest daran, dass ...",
+      "meaning": "... olduguna kesinlikle inaniyorum / I firmly believe that ...",
+      "category": "Ueberzeugung ausdruecken / Inanc Ifade Etme",
+      "level": "C1.1",
+      "kapitel": "K4",
+      "example": "Ich glaube ganz fest daran, dass Bildung die Welt veraendern kann.",
+      "translation": "Egitimin dunyayi degistirebilecegine kesinlikle inaniyorum."
+    },
+    {
+      "phrase": "Fuer mich ist klar, dass ...",
+      "meaning": "Benim icin acik ki ... / For me it is clear that ...",
+      "category": "Ueberzeugung ausdruecken / Inanc Ifade Etme",
+      "level": "C1.1",
+      "kapitel": "K4",
+      "example": "Fuer mich ist klar, dass wir handeln muessen.",
+      "translation": "Benim icin harekete gecmemiz gerektigi acik."
+    },
+    {
+      "phrase": "Ich habe so meine Zweifel, dass ...",
+      "meaning": "... olduguna dair suphelerim var / I have my doubts that ...",
+      "category": "Ueberzeugung ausdruecken / Inanc Ifade Etme",
+      "level": "C1.1",
+      "kapitel": "K4",
+      "example": "Ich habe so meine Zweifel, dass das Projekt erfolgreich sein wird.",
+      "translation": "Projenin basarili olacagina dair suphelerim var."
+    },
+    {
+      "phrase": "Ich finde es beunruhigend, dass ...",
+      "meaning": "... olmasini endise verici buluyorum / I find it worrying that ...",
+      "category": "Ueberzeugung ausdruecken / Inanc Ifade Etme",
+      "level": "C1.1",
+      "kapitel": "K4",
+      "example": "Ich finde es beunruhigend, dass die Umweltverschmutzung zunimmt.",
+      "translation": "Cevre kirliligin artmasini endise verici buluyorum."
+    },
+    {
+      "phrase": "Eine grosse Chance fuer uns wird sein, dass ...",
+      "meaning": "Bizim icin buyuk bir firsat ... olacak / A great opportunity for us will be that ...",
+      "category": "Ueberzeugung ausdruecken / Inanc Ifade Etme",
+      "level": "C1.1",
+      "kapitel": "K4",
+      "example": "Eine grosse Chance wird sein, dass neue Technologien entstehen.",
+      "translation": "Buyuk bir firsat yeni teknolojilerin ortaya cikmasi olacak."
+    },
+    {
+      "phrase": "Zwar ..., aber ...",
+      "meaning": "Gerci ..., ama ... / Admittedly ..., but ...",
+      "category": "Etwas kommentieren / Yorum Yapmak",
+      "level": "C1.1",
+      "kapitel": "K5",
+      "example": "Zwar ist das Projekt teuer, aber es lohnt sich.",
+      "translation": "Gerci proje pahali, ama buna deger."
+    },
+    {
+      "phrase": "Das mag schon ... sein, trotzdem ...",
+      "meaning": "Bu ... olabilir, yine de ... / That may well be ..., still ...",
+      "category": "Etwas kommentieren / Yorum Yapmak",
+      "level": "C1.1",
+      "kapitel": "K5",
+      "example": "Das mag schon richtig sein, trotzdem sehe ich Probleme.",
+      "translation": "Bu dogru olabilir, yine de sorunlar goruyorum."
+    },
+    {
+      "phrase": "In meinen Augen ...",
+      "meaning": "Benim gozumde ... / In my eyes ...",
+      "category": "Etwas kommentieren / Yorum Yapmak",
+      "level": "C1.1",
+      "kapitel": "K5",
+      "example": "In meinen Augen ist das die beste Loesung.",
+      "translation": "Benim gozumde bu en iyi cozum."
+    },
+    {
+      "phrase": "Ich denke, es ist unvermeidbar, dass ...",
+      "meaning": "Bence kacinilmaz ki ... / I think it is inevitable that ...",
+      "category": "Stellung beziehen / Pozisyon Almak",
+      "level": "C1.1",
+      "kapitel": "K5",
+      "example": "Ich denke, es ist unvermeidbar, dass sich die Arbeitswelt veraendert.",
+      "translation": "Bence is dunyasinin degismesi kacinilmaz."
+    },
+    {
+      "phrase": "Ich waere dafuer, ...",
+      "meaning": "Ben ... taraftariyim / I would be in favor of ...",
+      "category": "Stellung beziehen / Pozisyon Almak",
+      "level": "C1.1",
+      "kapitel": "K5",
+      "example": "Ich waere dafuer, mehr in Bildung zu investieren.",
+      "translation": "Ben egitime daha fazla yatirim yapmaktan yanayim."
+    },
+    {
+      "phrase": "Es ergibt Sinn, ...",
+      "meaning": "... mantikli / It makes sense to ...",
+      "category": "Stellung beziehen / Pozisyon Almak",
+      "level": "C1.1",
+      "kapitel": "K5",
+      "example": "Es ergibt Sinn, fruehzeitig zu planen.",
+      "translation": "Erken planlamak mantikli."
+    },
+    {
+      "phrase": "Es kann nicht sein, dass ...",
+      "meaning": "... olmasi kabul edilemez / It cannot be that ...",
+      "category": "Stellung beziehen / Pozisyon Almak",
+      "level": "C1.1",
+      "kapitel": "K5",
+      "example": "Es kann nicht sein, dass Kinder keinen Zugang zu Bildung haben.",
+      "translation": "Cocuklarin egitime erisiminin olmamasi kabul edilemez."
+    },
+    {
+      "phrase": "Das Ziel sollte sein, dass ...",
+      "meaning": "Hedef ... olmali / The goal should be that ...",
+      "category": "Stellung beziehen / Pozisyon Almak",
+      "level": "C1.1",
+      "kapitel": "K5",
+      "example": "Das Ziel sollte sein, dass alle Menschen gleiche Chancen haben.",
+      "translation": "Hedef tum insanlarin esit firsatlara sahip olmasi olmali."
+    },
+    {
+      "phrase": "Ich stehe ... kritisch gegenueber.",
+      "meaning": "...'e elestirel yaklasiyorum / I take a critical stance towards ...",
+      "category": "Meinung ausdruecken / Gorus Ifade Etme",
+      "level": "C1.1",
+      "kapitel": "K6",
+      "example": "Ich stehe sozialen Medien kritisch gegenueber.",
+      "translation": "Sosyal medyaya elestirel yaklasiyorum."
+    },
+    {
+      "phrase": "Ich muss sagen/gestehen/zugeben, dass ...",
+      "meaning": "Soylemem/itiraf etmem/kabul etmem gerekir ki ... / I must say/confess/admit that ...",
+      "category": "Meinung ausdruecken / Gorus Ifade Etme",
+      "level": "C1.1",
+      "kapitel": "K6",
+      "example": "Ich muss zugeben, dass ich meine Meinung geaendert habe.",
+      "translation": "Fikrimi degistirdigimi kabul etmeliyim."
+    },
+    {
+      "phrase": "... spricht mich an / (ueberhaupt) nicht an.",
+      "meaning": "... hosuma gidiyor / (hic) hosuma gitmiyor / ... appeals to me / doesn't appeal to me (at all).",
+      "category": "Eigenes Empfinden / Kisisel Duygu",
+      "level": "C1.1",
+      "kapitel": "K6",
+      "example": "Diese Art von Werbung spricht mich ueberhaupt nicht an.",
+      "translation": "Bu tur reklam hic hosuma gitmiyor."
+    },
+    {
+      "phrase": "Mir ist bewusst, dass ...",
+      "meaning": "... oldugunu biliyorum/farkindayim / I am aware that ...",
+      "category": "Eigenes Empfinden / Kisisel Duygu",
+      "level": "C1.1",
+      "kapitel": "K6",
+      "example": "Mir ist bewusst, dass nicht jeder diese Meinung teilt.",
+      "translation": "Herkesin bu goerusu paylasmayabileceginin farkindayim."
+    },
+    {
+      "phrase": "... finde ich nervig/aufdringlich/ueberzeugend.",
+      "meaning": "... sinir bozucu/israrci/ikna edici buluyorum / I find ... annoying/intrusive/convincing.",
+      "category": "Eigenes Empfinden / Kisisel Duygu",
+      "level": "C1.1",
+      "kapitel": "K6",
+      "example": "Pop-up-Werbung finde ich extrem nervig.",
+      "translation": "Acilir pencere reklamlarini son derece sinir bozucu buluyorum."
+    },
+    {
+      "phrase": "Ich finde, wir sollten ...",
+      "meaning": "Bence ... yapmaliyiz / I think we should ...",
+      "category": "Vorschlaege machen / Oneri Yapmak",
+      "level": "C1.1",
+      "kapitel": "K7",
+      "example": "Ich finde, wir sollten zuerst die Prioritaeten klaeren.",
+      "translation": "Bence once oncelikleri netlestirmeliyiz."
+    },
+    {
+      "phrase": "Was haeltst du / halten Sie davon, wenn ...?",
+      "meaning": "... olsa ne dersin/dersiniz? / What do you think if ...?",
+      "category": "Vorschlaege machen / Oneri Yapmak",
+      "level": "C1.1",
+      "kapitel": "K7",
+      "example": "Was halten Sie davon, wenn wir naechste Woche anfangen?",
+      "translation": "Gelecek hafta baslasak ne dersiniz?"
+    },
+    {
+      "phrase": "Wenn es nach mir ginge, wuerde ...",
+      "meaning": "Bana kalsa ... yapardim / If it were up to me, I would ...",
+      "category": "Vorschlaege machen / Oneri Yapmak",
+      "level": "C1.1",
+      "kapitel": "K7",
+      "example": "Wenn es nach mir ginge, wuerde ich sofort anfangen.",
+      "translation": "Bana kalsa hemen baslardim."
+    },
+    {
+      "phrase": "Einverstanden, das ist ein guter Vorschlag.",
+      "meaning": "Kabul, bu iyi bir oneri / Agreed, that is a good suggestion.",
+      "category": "Sich einigen / Anlasmak",
+      "level": "C1.1",
+      "kapitel": "K7",
+      "example": "Einverstanden, das ist ein guter Vorschlag. Machen wir das so.",
+      "translation": "Kabul, bu iyi bir oneri. Oyle yapalim."
+    },
+    {
+      "phrase": "Das sehe ich anders.",
+      "meaning": "Ben farkli goruyorum / I see it differently.",
+      "category": "Vorschlaege machen / Oneri Yapmak",
+      "level": "C1.1",
+      "kapitel": "K7",
+      "example": "Das sehe ich anders. Ich glaube, wir brauchen mehr Zeit.",
+      "translation": "Ben farkli goruyorum. Bence daha fazla zamana ihtiyacimiz var."
+    },
+    {
+      "phrase": "Da bin ich nicht deiner/Ihrer Meinung.",
+      "meaning": "Bu konuda seninle/sizinle ayni fikirde degilim / I don't share your opinion on that.",
+      "category": "Vorschlaege machen / Oneri Yapmak",
+      "level": "C1.1",
+      "kapitel": "K7",
+      "example": "Da bin ich nicht Ihrer Meinung. Die Risiken sind zu gross.",
+      "translation": "Bu konuda sizinle ayni fikirde degilim. Riskler cok buyuk."
+    },
+    {
+      "phrase": "Es mag schon stimmen, dass ...",
+      "meaning": "... dogru olabilir / It may well be true that ...",
+      "category": "Realisierbarkeit / Gerceklestirilebilirlik",
+      "level": "C1.1",
+      "kapitel": "K7",
+      "example": "Es mag schon stimmen, dass es teuer ist.",
+      "translation": "Pahali oldugu dogru olabilir."
+    },
+    {
+      "phrase": "Ausschlaggebend ist ...",
+      "meaning": "Belirleyici olan ... / The decisive factor is ...",
+      "category": "Realisierbarkeit / Gerceklestirilebilirlik",
+      "level": "C1.1",
+      "kapitel": "K7",
+      "example": "Ausschlaggebend ist die Finanzierung des Projekts.",
+      "translation": "Belirleyici olan projenin finansmani."
+    },
+    {
+      "phrase": "Die Statistik/Grafik gibt Auskunft darueber, wie viele / was ...",
+      "meaning": "Istatistik/Grafik kac / ne ... hakkinda bilgi veriyor / The statistics/graph provides information about how many / what ...",
+      "category": "Grafik beschreiben / Grafik Tarifi",
+      "level": "C1.1",
+      "kapitel": "K7",
+      "example": "Die Grafik gibt Auskunft darueber, wie viele Menschen im Homeoffice arbeiten.",
+      "translation": "Grafik kac kisinin evden calistigina dair bilgi veriyor."
+    },
+    {
+      "phrase": "Der Statistik/Grafik ist zu entnehmen, dass ...",
+      "meaning": "Istatistikten/Grafikten ... cikarilmaktadir / From the statistics/graph it can be deduced that ...",
+      "category": "Grafik beschreiben / Grafik Tarifi",
+      "level": "C1.1",
+      "kapitel": "K7",
+      "example": "Der Grafik ist zu entnehmen, dass der Trend steigend ist.",
+      "translation": "Grafikten trendin artan oldugu cikarilmaktadir."
+    },
+    {
+      "phrase": "Den ersten/letzten Platz belegt ...",
+      "meaning": "Birinci/son sirayi ... aliyor / ... takes first/last place.",
+      "category": "Grafik beschreiben / Grafik Tarifi",
+      "level": "C1.1",
+      "kapitel": "K7",
+      "example": "Den ersten Platz belegt Schweden mit 95 Prozent.",
+      "translation": "Birinci sirayi yuzde 95 ile Isvec aliyor."
+    },
+    {
+      "phrase": "Ich finde es interessant, dass ...",
+      "meaning": "... olmasini ilginc buluyorum / I find it interesting that ...",
+      "category": "Grafik beschreiben / Grafik Tarifi",
+      "level": "C1.1",
+      "kapitel": "K7",
+      "example": "Ich finde es interessant, dass Deutschland auf Platz drei liegt.",
+      "translation": "Almanya'nin ucuncu sirada olmasini ilginc buluyorum."
+    },
+    {
+      "phrase": "Bei ... ist fuer mich/mir wichtig, ...",
+      "meaning": "... konusunda benim icin onemli olan ... / Regarding ... what is important to me is ...",
+      "category": "Meinung auessern / Gorus Bildirmek",
+      "level": "B2.3",
+      "kapitel": "K7",
+      "example": "Bei Design ist fuer mich Funktionalitaet wichtig.",
+      "translation": "Tasarimda benim icin islevsellik onemli."
+    },
+    {
+      "phrase": "Viel wichtiger (als ...) finde ich, ...",
+      "meaning": "(...'den) cok daha onemli buluyorum ... / I find much more important (than ...) ...",
+      "category": "Meinung auessern / Gorus Bildirmek",
+      "level": "B2.3",
+      "kapitel": "K7",
+      "example": "Viel wichtiger als das Aussehen finde ich die Qualitaet.",
+      "translation": "Gorunusten cok daha onemli buluyorum kaliteyi."
+    },
+    {
+      "phrase": "Anschliessend / Im Anschluss daran wird beschrieben, ...",
+      "meaning": "Ardindan ... tarif ediliyor / Subsequently it is described ...",
+      "category": "Zusammenfassung / Ozet Yapma",
+      "level": "B2.3",
+      "kapitel": "K7",
+      "example": "Anschliessend wird beschrieben, wie das Produkt getestet wurde.",
+      "translation": "Ardindan urunun nasil test edildigi tarif ediliyor."
+    },
+    {
+      "phrase": "Zu dem Thema bin ich der Meinung/Ansicht, dass ...",
+      "meaning": "Bu konu hakkinda ... gorusundeyim / On this topic I am of the opinion that ...",
+      "category": "Stellung nehmen / Tavir Almak",
+      "level": "B2.3",
+      "kapitel": "K7",
+      "example": "Zu dem Thema bin ich der Meinung, dass Nachhaltigkeit wichtig ist.",
+      "translation": "Bu konu hakkinda surdurulebilirligin onemli oldugu gorusundeyim."
+    },
+    {
+      "phrase": "Ich bitte fuer ... um Entschuldigung.",
+      "meaning": "... icin ozur dilerim / I apologize for ...",
+      "category": "Offizielle Nachrichten / Resmi Yazilar",
+      "level": "B2.3",
+      "kapitel": "K8",
+      "example": "Ich bitte fuer die Verspaetung um Entschuldigung.",
+      "translation": "Gecikme icin ozur dilerim."
+    },
+    {
+      "phrase": "Ich hoffe, Sie haben Verstaendnis fuer ...",
+      "meaning": "... icin anlayisiniz olmasini umuyorum / I hope you understand ...",
+      "category": "Offizielle Nachrichten / Resmi Yazilar",
+      "level": "B2.3",
+      "kapitel": "K8",
+      "example": "Ich hoffe, Sie haben Verstaendnis fuer die lange Wartezeit.",
+      "translation": "Uzun bekleme suresi icin anlayisiniz olmasini umuyorum."
+    },
+    {
+      "phrase": "Bitte haben Sie Verstaendnis ...",
+      "meaning": "Lutfen anlayis gosterin ... / Please be understanding ...",
+      "category": "Offizielle Nachrichten / Resmi Yazilar",
+      "level": "B2.3",
+      "kapitel": "K8",
+      "example": "Bitte haben Sie Verstaendnis, dass die Bearbeitung laenger dauert.",
+      "translation": "Islemin daha uzun surecegine lutfen anlayis gosterin."
+    },
+    {
+      "phrase": "Es ist verstaendlich, dass ...",
+      "meaning": "... anlasilan bir sey / It is understandable that ...",
+      "category": "Offizielle Nachrichten / Resmi Yazilar",
+      "level": "B2.3",
+      "kapitel": "K8",
+      "example": "Es ist verstaendlich, dass Sie veraergert sind.",
+      "translation": "Kizigin olmaniz anlasilan bir sey."
+    },
+    {
+      "phrase": "Ich wuerde es gut finden, wenn ...",
+      "meaning": "... olsa iyi olur / I would find it good if ...",
+      "category": "Offizielle Nachrichten / Resmi Yazilar",
+      "level": "B2.3",
+      "kapitel": "K8",
+      "example": "Ich wuerde es gut finden, wenn wir einen Kompromiss finden.",
+      "translation": "Bir uzlasma bulsak iyi olur."
+    },
+    {
+      "phrase": "Hier bei uns / in ...",
+      "meaning": "Burada bizde / ...'de / Here where we are / in ...",
+      "category": "Regelungen erklaeren / Kural Aciklamak",
+      "level": "B2.3",
+      "kapitel": "K8",
+      "example": "Hier bei uns in der Tuerkei ist die Regelung anders.",
+      "translation": "Burada bizde Turkiye'de duzenleme farkli."
+    },
+    {
+      "phrase": "Als Frau / Als Mann kann man in meinem Land ...",
+      "meaning": "Benim ulkemde kadin/erkek olarak ... / As a woman/man one can in my country ...",
+      "category": "Regelungen erklaeren / Kural Aciklamak",
+      "level": "B2.3",
+      "kapitel": "K8",
+      "example": "Als Frau kann man in meinem Land gut Karriere machen.",
+      "translation": "Benim ulkemde kadin olarak iyi kariyer yapilabilir."
+    },
+    {
+      "phrase": "Ich bewundere es, wenn/dass ...",
+      "meaning": "Takdir ediyorum ... / I admire it when/that ...",
+      "category": "Regelungen erklaeren / Kural Aciklamak",
+      "level": "B2.3",
+      "kapitel": "K8",
+      "example": "Ich bewundere es, wenn Frauen Beruf und Familie vereinbaren.",
+      "translation": "Kadinlarin is ve aileyi birlesirmesini takdir ediyorum."
+    },
+    {
+      "phrase": "Der Verein, der hinter dem Projekt steht, ...",
+      "meaning": "Projenin arkasindaki dernek ... / The association behind the project ...",
+      "category": "Projekte vorstellen / Proje Tanitma",
+      "level": "B2.3",
+      "kapitel": "K9",
+      "example": "Der Verein, der hinter dem Projekt steht, wurde 2010 gegruendet.",
+      "translation": "Projenin arkasindaki dernek 2010'da kuruldu."
+    },
+    {
+      "phrase": "Das Gebaeude wurde ... umgestaltet/umfunktioniert.",
+      "meaning": "Bina ...'ye donusturuldu / The building was redesigned/repurposed ...",
+      "category": "Projekte vorstellen / Proje Tanitma",
+      "level": "B2.3",
+      "kapitel": "K9",
+      "example": "Das Gebaeude wurde zu einem Kulturzentrum umfunktioniert.",
+      "translation": "Bina bir kultur merkezine donusturuldu."
+    },
+    {
+      "phrase": "Mir gefaellt besonders/unglaublich gut daran, ...",
+      "meaning": "Ozellikle hosuma giden ... / What I especially like about it is ...",
+      "category": "Projekte vorstellen / Proje Tanitma",
+      "level": "B2.3",
+      "kapitel": "K9",
+      "example": "Mir gefaellt besonders gut daran, dass es fuer alle offen ist.",
+      "translation": "Ozellikle hosuma giden herkese acik olmasi."
+    },
+    {
+      "phrase": "Diesen Ort wuerde ich sehr gerne mal besuchen, weil ...",
+      "meaning": "Bu yeri ziyaret etmek isterdim cunku ... / I would very much like to visit this place because ...",
+      "category": "Projekte vorstellen / Proje Tanitma",
+      "level": "B2.3",
+      "kapitel": "K9",
+      "example": "Diesen Ort wuerde ich gerne besuchen, weil er so einzigartig ist.",
+      "translation": "Bu yeri ziyaret etmek isterdim cunku cok essiz."
+    },
+    {
+      "phrase": "Ich kann nicht ganz nachvollziehen ...",
+      "meaning": "Tam olarak anlayamiyorum ... / I can't quite understand ...",
+      "category": "Meinung und Erwartung / Gorus ve Beklenti",
+      "level": "B2.3",
+      "kapitel": "K9",
+      "example": "Ich kann nicht ganz nachvollziehen, warum man das macht.",
+      "translation": "Bunun neden yapildigini tam olarak anlayamiyorum."
+    },
+    {
+      "phrase": "Beispielsweise ...",
+      "meaning": "Ornegin ... / For example ...",
+      "category": "Meinung und Erwartung / Gorus ve Beklenti",
+      "level": "B2.3",
+      "kapitel": "K9",
+      "example": "Beispielsweise koennten wir den Park besuchen.",
+      "translation": "Ornegin parki ziyaret edebiliriz."
+    },
+    {
+      "phrase": "Im Jahr ... wurde/n ... erbaut/gegruendet/...",
+      "meaning": "... yilinda insa edildi/kuruldu / In the year ... was built/founded",
+      "category": "UNESCO Welterbe / UNESCO Dunya Mirasi",
+      "level": "B2.3",
+      "kapitel": "K9",
+      "example": "Im Jahr 1248 wurde der Koelner Dom erbaut.",
+      "translation": "1248 yilinda Koln Katedrali insa edildi."
+    },
+    {
+      "phrase": "... gehoert seit dem Jahr ... zum UNESCO Welterbe.",
+      "meaning": "... yilindan beri UNESCO Dunya Mirasi'na aittir / ... has belonged to the UNESCO World Heritage since ...",
+      "category": "UNESCO Welterbe / UNESCO Dunya Mirasi",
+      "level": "B2.3",
+      "kapitel": "K9",
+      "example": "Die Altstadt gehoert seit 1987 zum UNESCO Welterbe.",
+      "translation": "Eski sehir 1987'den beri UNESCO Dunya Mirasi'na aittir."
+    },
+    {
+      "phrase": "Ich finde/fand es traurig/furchtbar, wenn ...",
+      "meaning": "... oldugunda uzucu/korkunc buluyorum / I find/found it sad/terrible when ...",
+      "category": "Gedanken und Gefuehle / Dusunce ve Duygular",
+      "level": "B2.4",
+      "kapitel": "K10",
+      "example": "Ich finde es furchtbar, wenn Kinder gemobbt werden.",
+      "translation": "Cocuklarin zorbaliga ugramasini korkunc buluyorum."
+    },
+    {
+      "phrase": "Am Hoehepunkt der Geschichte sieht man ...",
+      "meaning": "Hikayenin doruk noktasinda ... goruluyor / At the climax of the story one sees ...",
+      "category": "Werbespot beschreiben / Reklam Filmi Tarifi",
+      "level": "B2.4",
+      "kapitel": "K10",
+      "example": "Am Hoehepunkt der Geschichte sieht man die Ueberraschung.",
+      "translation": "Hikayenin doruk noktasinda surpriz goruluyor."
+    },
+    {
+      "phrase": "Der Film ist (k)ein gutes Beispiel fuer Storytelling, weil ...",
+      "meaning": "Film hikaye anlaticiligi icin iyi bir ornek(tir/degildir) cunku ... / The film is (not) a good example of storytelling because ...",
+      "category": "Werbespot beschreiben / Reklam Filmi Tarifi",
+      "level": "B2.4",
+      "kapitel": "K10",
+      "example": "Der Film ist ein gutes Beispiel fuer Storytelling, weil er Emotionen weckt.",
+      "translation": "Film hikaye anlaticiligi icin iyi bir ornek cunku duygulari harekete geciriyor."
+    },
+    {
+      "phrase": "... hat mich ueberrascht.",
+      "meaning": "... beni sasirtti / ... surprised me.",
+      "category": "Persoenliche Erfahrungen / Kisisel Deneyimler",
+      "level": "B2.4",
+      "kapitel": "K11",
+      "example": "Das Ergebnis hat mich ueberrascht.",
+      "translation": "Sonuc beni sasirtti."
+    },
+    {
+      "phrase": "Meine persoenliche Erfahrung ist, dass ...",
+      "meaning": "Kisisel deneyimim ... / My personal experience is that ...",
+      "category": "Persoenliche Erfahrungen / Kisisel Deneyimler",
+      "level": "B2.4",
+      "kapitel": "K11",
+      "example": "Meine persoenliche Erfahrung ist, dass Uebung den Meister macht.",
+      "translation": "Kisisel deneyimim, pratigin ustaligi getirdigi."
+    },
+    {
+      "phrase": "Aufgrund meiner Erfahrung mit ...",
+      "meaning": "... ile deneyimime dayanarak / Based on my experience with ...",
+      "category": "Persoenliche Erfahrungen / Kisisel Deneyimler",
+      "level": "B2.4",
+      "kapitel": "K11",
+      "example": "Aufgrund meiner Erfahrung mit Online-Kursen kann ich sagen, dass ...",
+      "translation": "Online kurslarla deneyimime dayanarak soyleyebilirim ki ..."
+    },
+    {
+      "phrase": "Ich war sehr enttaeuscht/unzufrieden mit ...",
+      "meaning": "...'den cok hayal kirikligina ugradim/memnun kalmadim / I was very disappointed/unsatisfied with ...",
+      "category": "Beschwerde / Sikayet",
+      "level": "B2.4",
+      "kapitel": "K11",
+      "example": "Ich war sehr unzufrieden mit der Lieferung.",
+      "translation": "Teslimatdan cok memnun kalmadim."
+    },
+    {
+      "phrase": "Das Problem war, dass ...",
+      "meaning": "Sorun su idi ki ... / The problem was that ...",
+      "category": "Beschwerde / Sikayet",
+      "level": "B2.4",
+      "kapitel": "K11",
+      "example": "Das Problem war, dass die Ware beschaedigt ankam.",
+      "translation": "Sorun malin hasarli gelmesiydi."
+    },
+    {
+      "phrase": "Ich halte ... fuer angebracht.",
+      "meaning": "...'i uygun buluyorum / I consider ... appropriate.",
+      "category": "Beschwerde / Sikayet",
+      "level": "B2.4",
+      "kapitel": "K11",
+      "example": "Ich halte eine Entschaedigung fuer angebracht.",
+      "translation": "Bir tazminati uygun buluyorum."
+    },
+    {
+      "phrase": "Wir koennten uns vielleicht auf Folgendes einigen: ...",
+      "meaning": "Belki su konuda anlasabiliriz: ... / We could perhaps agree on the following: ...",
+      "category": "Beschwerde / Sikayet",
+      "level": "B2.4",
+      "kapitel": "K11",
+      "example": "Wir koennten uns auf einen Preisnachlass einigen.",
+      "translation": "Bir indirim uzerinde anlasabiliriz."
+    },
+    {
+      "phrase": "Ich habe (manchmal) das Gefuehl, dass ...",
+      "meaning": "(Bazen) ... hissine kapiliyorum / I (sometimes) have the feeling that ...",
+      "category": "Persoenliche Ansichten / Kisisel Gorusler",
+      "level": "B2.4",
+      "kapitel": "K11",
+      "example": "Ich habe manchmal das Gefuehl, dass die Zeit zu schnell vergeht.",
+      "translation": "Bazen zamanin cok hizli gectigini hissediyorum."
+    },
+    {
+      "phrase": "... gruendete ...",
+      "meaning": "... kurdu / ... founded ...",
+      "category": "Gebaeude vorstellen / Bina Tanitma",
+      "level": "B2.4",
+      "kapitel": "K12",
+      "example": "Die Stadt gruendete ein Kulturzentrum.",
+      "translation": "Sehir bir kultur merkezi kurdu."
+    },
+    {
+      "phrase": "... wurde ... in Betrieb genommen.",
+      "meaning": "... faaliyete alindi / ... was put into operation.",
+      "category": "Gebaeude vorstellen / Bina Tanitma",
+      "level": "B2.4",
+      "kapitel": "K12",
+      "example": "Das Kraftwerk wurde 1960 in Betrieb genommen.",
+      "translation": "Santral 1960'ta faaliyete alindi."
+    },
+    {
+      "phrase": "... stand ... leer.",
+      "meaning": "... bos durdu / ... stood empty.",
+      "category": "Gebaeude vorstellen / Bina Tanitma",
+      "level": "B2.4",
+      "kapitel": "K12",
+      "example": "Das Gebaeude stand zehn Jahre lang leer.",
+      "translation": "Bina on yil boyunca bos durdu."
+    },
+    {
+      "phrase": "Die Umnutzung ist ein gutes Beispiel fuer ...",
+      "meaning": "Kullanim degisikligi ... icin iyi bir ornek / The repurposing is a good example of ...",
+      "category": "Gebaeude vorstellen / Bina Tanitma",
+      "level": "B2.4",
+      "kapitel": "K12",
+      "example": "Die Umnutzung ist ein gutes Beispiel fuer nachhaltiges Bauen.",
+      "translation": "Kullanim degisikligi surdurulebilir yapi icin iyi bir ornek."
+    },
+    {
+      "phrase": "... war der Grund fuer ...",
+      "meaning": "...'in nedeni ... idi / ... was the reason for ...",
+      "category": "Historische Entwicklungen / Tarihi Gelismeler",
+      "level": "B2.4",
+      "kapitel": "K12",
+      "example": "Die Industrialisierung war der Grund fuer den Bevoelkerungszuwachs.",
+      "translation": "Sanayilesme nufus artisinin nedeniydi."
+    },
+    {
+      "phrase": "Es wurde viel in ... investiert.",
+      "meaning": "...'a cok yatirim yapildi / A lot was invested in ...",
+      "category": "Historische Entwicklungen / Tarihi Gelismeler",
+      "level": "B2.4",
+      "kapitel": "K12",
+      "example": "Es wurde viel in die Infrastruktur investiert.",
+      "translation": "Altyapiya cok yatirim yapildi."
+    },
+    {
+      "phrase": "..., sodass ...",
+      "meaning": "..., boylece ... / ..., so that ...",
+      "category": "Gruende und Folgen / Nedenler ve Sonuclar",
+      "level": "B2.4",
+      "kapitel": "K12",
+      "example": "Die Nachfrage stieg, sodass neue Wohnungen gebaut wurden.",
+      "translation": "Talep artti, boylece yeni daireler insa edildi."
+    },
+    {
+      "phrase": "Das Thema meines Kommentars lautet ...",
+      "meaning": "Yorumumun konusu ... / The topic of my comment is ...",
+      "category": "Kommentar schreiben / Yorum Yazma",
+      "level": "C1.1",
+      "kapitel": "K1",
+      "example": "Das Thema meines Kommentars lautet 'Digitalisierung in der Schule'.",
+      "translation": "Yorumumun konusu 'Okulda Dijitallesme'."
+    },
+    {
+      "phrase": "Heutzutage ist es ueblich, ...",
+      "meaning": "Gunumuzde ... yaygin / Nowadays it is common to ...",
+      "category": "Kommentar schreiben / Yorum Yazma",
+      "level": "C1.1",
+      "kapitel": "K1",
+      "example": "Heutzutage ist es ueblich, online einzukaufen.",
+      "translation": "Gunumuzde internetten alisveris yapmak yaygin."
+    },
+    {
+      "phrase": "Folgendes Beispiel verdeutlicht ...",
+      "meaning": "Su ornek ... acikliyor / The following example illustrates ...",
+      "category": "Kommentar schreiben / Yorum Yazma",
+      "level": "C1.1",
+      "kapitel": "K1",
+      "example": "Folgendes Beispiel verdeutlicht die Problematik.",
+      "translation": "Su ornek sorunu acikliyor."
+    },
+    {
+      "phrase": "In der Grafik geht es darum ...",
+      "meaning": "Grafikte konu ... / The graph is about ...",
+      "category": "Grafik beschreiben / Grafik Tarifi",
+      "level": "C1.1",
+      "kapitel": "K1",
+      "example": "In der Grafik geht es darum, wie viele Menschen Fahrrad fahren.",
+      "translation": "Grafikte kac kisinin bisiklet surdugu ele aliniyor."
+    },
+    {
+      "phrase": "Die Haelfte / Ein Drittel / Ein Viertel der Befragten gibt an ...",
+      "meaning": "Ankete katilanlarin yarisi/ucte biri/dortte biri ... belirtiyor / Half/a third/a quarter of respondents indicate ...",
+      "category": "Grafik beschreiben / Grafik Tarifi",
+      "level": "C1.1",
+      "kapitel": "K1",
+      "example": "Ein Drittel der Befragten gibt an, taeglich Sport zu treiben.",
+      "translation": "Ankete katilanlarin ucte biri her gun spor yaptigini belirtiyor."
+    },
+    {
+      "phrase": "Im Unterschied / Im Gegensatz zu ...",
+      "meaning": "...'in aksine / In contrast to ...",
+      "category": "Grafik beschreiben / Grafik Tarifi",
+      "level": "C1.1",
+      "kapitel": "K1",
+      "example": "Im Gegensatz zu Maennern bevorzugen Frauen Online-Shopping.",
+      "translation": "Erkeklerin aksine kadinlar online alisverisi tercih ediyor."
+    },
+    {
+      "phrase": "Ein entscheidender Vorteil/Nachteil ist ...",
+      "meaning": "Belirleyici bir avantaj/dezavantaj ... / A decisive advantage/disadvantage is ...",
+      "category": "Kommentar schreiben / Yorum Yazma",
+      "level": "C1.1",
+      "kapitel": "K1",
+      "example": "Ein entscheidender Vorteil ist die Flexibilitaet.",
+      "translation": "Belirleyici bir avantaj esneklik."
+    },
+    {
+      "phrase": "Eine wichtige Rolle spielt dabei ...",
+      "meaning": "Bu konuda onemli bir rol oynayan ... / An important role is played by ...",
+      "category": "Meinung auessern / Gorus Bildirmek",
+      "level": "C1.1",
+      "kapitel": "K2",
+      "example": "Eine wichtige Rolle spielt dabei die Kommunikation.",
+      "translation": "Bu konuda onemli bir rol oynayan iletisim."
+    },
+    {
+      "phrase": "In Erwartung Ihrer Antwort verbleibe ich ...",
+      "meaning": "Cevabinizi bekleyerek kaliyorum ... / In anticipation of your reply I remain ...",
+      "category": "Formeller Brief / Resmi Mektup",
+      "level": "C1.1",
+      "kapitel": "K2",
+      "example": "In Erwartung Ihrer baldigen Antwort verbleibe ich mit freundlichen Gruessen.",
+      "translation": "Yakin cevabinizi bekleyerek saygilarimla kaliyorum."
+    },
+    {
+      "phrase": "Ich habe gelesen, dass ...",
+      "meaning": "... oldugunu okudum / I have read that ...",
+      "category": "Text zusammenfassen / Metin Ozetleme",
+      "level": "C1.1",
+      "kapitel": "K3",
+      "example": "Ich habe gelesen, dass die Kosten gestiegen sind.",
+      "translation": "Maliyetlerin arttigini okudum."
+    },
+    {
+      "phrase": "Wenn ich es richtig verstanden habe, dann ...",
+      "meaning": "Dogru anladiysam ... / If I understood correctly, then ...",
+      "category": "Text zusammenfassen / Metin Ozetleme",
+      "level": "C1.1",
+      "kapitel": "K3",
+      "example": "Wenn ich es richtig verstanden habe, dann gibt es zwei Loesungen.",
+      "translation": "Dogru anladiysam iki cozum var."
+    },
+    {
+      "phrase": "Das hat Vor- und Nachteile.",
+      "meaning": "Bunun avantaj ve dezavantajlari var / That has advantages and disadvantages.",
+      "category": "Text zusammenfassen / Metin Ozetleme",
+      "level": "C1.1",
+      "kapitel": "K3",
+      "example": "Homeoffice hat Vor- und Nachteile.",
+      "translation": "Evden calismanin avantaj ve dezavantajlari var."
+    },
+    {
+      "phrase": "Das Thema ... wird heute haeufig diskutiert.",
+      "meaning": "... konusu bugun sikca tartisiliyor / The topic ... is frequently discussed today.",
+      "category": "Differenzierte Stellungnahme / Ayrintili Tavir Alma",
+      "level": "C1.1",
+      "kapitel": "K3",
+      "example": "Das Thema KI wird heute haeufig diskutiert.",
+      "translation": "YZ konusu bugun sikca tartisiliyor."
+    },
+    {
+      "phrase": "Daraus folgt, dass ...",
+      "meaning": "Bundan su sonuc cikar ki ... / It follows from this that ...",
+      "category": "Differenzierte Stellungnahme / Ayrintili Tavir Alma",
+      "level": "C1.1",
+      "kapitel": "K3",
+      "example": "Daraus folgt, dass wir handeln muessen.",
+      "translation": "Bundan harekete gecmemiz gerektigi sonucu cikar."
+    },
+    {
+      "phrase": "Ich vertrete den Standpunkt, dass ...",
+      "meaning": "... gorusunu savunuyorum / I take the position that ...",
+      "category": "Differenzierte Stellungnahme / Ayrintili Tavir Alma",
+      "level": "C1.1",
+      "kapitel": "K3",
+      "example": "Ich vertrete den Standpunkt, dass Bildung frei sein sollte.",
+      "translation": "Egitimin ucretsiz olmasi gerektigini savunuyorum."
+    },
+    {
+      "phrase": "Ein weiteres Gegenargument ist ...",
+      "meaning": "Bir diger karsi arguman ... / Another counterargument is ...",
+      "category": "Pro- und Contra-Argumente / Lehte ve Aleyhte Argumanlar",
+      "level": "C1.1",
+      "kapitel": "K4",
+      "example": "Ein weiteres Gegenargument ist der hohe Energieverbrauch.",
+      "translation": "Bir diger karsi arguman yuksek enerji tuketimi."
+    },
+    {
+      "phrase": "Der Text befasst sich mit dem Thema ...",
+      "meaning": "Metin ... konusuyla ilgileniyor / The text deals with the topic ...",
+      "category": "Text zusammenfassen / Metin Ozetleme",
+      "level": "C1.1",
+      "kapitel": "K4",
+      "example": "Der Text befasst sich mit dem Thema kuenstliche Intelligenz.",
+      "translation": "Metin yapay zeka konusuyla ilgileniyor."
+    },
+    {
+      "phrase": "Es wird erklaert/erlaeutert/beschrieben/dargelegt, ...",
+      "meaning": "... aciklaniyor/tarif ediliyor/ortaya konuyor / It is explained/described/presented ...",
+      "category": "Text zusammenfassen / Metin Ozetleme",
+      "level": "C1.1",
+      "kapitel": "K4",
+      "example": "Es wird erlaeutert, warum die Massnahmen notwendig sind.",
+      "translation": "Onlemlerin neden gerekli oldugu aciklaniyor."
+    },
+    {
+      "phrase": "Eine wichtige Aussage ist, dass ...",
+      "meaning": "Onemli bir ifade su ki ... / An important statement is that ...",
+      "category": "Text zusammenfassen / Metin Ozetleme",
+      "level": "C1.1",
+      "kapitel": "K4",
+      "example": "Eine wichtige Aussage ist, dass Technologie allein nicht reicht.",
+      "translation": "Onemli bir ifade su ki teknoloji tek basina yeterli degil."
+    },
+    {
+      "phrase": "Der Autor / Die Autorin geht (kurz) auf ... ein.",
+      "meaning": "Yazar (kisaca) ...'i ele aliyor / The author (briefly) addresses ...",
+      "category": "Text zusammenfassen / Metin Ozetleme",
+      "level": "C1.1",
+      "kapitel": "K4",
+      "example": "Die Autorin geht kurz auf die Geschichte des Themas ein.",
+      "translation": "Yazar konunun tarihini kisaca ele aliyor."
+    },
+    {
+      "phrase": "Insgesamt zeigt sich, ...",
+      "meaning": "Genel olarak ortaya cikiyor ki ... / Overall it shows that ...",
+      "category": "Text zusammenfassen / Metin Ozetleme",
+      "level": "C1.1",
+      "kapitel": "K4",
+      "example": "Insgesamt zeigt sich, dass die Lage komplex ist.",
+      "translation": "Genel olarak durumun karmasik oldugu ortaya cikiyor."
+    },
+    {
+      "phrase": "Abschliessend kann man sagen, dass ...",
+      "meaning": "Son olarak soylenebilir ki ... / In conclusion one can say that ...",
+      "category": "Text zusammenfassen / Metin Ozetleme",
+      "level": "C1.1",
+      "kapitel": "K4",
+      "example": "Abschliessend kann man sagen, dass beide Seiten Recht haben.",
+      "translation": "Son olarak her iki tarafin da hakli oldugu soylenebilir."
+    },
+    {
+      "phrase": "Es besteht meiner Meinung nach kein Zweifel daran, dass ...",
+      "meaning": "Bence bunda hic suphe yok ki ... / In my opinion there is no doubt that ...",
+      "category": "Ueberzeugung ausdruecken / Inanc Ifade Etme",
+      "level": "C1.1",
+      "kapitel": "K4",
+      "example": "Es besteht kein Zweifel daran, dass Bildung wichtig ist.",
+      "translation": "Egitimin onemli oldugunda hic suphe yok."
+    },
+    {
+      "phrase": "Es ist problematisch, dass ...",
+      "meaning": "... sorunlu / It is problematic that ...",
+      "category": "Ueberzeugung ausdruecken / Inanc Ifade Etme",
+      "level": "C1.1",
+      "kapitel": "K4",
+      "example": "Es ist problematisch, dass viele Menschen keinen Zugang haben.",
+      "translation": "Bircok insanin erisiminin olmamasi sorunlu."
+    },
+    {
+      "phrase": "... ist (eher) nebensaechlich/sekundaer.",
+      "meaning": "... (daha cok) ikincil/onemsiz / ... is (rather) secondary/minor.",
+      "category": "Etwas kommentieren / Yorum Yapmak",
+      "level": "C1.1",
+      "kapitel": "K5",
+      "example": "Das Design ist eher nebensaechlich.",
+      "translation": "Tasarim daha cok ikincil."
+    },
+    {
+      "phrase": "... spielt (k)eine (grosse) Rolle.",
+      "meaning": "... (buyuk) (bir) rol oynuyor/oynamiyor / ... plays (no) (big) role.",
+      "category": "Etwas kommentieren / Yorum Yapmak",
+      "level": "C1.1",
+      "kapitel": "K5",
+      "example": "Der Preis spielt keine grosse Rolle.",
+      "translation": "Fiyat buyuk bir rol oynamiyor."
+    },
+    {
+      "phrase": "Das Entscheidende ist, ...",
+      "meaning": "Belirleyici olan ... / The decisive thing is ...",
+      "category": "Stellung beziehen / Pozisyon Almak",
+      "level": "C1.1",
+      "kapitel": "K5",
+      "example": "Das Entscheidende ist, dass alle davon profitieren.",
+      "translation": "Belirleyici olan herkesin bundan fayda saglamasi."
+    },
+    {
+      "phrase": "Ich bin nicht ganz sicher, ob ...",
+      "meaning": "... olup olmadigindan tam emin degilim / I'm not quite sure whether ...",
+      "category": "Stellung beziehen / Pozisyon Almak",
+      "level": "C1.1",
+      "kapitel": "K5",
+      "example": "Ich bin nicht ganz sicher, ob das funktionieren wird.",
+      "translation": "Bunun ise yarayip yaramayacagindan tam emin degilim."
+    },
+    {
+      "phrase": "Man sollte bedenken, dass ...",
+      "meaning": "... dikkate alinmali / One should consider that ...",
+      "category": "Stellung beziehen / Pozisyon Almak",
+      "level": "C1.1",
+      "kapitel": "K5",
+      "example": "Man sollte bedenken, dass nicht jeder davon profitiert.",
+      "translation": "Herkesin bundan fayda saglamadigini dikkate almali."
+    },
+    {
+      "phrase": "Ich finde/faende es gut/sinnvoll, dass ...",
+      "meaning": "... olmasini iyi/mantikli buluyorum / I find/would find it good/sensible that ...",
+      "category": "Stellung beziehen / Pozisyon Almak",
+      "level": "C1.1",
+      "kapitel": "K5",
+      "example": "Ich faende es sinnvoll, dass mehr investiert wird.",
+      "translation": "Daha fazla yatirim yapilmasini mantikli bulurum."
+    },
+    {
+      "phrase": "So wie ich das sehe, ...",
+      "meaning": "Benim gorduegum kadariyla ... / The way I see it ...",
+      "category": "Argumentieren / Arguemantasyon",
+      "level": "C1.1",
+      "kapitel": "K5",
+      "example": "So wie ich das sehe, gibt es keine einfache Loesung.",
+      "translation": "Benim gorduegum kadariyla basit bir cozum yok."
+    },
+    {
+      "phrase": "... ist ansprechend / (sehr) praesent.",
+      "meaning": "... cekici / (cok) goze batan / ... is appealing / (very) prominent.",
+      "category": "Eigenes Empfinden / Kisisel Duygu",
+      "level": "C1.1",
+      "kapitel": "K6",
+      "example": "Die Werbung ist sehr praesent im Alltag.",
+      "translation": "Reklam gunluk hayatta cok goze batiyor."
+    },
+    {
+      "phrase": "Wie waere es, wenn wir ...? / Wie waere es mit ...?",
+      "meaning": "... yapsak nasil olur? / How about if we ...? / How about ...?",
+      "category": "Vorschlaege machen / Oneri Yapmak",
+      "level": "C1.1",
+      "kapitel": "K7",
+      "example": "Wie waere es, wenn wir morgen anfangen?",
+      "translation": "Yarin baslasak nasil olur?"
+    },
+    {
+      "phrase": "Du hast / Sie haben recht.",
+      "meaning": "Haklisin / Haklisiniz / You are right.",
+      "category": "Sich einigen / Anlasmak",
+      "level": "C1.1",
+      "kapitel": "K7",
+      "example": "Du hast recht, das ist eine bessere Idee.",
+      "translation": "Haklisin, bu daha iyi bir fikir."
+    },
+    {
+      "phrase": "Das halte ich fuer keine gute Idee.",
+      "meaning": "Bunu iyi bir fikir olarak gormuyorum / I don't consider that a good idea.",
+      "category": "Vorschlaege machen / Oneri Yapmak",
+      "level": "C1.1",
+      "kapitel": "K7",
+      "example": "Das halte ich fuer keine gute Idee, weil es zu riskant ist.",
+      "translation": "Bunu iyi bir fikir olarak gormuyorum cunku cok riskli."
+    },
+    {
+      "phrase": "Lass uns / Lassen Sie uns folgendes vereinbaren: ...",
+      "meaning": "Su konuda anlasalim: ... / Let's agree on the following: ...",
+      "category": "Sich einigen / Anlasmak",
+      "level": "C1.1",
+      "kapitel": "K7",
+      "example": "Lassen Sie uns folgendes vereinbaren: Wir treffen uns naechste Woche.",
+      "translation": "Su konuda anlasalim: Gelecek hafta bulusuruz."
+    },
+    {
+      "phrase": "Die Statistik/Grafik zeigt ...",
+      "meaning": "Istatistik/Grafik ... gosteriyor / The statistics/graph shows ...",
+      "category": "Grafik beschreiben / Grafik Tarifi",
+      "level": "C1.1",
+      "kapitel": "K7",
+      "example": "Die Grafik zeigt einen deutlichen Anstieg.",
+      "translation": "Grafik belirgin bir artis gosteriyor."
+    },
+    {
+      "phrase": "Mich ueberrascht, dass ...",
+      "meaning": "... olmasina sasiriyorum / I'm surprised that ...",
+      "category": "Grafik beschreiben / Grafik Tarifi",
+      "level": "C1.1",
+      "kapitel": "K7",
+      "example": "Mich ueberrascht, dass die Zahlen so hoch sind.",
+      "translation": "Sayilarin bu kadar yuksek olmasina sasiriyorum."
+    },
+    {
+      "phrase": "In diesem Text geht es um ... /darum, ...",
+      "meaning": "Bu metinde konu ... / ... hakkinda / This text is about ... / It's about ...",
+      "category": "Text zusammenfassen / Metin Ozetleme",
+      "level": "C1.1",
+      "kapitel": "K6",
+      "example": "In diesem Text geht es um die Auswirkungen der Digitalisierung auf die Arbeitswelt.",
+      "translation": "Bu metinde dijitallestirmenin is dunyasina etkileri konu ediliyor."
+    },
+    {
+      "phrase": "Das Thema des Textes ist ...",
+      "meaning": "Metnin konusu ... / The topic of the text is ...",
+      "category": "Text zusammenfassen / Metin Ozetleme",
+      "level": "C1.1",
+      "kapitel": "K6",
+      "example": "Das Thema des Textes ist die zunehmende Urbanisierung.",
+      "translation": "Metnin konusu artan sehirlesmedir."
+    },
+    {
+      "phrase": "Der Text handelt von ...",
+      "meaning": "Metin ...'den bahsediyor / The text deals with ...",
+      "category": "Text zusammenfassen / Metin Ozetleme",
+      "level": "C1.1",
+      "kapitel": "K6",
+      "example": "Der Text handelt von den Herausforderungen des Klimawandels.",
+      "translation": "Metin iklim degisikliginin zorluklarindan bahsediyor."
+    },
+    {
+      "phrase": "Der Text befasst sich mit dem Thema ...",
+      "meaning": "Metin ... konusuyla ilgileniyor / The text deals with the topic of ...",
+      "category": "Text zusammenfassen / Metin Ozetleme",
+      "level": "C1.1",
+      "kapitel": "K6",
+      "example": "Der Text befasst sich mit dem Thema nachhaltige Ernaehrung.",
+      "translation": "Metin surdurulebilir beslenme konusuyla ilgileniyor."
+    },
+    {
+      "phrase": "Der Autor / Die Autorin erlaeutert in zwei/drei/vier Abschnitten ...",
+      "meaning": "Yazar iki/uc/dort bolumde ... acikliyor / The author explains in two/three/four sections ...",
+      "category": "Text zusammenfassen / Metin Ozetleme",
+      "level": "C1.1",
+      "kapitel": "K6",
+      "example": "Die Autorin erlaeutert in drei Abschnitten die Geschichte der Frauenbewegung.",
+      "translation": "Yazar uc bolumde kadin hareketinin tarihini acikliyor."
+    },
+    {
+      "phrase": "Es wird erklaert/erlaeutert/beschrieben/dargelegt, ...",
+      "meaning": "... aciklaniyor/betimleniyor/ortaya konuyor / It is explained/described/presented ...",
+      "category": "Text zusammenfassen / Metin Ozetleme",
+      "level": "C1.1",
+      "kapitel": "K6",
+      "example": "Es wird erlaeutert, warum viele junge Menschen ins Ausland gehen.",
+      "translation": "Bircok gencin neden yurt disina gittigi aciklaniyor."
+    },
+    {
+      "phrase": "Eine wichtige Aussage ist, dass ...",
+      "meaning": "Onemli bir ifade ... / An important statement is that ...",
+      "category": "Text zusammenfassen / Metin Ozetleme",
+      "level": "C1.1",
+      "kapitel": "K6",
+      "example": "Eine wichtige Aussage ist, dass Bildung der Schluessel zum Erfolg ist.",
+      "translation": "Onemli bir ifade, egitimin basarinin anahtari oldugudir."
+    },
+    {
+      "phrase": "Ein wesentlicher/interessanter Aspekt ist, dass ...",
+      "meaning": "Onemli/ilginc bir husus ... / An essential/interesting aspect is that ...",
+      "category": "Text zusammenfassen / Metin Ozetleme",
+      "level": "C1.1",
+      "kapitel": "K6",
+      "example": "Ein wesentlicher Aspekt ist, dass die Kosten staendig steigen.",
+      "translation": "Onemli bir husus, maliyetlerin surekli artmasidir."
+    },
+    {
+      "phrase": "Der Autor / Die Autorin geht (kurz) auf ... ein.",
+      "meaning": "Yazar (kisaca) ...'a deginiyor / The author (briefly) addresses ...",
+      "category": "Text zusammenfassen / Metin Ozetleme",
+      "level": "C1.1",
+      "kapitel": "K6",
+      "example": "Der Autor geht kurz auf die historischen Hintergruende ein.",
+      "translation": "Yazar kisaca tarihsel arka plana deginiyor."
+    },
+    {
+      "phrase": "Der Autor / Die Autorin verdeutlicht das sehr schoen am Beispiel von ...",
+      "meaning": "Yazar bunu ... ornegi ile cok guzel acikliyor / The author illustrates this very nicely with the example of ...",
+      "category": "Text zusammenfassen / Metin Ozetleme",
+      "level": "C1.1",
+      "kapitel": "K6",
+      "example": "Die Autorin verdeutlicht das sehr schoen am Beispiel von Finnland.",
+      "translation": "Yazar bunu Finlandiya ornegi ile cok guzel acikliyor."
+    },
+    {
+      "phrase": "Als Beispiele dienen dem Autoren / der Autorin ...",
+      "meaning": "Yazarin ornekleri ... / The author uses ... as examples.",
+      "category": "Text zusammenfassen / Metin Ozetleme",
+      "level": "C1.1",
+      "kapitel": "K6",
+      "example": "Als Beispiele dienen der Autorin verschiedene europaeische Laender.",
+      "translation": "Yazarin ornekleri cesitli Avrupa ulkeleridir."
+    },
+    {
+      "phrase": "Folgendes Beispiel wird angefuehrt: ...",
+      "meaning": "Su ornek veriliyor: ... / The following example is cited: ...",
+      "category": "Text zusammenfassen / Metin Ozetleme",
+      "level": "C1.1",
+      "kapitel": "K6",
+      "example": "Folgendes Beispiel wird angefuehrt: In Schweden arbeiten 80 % der Muetter.",
+      "translation": "Su ornek veriliyor: Isvec'te annelerin %80'i calisiyor."
+    },
+    {
+      "phrase": "Insgesamt zeigt sich, ...",
+      "meaning": "Genel olarak goruluyor ki ... / Overall it shows that ...",
+      "category": "Text zusammenfassen / Metin Ozetleme",
+      "level": "C1.1",
+      "kapitel": "K6",
+      "example": "Insgesamt zeigt sich, dass die Situation komplexer ist als erwartet.",
+      "translation": "Genel olarak durumun beklenenden daha karmasik oldugu goruluyor."
+    },
+    {
+      "phrase": "Zusammenfassend kann man sagen, dass ...",
+      "meaning": "Ozetle soeylenebilir ki ... / In summary, one can say that ...",
+      "category": "Text zusammenfassen / Metin Ozetleme",
+      "level": "C1.1",
+      "kapitel": "K6",
+      "example": "Zusammenfassend kann man sagen, dass die Vorteile ueberwiegen.",
+      "translation": "Ozetle avantajlarin agir bastigi soeylenebilir."
+    },
+    {
+      "phrase": "Abschliessend kann man sagen, dass ...",
+      "meaning": "Son olarak soeylenebilir ki ... / In conclusion, one can say that ...",
+      "category": "Text zusammenfassen / Metin Ozetleme",
+      "level": "C1.1",
+      "kapitel": "K6",
+      "example": "Abschliessend kann man sagen, dass mehr Forschung noetig ist.",
+      "translation": "Son olarak daha fazla arastirma gerektigini soeyleyebiliriz."
+    }
+  ],
+  "grammatik": [
+    {
+      "topic": "Infinitivsaetze mit zu",
+      "type": "Infinitivsaetze / Mastar Cuemleleri",
+      "level": "B2.3",
+      "kapitel": "K7",
+      "rule": "Der Infinitivsatz mit zu ist eine Verbergaenzung. Infinitivsaetze bildet man, wenn das Subjekt im Haupt- und Nebensatz gleich ist. Sie stehen nach: Verben (Meinung, Vereinbarung, Entscheidung), Adjektiven, Wendungen mit Nomen, unpersoenlichen Formen.",
+      "example_de": "Gutes Design ist langlebig und versucht nicht, den neuesten Trends zu folgen.",
+      "example_en": "Good design is durable and doesn't try to follow the latest trends.",
+      "question": "Gutes Design versucht nicht, den neuesten Trends ___ folgen.",
+      "answer": "zu"
+    },
+    {
+      "topic": "Vorzeitigkeit von Infinitivsaetzen",
+      "type": "Infinitivsaetze / Mastar Cuemleleri",
+      "level": "B2.3",
+      "kapitel": "K7",
+      "rule": "Gleichzeitigkeit: zu + Infinitiv. Vorzeitigkeit (Handlung im Infinitivsatz zeitlich VOR dem Hauptsatz): Partizip Perfekt + zu + Infinitiv von haben/sein.",
+      "example_de": "Viele Designer sind froh, eine handwerkliche Ausbildung gemacht zu haben.",
+      "example_en": "Many designers are happy to have completed a craft training.",
+      "question": "Viele Designer sind froh, eine handwerkliche Ausbildung gemacht zu ___.",
+      "answer": "haben"
+    },
+    {
+      "topic": "um zu, ohne zu, (an)statt zu + Infinitiv",
+      "type": "Infinitivsaetze / Mastar Cuemleleri",
+      "level": "B2.3",
+      "kapitel": "K7",
+      "rule": "um ... zu = Ziel/Absicht (Wozu?). ohne ... zu = Fehlen einer erwarteten Handlung. (an)statt ... zu = Alternative oder Gegensatz. Nur moeglich wenn Subjekt in beiden Saetzen identisch ist.",
+      "example_de": "Viele Frauen haben Burda-Moden gekauft, um sich ueber die neuesten Trends zu informieren.",
+      "example_en": "Many women bought Burda fashion to inform themselves about the latest trends.",
+      "question": "Viele Frauen haben Burda-Moden gekauft, ___ sich ueber die neuesten Trends zu informieren.",
+      "answer": "um"
+    },
+    {
+      "topic": "Modalsaetze mit indem und dadurch, dass",
+      "type": "Modalsaetze / Tarz Cuemleleri",
+      "level": "B2.3",
+      "kapitel": "K8",
+      "rule": "Nebensaetze mit 'indem' und 'dadurch, dass' beschreiben die Art und Weise, wie etwas geschieht. 'indem' kann vor oder nach dem Hauptsatz stehen. 'dadurch' steht im Hauptsatz, 'dass' leitet den Nebensatz ein.",
+      "example_de": "Personaler suchen nach geeigneten Kandidaten, indem sie Schluesselbegriffe eingeben.",
+      "example_en": "HR managers search for suitable candidates by entering keywords.",
+      "question": "Interessante Stellen findet man oft dadurch, ___ man persoenliche Kontakte fragt.",
+      "answer": "dass"
+    },
+    {
+      "topic": "Adjektive mit Praeposition",
+      "type": "Adjektive mit Praeposition / Sifat + Edat",
+      "level": "B2.3",
+      "kapitel": "K8",
+      "rule": "Manche Adjektive werden mit fester Praeposition verwendet. Akkusativ: ausreichend/dankbar/entscheidend/geeignet/nuetzlich fuer, erstaunt/veraergert ueber, neugierig/wuetend auf, stolz auf. Dativ: begeistert/enttaeuscht von, beliebt bei, erfahren in, zufrieden mit, faehig zu.",
+      "example_de": "Ich bin mit der Situation zufrieden.",
+      "example_en": "I am satisfied with the situation.",
+      "question": "Ich bin ___ der Situation zufrieden. (Praeposition?)",
+      "answer": "mit"
+    },
+    {
+      "topic": "Konzessive Zusammenhaenge",
+      "type": "Konzessivsaetze / Baglama Cuemleleri",
+      "level": "B2.3",
+      "kapitel": "K9",
+      "rule": "Konzessivsaetze geben Einschraenkung an. Konnektoren: obwohl, auch wenn, selbst wenn (+ Nebensatz). Verbindungsadverb: dennoch, trotzdem (+ Hauptsatz). Praeposition: trotz/ungeachtet + Genitiv.",
+      "example_de": "Obwohl die Erstbespielung sehr erfolgreich war, war dies nur der erste Schritt.",
+      "example_en": "Although the first performance was very successful, this was only the first step.",
+      "question": "___ die Erstbespielung sehr erfolgreich war, war dies nur der erste Schritt.",
+      "answer": "Obwohl"
+    },
+    {
+      "topic": "Temporalsaetze (waehrend, nachdem, wenn, als, seit, bis)",
+      "type": "Temporalsaetze / Zaman Cuemleleri",
+      "level": "B2.3",
+      "kapitel": "K9",
+      "rule": "waehrend = gleichzeitig. nachdem = Hauptsatz nach Nebensatz (Zeitstufe beachten). wenn = haeufige/wiederkehrende Vergangenheit. als = einmaliges Vergangenheitsereignis. seit(dem) = seit wann. bis = bis wann.",
+      "example_de": "Als Joseph Beuys das Projekt plante, war sein Motto 'Stadtverwaldung statt Stadtverwaltung'.",
+      "example_en": "When Joseph Beuys planned the project, his motto was 'urban forestation instead of urban administration'.",
+      "question": "___ Joseph Beuys das Projekt der 7.000 Eichen plante, war sein Motto 'Stadtverwaldung'. (einmaliges Ereignis)",
+      "answer": "Als"
+    },
+    {
+      "topic": "Textzusammenhang herstellen",
+      "type": "Textkohaesion / Metin Bagdasikligi",
+      "level": "B2.3",
+      "kapitel": "K9",
+      "rule": "Guter Textzusammenhang mit: Artikelwoertern (bestimmter Artikel, Possessiv-, Demonstrativartikel), Pronomen (Personal-, Demonstrativ-, Relativ-, Indefinitpronomen), Ort/Zeitangaben, Konnektoren/Satzadverbien, Praepositionaladverbien (dazu, damit, darueber...).",
+      "example_de": "Im Jahr 1930 wurde das Museum gegruendet. Heute ist es eines der bedeutendsten.",
+      "example_en": "In 1930 the museum was founded. Today it is one of the most significant.",
+      "question": "Praepositionaladverbien wie dazu, damit, ___ helfen, Textzusammenhang herzustellen.",
+      "answer": "darueber"
+    },
+    {
+      "topic": "Irreale Vergleichssaetze (als ob, als wenn, als)",
+      "type": "Konjunktiv II / Dilek Kipi",
+      "level": "B2.4",
+      "kapitel": "K10",
+      "rule": "Saetze mit als ob / als wenn / als + Konjunktiv II druecken irrealen Vergleich aus. als ob/als wenn: Nebensatz-Wortstellung. als: Hauptsatz-Wortstellung (Verb direkt nach 'als'). Gegenwart: Konjunktiv II Gegenwart. Vergangenheit: Konjunktiv II Vergangenheit (haette/waere + Partizip II).",
+      "example_de": "Sie hatte ein Gefuehl, als ob sie Schmetterlinge im Bauch haette.",
+      "example_en": "She had a feeling as if she had butterflies in her stomach.",
+      "question": "Er tat so, als ___ nichts passiert waere. (als ob / als wenn)",
+      "answer": "ob"
+    },
+    {
+      "topic": "Adversative Verbindungen",
+      "type": "Adversativsaetze / Karsilastirma Cuemleleri",
+      "level": "B2.4",
+      "kapitel": "K10",
+      "rule": "Druecken Gegensatz oder Einschraenkung aus. Konnektoren: waehrend (NS), sondern (HS), aber (Position 0), jedoch (Position 1). Praeposition: im Gegensatz zu + Dativ. Verbindungsadverbien: aber, jedoch, dagegen, hingegen.",
+      "example_de": "Waehrend im Alltag jeder seine Rolle hat, sind hier alle gleich stark.",
+      "example_en": "While everyone has their role in everyday life, here everyone is equally strong.",
+      "question": "Die sportliche Leistung ___ rueckt in den Hintergrund. (Verbindungsadverb fuer Gegensatz)",
+      "answer": "dagegen"
+    },
+    {
+      "topic": "Modalpartikeln (denn, doch, ja, mal, eigentlich, halt, eh)",
+      "type": "Modalpartikeln / Kiplik Ekleri",
+      "level": "B2.4",
+      "kapitel": "K10",
+      "rule": "Kommen in muendlicher Kommunikation vor. Stehen nach dem Verb, nie auf Position 1. aber: Ueberraschung/Freundlichkeit. denn: Interesse/Ueberraschung. doch: Erwartung/Vorschlag/Aerger. ja: Ueberraschung/bekannte Tatsache. mal: Aufforderung. halt: Akzeptanz. eh: Offensichtliches. eigentlich: Interesse.",
+      "example_de": "Von welchen Videos redet ihr denn?",
+      "example_en": "Which videos are you talking about? (expressing interest)",
+      "question": "Das war ___ ein guter Werbespot! (Ueberraschung ausdruecken mit Modalpartikel)",
+      "answer": "aber"
+    },
+    {
+      "topic": "Konditionale Zusammenhaenge",
+      "type": "Konditionalsaetze / Kosul Cuemleleri",
+      "level": "B2.4",
+      "kapitel": "K11",
+      "rule": "Konnektoren: sofern, wenn, falls (nicht) + Nebensatz. vorausgesetzt, dass. Irreale Bedingung: Konjunktiv II. Verbindungsadverbien: sonst, ansonsten, andernfalls. Praepositionen: bei, mit + Dativ, ohne + Akkusativ.",
+      "example_de": "Wenn man genug Geld hat, kann man reisen.",
+      "example_en": "If one has enough money, one can travel.",
+      "question": "Man braucht Geld, ___ kann man nicht reisen. (Verbindungsadverb)",
+      "answer": "sonst"
+    },
+    {
+      "topic": "Fragewoerter wo(r) und Praepositionaladverbien da(r)",
+      "type": "Praepositionaladverbien / Edat Zarflari",
+      "level": "B2.4",
+      "kapitel": "K11",
+      "rule": "Bei Sachen: wo(r) + Praeposition (Frage), da(r) + Praeposition (Antwort). Bei Personen: Praeposition + Fragewort/Pronomen. Beispiel: Womit? - Damit. Auf wen? - Auf mich.",
+      "example_de": "Weisst du, worueber Kerkeling in seinem Buch berichtet? Ja, er berichtet darueber.",
+      "example_en": "Do you know what Kerkeling reports about in his book? Yes, he reports about it.",
+      "question": "Weisst du, ___ Kerkeling in seinem Buch berichtet? (wo(r) + ueber)",
+      "answer": "worueber"
+    },
+    {
+      "topic": "Temporale Praepositionen",
+      "type": "Praepositionen / Edatlar",
+      "level": "B2.4",
+      "kapitel": "K12",
+      "rule": "Zeitpunkt Dativ: an, aus, in, nach, vor, zu. Zeitpunkt Akkusativ: gegen, um. Zeitdauer Dativ: ab, seit, von...bis, zwischen, bis (zu). Zeitdauer Akkusativ: ueber. Zeitdauer Genitiv: waehrend, innerhalb, ausserhalb.",
+      "example_de": "Der Grundstein wurde am 2. Mai 1936 gelegt.",
+      "example_en": "The foundation stone was laid on May 2, 1936.",
+      "question": "Prora ist ein Gebaeude ___ den 30er Jahren. (temporale Praeposition + Dativ)",
+      "answer": "aus"
+    },
+    {
+      "topic": "Indirekte Rede und Konjunktiv I",
+      "type": "Konjunktiv I / Dolayli Anlatim",
+      "level": "B2.4",
+      "kapitel": "K12",
+      "rule": "Konjunktiv I fuer indirekte Rede. Gegenwart: Infinitivstamm + Endung. Vergangenheit: Konjunktiv I von haben/sein + Partizip II. Wenn K1 = Indikativ, dann Konjunktiv II oder wuerde-Form. Schriftsprache (Artikel, Nachrichten, Wissenschaft).",
+      "example_de": "Die Autoren einer Studie sagen, das Ruhrgebiet habe grosse Potenziale.",
+      "example_en": "The authors of a study say the Ruhr area has great potential.",
+      "question": "Die Autoren sagen, das Ruhrgebiet ___ grosse Potenziale. (Konjunktiv I von 'haben')",
+      "answer": "habe"
+    },
+    {
+      "topic": "Wiederholung Konnektoren (temporal)",
+      "type": "Konnektoren / Baglaclar",
+      "level": "C1.1",
+      "kapitel": "K1",
+      "rule": "Temporal: wenn (wiederholend), als (einmalig Vergangenheit), nachdem (danach), bevor (davor), bis (bis wann), waehrend (gleichzeitig), solange (so lange wie), seit/seitdem (seit wann).",
+      "example_de": "Ich habe mein erstes Handy gekauft, als ich 18 Jahre alt war.",
+      "example_en": "I bought my first phone when I was 18 years old.",
+      "question": "Ich behalte mein Handy, ___ es gut funktioniert. (so lange wie)",
+      "answer": "solange"
+    },
+    {
+      "topic": "Verben, Nomen und Adjektive mit Praepositionen",
+      "type": "Praepositionen / Edatlar",
+      "level": "C1.1",
+      "kapitel": "K1",
+      "rule": "Einige Verben, Nomen und Adjektive werden mit fester Praeposition verwendet. Die Praeposition ist bei verschiedenen Wortarten identisch: abhaengen von - die Abhaengigkeit von - abhaengig von. Fragewort bei Dingen: wo(r)+Praep. Bei Personen: Praep+Fragewort.",
+      "example_de": "Wofuer interessierst du dich? - Fuer neue Technologien.",
+      "example_en": "What are you interested in? - In new technologies.",
+      "question": "abhaengen ___ - die Abhaengigkeit ___ - abhaengig ___ (gleiche Praeposition)",
+      "answer": "von"
+    },
+    {
+      "topic": "Wiederholung Vorgangspassiv",
+      "type": "Passiv / Edilgen Cati",
+      "level": "C1.1",
+      "kapitel": "K2",
+      "rule": "Vorgangspassiv: werden + Partizip II. Praesens: werden + P.II. Praeteritum: wurden + P.II. Perfekt: sind + P.II + worden. Mit Modalverb: koennen/muessen + P.II + werden. Agens: von + Dativ (Personen), durch + Akkusativ (Instrumente).",
+      "example_de": "Die Kosten werden von der Krankenkasse erstattet.",
+      "example_en": "The costs are reimbursed by the health insurance.",
+      "question": "Die Kosten ___ von der Krankenkasse erstattet. (Praesens Passiv)",
+      "answer": "werden"
+    },
+    {
+      "topic": "Passiv im Nebensatz",
+      "type": "Passiv / Edilgen Cati",
+      "level": "C1.1",
+      "kapitel": "K2",
+      "rule": "In Nebensaetzen steht die Form von 'werden' nach dem Partizip Perfekt am Satzende. Mit Modalverb: konjugiertes Modalverb am Ende. Konjunktiv II der Vergangenheit: haette + P.II + werden + koennen.",
+      "example_de": "Sebastian geht in die Kur, nachdem die Reha bewilligt wurde.",
+      "example_en": "Sebastian goes to the health resort after the rehab was approved.",
+      "question": "In der Zeitung stand, dass der Unfall leicht haette vermieden werden ___. (Modalverb am Ende)",
+      "answer": "koennen"
+    },
+    {
+      "topic": "Passiversatzformen mit modaler Bedeutung",
+      "type": "Passiversatz / Edilgen Cati Alternatifleri",
+      "level": "C1.1",
+      "kapitel": "K3",
+      "rule": "'kann gemacht werden' Alternativen: (1) man + Modalverb, (2) sein + zu + Infinitiv, (3) sich lassen + Infinitiv, (4) sein + Adjektiv mit -bar/-lich/-abel. 'muss gemacht werden': (1) man + Modalverb, (2) sein + zu + Infinitiv (Schriftsprache).",
+      "example_de": "Der Vertrag ist leicht zu verstehen. / Der Vertrag laesst sich leicht verstehen.",
+      "example_en": "The contract is easy to understand. / The contract can easily be understood.",
+      "question": "Der Vertrag ___ sich leicht verstehen. (Passiversatz mit lassen)",
+      "answer": "laesst"
+    },
+    {
+      "topic": "Das modale Partizip (zu + Partizip I)",
+      "type": "Partizipien / Ortaclar",
+      "level": "C1.1",
+      "kapitel": "K4",
+      "rule": "Modales Partizip = zu + Partizip I, dekliniert als Adjektivattribut. Drueckt zwei Modalitaeten aus: Notwendigkeit (muessen/sollen) oder Moeglichkeit (koennen). Erweiterungen: 'unbedingt' = muessen, 'leicht/schwer' = koennen.",
+      "example_de": "Eines der zu loesenden Probleme ist die geringe Geburtenrate.",
+      "example_en": "One of the problems to be solved is the low birth rate.",
+      "question": "Der zu ___ Trend ist interessant. (koennen-Modalitaet, beobachten -> Partizip I)",
+      "answer": "beobachtende"
+    },
+    {
+      "topic": "Konsekutive Konnektoren",
+      "type": "Konsekutivsaetze / Sonuc Cuemleleri",
+      "level": "C1.1",
+      "kapitel": "K5",
+      "rule": "Folge ausdruecken: folglich, demnach, deshalb, deswegen, daher, darum, aus diesem Grund, infolgedessen, schliesslich. Ersetzen so...dass/sodass Konstruktionen.",
+      "example_de": "Die Sozialitaet ist komplex. Daher ist sie schwer zu programmieren.",
+      "example_en": "Sociality is complex. Therefore it is difficult to program.",
+      "question": "Die Sozialitaet ist komplex, ___ sie schwer zu programmieren ist. (Nebensatz mit Folge)",
+      "answer": "sodass"
+    },
+    {
+      "topic": "Weiterfuehrende Nebensaetze",
+      "type": "Nebensaetze / Yan Cuemle Tuerleri",
+      "level": "C1.1",
+      "kapitel": "K6",
+      "rule": "Beziehen sich auf gesamten Hauptsatz (nicht einzelne Info). Stehen immer NACH Hauptsatz. Pronomen erhaelt w-Form: das->was, damit->womit, deshalb->weshalb, darueber->worueber, dafuer->wofuer, darin->worin.",
+      "example_de": "Die KI-Systeme werden immer besser, was Chancen aber auch Gefahren birgt.",
+      "example_en": "AI systems are getting better, which brings opportunities but also dangers.",
+      "question": "Die Systeme werden immer besser, ___ Chancen aber auch Gefahren birgt. (das -> w-Form)",
+      "answer": "was"
+    },
+    {
+      "topic": "Nominalisierung von Modalsaetzen",
+      "type": "Nominalisierung / Adlastirma",
+      "level": "C1.1",
+      "kapitel": "K7",
+      "rule": "Verbal: indem / dadurch, dass -> Nominal: durch + Akkusativ. Beispiel: indem Sie Kleinigkeiten aendern -> durch das Aendern von Kleinigkeiten.",
+      "example_de": "Sie koennen Ihre Zeiteinteilung optimieren, indem Sie Kleinigkeiten aendern.",
+      "example_en": "You can optimize your time management by changing small things.",
+      "question": "Oft koennen Sie die Zeiteinteilung schon ___ das Aendern von Kleinigkeiten optimieren. (Praeposition)",
+      "answer": "durch"
+    },
+    {
+      "topic": "Nominalisierung von Finalsaetzen",
+      "type": "Nominalisierung / Adlastirma",
+      "level": "C1.1",
+      "kapitel": "K7",
+      "rule": "Verbal: um...zu + Infinitiv / damit -> Nominal: zu + Dativ / fuer + Akkusativ. Beispiel: um die Ziele zu erreichen -> zum Erreichen der Ziele.",
+      "example_de": "Mitarbeiter muessen entscheiden, wie sie zum Erreichen der Ziele vorgehen.",
+      "example_en": "Employees must decide how they proceed to achieve the goals.",
+      "question": "Mitarbeiter entscheiden, wie sie ___ Erreichen der Ziele vorgehen. (Praeposition + Artikel)",
+      "answer": "zum"
+    },
+    {
+      "topic": "Irreale Folgesaetze (als dass, um zu)",
+      "type": "Konjunktiv II / Dilek Kipi",
+      "level": "C1.1",
+      "kapitel": "K7",
+      "rule": "Irreale Folgesaetze mit 'als dass' oder 'um zu': Folge tritt in Realitaet NICHT ein, weil Umstand das noetige Mass nicht erreicht (zu kurz, zu schoen, nicht genug). Bei 'als dass': Konjunktiv II im Nebensatz.",
+      "example_de": "Das Leben ist zu kurz, als dass man sich nur fuer Materielles interessieren sollte.",
+      "example_en": "Life is too short to be interested only in material things.",
+      "question": "Das Leben ist zu kurz, ___ dass man sich nur fuer Materielles interessieren sollte.",
+      "answer": "als"
+    },
+    {
+      "topic": "Nominalisierung von Konditionalsaetzen",
+      "type": "Nominalisierung / Adlastirma",
+      "level": "C1.1",
+      "kapitel": "K7",
+      "rule": "Verbal: wenn/falls/sofern -> Nominal: bei + Dativ, mit + Dativ, durch + Akkusativ, ohne + Akkusativ, im Falle + Genitiv. Beispiel: Falls man kuendigt -> Im Falle einer Kuendigung.",
+      "example_de": "Im Falle einer Kuendigung ist man nicht mehr versichert.",
+      "example_en": "In the case of a resignation, one is no longer insured.",
+      "question": "Im ___ einer Kuendigung ist man nicht mehr versichert. (Nominal fuer 'falls')",
+      "answer": "Falle"
+    },
+    {
+      "topic": "Nominalisierung von Temporalsaetzen",
+      "type": "Nominalisierung / Adlastirma",
+      "level": "C1.1",
+      "kapitel": "K7",
+      "rule": "wenn/als -> bei + Dativ. waehrend -> waehrend + Genitiv. seitdem -> seit + Dativ. solange -> waehrend + Genitiv. bis -> bis zu + Dativ. bevor -> vor + Dativ. nachdem -> nach + Dativ. sobald -> gleich nach + Dativ.",
+      "example_de": "Waehrend ihrer Schulzeit hat sie schon von einer Weltreise getraeumt.",
+      "example_en": "During her school years she already dreamed of a world trip.",
+      "question": "___ zum Sonderurlaub muss man viele Stunden ansparen. (bis -> nominal)",
+      "answer": "Bis"
+    },
+    {
+      "topic": "Nominalisierung von Verben",
+      "type": "Nominalisierung / Adlastirma",
+      "level": "C1.1",
+      "kapitel": "K7",
+      "rule": "Nomen von Verben ableiten: (1) vom Infinitiv: reisen -> das Reisen. (2) vom Verbstamm: verkaufen -> der Verkauf. (3) mit Praefix: fuehlen -> das Gefuehl. (4) mit Suffix: -ung (Erklaerung), -tion (Konzeption), -nis (Hindernis), -t (Fahrt), -e (Teilnahme).",
+      "example_de": "Das Reisen bildet den Charakter.",
+      "example_en": "Traveling builds character.",
+      "question": "erklaeren -> die ___. (Nominalisierung mit -ung)",
+      "answer": "Erklaerung"
+    },
+    {
+      "topic": "Temporale Adverbien",
+      "type": "Adverbien / Zarflar",
+      "level": "B2.4",
+      "kapitel": "K12",
+      "rule": "Temporale Adverbien geben an, wann, wie haeufig oder in welcher Reihenfolge etwas geschieht. Wichtige Gruppen: Zeitpunkt (gestern, gerade, frueher, inzwischen, mittlerweile, demnaechst, bald, bisher, sofort, nun), Reihenfolge (anfangs/zuerst, dann/danach, anschliessend/spaeter, zuletzt/schliesslich), Haeufigkeit (mehrmals, meistens, immer, zeitweise).",
+      "example_de": "Zuerst wurde das Gebaeude als Ausbildungsstaette genutzt, dann als Lazarett, spaeter als Kaserne und zuletzt als Jugendherberge.",
+      "example_en": "First the building was used as a training center, then as a hospital, later as barracks, and finally as a youth hostel.",
+      "question": "Die Jugendherberge ist ___ vielen Jahren geoeffnet. (temporales Adverb: ab wann?)",
+      "answer": "seit"
+    },
+    {
+      "topic": "Fugenelemente bei Komposita",
+      "type": "Wortbildung / Kelime Olusturma",
+      "level": "C1.1",
+      "kapitel": "K4",
+      "rule": "Ungefaehr 30% aller Komposita weisen ein Fugenelement auf. Fugenelemente: -e-, -(e)n-, -ens-, -er-, -es-, -s-. Beispiele: Bevoelkerung+s+struktur, Familie+n+politik, Gesetz+es+aenderung, Glueck+s+gefuehl, Mensch+en+verstand, Tag+es+zeit.",
+      "example_de": "Bevoelkerungsstruktur, Familienpolitik, Gesetzesaenderung",
+      "example_en": "Population structure, family policy, legal amendment",
+      "question": "Bevoelkerung + ___ + struktur = Bevoelkerungsstruktur (Fugenelement?)",
+      "answer": "s"
+    }
   ]
 }

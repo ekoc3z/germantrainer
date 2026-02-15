@@ -11,7 +11,7 @@
   --accent:#6366f1; --accent-bg:#4338ca; --accent-light:#a5b4fc;
   --text:#eef0f6; --muted:#9ba4b8; --green:#10b981;
   /* section colors (static, for sidebar) */
-  --c-rest:#818cf8; --c-verben:#c084fc; --c-noun:#2dd4bf; --c-conj:#fbbf24;
+  --c-rest:#818cf8; --c-verben:#c084fc; --c-noun:#2dd4bf; --c-conj:#fbbf24; --c-redemittel:#ec4899; --c-grammatik:#f97316;
 }
 *{box-sizing:border-box;margin:0;padding:0}
 body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;background:var(--bg);color:var(--text);display:flex;min-height:100vh}
@@ -27,6 +27,8 @@ body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;backgr
 .nav-btn[data-section="verben"]:hover,.nav-btn[data-section="verben"].active{border-left-color:var(--c-verben);color:var(--c-verben)}
 .nav-btn[data-section="noun"]:hover,.nav-btn[data-section="noun"].active{border-left-color:var(--c-noun);color:var(--c-noun)}
 .nav-btn[data-section="conjunctions"]:hover,.nav-btn[data-section="conjunctions"].active{border-left-color:var(--c-conj);color:var(--c-conj)}
+.nav-btn[data-section="redemittel"]:hover,.nav-btn[data-section="redemittel"].active{border-left-color:var(--c-redemittel);color:var(--c-redemittel)}
+.nav-btn[data-section="grammatik"]:hover,.nav-btn[data-section="grammatik"].active{border-left-color:var(--c-grammatik);color:var(--c-grammatik)}
 .nav-btn.active{background:rgba(255,255,255,.07)}
 .nav-icon{font-size:18px;width:24px;text-align:center}
 .nav-label{flex:1;font-weight:600}
@@ -35,6 +37,8 @@ body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;backgr
 .nav-btn[data-section="verben"] .nav-count{border-color:rgba(168,85,247,.3)}
 .nav-btn[data-section="noun"] .nav-count{border-color:rgba(20,184,166,.3)}
 .nav-btn[data-section="conjunctions"] .nav-count{border-color:rgba(245,158,11,.3)}
+.nav-btn[data-section="redemittel"] .nav-count{border-color:rgba(236,72,153,.3)}
+.nav-btn[data-section="grammatik"] .nav-count{border-color:rgba(249,115,22,.3)}
 .sidebar-foot{margin-top:auto;padding:12px;border-top:1px solid var(--border);display:flex;flex-direction:column;gap:6px}
 .sidebar-foot button{padding:8px;border-radius:8px;border:1px solid var(--border);background:rgba(255,255,255,.06);color:var(--text);cursor:pointer;font-size:12px;transition:border-color .2s}
 .sidebar-foot button:hover{border-color:var(--accent)}
@@ -159,6 +163,16 @@ button.active{background:var(--accent-bg);border-color:var(--accent);color:#fff}
     <span class="nav-label">Conjunctions</span>
     <span class="nav-count" id="cnt-conj">0</span>
   </button>
+  <button class="nav-btn" data-section="redemittel">
+    <span class="nav-icon">&#128172;</span>
+    <span class="nav-label">Redemittel</span>
+    <span class="nav-count" id="cnt-redemittel">0</span>
+  </button>
+  <button class="nav-btn" data-section="grammatik">
+    <span class="nav-icon">&#128208;</span>
+    <span class="nav-label">Grammatik</span>
+    <span class="nav-count" id="cnt-grammatik">0</span>
+  </button>
   <div class="sidebar-foot">
     <button id="btn-import">Import JSON</button>
     <button id="btn-export">Export JSON</button>
@@ -236,6 +250,34 @@ button.active{background:var(--accent-bg);border-color:var(--accent);color:#fff}
       <span class="pill" id="pill-conj">0 baglac</span>
     </div>
   </div>
+  <!-- REDEMITTEL HEADER -->
+  <div id="hdr-redemittel" class="section-header">
+    <div class="hdr-title">Redemittel (Konusma Kaliplari)</div>
+    <div class="controls">
+      <select id="flt-rm-cat"><option value="">Tum kategoriler</option></select>
+      <select id="flt-rm-level"><option value="">Tum seviyeler</option></select>
+      <input type="search" id="q-redemittel" placeholder="Ara...">
+      <button id="btn-rm-normal">Normal</button>
+      <button id="btn-rm-training" class="training-toggle">Training</button>
+      <button class="btn-shuffle" data-s="redemittel">Shuffle</button>
+      <button class="btn-orig" data-s="redemittel">Sifirla</button>
+      <span class="pill" id="pill-redemittel">0 kalip</span>
+    </div>
+  </div>
+  <!-- GRAMMATIK HEADER -->
+  <div id="hdr-grammatik" class="section-header">
+    <div class="hdr-title">Grammatik (Dilbilgisi)</div>
+    <div class="controls">
+      <select id="flt-gr-type"><option value="">Tum tipler</option></select>
+      <select id="flt-gr-level"><option value="">Tum seviyeler</option></select>
+      <input type="search" id="q-grammatik" placeholder="Ara...">
+      <button id="btn-gr-normal">Normal</button>
+      <button id="btn-gr-training" class="training-toggle">Training</button>
+      <button class="btn-shuffle" data-s="grammatik">Shuffle</button>
+      <button class="btn-orig" data-s="grammatik">Sifirla</button>
+      <span class="pill" id="pill-grammatik">0 kural</span>
+    </div>
+  </div>
 </header>
 
 <div id="grid"></div>
@@ -255,7 +297,7 @@ button.active{background:var(--accent-bg);border-color:var(--accent);color:#fff}
   <div class="train-sub">&#8592; &#8594; ok tuslari | Space/Enter cevap | Esc kapat</div>
 </div>
 
-<div class="footer-text">Tikla = kart cevir &bull; <kbd>/</kbd> arama &bull; JSON otomatik yuklenir</div>
+<div class="footer-text">Tikla = kart cevir &bull; <kbd>/</kbd> arama &bull; Import ile JSON yukle</div>
 </div>
 
 <!-- POPUP OVERLAY -->
@@ -265,8 +307,8 @@ button.active{background:var(--accent-bg);border-color:var(--accent);color:#fff}
 
 <script>
 /* ==================== STATE ==================== */
-let DATA = { rest:{}, verben:{}, noun:[], conjunctions:[] };
-let ORIG = { rest:{}, verben:{}, noun:[], conjunctions:[] };
+let DATA = { rest:{}, verben:{}, noun:[], conjunctions:[], redemittel:[], grammatik:[] };
+let ORIG = { rest:{}, verben:{}, noun:[], conjunctions:[], redemittel:[], grammatik:[] };
 let SEC = 'rest';
 let TRAINING = false;
 
@@ -274,7 +316,9 @@ const S = {
   rest:  { mode:'de', cat:'', q:'', daily:null, audio:{} },
   verben:{ mode:'en', q:'', daily:null, order:null },
   noun:  { mode:'full', cat:'', q:'' },
-  conj:  { type:'', q:'' }
+  conj:  { type:'', q:'' },
+  rm:    { cat:'', level:'', q:'' },
+  gr:    { type:'', level:'', q:'' }
 };
 
 let tList=[], tIdx=0, tRevealed=false;
@@ -284,7 +328,9 @@ const THEMES = {
   rest:         { accent:'#818cf8', accentBg:'#5b63d3', accentLight:'#c7d2fe', cardTint:'#232b50' },
   verben:       { accent:'#c084fc', accentBg:'#9261d4', accentLight:'#ddd6fe', cardTint:'#2d2548' },
   noun:         { accent:'#2dd4bf', accentBg:'#14b8a6', accentLight:'#99f6e4', cardTint:'#1e3038' },
-  conjunctions: { accent:'#fbbf24', accentBg:'#d97706', accentLight:'#fde68a', cardTint:'#302a1e' }
+  conjunctions: { accent:'#fbbf24', accentBg:'#d97706', accentLight:'#fde68a', cardTint:'#302a1e' },
+  redemittel:   { accent:'#ec4899', accentBg:'#be185d', accentLight:'#fbcfe8', cardTint:'#30202a' },
+  grammatik:    { accent:'#f97316', accentBg:'#c2410c', accentLight:'#fed7aa', cardTint:'#302418' }
 };
 
 function applyTheme(sec){
@@ -333,7 +379,7 @@ function switchSection(sec){
   applyTheme(sec);
   document.querySelectorAll('.nav-btn').forEach(b=>b.classList.toggle('active',b.dataset.section===sec));
   document.querySelectorAll('.section-header').forEach(h=>h.classList.remove('active'));
-  const map={rest:'hdr-rest',verben:'hdr-verben',noun:'hdr-noun',conjunctions:'hdr-conj'};
+  const map={rest:'hdr-rest',verben:'hdr-verben',noun:'hdr-noun',conjunctions:'hdr-conj',redemittel:'hdr-redemittel',grammatik:'hdr-grammatik'};
   $(map[sec]).classList.add('active');
   render();
 }
@@ -344,6 +390,8 @@ function updateCounts(){
   $('cnt-verben').textContent=Object.keys(DATA.verben).length;
   $('cnt-noun').textContent=DATA.noun.length;
   $('cnt-conj').textContent=DATA.conjunctions.length;
+  $('cnt-redemittel').textContent=DATA.redemittel.length;
+  $('cnt-grammatik').textContent=DATA.grammatik.length;
 }
 
 /* ==================== RENDER DISPATCH ==================== */
@@ -354,7 +402,9 @@ function render(){
   if(SEC==='rest') renderRest();
   else if(SEC==='verben') renderVerben();
   else if(SEC==='noun') renderNoun();
-  else renderConj();
+  else if(SEC==='conjunctions') renderConj();
+  else if(SEC==='redemittel') renderRedemittel();
+  else renderGrammatik();
 }
 
 /* ==================== REST ==================== */
@@ -555,6 +605,111 @@ function showConjPopup(it){
   });
 }
 
+/* ==================== REDEMITTEL ==================== */
+function buildRedemittelCats(){
+  const cats=new Set(), levels=new Set();
+  DATA.redemittel.forEach(x=>{if(x.category)cats.add(x.category);if(x.level)levels.add(x.level)});
+  const sel=$('flt-rm-cat');
+  sel.innerHTML='<option value="">Tum kategoriler</option>';
+  [...cats].sort().forEach(c=>{const o=document.createElement('option');o.value=c;o.textContent=c;sel.appendChild(o)});
+  const lsel=$('flt-rm-level');
+  lsel.innerHTML='<option value="">Tum seviyeler</option>';
+  [...levels].sort().forEach(c=>{const o=document.createElement('option');o.value=c;o.textContent=c;lsel.appendChild(o)});
+}
+function renderRedemittel(){
+  grid.innerHTML='';
+  const st=S.rm, q=st.q.toLowerCase();
+  let count=0;
+  DATA.redemittel.forEach(it=>{
+    if(st.cat && it.category!==st.cat) return;
+    if(st.level && it.level!==st.level) return;
+    if(q && !(it.phrase||'').toLowerCase().includes(q) && !(it.meaning||'').toLowerCase().includes(q) && !(it.category||'').toLowerCase().includes(q)) return;
+    count++;
+    const card=document.createElement('div');card.className='card';
+    const txt=document.createElement('div');txt.className='word';txt.textContent=it.phrase;
+    const sub=document.createElement('div');sub.className='sub';sub.textContent=(it.level||'')+' '+((it.category||'').split('/')[0].trim());
+    const btnRow=document.createElement('div');btnRow.className='btn-row';
+    const spk=document.createElement('button');spk.className='mini-btn';spk.textContent='\u{1F50A}';
+    spk.onclick=e=>{e.stopPropagation();speak(it.phrase)};
+    const info=document.createElement('button');info.className='mini-btn';info.textContent='i';info.style.fontWeight='bold';
+    info.onclick=e=>{e.stopPropagation();showRedemittelPopup(it)};
+    btnRow.appendChild(spk);btnRow.appendChild(info);
+    let flipped=false;
+    card.onclick=()=>{flipped=!flipped;txt.textContent=flipped?it.meaning:it.phrase};
+    card.appendChild(txt);card.appendChild(btnRow);card.appendChild(sub);
+    grid.appendChild(card);
+  });
+  $('pill-redemittel').textContent=count+' kalip';
+}
+
+function showRedemittelPopup(it){
+  popupBox.innerHTML=`
+    <div class="popup-title">${esc(it.phrase)} <button class="popup-speak" id="rp-spk">\u{1F50A}</button></div>
+    <div class="popup-section"><div class="popup-label">MEANING</div><div class="popup-val">${esc(it.meaning)}</div></div>
+    <div class="popup-section"><div class="popup-label">CATEGORY</div><div class="popup-val">${esc(it.category)}</div></div>
+    <div class="popup-section"><div class="popup-label">LEVEL / KAPITEL</div><div class="popup-val">${esc(it.level||'')} ${esc(it.kapitel||'')}</div></div>
+    <div class="popup-section"><div class="popup-label">EXAMPLE <button class="popup-speak" id="rp-ex-spk">\u{1F50A}</button></div>
+      <div class="popup-hidden" id="rp-ex" data-c="${esc(it.example||'-')}">Goruntulemek icin tikla</div></div>
+    <div class="popup-section"><div class="popup-label">TRANSLATION</div>
+      <div class="popup-hidden" id="rp-tr" data-c="${esc(it.translation||'-')}">Goruntulemek icin tikla</div></div>
+    <button class="popup-close-btn" id="rp-close">Kapat</button>`;
+  popupOverlay.classList.add('show');
+  $('rp-spk').onclick=()=>speak(it.phrase);
+  $('rp-ex-spk').onclick=()=>{if(it.example&&it.example!=='-')speak(it.example)};
+  $('rp-ex').onclick=function(){if(this.classList.contains('popup-hidden')){this.textContent=this.dataset.c;this.classList.remove('popup-hidden');this.classList.add('popup-revealed')}};
+  $('rp-tr').onclick=function(){if(this.classList.contains('popup-hidden')){this.textContent=this.dataset.c;this.classList.remove('popup-hidden');this.classList.add('popup-revealed')}};
+  $('rp-close').onclick=hidePopup;
+}
+
+/* ==================== GRAMMATIK ==================== */
+function buildGrammatikTypes(){
+  const types=new Set(), levels=new Set();
+  DATA.grammatik.forEach(x=>{if(x.type)types.add(x.type);if(x.level)levels.add(x.level)});
+  const sel=$('flt-gr-type');
+  sel.innerHTML='<option value="">Tum tipler</option>';
+  [...types].sort().forEach(c=>{const o=document.createElement('option');o.value=c;o.textContent=c;sel.appendChild(o)});
+  const lsel=$('flt-gr-level');
+  lsel.innerHTML='<option value="">Tum seviyeler</option>';
+  [...levels].sort().forEach(c=>{const o=document.createElement('option');o.value=c;o.textContent=c;lsel.appendChild(o)});
+}
+function renderGrammatik(){
+  grid.innerHTML='';
+  const st=S.gr, q=st.q.toLowerCase();
+  let count=0;
+  DATA.grammatik.forEach(it=>{
+    if(st.type && it.type!==st.type) return;
+    if(st.level && it.level!==st.level) return;
+    if(q && !(it.topic||'').toLowerCase().includes(q) && !(it.rule||'').toLowerCase().includes(q) && !(it.type||'').toLowerCase().includes(q)) return;
+    count++;
+    const card=document.createElement('div');card.className='card';
+    const txt=document.createElement('div');txt.className='word';txt.textContent=it.topic;
+    const sub=document.createElement('div');sub.className='sub';sub.textContent=(it.level||'')+' '+((it.type||'').split('/')[0].trim());
+    card.onclick=()=>showGrammatikPopup(it);
+    card.appendChild(txt);card.appendChild(sub);
+    grid.appendChild(card);
+  });
+  $('pill-grammatik').textContent=count+' kural';
+}
+
+function showGrammatikPopup(it){
+  popupBox.innerHTML=`
+    <div class="popup-title">${esc(it.topic)}</div>
+    <div class="popup-section"><div class="popup-label">TYPE</div><div class="popup-val">${esc(it.type)}</div></div>
+    <div class="popup-section"><div class="popup-label">LEVEL / KAPITEL</div><div class="popup-val">${esc(it.level||'')} ${esc(it.kapitel||'')}</div></div>
+    <div class="popup-section"><div class="popup-label">RULE</div><div class="popup-val">${esc(it.rule)}</div></div>
+    <div class="popup-section"><div class="popup-label">EXAMPLE (DE) <button class="popup-speak" id="gp-spk">\u{1F50A}</button></div><div class="popup-val">${esc(it.example_de)}</div></div>
+    <div class="popup-section"><div class="popup-label">EXAMPLE (EN)</div><div class="popup-val">${esc(it.example_en)}</div></div>
+    <hr style="border:0;border-top:1px solid var(--border);margin:10px 0">
+    <div class="popup-section"><div class="popup-label">QUIZ</div>
+      <div class="popup-val" style="margin-bottom:6px">${esc(it.question)}</div>
+      <div class="popup-hidden" id="gp-ans" data-c="${esc(it.answer)}">Cevabi gormek icin tikla</div></div>
+    <button class="popup-close-btn" id="gp-close">Kapat</button>`;
+  popupOverlay.classList.add('show');
+  $('gp-spk').onclick=()=>speak(it.example_de);
+  $('gp-ans').onclick=function(){if(this.classList.contains('popup-hidden')){this.textContent=this.dataset.c;this.classList.remove('popup-hidden');this.classList.add('popup-revealed')}};
+  $('gp-close').onclick=hidePopup;
+}
+
 /* ==================== POPUP COMMON ==================== */
 function hidePopup(){popupOverlay.classList.remove('show')}
 popupOverlay.onclick=e=>{if(e.target===popupOverlay)hidePopup()};
@@ -576,7 +731,7 @@ function exitTraining(){
   setTrainingBtnActive(false);
 }
 function setTrainingBtnActive(on){
-  const map={rest:'btn-r-training',verben:'btn-v-training',noun:'btn-n-training',conjunctions:'btn-c-training'};
+  const map={rest:'btn-r-training',verben:'btn-v-training',noun:'btn-n-training',conjunctions:'btn-c-training',redemittel:'btn-rm-training',grammatik:'btn-gr-training'};
   const b=$(map[SEC]); if(b)b.classList.toggle('active',on);
 }
 
@@ -595,9 +750,19 @@ function buildTrainList(){
     let list=DATA.noun;
     if(S.noun.cat) list=list.filter(x=>x.category===S.noun.cat);
     tList=list.slice();
-  } else {
+  } else if(SEC==='conjunctions'){
     let list=DATA.conjunctions;
     if(S.conj.type) list=list.filter(x=>x.type===S.conj.type);
+    tList=list.slice();
+  } else if(SEC==='redemittel'){
+    let list=DATA.redemittel;
+    if(S.rm.cat) list=list.filter(x=>x.category===S.rm.cat);
+    if(S.rm.level) list=list.filter(x=>x.level===S.rm.level);
+    tList=list.slice();
+  } else {
+    let list=DATA.grammatik;
+    if(S.gr.type) list=list.filter(x=>x.type===S.gr.type);
+    if(S.gr.level) list=list.filter(x=>x.level===S.gr.level);
     tList=list.slice();
   }
   for(let i=tList.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[tList[i],tList[j]]=[tList[j],tList[i]]}
@@ -638,12 +803,46 @@ function renderTrain(){
     reveal.classList.remove('revealed');
     reveal.innerHTML='<div class="train-reveal-hint">Detaylari gormek icin tikla</div>';
     spkBtn.style.display='none';
-  } else {
+  } else if(SEC==='conjunctions'){
     const show=Math.random()<0.5?(it.word||''):(it.meaning||'');
     prompt.textContent=show;
     reveal.classList.remove('revealed');
     reveal.innerHTML='<div class="train-reveal-hint">Tikla ve dinle</div>';
     spkBtn.style.display='none';
+  } else if(SEC==='redemittel'){
+    prompt.textContent=it.meaning||it.translation||'';
+    if(tRevealed){
+      reveal.classList.add('revealed');
+      reveal.innerHTML=`<div class="train-german">${esc(it.phrase)}</div>
+        <div class="train-details">
+          <div class="lbl">Ornek</div><div class="val">${esc(it.example||'-')}</div>
+          <div class="lbl">Ceviri</div><div class="val">${esc(it.translation||'-')}</div>
+          <div class="lbl">Kategori</div><div class="val">${esc(it.category||'')}</div>
+          <div class="lbl">Seviye</div><div class="val">${esc(it.level||'')} ${esc(it.kapitel||'')}</div>
+        </div>`;
+      spkBtn.style.display='';
+    } else {
+      reveal.classList.remove('revealed');
+      reveal.innerHTML='<div class="train-reveal-hint">Almancasini gormek icin tikla</div>';
+      spkBtn.style.display='none';
+    }
+  } else {
+    prompt.innerHTML=esc(it.question||'');
+    if(tRevealed){
+      reveal.classList.add('revealed');
+      reveal.innerHTML=`<div class="train-german">${esc(it.answer)}</div>
+        <div class="train-details">
+          <div class="lbl">Konu</div><div class="val">${esc(it.topic)}</div>
+          <div class="lbl">Kural</div><div class="val">${esc(it.rule)}</div>
+          <div class="lbl">Ornek</div><div class="val">${esc(it.example_de||'-')}</div>
+          <div class="lbl">Seviye</div><div class="val">${esc(it.level||'')} ${esc(it.kapitel||'')}</div>
+        </div>`;
+      spkBtn.style.display='';
+    } else {
+      reveal.classList.remove('revealed');
+      reveal.innerHTML='<div class="train-reveal-hint">Cevabi gormek icin tikla</div>';
+      spkBtn.style.display='none';
+    }
   }
 }
 
@@ -656,9 +855,13 @@ $('train-reveal').onclick=function(){
     showVerbenModal(it.key,it);
   } else if(SEC==='noun'){
     showNounPopup(it);
-  } else {
+  } else if(SEC==='conjunctions'){
     speak(it.word);
     showConjPopup(it);
+  } else if(SEC==='redemittel'){
+    if(!tRevealed){tRevealed=true;renderTrain()}
+  } else {
+    if(!tRevealed){tRevealed=true;renderTrain()}
   }
 };
 
@@ -668,7 +871,9 @@ $('btn-train-speak').onclick=function(){
   if(SEC==='rest' && it.sentence) speak(it.sentence);
   else if(SEC==='verben') speak(it.de||'');
   else if(SEC==='noun') speak(it.noun||'');
-  else speak(it.word||'');
+  else if(SEC==='conjunctions') speak(it.word||'');
+  else if(SEC==='redemittel') speak(it.example||it.phrase||'');
+  else speak(it.example_de||'');
 };
 
 function trainPrev(){if(!tList.length)return;tIdx=(tIdx-1+tList.length)%tList.length;tRevealed=false;renderTrain()}
@@ -686,8 +891,12 @@ function shuffleSection(sec){
     S.verben.order=k;
   } else if(sec==='noun'){
     for(let i=DATA.noun.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[DATA.noun[i],DATA.noun[j]]=[DATA.noun[j],DATA.noun[i]]}
-  } else {
+  } else if(sec==='conjunctions'){
     for(let i=DATA.conjunctions.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[DATA.conjunctions[i],DATA.conjunctions[j]]=[DATA.conjunctions[j],DATA.conjunctions[i]]}
+  } else if(sec==='redemittel'){
+    for(let i=DATA.redemittel.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[DATA.redemittel[i],DATA.redemittel[j]]=[DATA.redemittel[j],DATA.redemittel[i]]}
+  } else {
+    for(let i=DATA.grammatik.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[DATA.grammatik[i],DATA.grammatik[j]]=[DATA.grammatik[j],DATA.grammatik[i]]}
   }
   if(TRAINING){buildTrainList();tIdx=0;tRevealed=false;renderTrain()}
   else render();
@@ -697,7 +906,9 @@ function resetOrder(sec){
   if(sec==='rest') DATA.rest=JSON.parse(JSON.stringify(ORIG.rest));
   else if(sec==='verben'){DATA.verben=JSON.parse(JSON.stringify(ORIG.verben));S.verben.order=null;S.verben.daily=null}
   else if(sec==='noun') DATA.noun=JSON.parse(JSON.stringify(ORIG.noun));
-  else DATA.conjunctions=JSON.parse(JSON.stringify(ORIG.conjunctions));
+  else if(sec==='conjunctions') DATA.conjunctions=JSON.parse(JSON.stringify(ORIG.conjunctions));
+  else if(sec==='redemittel') DATA.redemittel=JSON.parse(JSON.stringify(ORIG.redemittel));
+  else DATA.grammatik=JSON.parse(JSON.stringify(ORIG.grammatik));
   if(TRAINING){buildTrainList();tIdx=0;tRevealed=false;renderTrain()}
   else render();
 }
@@ -724,12 +935,18 @@ document.querySelectorAll('.n-mode').forEach(b=>b.onclick=()=>{
 $('flt-rest-cat').onchange=function(){S.rest.cat=this.value;if(TRAINING){buildTrainList();tIdx=0;tRevealed=false;renderTrain()}else render()};
 $('flt-noun-cat').onchange=function(){S.noun.cat=this.value;if(TRAINING){buildTrainList();tIdx=0;tRevealed=false;renderTrain()}else render()};
 $('flt-conj-type').onchange=function(){S.conj.type=this.value;if(TRAINING){buildTrainList();tIdx=0;tRevealed=false;renderTrain()}else render()};
+$('flt-rm-cat').onchange=function(){S.rm.cat=this.value;if(TRAINING){buildTrainList();tIdx=0;tRevealed=false;renderTrain()}else render()};
+$('flt-rm-level').onchange=function(){S.rm.level=this.value;if(TRAINING){buildTrainList();tIdx=0;tRevealed=false;renderTrain()}else render()};
+$('flt-gr-type').onchange=function(){S.gr.type=this.value;if(TRAINING){buildTrainList();tIdx=0;tRevealed=false;renderTrain()}else render()};
+$('flt-gr-level').onchange=function(){S.gr.level=this.value;if(TRAINING){buildTrainList();tIdx=0;tRevealed=false;renderTrain()}else render()};
 
 /* ==================== SEARCH ==================== */
 $('q-rest').oninput=function(){S.rest.q=this.value;render()};
 $('q-verben').oninput=function(){S.verben.q=this.value;render()};
 $('q-noun').oninput=function(){S.noun.q=this.value;render()};
 $('q-conj').oninput=function(){S.conj.q=this.value;render()};
+$('q-redemittel').oninput=function(){S.rm.q=this.value;render()};
+$('q-grammatik').oninput=function(){S.gr.q=this.value;render()};
 
 /* ==================== NORMAL / TRAINING / DAILY ==================== */
 $('btn-r-normal').onclick=()=>{exitTraining();S.rest.daily=null;S.rest.q='';$('q-rest').value='';render()};
@@ -756,14 +973,22 @@ $('btn-n-training').onclick=()=>{if(TRAINING)exitTraining();else enterTraining()
 $('btn-c-normal').onclick=()=>{exitTraining();S.conj.q='';$('q-conj').value='';render()};
 $('btn-c-training').onclick=()=>{if(TRAINING)exitTraining();else enterTraining()};
 
-/* ==================== LOAD DATA (shared) ==================== */
+$('btn-rm-normal').onclick=()=>{exitTraining();S.rm.q='';$('q-redemittel').value='';render()};
+$('btn-rm-training').onclick=()=>{if(TRAINING)exitTraining();else enterTraining()};
+
+$('btn-gr-normal').onclick=()=>{exitTraining();S.gr.q='';$('q-grammatik').value='';render()};
+$('btn-gr-training').onclick=()=>{if(TRAINING)exitTraining();else enterTraining()};
+
+/* ==================== LOAD DATA HELPER ==================== */
 function loadData(obj){
   if(obj.rest) DATA.rest=obj.rest;
   if(obj.verben) DATA.verben=obj.verben;
   if(obj.noun) DATA.noun=obj.noun;
   if(obj.conjunctions) DATA.conjunctions=obj.conjunctions;
+  if(obj.redemittel) DATA.redemittel=obj.redemittel;
+  if(obj.grammatik) DATA.grammatik=obj.grammatik;
   ORIG=JSON.parse(JSON.stringify(DATA));
-  buildRestCats();buildNounCats();buildConjTypes();
+  buildRestCats();buildNounCats();buildConjTypes();buildRedemittelCats();buildGrammatikTypes();
   updateCounts();
   if(TRAINING){buildTrainList();tIdx=0;tRevealed=false;renderTrain()}
   else render();
@@ -773,16 +998,14 @@ function loadData(obj){
 const LS_KEY='german-trainer-data';
 
 function saveToLS(){
-  try{localStorage.setItem(LS_KEY,JSON.stringify({rest:DATA.rest,verben:DATA.verben,noun:DATA.noun,conjunctions:DATA.conjunctions}))}catch(e){}
+  try{localStorage.setItem(LS_KEY,JSON.stringify({rest:DATA.rest,verben:DATA.verben,noun:DATA.noun,conjunctions:DATA.conjunctions,redemittel:DATA.redemittel,grammatik:DATA.grammatik}))}catch(e){}
 }
 
 async function autoLoad(){
-  // 1) localStorage'dan hemen yukle (aninda acilsin)
   try{
     const cached=localStorage.getItem(LS_KEY);
     if(cached){loadData(JSON.parse(cached))}
   }catch(e){}
-  // 2) fetch ile guncel veriyi cek
   try{
     const res=await fetch('unified.json?t='+Date.now());
     if(res.ok){
@@ -806,7 +1029,7 @@ $('fileInput').onchange=async function(){
 };
 
 $('btn-export').onclick=()=>{
-  const obj={rest:DATA.rest,verben:DATA.verben,noun:DATA.noun,conjunctions:DATA.conjunctions};
+  const obj={rest:DATA.rest,verben:DATA.verben,noun:DATA.noun,conjunctions:DATA.conjunctions,redemittel:DATA.redemittel,grammatik:DATA.grammatik};
   const blob=new Blob([JSON.stringify(obj,null,2)],{type:'application/json'});
   const a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download='unified.json';a.click();URL.revokeObjectURL(a.href);
 };
@@ -816,7 +1039,7 @@ document.addEventListener('keydown',e=>{
   if(e.key==='Escape'){hidePopup();if(TRAINING){exitTraining();render()}}
   if(e.key==='/'&&!['INPUT','TEXTAREA','SELECT'].includes(document.activeElement.tagName)){
     e.preventDefault();
-    const map={rest:'q-rest',verben:'q-verben',noun:'q-noun',conjunctions:'q-conj'};
+    const map={rest:'q-rest',verben:'q-verben',noun:'q-noun',conjunctions:'q-conj',redemittel:'q-redemittel',grammatik:'q-grammatik'};
     $(map[SEC]).focus();
   }
   if(TRAINING){
