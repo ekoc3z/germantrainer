@@ -45661,5 +45661,498 @@
       "question": "Bevoelkerung + ___ + struktur = Bevoelkerungsstruktur (Fugenelement?)",
       "answer": "s"
     }
+  ],
+  "pratik": [
+    {
+      "id": "deklination",
+      "title": "Deklination (Fälle: N/A/D/G)",
+      "icon": "📊",
+      "sections": [
+        {
+          "subtitle": "Bestimmter Artikel (der/die/das)",
+          "type": "table",
+          "headers": [
+            "",
+            "Maskulin",
+            "Feminin",
+            "Neutrum",
+            "Plural"
+          ],
+          "rows": [
+            [
+              "Nominativ",
+              "der",
+              "die",
+              "das",
+              "die"
+            ],
+            [
+              "Akkusativ",
+              "den",
+              "die",
+              "das",
+              "die"
+            ],
+            [
+              "Dativ",
+              "dem",
+              "der",
+              "dem",
+              "den (+n)"
+            ],
+            [
+              "Genitiv",
+              "des (+s/es)",
+              "der",
+              "des (+s/es)",
+              "der"
+            ]
+          ]
+        },
+        {
+          "subtitle": "Unbestimmter Artikel (ein/eine)",
+          "type": "table",
+          "headers": [
+            "",
+            "Maskulin",
+            "Feminin",
+            "Neutrum",
+            "Plural"
+          ],
+          "rows": [
+            [
+              "Nominativ",
+              "ein",
+              "eine",
+              "ein",
+              "– (keine)"
+            ],
+            [
+              "Akkusativ",
+              "einen",
+              "eine",
+              "ein",
+              "– (keine)"
+            ],
+            [
+              "Dativ",
+              "einem",
+              "einer",
+              "einem",
+              "– (keinen)"
+            ],
+            [
+              "Genitiv",
+              "eines",
+              "einer",
+              "eines",
+              "– (keiner)"
+            ]
+          ]
+        },
+        {
+          "subtitle": "Personalpronomen",
+          "type": "table",
+          "headers": [
+            "",
+            "Nominativ",
+            "Akkusativ",
+            "Dativ"
+          ],
+          "rows": [
+            [
+              "ich",
+              "ich",
+              "mich",
+              "mir"
+            ],
+            [
+              "du",
+              "du",
+              "dich",
+              "dir"
+            ],
+            [
+              "er",
+              "er",
+              "ihn",
+              "ihm"
+            ],
+            [
+              "sie",
+              "sie",
+              "sie",
+              "ihr"
+            ],
+            [
+              "es",
+              "es",
+              "es",
+              "ihm"
+            ],
+            [
+              "wir",
+              "wir",
+              "uns",
+              "uns"
+            ],
+            [
+              "ihr",
+              "ihr",
+              "euch",
+              "euch"
+            ],
+            [
+              "sie/Sie",
+              "sie/Sie",
+              "sie/Sie",
+              "ihnen/Ihnen"
+            ]
+          ]
+        },
+        {
+          "subtitle": "Possessivpronomen",
+          "type": "table",
+          "headers": [
+            "",
+            "Maskulin (N/A/D/G)",
+            "Feminin",
+            "Neutrum",
+            "Plural"
+          ],
+          "rows": [
+            [
+              "ich",
+              "mein / meinen / meinem / meines",
+              "meine / meine / meiner / meiner",
+              "mein / mein / meinem / meines",
+              "meine / meine / meinen / meiner"
+            ],
+            [
+              "du",
+              "dein / deinen / deinem / deines",
+              "deine / deine / deiner / deiner",
+              "dein / dein / deinem / deines",
+              "deine / deine / deinen / deiner"
+            ],
+            [
+              "er/es",
+              "sein / seinen / seinem / seines",
+              "seine / seine / seiner / seiner",
+              "sein / sein / seinem / seines",
+              "seine / seine / seinen / seiner"
+            ],
+            [
+              "sie",
+              "ihr / ihren / ihrem / ihres",
+              "ihre / ihre / ihrer / ihrer",
+              "ihr / ihr / ihrem / ihres",
+              "ihre / ihre / ihren / ihrer"
+            ],
+            [
+              "wir",
+              "unser / unseren / unserem / unseres",
+              "unsere / unsere / unserer / unserer",
+              "unser / unser / unserem / unseres",
+              "unsere / unsere / unseren / unserer"
+            ],
+            [
+              "ihr",
+              "euer / euren / eurem / eures",
+              "eure / eure / eurer / eurer",
+              "euer / euer / eurem / eures",
+              "eure / eure / euren / eurer"
+            ],
+            [
+              "sie/Sie",
+              "ihr/Ihr / ihren/Ihren / ihrem/Ihrem / ihres/Ihres",
+              "ihre/Ihre / ihre/Ihre / ihrer/Ihrer / ihrer/Ihrer",
+              "ihr/Ihr / ihr/Ihr / ihrem/Ihrem / ihres/Ihres",
+              "ihre/Ihre / ihre/Ihre / ihren/Ihren / ihrer/Ihrer"
+            ]
+          ]
+        },
+        {
+          "subtitle": "Adjektivdeklination — mit bestimmtem Artikel",
+          "type": "table",
+          "headers": [
+            "",
+            "Maskulin",
+            "Feminin",
+            "Neutrum",
+            "Plural"
+          ],
+          "rows": [
+            [
+              "Nominativ",
+              "der nette Vater",
+              "die nette Mutter",
+              "das nette Kind",
+              "die netten Menschen"
+            ],
+            [
+              "Akkusativ",
+              "den netten Vater",
+              "die nette Mutter",
+              "das nette Kind",
+              "die netten Menschen"
+            ],
+            [
+              "Dativ",
+              "dem netten Vater",
+              "der netten Mutter",
+              "dem netten Kind",
+              "den netten Menschen"
+            ],
+            [
+              "Genitiv",
+              "des netten Vaters",
+              "der netten Mutter",
+              "des netten Kindes",
+              "der netten Menschen"
+            ]
+          ]
+        },
+        {
+          "subtitle": "Adjektivdeklination — mit unbestimmtem Artikel",
+          "type": "table",
+          "headers": [
+            "",
+            "Maskulin",
+            "Feminin",
+            "Neutrum",
+            "Plural"
+          ],
+          "rows": [
+            [
+              "Nominativ",
+              "ein netter Vater",
+              "eine nette Mutter",
+              "ein nettes Kind",
+              "nette Menschen"
+            ],
+            [
+              "Akkusativ",
+              "einen netten Vater",
+              "eine nette Mutter",
+              "ein nettes Kind",
+              "nette Menschen"
+            ],
+            [
+              "Dativ",
+              "einem netten Vater",
+              "einer netten Mutter",
+              "einem netten Kind",
+              "netten Menschen"
+            ],
+            [
+              "Genitiv",
+              "eines netten Vaters",
+              "einer netten Mutter",
+              "eines netten Kindes",
+              "netter Menschen"
+            ]
+          ]
+        },
+        {
+          "subtitle": "Adjektivdeklination — ohne Artikel",
+          "type": "table",
+          "headers": [
+            "",
+            "Maskulin",
+            "Feminin",
+            "Neutrum",
+            "Plural"
+          ],
+          "rows": [
+            [
+              "Nominativ",
+              "netter Vater",
+              "nette Mutter",
+              "nettes Kind",
+              "nette Menschen"
+            ],
+            [
+              "Akkusativ",
+              "netten Vater",
+              "nette Mutter",
+              "nettes Kind",
+              "nette Menschen"
+            ],
+            [
+              "Dativ",
+              "nettem Vater",
+              "netter Mutter",
+              "nettem Kind",
+              "netten Menschen"
+            ],
+            [
+              "Genitiv",
+              "netten Vaters",
+              "netter Mutter",
+              "netten Kindes",
+              "netter Menschen"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "praepositionen",
+      "title": "Präpositionen",
+      "icon": "📌",
+      "sections": [
+        {
+          "subtitle": "mit Akkusativ",
+          "type": "list",
+          "items": [
+            "bis",
+            "durch",
+            "für",
+            "gegen",
+            "ohne",
+            "um",
+            "(entlang — nachgestellt)"
+          ]
+        },
+        {
+          "subtitle": "mit Dativ",
+          "type": "list",
+          "items": [
+            "ab",
+            "aus",
+            "bei",
+            "mit",
+            "nach",
+            "seit",
+            "von",
+            "zu"
+          ]
+        },
+        {
+          "subtitle": "Wechselpräpositionen (Wo → Dativ, Wohin → Akkusativ)",
+          "type": "list",
+          "items": [
+            "an",
+            "auf",
+            "hinter",
+            "in",
+            "neben",
+            "über",
+            "unter",
+            "vor",
+            "zwischen"
+          ]
+        },
+        {
+          "subtitle": "mit Genitiv (Wichtigste)",
+          "type": "list",
+          "items": [
+            "aufgrund",
+            "bezüglich",
+            "infolge",
+            "innerhalb",
+            "außerhalb",
+            "oberhalb",
+            "unterhalb",
+            "laut",
+            "mithilfe",
+            "trotz",
+            "um...willen",
+            "während",
+            "wegen",
+            "zugunsten",
+            "angesichts",
+            "anhand",
+            "anlässlich",
+            "anstatt/statt",
+            "anstelle"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "trennbar",
+      "title": "Trennbare & Untrennbare Verben",
+      "icon": "✂️",
+      "sections": [
+        {
+          "subtitle": "Trennbare Vorsilben",
+          "type": "list",
+          "items": [
+            "ab-",
+            "an-",
+            "auf-",
+            "aus-",
+            "bei-",
+            "ein-",
+            "los-",
+            "mit-",
+            "nach-",
+            "her-",
+            "hin-",
+            "vor-",
+            "weg-",
+            "zu-",
+            "zurück-"
+          ]
+        },
+        {
+          "subtitle": "Untrennbare Vorsilben",
+          "type": "list",
+          "items": [
+            "be-",
+            "emp-",
+            "ent-",
+            "er-",
+            "ge-",
+            "miss-",
+            "ver-",
+            "zer-"
+          ]
+        },
+        {
+          "subtitle": "Mal trennbar, mal untrennbar",
+          "type": "list",
+          "items": [
+            "durch-",
+            "hinter-",
+            "über-",
+            "um-",
+            "unter-",
+            "wider-"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "artikel-tipps",
+      "title": "Artikel İpuçları (Suffix Kuralları)",
+      "icon": "💡",
+      "sections": [
+        {
+          "subtitle": "Artikel nach Suffixen",
+          "type": "table",
+          "headers": [
+            "Artikel",
+            "Yaygın Son Ekler"
+          ],
+          "rows": [
+            [
+              "der (maskulin)",
+              "-ismus, -or, -ling, -ist, -ig, -er"
+            ],
+            [
+              "die (feminin)",
+              "-ung, -heit, -keit, -schaft, -tät, -ik, -ion, -ei"
+            ],
+            [
+              "das (neutrum)",
+              "-chen, -lein, -ment, -um, -tum, -ma"
+            ]
+          ]
+        }
+      ]
+    }
   ]
 }
