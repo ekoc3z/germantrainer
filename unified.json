@@ -46165,11 +46165,11 @@
       "note": ""
     },
     {
-      "sentence_de": "Sie interessiert sich fur Kunst.",
+      "sentence_de": "Sie interessiert sich für Kunst.",
       "sentence_tr": "Sanatla ilgileniyor.",
-      "blank_word": "fur",
+      "blank_word": "für",
       "category": "verb",
-      "context": "sich interessieren fur +Akk",
+      "context": "sich interessieren für +Akk",
       "note": ""
     },
     {
@@ -46189,11 +46189,11 @@
       "note": "gelecek icin"
     },
     {
-      "sentence_de": "Ich freue mich uber das Geschenk.",
+      "sentence_de": "Ich freue mich über das Geschenk.",
       "sentence_tr": "Hediyeye seviniyorum.",
-      "blank_word": "uber",
+      "blank_word": "über",
       "category": "verb",
-      "context": "sich freuen uber +Akk",
+      "context": "sich freuen über +Akk",
       "note": "olan icin"
     },
     {
@@ -46213,7 +46213,7 @@
       "note": ""
     },
     {
-      "sentence_de": "Ich bedanke mich bei Ihnen fur die Hilfe.",
+      "sentence_de": "Ich bedanke mich bei Ihnen für die Hilfe.",
       "sentence_tr": "Yardim icin size tesekkur ediyorum.",
       "blank_word": "bei",
       "category": "verb",
@@ -46221,15 +46221,15 @@
       "note": ""
     },
     {
-      "sentence_de": "Er beschwert sich uber den Larm.",
+      "sentence_de": "Er beschwert sich über den Lärm.",
       "sentence_tr": "Gurultuyu sikayet ediyor.",
-      "blank_word": "uber",
+      "blank_word": "über",
       "category": "verb",
-      "context": "sich beschweren uber +Akk",
+      "context": "sich beschweren über +Akk",
       "note": ""
     },
     {
-      "sentence_de": "Wir bitten Sie um Verstandnis.",
+      "sentence_de": "Wir bitten Sie um Verständnis.",
       "sentence_tr": "Sizden anlayis rica ediyoruz.",
       "blank_word": "um",
       "category": "verb",
@@ -46237,19 +46237,19 @@
       "note": ""
     },
     {
-      "sentence_de": "Das hangt vom Wetter ab.",
+      "sentence_de": "Das hängt vom Wetter ab.",
       "sentence_tr": "Havaya bagli.",
       "blank_word": "vom",
       "category": "verb",
-      "context": "abhangen von +Dat",
+      "context": "abhängen von +Dat",
       "note": "von + dem = vom"
     },
     {
-      "sentence_de": "Sie traumt von einer Reise.",
+      "sentence_de": "Sie träumt von einer Reise.",
       "sentence_tr": "Bir seyahatten hayal kuruyor.",
       "blank_word": "von",
       "category": "verb",
-      "context": "traumen von +Dat",
+      "context": "träumen von +Dat",
       "note": ""
     },
     {
@@ -46309,7 +46309,7 @@
       "note": "+Dat"
     },
     {
-      "sentence_de": "Vor dem Essen wasche ich mir die Hande.",
+      "sentence_de": "Vor dem Essen wasche ich mir die Hände.",
       "sentence_tr": "Yemekten once ellerimi yikarim.",
       "blank_word": "Vor",
       "category": "temporal",
@@ -46325,11 +46325,11 @@
       "note": "+Dat, -den sonra"
     },
     {
-      "sentence_de": "Wahrend der Pause trinke ich Kaffee.",
+      "sentence_de": "Während der Pause trinke ich Kaffee.",
       "sentence_tr": "Mola sirasinda kahve icerim.",
-      "blank_word": "Wahrend",
+      "blank_word": "Während",
       "category": "temporal",
-      "context": "wahrend + Zeitraum",
+      "context": "während + Zeitraum",
       "note": "+Gen"
     },
     {
@@ -46341,7 +46341,7 @@
       "note": ""
     },
     {
-      "sentence_de": "Ab morgen fange ich mit der Diat an.",
+      "sentence_de": "Ab morgen fange ich mit der Diät an.",
       "sentence_tr": "Yarindan itibaren diyete basliyorum.",
       "blank_word": "Ab",
       "category": "temporal",
@@ -46349,7 +46349,7 @@
       "note": "+Dat"
     },
     {
-      "sentence_de": "In zwei Wochen habe ich Prufung.",
+      "sentence_de": "In zwei Wochen habe ich Prüfung.",
       "sentence_tr": "Iki hafta sonra sinav var.",
       "blank_word": "In",
       "category": "temporal",
@@ -46373,7 +46373,7 @@
       "note": ""
     },
     {
-      "sentence_de": "Das Bild hangt an der Wand.",
+      "sentence_de": "Das Bild hängt an der Wand.",
       "sentence_tr": "Resim duvarda asili.",
       "blank_word": "an",
       "category": "lokal",
@@ -46381,7 +46381,7 @@
       "note": ""
     },
     {
-      "sentence_de": "Er steht vor der Tur.",
+      "sentence_de": "Er steht vor der Tür.",
       "sentence_tr": "Kapinin onunde duruyor.",
       "blank_word": "vor",
       "category": "lokal",
@@ -46405,11 +46405,11 @@
       "note": ""
     },
     {
-      "sentence_de": "Die Lampe hangt uber dem Tisch.",
+      "sentence_de": "Die Lampe hängt über dem Tisch.",
       "sentence_tr": "Lamba masanin ustunde asili.",
-      "blank_word": "uber",
+      "blank_word": "über",
       "category": "lokal",
-      "context": "uber + Dat (Wo?)",
+      "context": "über + Dat (Wo?)",
       "note": ""
     },
     {
@@ -46421,7 +46421,7 @@
       "note": ""
     },
     {
-      "sentence_de": "Die Schuhe stehen hinter der Tur.",
+      "sentence_de": "Die Schuhe stehen hinter der Tür.",
       "sentence_tr": "Ayakkabilar kapinin arkasinda.",
       "blank_word": "hinter",
       "category": "lokal",
@@ -46453,7 +46453,7 @@
       "note": ""
     },
     {
-      "sentence_de": "Sie hangt das Bild an die Wand.",
+      "sentence_de": "Sie hängt das Bild an die Wand.",
       "sentence_tr": "Resmi duvara asiyor.",
       "blank_word": "an",
       "category": "direktional",
@@ -46509,7 +46509,7 @@
       "note": "zu + dem = zum"
     },
     {
-      "sentence_de": "Sie kommt aus der Turkei.",
+      "sentence_de": "Sie kommt aus der Türkei.",
       "sentence_tr": "Turkiye'den geliyor.",
       "blank_word": "aus",
       "category": "direktional",
@@ -46533,7 +46533,7 @@
       "note": ""
     },
     {
-      "sentence_de": "Sie kummert sich um ihre Mutter.",
+      "sentence_de": "Sie kümmert sich um ihre Mutter.",
       "sentence_tr": "Annesine bakiyor.",
       "blank_word": "um",
       "category": "verb",
@@ -46541,7 +46541,7 @@
       "note": ""
     },
     {
-      "sentence_de": "Wer kummert sich um die Kinder?",
+      "sentence_de": "Wer kümmert sich um die Kinder?",
       "sentence_tr": "Cocuklarla kim ilgileniyor?",
       "blank_word": "um",
       "category": "verb",
@@ -46549,19 +46549,19 @@
       "note": ""
     },
     {
-      "sentence_de": "Ich habe mich fur das rote Kleid entschieden.",
+      "sentence_de": "Ich habe mich für das rote Kleid entschieden.",
       "sentence_tr": "Kirmizi elbiseye karar verdim.",
-      "blank_word": "fur",
+      "blank_word": "für",
       "category": "verb",
-      "context": "sich entscheiden fur +Akk",
+      "context": "sich entscheiden für +Akk",
       "note": ""
     },
     {
-      "sentence_de": "Er entschuldigt sich fur den Fehler.",
+      "sentence_de": "Er entschuldigt sich für den Fehler.",
       "sentence_tr": "Hata icin ozur diliyor.",
-      "blank_word": "fur",
+      "blank_word": "für",
       "category": "verb",
-      "context": "sich entschuldigen fur +Akk",
+      "context": "sich entschuldigen für +Akk",
       "note": ""
     },
     {
@@ -46637,7 +46637,7 @@
       "note": ""
     },
     {
-      "sentence_de": "Hor auf mit dem Larm!",
+      "sentence_de": "Hör auf mit dem Lärm!",
       "sentence_tr": "Gurultuyu birak!",
       "blank_word": "mit",
       "category": "verb",
@@ -46645,11 +46645,11 @@
       "note": ""
     },
     {
-      "sentence_de": "Die Eltern sorgen fur ihre Kinder.",
+      "sentence_de": "Die Eltern sorgen für ihre Kinder.",
       "sentence_tr": "Ebeveynler cocuklarina bakiyor.",
-      "blank_word": "fur",
+      "blank_word": "für",
       "category": "verb",
-      "context": "sorgen fur +Akk",
+      "context": "sorgen für +Akk",
       "note": ""
     },
     {
@@ -46669,7 +46669,7 @@
       "note": ""
     },
     {
-      "sentence_de": "Wir bereiten uns auf die Prufung vor.",
+      "sentence_de": "Wir bereiten uns auf die Prüfung vor.",
       "sentence_tr": "Sinava hazilaniyoruz.",
       "blank_word": "auf",
       "category": "verb",
@@ -46685,7 +46685,7 @@
       "note": ""
     },
     {
-      "sentence_de": "Die Studenten protestieren gegen die Kurzungen.",
+      "sentence_de": "Die Studenten protestieren gegen die Kürzungen.",
       "sentence_tr": "Ogrenciler kesintileri protesto ediyor.",
       "blank_word": "gegen",
       "category": "verb",
@@ -46717,7 +46717,7 @@
       "note": ""
     },
     {
-      "sentence_de": "Wir mussen mit Verspatung rechnen.",
+      "sentence_de": "Wir mussen mit Verspätung rechnen.",
       "sentence_tr": "Gecikmeyi hesaba katmaliyiz.",
       "blank_word": "mit",
       "category": "verb",
@@ -46733,7 +46733,7 @@
       "note": ""
     },
     {
-      "sentence_de": "Es handelt sich um ein Missverstandnis.",
+      "sentence_de": "Es handelt sich um ein Missverständnis.",
       "sentence_tr": "Bu bir yanlis anlasilma.",
       "blank_word": "um",
       "category": "verb",
@@ -46765,11 +46765,11 @@
       "note": ""
     },
     {
-      "sentence_de": "Ich wundere mich uber seine Reaktion.",
+      "sentence_de": "Ich wundere mich über seine Reaktion.",
       "sentence_tr": "Tepkisine sasiriyorum.",
-      "blank_word": "uber",
+      "blank_word": "über",
       "category": "verb",
-      "context": "sich wundern uber +Akk",
+      "context": "sich wundern über +Akk",
       "note": ""
     },
     {
@@ -46829,11 +46829,11 @@
       "note": "zu + dem = zum"
     },
     {
-      "sentence_de": "Ich melde mich fur den Deutschkurs an.",
+      "sentence_de": "Ich melde mich für den Deutschkurs an.",
       "sentence_tr": "Almanca kursuna kayit oluyorum.",
-      "blank_word": "fur",
+      "blank_word": "für",
       "category": "verb",
-      "context": "sich anmelden fur +Akk",
+      "context": "sich anmelden für +Akk",
       "note": ""
     },
     {
@@ -46845,11 +46845,11 @@
       "note": "bei + dem = beim"
     },
     {
-      "sentence_de": "Ich informiere mich uber die Moglichkeiten.",
+      "sentence_de": "Ich informiere mich über die Möglichkeiten.",
       "sentence_tr": "Olanaklari hakkinda bilgi aliyorum.",
-      "blank_word": "uber",
+      "blank_word": "über",
       "category": "verb",
-      "context": "sich informieren uber +Akk",
+      "context": "sich informieren über +Akk",
       "note": ""
     },
     {
@@ -46885,7 +46885,7 @@
       "note": "in + dem = im"
     },
     {
-      "sentence_de": "Er arbeitet im Buro.",
+      "sentence_de": "Er arbeitet im Büro.",
       "sentence_tr": "Ofiste calisiyor.",
       "blank_word": "im",
       "category": "lokal",
@@ -47005,7 +47005,7 @@
       "note": "in + das = ins"
     },
     {
-      "sentence_de": "Sie fahrt ins Buro.",
+      "sentence_de": "Sie fahrt ins Büro.",
       "sentence_tr": "Ofise gidiyor.",
       "blank_word": "ins",
       "category": "direktional",
@@ -47141,7 +47141,7 @@
       "note": "zu + dem = zum"
     },
     {
-      "sentence_de": "Ich komme aus dem Buro.",
+      "sentence_de": "Ich komme aus dem Büro.",
       "sentence_tr": "Ofisten geliyorum.",
       "blank_word": "aus",
       "category": "direktional",
@@ -47233,7 +47233,7 @@
       "sentence_tr": "Saat 17 civarinda evdeyim.",
       "blank_word": "Gegen",
       "category": "temporal",
-      "context": "gegen + Uhrzeit (ungefahr)",
+      "context": "gegen + Uhrzeit (ungefähr)",
       "note": "+Akk, yaklasik"
     },
     {
