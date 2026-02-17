@@ -11,7 +11,7 @@
   --accent:#6366f1; --accent-bg:#4338ca; --accent-light:#a5b4fc;
   --text:#eef0f6; --muted:#9ba4b8; --green:#10b981;
   /* section colors (static, for sidebar) */
-  --c-rest:#818cf8; --c-verben:#c084fc; --c-noun:#2dd4bf; --c-conj:#fbbf24; --c-redemittel:#ec4899; --c-grammatik:#f97316; --c-pratik:#06b6d4;
+  --c-rest:#818cf8; --c-verben:#c084fc; --c-noun:#2dd4bf; --c-conj:#fbbf24; --c-redemittel:#ec4899; --c-grammatik:#f97316; --c-pratik:#06b6d4; --c-praposition:#8b5cf6;
 }
 *{box-sizing:border-box;margin:0;padding:0}
 body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;background:var(--bg);color:var(--text);display:flex;min-height:100vh}
@@ -30,6 +30,7 @@ body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;backgr
 .nav-btn[data-section="redemittel"]:hover,.nav-btn[data-section="redemittel"].active{border-left-color:var(--c-redemittel);color:var(--c-redemittel)}
 .nav-btn[data-section="grammatik"]:hover,.nav-btn[data-section="grammatik"].active{border-left-color:var(--c-grammatik);color:var(--c-grammatik)}
 .nav-btn[data-section="pratik"]:hover,.nav-btn[data-section="pratik"].active{border-left-color:var(--c-pratik);color:var(--c-pratik)}
+.nav-btn[data-section="praposition"]:hover,.nav-btn[data-section="praposition"].active{border-left-color:var(--c-praposition);color:var(--c-praposition)}
 .nav-btn.active{background:rgba(255,255,255,.07)}
 .nav-icon{font-size:18px;width:24px;text-align:center}
 .nav-label{flex:1;font-weight:600}
@@ -41,6 +42,7 @@ body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;backgr
 .nav-btn[data-section="redemittel"] .nav-count{border-color:rgba(236,72,153,.3)}
 .nav-btn[data-section="grammatik"] .nav-count{border-color:rgba(249,115,22,.3)}
 .nav-btn[data-section="pratik"] .nav-count{border-color:rgba(6,182,212,.3)}
+.nav-btn[data-section="praposition"] .nav-count{border-color:rgba(139,92,246,.3)}
 .sidebar-foot{margin-top:auto;padding:12px;border-top:1px solid var(--border);display:flex;flex-direction:column;gap:6px}
 .sidebar-foot button{padding:8px;border-radius:8px;border:1px solid var(--border);background:rgba(255,255,255,.06);color:var(--text);cursor:pointer;font-size:12px;transition:border-color .2s}
 .sidebar-foot button:hover{border-color:var(--accent)}
@@ -150,6 +152,27 @@ button.active{background:var(--accent-bg);border-color:var(--accent);color:#fff}
 .pratik-chips{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:12px}
 .pratik-chip{background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.12);border-radius:8px;padding:6px 12px;font-size:13px;color:var(--text)}
 
+/* ===== PRAPOSITIONEN ===== */
+.prap-card{background:var(--card-tint);border:1px solid var(--border);border-left:4px solid var(--accent);border-radius:12px;padding:16px;cursor:default;transition:all .2s}
+.prap-card:hover{border-color:var(--accent);transform:translateY(-2px);box-shadow:0 6px 24px rgba(0,0,0,.25)}
+.prap-cat{font-size:11px;text-transform:uppercase;color:var(--muted);letter-spacing:.5px;margin-bottom:6px;display:flex;align-items:center;gap:8px}
+.prap-cat-badge{padding:2px 8px;border-radius:999px;font-size:10px;font-weight:700;border:1px solid rgba(255,255,255,.15)}
+.prap-cat-badge.verb{background:rgba(99,102,241,.15);color:#818cf8;border-color:rgba(99,102,241,.3)}
+.prap-cat-badge.temporal{background:rgba(245,158,11,.15);color:#fbbf24;border-color:rgba(245,158,11,.3)}
+.prap-cat-badge.lokal{background:rgba(16,185,129,.15);color:#10b981;border-color:rgba(16,185,129,.3)}
+.prap-cat-badge.direktional{background:rgba(236,72,153,.15);color:#ec4899;border-color:rgba(236,72,153,.3)}
+.prap-cat-badge.andere{background:rgba(148,163,184,.15);color:#94a3b8;border-color:rgba(148,163,184,.3)}
+.prap-sentence{font-size:16px;font-weight:600;line-height:1.6;margin-bottom:8px}
+.prap-blank{display:inline-block;min-width:60px;border-bottom:2px solid var(--accent);color:var(--accent);font-weight:700;text-align:center;padding:0 4px;transition:all .2s}
+.prap-tr{font-size:13px;color:var(--muted);margin-bottom:10px;font-style:italic}
+.prap-context{font-size:12px;color:var(--accent-light);opacity:.7}
+.prap-note{font-size:12px;color:var(--muted);opacity:.7;margin-top:2px}
+.prap-reveal-btn{display:inline-block;padding:6px 14px;border-radius:8px;background:rgba(255,255,255,.08);border:1px solid var(--border);color:var(--muted);font-size:12px;cursor:pointer;transition:all .15s;margin-top:6px}
+.prap-reveal-btn:hover{background:var(--accent-bg);border-color:var(--accent);color:#fff}
+.prap-reveal-btn.revealed{background:rgba(16,185,129,.15);border-color:rgba(16,185,129,.4);color:var(--green);cursor:default}
+.prap-speak-btn{font-size:11px;padding:2px 6px;border-radius:6px;background:rgba(255,255,255,.1);border:1px solid var(--border);cursor:pointer;color:var(--text);transition:all .15s;margin-left:6px}
+.prap-speak-btn:hover{background:var(--accent-bg);border-color:var(--accent)}
+
 /* ===== MOBILE ===== */
 @media(max-width:768px){
   #sidebar{transform:translateX(-100%)}
@@ -208,6 +231,11 @@ button.active{background:var(--accent-bg);border-color:var(--accent);color:#fff}
     <span class="nav-icon">&#127891;</span>
     <span class="nav-label">Pratik Bilgiler</span>
     <span class="nav-count" id="cnt-pratik">0</span>
+  </button>
+  <button class="nav-btn" data-section="praposition">
+    <span class="nav-icon">&#127919;</span>
+    <span class="nav-label">Prapositionen</span>
+    <span class="nav-count" id="cnt-praposition">0</span>
   </button>
   <div class="sidebar-foot">
     <button id="btn-import">Import JSON</button>
@@ -323,6 +351,19 @@ button.active{background:var(--accent-bg);border-color:var(--accent);color:#fff}
       <span class="pill" id="pill-pratik">0 konu</span>
     </div>
   </div>
+  <!-- PRAPOSITION HEADER -->
+  <div id="hdr-praposition" class="section-header">
+    <div class="hdr-title">Prapositionen (Bosluk Doldurma)</div>
+    <div class="controls">
+      <select id="flt-prap-cat"><option value="">Tum kategoriler</option></select>
+      <input type="search" id="q-praposition" placeholder="Ara...">
+      <button id="btn-prap-normal">Normal</button>
+      <button id="btn-prap-training" class="training-toggle">Training</button>
+      <button class="btn-shuffle" data-s="praposition">Shuffle</button>
+      <button class="btn-orig" data-s="praposition">Sifirla</button>
+      <span class="pill" id="pill-praposition">0 cumle</span>
+    </div>
+  </div>
 </header>
 
 <div id="grid"></div>
@@ -352,8 +393,8 @@ button.active{background:var(--accent-bg);border-color:var(--accent);color:#fff}
 
 <script>
 /* ==================== STATE ==================== */
-let DATA = { rest:{}, verben:{}, noun:[], conjunctions:[], redemittel:[], grammatik:[], pratik:[] };
-let ORIG = { rest:{}, verben:{}, noun:[], conjunctions:[], redemittel:[], grammatik:[], pratik:[] };
+let DATA = { rest:{}, verben:{}, noun:[], conjunctions:[], redemittel:[], grammatik:[], pratik:[], praposition:[] };
+let ORIG = { rest:{}, verben:{}, noun:[], conjunctions:[], redemittel:[], grammatik:[], pratik:[], praposition:[] };
 let SEC = 'rest';
 let TRAINING = false;
 
@@ -364,7 +405,8 @@ const S = {
   conj:  { type:'', q:'' },
   rm:    { cat:'', level:'', q:'' },
   gr:    { type:'', level:'', q:'' },
-  pratik:{ cat:'', q:'' }
+  pratik:{ cat:'', q:'' },
+  prap:{ cat:'', q:'' }
 };
 
 let tList=[], tIdx=0, tRevealed=false;
@@ -377,7 +419,8 @@ const THEMES = {
   conjunctions: { accent:'#fbbf24', accentBg:'#d97706', accentLight:'#fde68a', cardTint:'#302a1e' },
   redemittel:   { accent:'#ec4899', accentBg:'#be185d', accentLight:'#fbcfe8', cardTint:'#30202a' },
   grammatik:    { accent:'#f97316', accentBg:'#c2410c', accentLight:'#fed7aa', cardTint:'#302418' },
-  pratik:       { accent:'#06b6d4', accentBg:'#0891b2', accentLight:'#a5f3fc', cardTint:'#1e3038' }
+  pratik:       { accent:'#06b6d4', accentBg:'#0891b2', accentLight:'#a5f3fc', cardTint:'#1e3038' },
+  praposition:  { accent:'#8b5cf6', accentBg:'#7c3aed', accentLight:'#c4b5fd', cardTint:'#2a2240' }
 };
 
 function applyTheme(sec){
@@ -426,7 +469,7 @@ function switchSection(sec){
   applyTheme(sec);
   document.querySelectorAll('.nav-btn').forEach(b=>b.classList.toggle('active',b.dataset.section===sec));
   document.querySelectorAll('.section-header').forEach(h=>h.classList.remove('active'));
-  const map={rest:'hdr-rest',verben:'hdr-verben',noun:'hdr-noun',conjunctions:'hdr-conj',redemittel:'hdr-redemittel',grammatik:'hdr-grammatik',pratik:'hdr-pratik'};
+  const map={rest:'hdr-rest',verben:'hdr-verben',noun:'hdr-noun',conjunctions:'hdr-conj',redemittel:'hdr-redemittel',grammatik:'hdr-grammatik',pratik:'hdr-pratik',praposition:'hdr-praposition'};
   $(map[sec]).classList.add('active');
   render();
 }
@@ -440,6 +483,7 @@ function updateCounts(){
   $('cnt-redemittel').textContent=DATA.redemittel.length;
   $('cnt-grammatik').textContent=DATA.grammatik.length;
   $('cnt-pratik').textContent=DATA.pratik.length;
+  $('cnt-praposition').textContent=DATA.praposition.length;
 }
 
 /* ==================== RENDER DISPATCH ==================== */
@@ -447,6 +491,7 @@ function render(){
   if(TRAINING) return;
   grid.style.display='';
   const pc=document.getElementById('pratik-container');if(pc)pc.style.display='none';
+  const prc=document.getElementById('praposition-container');if(prc)prc.style.display='none';
   $('training-view').classList.remove('active');
   if(SEC==='rest') renderRest();
   else if(SEC==='verben') renderVerben();
@@ -454,7 +499,8 @@ function render(){
   else if(SEC==='conjunctions') renderConj();
   else if(SEC==='redemittel') renderRedemittel();
   else if(SEC==='pratik') renderPratik();
-  else renderGrammatik();
+  else if(SEC==='grammatik') renderGrammatik();
+  else if(SEC==='praposition') renderPraposition();
 }
 
 /* ==================== REST ==================== */
@@ -822,6 +868,53 @@ function renderPratik(){
   $('pill-pratik').textContent=count+' konu';
 }
 
+/* ==================== PRAPOSITIONEN ==================== */
+function buildPrapCats(){
+  const sel=$('flt-prap-cat');
+  sel.innerHTML='<option value="">Tum kategoriler</option>';
+  const cats=new Set();
+  DATA.praposition.forEach(it=>{if(it.category)cats.add(it.category)});
+  [...cats].sort().forEach(c=>{const o=document.createElement('option');o.value=c;o.textContent=c;sel.appendChild(o)});
+}
+function renderPraposition(){
+  grid.style.display='none';
+  const pc=document.getElementById('pratik-container');if(pc)pc.style.display='none';
+  let container=document.getElementById('praposition-container');
+  if(!container){container=document.createElement('div');container.id='praposition-container';container.style.cssText='display:grid;grid-template-columns:1fr;gap:12px;padding:16px;max-width:800px;margin:0 auto';grid.parentNode.insertBefore(container,grid.nextSibling)}
+  container.style.display='';
+  container.innerHTML='';
+  const st=S.prap, q=st.q.toLowerCase();
+  let list=DATA.praposition;
+  if(st.cat) list=list.filter(x=>x.category===st.cat);
+  if(q) list=list.filter(x=>(x.sentence_de||'').toLowerCase().includes(q)||(x.sentence_tr||'').toLowerCase().includes(q)||(x.blank_word||'').toLowerCase().includes(q)||(x.context||'').toLowerCase().includes(q));
+  list.forEach((it,idx)=>{
+    const card=document.createElement('div');card.className='prap-card';
+    const blankWord=it.blank_word||'';
+    const sentenceWithBlank=(it.sentence_de||'').replace(new RegExp('\\b'+blankWord.replace(/[.*+?^${}()|[\]\\]/g,'\\$&')+'\\b','i'),'___');
+    card.innerHTML=`
+      <div class="prap-cat"><span class="prap-cat-badge ${esc(it.category||'andere')}">${esc(it.category||'andere')}</span>${it.context?'<span>'+esc(it.context)+'</span>':''}</div>
+      <div class="prap-sentence">${esc(sentenceWithBlank)}</div>
+      <div class="prap-tr">${esc(it.sentence_tr||'')}</div>
+      <div style="display:flex;align-items:center;gap:6px;flex-wrap:wrap">
+        <span class="prap-reveal-btn" data-answer="${esc(blankWord)}" data-full="${esc(it.sentence_de||'')}">Cevabi Goster</span>
+        <button class="prap-speak-btn" data-text="${esc(it.sentence_de||'')}">&#128266; Dinle</button>
+      </div>
+      ${it.note?'<div class="prap-note">'+esc(it.note)+'</div>':''}
+    `;
+    const revBtn=card.querySelector('.prap-reveal-btn');
+    revBtn.onclick=function(){
+      if(this.classList.contains('revealed'))return;
+      this.classList.add('revealed');
+      this.textContent=this.dataset.answer;
+      const sent=card.querySelector('.prap-sentence');
+      sent.innerHTML=esc(this.dataset.full).replace(new RegExp('\\b'+this.dataset.answer.replace(/[.*+?^${}()|[\]\\]/g,'\\$&')+'\\b','i'),m=>'<span class="prap-blank">'+m+'</span>');
+    };
+    card.querySelector('.prap-speak-btn').onclick=function(){speak(this.dataset.text)};
+    container.appendChild(card);
+  });
+  $('pill-praposition').textContent=list.length+' cumle';
+}
+
 /* ==================== POPUP COMMON ==================== */
 function hidePopup(){popupOverlay.classList.remove('show')}
 popupOverlay.onclick=e=>{if(e.target===popupOverlay)hidePopup()};
@@ -843,7 +936,7 @@ function exitTraining(){
   setTrainingBtnActive(false);
 }
 function setTrainingBtnActive(on){
-  const map={rest:'btn-r-training',verben:'btn-v-training',noun:'btn-n-training',conjunctions:'btn-c-training',redemittel:'btn-rm-training',grammatik:'btn-gr-training',pratik:null};
+  const map={rest:'btn-r-training',verben:'btn-v-training',noun:'btn-n-training',conjunctions:'btn-c-training',redemittel:'btn-rm-training',grammatik:'btn-gr-training',pratik:null,praposition:'btn-prap-training'};
   const b=map[SEC]?$(map[SEC]):null; if(b)b.classList.toggle('active',on);
 }
 
@@ -870,6 +963,10 @@ function buildTrainList(){
     let list=DATA.redemittel;
     if(S.rm.cat) list=list.filter(x=>x.category===S.rm.cat);
     if(S.rm.level) list=list.filter(x=>x.level===S.rm.level);
+    tList=list.slice();
+  } else if(SEC==='praposition'){
+    let list=DATA.praposition;
+    if(S.prap.cat) list=list.filter(x=>x.category===S.prap.cat);
     tList=list.slice();
   } else {
     let list=DATA.grammatik;
@@ -938,6 +1035,26 @@ function renderTrain(){
       reveal.innerHTML='<div class="train-reveal-hint">Almancasini gormek icin tikla</div>';
       spkBtn.style.display='none';
     }
+  } else if(SEC==='praposition'){
+    const blankWord=it.blank_word||'';
+    const sentenceWithBlank=(it.sentence_de||'').replace(new RegExp('\\b'+blankWord.replace(/[.*+?^${}()|[\]\\]/g,'\\$&')+'\\b','i'),'___');
+    prompt.innerHTML=`<div style="font-size:14px;color:var(--muted);margin-bottom:8px">${esc(it.sentence_tr||'')}</div><div>${esc(sentenceWithBlank)}</div>`;
+    if(tRevealed){
+      reveal.classList.add('revealed');
+      const highlighted=esc(it.sentence_de||'').replace(new RegExp('\\b'+blankWord.replace(/[.*+?^${}()|[\]\\]/g,'\\$&')+'\\b','i'),m=>'<span style="color:var(--green);font-weight:700;text-decoration:underline">'+m+'</span>');
+      reveal.innerHTML=`<div class="train-german">${highlighted}</div>
+        <div class="train-details">
+          <div class="lbl">Cevap</div><div class="val" style="color:var(--green);font-weight:700;font-size:18px">${esc(blankWord)}</div>
+          <div class="lbl">Kategori</div><div class="val">${esc(it.category||'')}</div>
+          <div class="lbl">Baglam</div><div class="val">${esc(it.context||'-')}</div>
+          ${it.note?'<div class="lbl">Not</div><div class="val">'+esc(it.note)+'</div>':''}
+        </div>`;
+      spkBtn.style.display='';
+    } else {
+      reveal.classList.remove('revealed');
+      reveal.innerHTML='<div class="train-reveal-hint">Cevabi gormek icin tikla</div>';
+      spkBtn.style.display='none';
+    }
   } else {
     prompt.innerHTML=esc(it.question||'');
     if(tRevealed){
@@ -972,6 +1089,8 @@ $('train-reveal').onclick=function(){
     showConjPopup(it);
   } else if(SEC==='redemittel'){
     if(!tRevealed){tRevealed=true;renderTrain()}
+  } else if(SEC==='praposition'){
+    if(!tRevealed){tRevealed=true;renderTrain()}
   } else {
     if(!tRevealed){tRevealed=true;renderTrain()}
   }
@@ -985,6 +1104,7 @@ $('btn-train-speak').onclick=function(){
   else if(SEC==='noun') speak(it.noun||'');
   else if(SEC==='conjunctions') speak(it.word||'');
   else if(SEC==='redemittel') speak(it.example||it.phrase||'');
+  else if(SEC==='praposition') speak(it.sentence_de||'');
   else speak(it.example_de||'');
 };
 
@@ -1007,6 +1127,8 @@ function shuffleSection(sec){
     for(let i=DATA.conjunctions.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[DATA.conjunctions[i],DATA.conjunctions[j]]=[DATA.conjunctions[j],DATA.conjunctions[i]]}
   } else if(sec==='redemittel'){
     for(let i=DATA.redemittel.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[DATA.redemittel[i],DATA.redemittel[j]]=[DATA.redemittel[j],DATA.redemittel[i]]}
+  } else if(sec==='praposition'){
+    for(let i=DATA.praposition.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[DATA.praposition[i],DATA.praposition[j]]=[DATA.praposition[j],DATA.praposition[i]]}
   } else {
     for(let i=DATA.grammatik.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[DATA.grammatik[i],DATA.grammatik[j]]=[DATA.grammatik[j],DATA.grammatik[i]]}
   }
@@ -1020,6 +1142,7 @@ function resetOrder(sec){
   else if(sec==='noun') DATA.noun=JSON.parse(JSON.stringify(ORIG.noun));
   else if(sec==='conjunctions') DATA.conjunctions=JSON.parse(JSON.stringify(ORIG.conjunctions));
   else if(sec==='redemittel') DATA.redemittel=JSON.parse(JSON.stringify(ORIG.redemittel));
+  else if(sec==='praposition') DATA.praposition=JSON.parse(JSON.stringify(ORIG.praposition));
   else DATA.grammatik=JSON.parse(JSON.stringify(ORIG.grammatik));
   if(TRAINING){buildTrainList();tIdx=0;tRevealed=false;renderTrain()}
   else render();
@@ -1052,6 +1175,7 @@ $('flt-rm-level').onchange=function(){S.rm.level=this.value;if(TRAINING){buildTr
 $('flt-gr-type').onchange=function(){S.gr.type=this.value;if(TRAINING){buildTrainList();tIdx=0;tRevealed=false;renderTrain()}else render()};
 $('flt-gr-level').onchange=function(){S.gr.level=this.value;if(TRAINING){buildTrainList();tIdx=0;tRevealed=false;renderTrain()}else render()};
 $('flt-pratik-cat').onchange=function(){S.pratik.cat=this.value;render()};
+$('flt-prap-cat').onchange=function(){S.prap.cat=this.value;if(TRAINING){buildTrainList();tIdx=0;tRevealed=false;renderTrain()}else render()};
 
 /* ==================== SEARCH ==================== */
 $('q-rest').oninput=function(){S.rest.q=this.value;render()};
@@ -1061,6 +1185,7 @@ $('q-conj').oninput=function(){S.conj.q=this.value;render()};
 $('q-redemittel').oninput=function(){S.rm.q=this.value;render()};
 $('q-grammatik').oninput=function(){S.gr.q=this.value;render()};
 $('q-pratik').oninput=function(){S.pratik.q=this.value;render()};
+$('q-praposition').oninput=function(){S.prap.q=this.value;render()};
 
 /* ==================== NORMAL / TRAINING / DAILY ==================== */
 $('btn-r-normal').onclick=()=>{exitTraining();S.rest.daily=null;S.rest.q='';$('q-rest').value='';render()};
@@ -1093,6 +1218,9 @@ $('btn-rm-training').onclick=()=>{if(TRAINING)exitTraining();else enterTraining(
 $('btn-gr-normal').onclick=()=>{exitTraining();S.gr.q='';$('q-grammatik').value='';render()};
 $('btn-gr-training').onclick=()=>{if(TRAINING)exitTraining();else enterTraining()};
 
+$('btn-prap-normal').onclick=()=>{exitTraining();S.prap.q='';$('q-praposition').value='';render()};
+$('btn-prap-training').onclick=()=>{if(TRAINING)exitTraining();else enterTraining()};
+
 /* ==================== LOAD DATA HELPER ==================== */
 function loadData(obj){
   if(obj.rest) DATA.rest=obj.rest;
@@ -1102,8 +1230,9 @@ function loadData(obj){
   if(obj.redemittel) DATA.redemittel=obj.redemittel;
   if(obj.grammatik) DATA.grammatik=obj.grammatik;
   if(obj.pratik) DATA.pratik=obj.pratik;
+  if(obj.praposition) DATA.praposition=obj.praposition;
   ORIG=JSON.parse(JSON.stringify(DATA));
-  buildRestCats();buildNounCats();buildConjTypes();buildRedemittelCats();buildGrammatikTypes();buildPratikCats();
+  buildRestCats();buildNounCats();buildConjTypes();buildRedemittelCats();buildGrammatikTypes();buildPratikCats();buildPrapCats();
   updateCounts();
   if(TRAINING){buildTrainList();tIdx=0;tRevealed=false;renderTrain()}
   else render();
@@ -1113,7 +1242,7 @@ function loadData(obj){
 const LS_KEY='german-trainer-data';
 
 function saveToLS(){
-  try{localStorage.setItem(LS_KEY,JSON.stringify({rest:DATA.rest,verben:DATA.verben,noun:DATA.noun,conjunctions:DATA.conjunctions,redemittel:DATA.redemittel,grammatik:DATA.grammatik,pratik:DATA.pratik}))}catch(e){}
+  try{localStorage.setItem(LS_KEY,JSON.stringify({rest:DATA.rest,verben:DATA.verben,noun:DATA.noun,conjunctions:DATA.conjunctions,redemittel:DATA.redemittel,grammatik:DATA.grammatik,pratik:DATA.pratik,praposition:DATA.praposition}))}catch(e){}
 }
 
 async function autoLoad(){
@@ -1144,7 +1273,7 @@ $('fileInput').onchange=async function(){
 };
 
 $('btn-export').onclick=()=>{
-  const obj={rest:DATA.rest,verben:DATA.verben,noun:DATA.noun,conjunctions:DATA.conjunctions,redemittel:DATA.redemittel,grammatik:DATA.grammatik,pratik:DATA.pratik};
+  const obj={rest:DATA.rest,verben:DATA.verben,noun:DATA.noun,conjunctions:DATA.conjunctions,redemittel:DATA.redemittel,grammatik:DATA.grammatik,pratik:DATA.pratik,praposition:DATA.praposition};
   const blob=new Blob([JSON.stringify(obj,null,2)],{type:'application/json'});
   const a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download='unified.json';a.click();URL.revokeObjectURL(a.href);
 };
@@ -1154,7 +1283,7 @@ document.addEventListener('keydown',e=>{
   if(e.key==='Escape'){hidePopup();if(TRAINING){exitTraining();render()}}
   if(e.key==='/'&&!['INPUT','TEXTAREA','SELECT'].includes(document.activeElement.tagName)){
     e.preventDefault();
-    const map={rest:'q-rest',verben:'q-verben',noun:'q-noun',conjunctions:'q-conj',redemittel:'q-redemittel',grammatik:'q-grammatik',pratik:'q-pratik'};
+    const map={rest:'q-rest',verben:'q-verben',noun:'q-noun',conjunctions:'q-conj',redemittel:'q-redemittel',grammatik:'q-grammatik',pratik:'q-pratik',praposition:'q-praposition'};
     $(map[SEC]).focus();
   }
   if(TRAINING){

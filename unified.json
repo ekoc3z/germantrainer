@@ -46154,5 +46154,367 @@
         }
       ]
     }
+  ],
+  "praposition": [
+    {
+      "sentence_de": "Ich warte auf den Bus.",
+      "sentence_tr": "Otobusu bekliyorum.",
+      "blank_word": "auf",
+      "category": "verb",
+      "context": "warten auf +Akk",
+      "note": ""
+    },
+    {
+      "sentence_de": "Sie interessiert sich fur Kunst.",
+      "sentence_tr": "Sanatla ilgileniyor.",
+      "blank_word": "fur",
+      "category": "verb",
+      "context": "sich interessieren fur +Akk",
+      "note": ""
+    },
+    {
+      "sentence_de": "Er denkt an seine Familie.",
+      "sentence_tr": "Ailesini dusunuyor.",
+      "blank_word": "an",
+      "category": "verb",
+      "context": "denken an +Akk",
+      "note": ""
+    },
+    {
+      "sentence_de": "Wir freuen uns auf die Ferien.",
+      "sentence_tr": "Tatili dort gozle bekliyoruz.",
+      "blank_word": "auf",
+      "category": "verb",
+      "context": "sich freuen auf +Akk",
+      "note": "gelecek icin"
+    },
+    {
+      "sentence_de": "Ich freue mich uber das Geschenk.",
+      "sentence_tr": "Hediyeye seviniyorum.",
+      "blank_word": "uber",
+      "category": "verb",
+      "context": "sich freuen uber +Akk",
+      "note": "olan icin"
+    },
+    {
+      "sentence_de": "Er hat Angst vor Spinnen.",
+      "sentence_tr": "Orumceklerden korkuyor.",
+      "blank_word": "vor",
+      "category": "verb",
+      "context": "Angst haben vor +Dat",
+      "note": ""
+    },
+    {
+      "sentence_de": "Sie achtet auf ihre Gesundheit.",
+      "sentence_tr": "Sagligina dikkat ediyor.",
+      "blank_word": "auf",
+      "category": "verb",
+      "context": "achten auf +Akk",
+      "note": ""
+    },
+    {
+      "sentence_de": "Ich bedanke mich bei Ihnen fur die Hilfe.",
+      "sentence_tr": "Yardim icin size tesekkur ediyorum.",
+      "blank_word": "bei",
+      "category": "verb",
+      "context": "sich bedanken bei +Dat",
+      "note": ""
+    },
+    {
+      "sentence_de": "Er beschwert sich uber den Larm.",
+      "sentence_tr": "Gurultuyu sikayet ediyor.",
+      "blank_word": "uber",
+      "category": "verb",
+      "context": "sich beschweren uber +Akk",
+      "note": ""
+    },
+    {
+      "sentence_de": "Wir bitten Sie um Verstandnis.",
+      "sentence_tr": "Sizden anlayis rica ediyoruz.",
+      "blank_word": "um",
+      "category": "verb",
+      "context": "bitten um +Akk",
+      "note": ""
+    },
+    {
+      "sentence_de": "Das hangt vom Wetter ab.",
+      "sentence_tr": "Havaya bagli.",
+      "blank_word": "vom",
+      "category": "verb",
+      "context": "abhangen von +Dat",
+      "note": "von + dem = vom"
+    },
+    {
+      "sentence_de": "Sie traumt von einer Reise.",
+      "sentence_tr": "Bir seyahatten hayal kuruyor.",
+      "blank_word": "von",
+      "category": "verb",
+      "context": "traumen von +Dat",
+      "note": ""
+    },
+    {
+      "sentence_de": "Er beteiligt sich an dem Projekt.",
+      "sentence_tr": "Projeye katiliyor.",
+      "blank_word": "an",
+      "category": "verb",
+      "context": "sich beteiligen an +Dat",
+      "note": ""
+    },
+    {
+      "sentence_de": "Ich gewohne mich an das Klima.",
+      "sentence_tr": "Iklime alisiyorum.",
+      "blank_word": "an",
+      "category": "verb",
+      "context": "sich gewohnen an +Akk",
+      "note": ""
+    },
+    {
+      "sentence_de": "Sie vergleicht ihn mit seinem Bruder.",
+      "sentence_tr": "Onu kardesiye kiyasliyor.",
+      "blank_word": "mit",
+      "category": "verb",
+      "context": "vergleichen mit +Dat",
+      "note": ""
+    },
+    {
+      "sentence_de": "Im Sommer fahren wir ans Meer.",
+      "sentence_tr": "Yazin denize gideriz.",
+      "blank_word": "Im",
+      "category": "temporal",
+      "context": "im + Jahreszeit",
+      "note": "in + dem = im"
+    },
+    {
+      "sentence_de": "Am Montag habe ich einen Termin.",
+      "sentence_tr": "Pazartesi bir randevum var.",
+      "blank_word": "Am",
+      "category": "temporal",
+      "context": "am + Wochentag",
+      "note": "an + dem = am"
+    },
+    {
+      "sentence_de": "Um 8 Uhr beginnt der Unterricht.",
+      "sentence_tr": "Saat 8'de ders basliyor.",
+      "blank_word": "Um",
+      "category": "temporal",
+      "context": "um + Uhrzeit",
+      "note": ""
+    },
+    {
+      "sentence_de": "Seit zwei Jahren lerne ich Deutsch.",
+      "sentence_tr": "Iki yildir Almanca ogreniyorum.",
+      "blank_word": "Seit",
+      "category": "temporal",
+      "context": "seit + Zeitdauer",
+      "note": "+Dat"
+    },
+    {
+      "sentence_de": "Vor dem Essen wasche ich mir die Hande.",
+      "sentence_tr": "Yemekten once ellerimi yikarim.",
+      "blank_word": "Vor",
+      "category": "temporal",
+      "context": "vor + Ereignis",
+      "note": "+Dat, -den once"
+    },
+    {
+      "sentence_de": "Nach dem Unterricht gehe ich einkaufen.",
+      "sentence_tr": "Dersten sonra alisverise giderim.",
+      "blank_word": "Nach",
+      "category": "temporal",
+      "context": "nach + Ereignis",
+      "note": "+Dat, -den sonra"
+    },
+    {
+      "sentence_de": "Wahrend der Pause trinke ich Kaffee.",
+      "sentence_tr": "Mola sirasinda kahve icerim.",
+      "blank_word": "Wahrend",
+      "category": "temporal",
+      "context": "wahrend + Zeitraum",
+      "note": "+Gen"
+    },
+    {
+      "sentence_de": "Bis nachste Woche muss ich fertig sein.",
+      "sentence_tr": "Gelecek haftaya kadar bitirmem lazim.",
+      "blank_word": "Bis",
+      "category": "temporal",
+      "context": "bis + Zeitpunkt",
+      "note": ""
+    },
+    {
+      "sentence_de": "Ab morgen fange ich mit der Diat an.",
+      "sentence_tr": "Yarindan itibaren diyete basliyorum.",
+      "blank_word": "Ab",
+      "category": "temporal",
+      "context": "ab + Zeitpunkt",
+      "note": "+Dat"
+    },
+    {
+      "sentence_de": "In zwei Wochen habe ich Prufung.",
+      "sentence_tr": "Iki hafta sonra sinav var.",
+      "blank_word": "In",
+      "category": "temporal",
+      "context": "in + Zeitdauer (Zukunft)",
+      "note": "+Dat"
+    },
+    {
+      "sentence_de": "Das Buch liegt auf dem Tisch.",
+      "sentence_tr": "Kitap masanin ustunde.",
+      "blank_word": "auf",
+      "category": "lokal",
+      "context": "auf + Dat (Wo?)",
+      "note": ""
+    },
+    {
+      "sentence_de": "Die Katze sitzt unter dem Stuhl.",
+      "sentence_tr": "Kedi sandalyenin altinda oturuyor.",
+      "blank_word": "unter",
+      "category": "lokal",
+      "context": "unter + Dat (Wo?)",
+      "note": ""
+    },
+    {
+      "sentence_de": "Das Bild hangt an der Wand.",
+      "sentence_tr": "Resim duvarda asili.",
+      "blank_word": "an",
+      "category": "lokal",
+      "context": "an + Dat (Wo?)",
+      "note": ""
+    },
+    {
+      "sentence_de": "Er steht vor der Tur.",
+      "sentence_tr": "Kapinin onunde duruyor.",
+      "blank_word": "vor",
+      "category": "lokal",
+      "context": "vor + Dat (Wo?)",
+      "note": ""
+    },
+    {
+      "sentence_de": "Sie wohnt in der Stadt.",
+      "sentence_tr": "Sehirde yasiyor.",
+      "blank_word": "in",
+      "category": "lokal",
+      "context": "in + Dat (Wo?)",
+      "note": ""
+    },
+    {
+      "sentence_de": "Der Schlüssel ist neben dem Telefon.",
+      "sentence_tr": "Anahtar telefonun yaninda.",
+      "blank_word": "neben",
+      "category": "lokal",
+      "context": "neben + Dat (Wo?)",
+      "note": ""
+    },
+    {
+      "sentence_de": "Die Lampe hangt uber dem Tisch.",
+      "sentence_tr": "Lamba masanin ustunde asili.",
+      "blank_word": "uber",
+      "category": "lokal",
+      "context": "uber + Dat (Wo?)",
+      "note": ""
+    },
+    {
+      "sentence_de": "Das Glas steht zwischen den Tellern.",
+      "sentence_tr": "Bardak tabaklarin arasinda.",
+      "blank_word": "zwischen",
+      "category": "lokal",
+      "context": "zwischen + Dat (Wo?)",
+      "note": ""
+    },
+    {
+      "sentence_de": "Die Schuhe stehen hinter der Tur.",
+      "sentence_tr": "Ayakkabilar kapinin arkasinda.",
+      "blank_word": "hinter",
+      "category": "lokal",
+      "context": "hinter + Dat (Wo?)",
+      "note": ""
+    },
+    {
+      "sentence_de": "Wir treffen uns bei mir zu Hause.",
+      "sentence_tr": "Benim evimde bulusuyoruz.",
+      "blank_word": "bei",
+      "category": "lokal",
+      "context": "bei + Dat (Wo?)",
+      "note": "birinin yaninda"
+    },
+    {
+      "sentence_de": "Ich gehe in die Schule.",
+      "sentence_tr": "Okula gidiyorum.",
+      "blank_word": "in",
+      "category": "direktional",
+      "context": "in + Akk (Wohin?)",
+      "note": ""
+    },
+    {
+      "sentence_de": "Er legt das Buch auf den Tisch.",
+      "sentence_tr": "Kitabi masanin ustune koyuyor.",
+      "blank_word": "auf",
+      "category": "direktional",
+      "context": "auf + Akk (Wohin?)",
+      "note": ""
+    },
+    {
+      "sentence_de": "Sie hangt das Bild an die Wand.",
+      "sentence_tr": "Resmi duvara asiyor.",
+      "blank_word": "an",
+      "category": "direktional",
+      "context": "an + Akk (Wohin?)",
+      "note": ""
+    },
+    {
+      "sentence_de": "Das Kind kriecht unter den Tisch.",
+      "sentence_tr": "Cocuk masanin altina surunuyor.",
+      "blank_word": "unter",
+      "category": "direktional",
+      "context": "unter + Akk (Wohin?)",
+      "note": ""
+    },
+    {
+      "sentence_de": "Stell die Vase neben das Fenster.",
+      "sentence_tr": "Vazoyu pencerenin yanina koy.",
+      "blank_word": "neben",
+      "category": "direktional",
+      "context": "neben + Akk (Wohin?)",
+      "note": ""
+    },
+    {
+      "sentence_de": "Ich fahre an die Nordsee.",
+      "sentence_tr": "Kuzey Denizi'ne gidiyorum.",
+      "blank_word": "an",
+      "category": "direktional",
+      "context": "an + Akk (Wohin?)",
+      "note": "deniz/gol icin"
+    },
+    {
+      "sentence_de": "Er geht hinter das Haus.",
+      "sentence_tr": "Evin arkasina gidiyor.",
+      "blank_word": "hinter",
+      "category": "direktional",
+      "context": "hinter + Akk (Wohin?)",
+      "note": ""
+    },
+    {
+      "sentence_de": "Wir fahren nach Deutschland.",
+      "sentence_tr": "Almanya'ya gidiyoruz.",
+      "blank_word": "nach",
+      "category": "direktional",
+      "context": "nach + Land (ohne Artikel)",
+      "note": "artikelsiz ulkeler"
+    },
+    {
+      "sentence_de": "Ich gehe zum Arzt.",
+      "sentence_tr": "Doktora gidiyorum.",
+      "blank_word": "zum",
+      "category": "direktional",
+      "context": "zu + Dat",
+      "note": "zu + dem = zum"
+    },
+    {
+      "sentence_de": "Sie kommt aus der Turkei.",
+      "sentence_tr": "Turkiye'den geliyor.",
+      "blank_word": "aus",
+      "category": "direktional",
+      "context": "aus + Dat (Woher?)",
+      "note": "-den gelme"
+    }
   ]
 }
