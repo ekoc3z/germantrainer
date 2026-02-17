@@ -468,6 +468,7 @@ function speak(t){if(!t)return;speechSynthesis.cancel();const u=new SpeechSynthe
 
 /* ==================== HELPERS ==================== */
 function esc(s){return String(s||'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]))}
+function prapRe(word){return new RegExp('(?<=\\s|^)'+word.replace(/[.*+?^${}()|[\]\\]/g,'\\$&')+'(?=\\s|[.,!?;:]|$)','i')}
 function $(id){return document.getElementById(id)}
 const grid=$('grid'), popupOverlay=$('popupOverlay'), popupBox=$('popupBox');
 
@@ -996,7 +997,7 @@ function renderPraposition(){
   list.forEach((it,idx)=>{
     const card=document.createElement('div');card.className='prap-card';
     const blankWord=it.blank_word||'';
-    const sentenceWithBlank=(it.sentence_de||'').replace(new RegExp('\\b'+blankWord.replace(/[.*+?^${}()|[\]\\]/g,'\\$&')+'\\b','i'),'___');
+    const sentenceWithBlank=(it.sentence_de||'').replace(prapRe(blankWord),'___');
     card.innerHTML=`
       <div class="prap-sentence">${esc(sentenceWithBlank)}</div>
       <div class="prap-tr">${esc(it.sentence_tr||'')}</div>
@@ -1012,7 +1013,7 @@ function renderPraposition(){
       this.classList.add('revealed');
       this.textContent=this.dataset.answer;
       const sent=card.querySelector('.prap-sentence');
-      sent.innerHTML=esc(this.dataset.full).replace(new RegExp('\\b'+this.dataset.answer.replace(/[.*+?^${}()|[\]\\]/g,'\\$&')+'\\b','i'),m=>'<span class="prap-blank">'+m+'</span>');
+      sent.innerHTML=esc(this.dataset.full).replace(prapRe(this.dataset.answer),m=>'<span class="prap-blank">'+m+'</span>');
       const details=card.querySelector('.prap-details');
       details.style.display='';
       details.innerHTML='<div class="prap-cat" style="margin-top:10px"><span class="prap-cat-badge '+esc(this.dataset.cat||'andere')+'">'+esc(this.dataset.cat||'andere')+'</span>'+(this.dataset.ctx?'<span>'+esc(this.dataset.ctx)+'</span>':'')+'</div>'+(this.dataset.note?'<div class="prap-note">'+esc(this.dataset.note)+'</div>':'');
@@ -1145,11 +1146,11 @@ function renderTrain(){
     }
   } else if(SEC==='praposition'){
     const blankWord=it.blank_word||'';
-    const sentenceWithBlank=(it.sentence_de||'').replace(new RegExp('\\b'+blankWord.replace(/[.*+?^${}()|[\]\\]/g,'\\$&')+'\\b','i'),'___');
+    const sentenceWithBlank=(it.sentence_de||'').replace(prapRe(blankWord),'___');
     prompt.innerHTML=`<div style="font-size:14px;color:var(--muted);margin-bottom:8px">${esc(it.sentence_tr||'')}</div><div>${esc(sentenceWithBlank)}</div>`;
     if(tRevealed){
       reveal.classList.add('revealed');
-      const highlighted=esc(it.sentence_de||'').replace(new RegExp('\\b'+blankWord.replace(/[.*+?^${}()|[\]\\]/g,'\\$&')+'\\b','i'),m=>'<span style="color:var(--green);font-weight:700;text-decoration:underline">'+m+'</span>');
+      const highlighted=esc(it.sentence_de||'').replace(prapRe(blankWord),m=>'<span style="color:var(--green);font-weight:700;text-decoration:underline">'+m+'</span>');
       reveal.innerHTML=`<div class="train-german">${highlighted}</div>
         <div class="train-details">
           <div class="lbl">Cevap</div><div class="val" style="color:var(--green);font-weight:700;font-size:18px">${esc(blankWord)}</div>
