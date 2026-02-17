@@ -48003,6 +48003,806 @@
       "category": "verb",
       "context": "allergisch sein gegen +Akk",
       "note": ""
+    },
+    {
+      "sentence_de": "Man muss sich an die Regeln anpassen.",
+      "sentence_tr": "Kurallara uyum sağlamak gerekir.",
+      "blank_word": "an",
+      "category": "verb",
+      "context": "sich anpassen an +Akk",
+      "note": ""
+    },
+    {
+      "sentence_de": "Wenden Sie sich an die Rezeption.",
+      "sentence_tr": "Resepsiyona başvurun.",
+      "blank_word": "an",
+      "category": "verb",
+      "context": "sich wenden an +Akk",
+      "note": ""
+    },
+    {
+      "sentence_de": "Denk an deinen Termin!",
+      "sentence_tr": "Randevunu unutma!",
+      "blank_word": "an",
+      "category": "verb",
+      "context": "denken an +Akk",
+      "note": ""
+    },
+    {
+      "sentence_de": "Das liegt am schlechten Wetter.",
+      "sentence_tr": "Kötü havadan kaynaklanıyor.",
+      "blank_word": "am",
+      "category": "verb",
+      "context": "liegen an +Dat",
+      "note": "an + dem = am"
+    },
+    {
+      "sentence_de": "Es mangelt an Fachkräften.",
+      "sentence_tr": "Uzman personel eksik.",
+      "blank_word": "an",
+      "category": "verb",
+      "context": "mangeln an +Dat",
+      "note": ""
+    },
+    {
+      "sentence_de": "Ich orientiere mich an den Ergebnissen.",
+      "sentence_tr": "Sonuçlara göre yöneliyorum.",
+      "blank_word": "an",
+      "category": "verb",
+      "context": "sich orientieren an +Dat",
+      "note": ""
+    },
+    {
+      "sentence_de": "Er will sich an seinem Feind rächen.",
+      "sentence_tr": "Düşmanından intikam almak istiyor.",
+      "blank_word": "an",
+      "category": "verb",
+      "context": "sich rächen an +Dat",
+      "note": ""
+    },
+    {
+      "sentence_de": "Die Stadt nimmt an Bedeutung zu.",
+      "sentence_tr": "Şehir önem kazanıyor.",
+      "blank_word": "an",
+      "category": "verb",
+      "context": "zunehmen an +Dat",
+      "note": ""
+    },
+    {
+      "sentence_de": "Beschränken Sie sich auf das Wesentliche.",
+      "sentence_tr": "Önemli olanla sınırlı kalın.",
+      "blank_word": "auf",
+      "category": "verb",
+      "context": "sich beschränken auf +Akk",
+      "note": ""
+    },
+    {
+      "sentence_de": "Er spezialisiert sich auf Herzchirurgie.",
+      "sentence_tr": "Kalp cerrahisinde uzmanlaşıyor.",
+      "blank_word": "auf",
+      "category": "verb",
+      "context": "sich spezialisieren auf +Akk",
+      "note": ""
+    },
+    {
+      "sentence_de": "Sie schwört auf Hausmittel.",
+      "sentence_tr": "Ev ilaçlarına yemin ediyor.",
+      "blank_word": "auf",
+      "category": "verb",
+      "context": "schwören auf +Akk",
+      "note": "çok güvenmek"
+    },
+    {
+      "sentence_de": "Du kannst auf mich zählen.",
+      "sentence_tr": "Bana güvenebilirsin.",
+      "blank_word": "auf",
+      "category": "verb",
+      "context": "zählen auf +Akk",
+      "note": ""
+    },
+    {
+      "sentence_de": "Sie hat ihn auf das Thema angesprochen.",
+      "sentence_tr": "Konuyu ona açtı.",
+      "blank_word": "auf",
+      "category": "verb",
+      "context": "ansprechen auf +Akk",
+      "note": ""
+    },
+    {
+      "sentence_de": "Die Maßnahme zielt auf mehr Sicherheit.",
+      "sentence_tr": "Önlem daha fazla güvenliği hedefliyor.",
+      "blank_word": "auf",
+      "category": "verb",
+      "context": "zielen auf +Akk",
+      "note": ""
+    },
+    {
+      "sentence_de": "Ich bin wütend auf ihn.",
+      "sentence_tr": "Ona kızgınım.",
+      "blank_word": "auf",
+      "category": "verb",
+      "context": "wütend sein auf +Akk",
+      "note": ""
+    },
+    {
+      "sentence_de": "Ich bin gespannt auf den Film.",
+      "sentence_tr": "Filmi merakla bekliyorum.",
+      "blank_word": "auf",
+      "category": "verb",
+      "context": "gespannt sein auf +Akk",
+      "note": ""
+    },
+    {
+      "sentence_de": "Sie ist eifersüchtig auf ihre Schwester.",
+      "sentence_tr": "Kız kardeşini kıskanıyor.",
+      "blank_word": "auf",
+      "category": "verb",
+      "context": "eifersüchtig sein auf +Akk",
+      "note": ""
+    },
+    {
+      "sentence_de": "Bist du böse auf mich?",
+      "sentence_tr": "Bana kızgın mısın?",
+      "blank_word": "auf",
+      "category": "verb",
+      "context": "böse sein auf +Akk",
+      "note": ""
+    },
+    {
+      "sentence_de": "Daraus ergibt sich ein Problem.",
+      "sentence_tr": "Bundan bir sorun ortaya çıkıyor.",
+      "blank_word": "Daraus",
+      "category": "verb",
+      "context": "sich ergeben aus +Dat",
+      "note": "da + aus = daraus"
+    },
+    {
+      "sentence_de": "Was schließt du daraus?",
+      "sentence_tr": "Bundan ne sonuç çıkarıyorsun?",
+      "blank_word": "daraus",
+      "category": "verb",
+      "context": "schließen aus +Dat",
+      "note": "da + aus = daraus"
+    },
+    {
+      "sentence_de": "Übersetze den Text aus dem Englischen.",
+      "sentence_tr": "Metni İngilizce'den çevir.",
+      "blank_word": "aus",
+      "category": "verb",
+      "context": "übersetzen aus +Dat",
+      "note": ""
+    },
+    {
+      "sentence_de": "Er wurde aus dem Krankenhaus entlassen.",
+      "sentence_tr": "Hastaneden taburcu edildi.",
+      "blank_word": "aus",
+      "category": "verb",
+      "context": "entlassen aus +Dat",
+      "note": ""
+    },
+    {
+      "sentence_de": "Sie schwärmt für den Sänger.",
+      "sentence_tr": "Şarkıcıya hayran.",
+      "blank_word": "für",
+      "category": "verb",
+      "context": "schwärmen für +Akk",
+      "note": ""
+    },
+    {
+      "sentence_de": "Er schämt sich für sein Verhalten.",
+      "sentence_tr": "Davranışından utanıyor.",
+      "blank_word": "für",
+      "category": "verb",
+      "context": "sich schämen für +Akk",
+      "note": ""
+    },
+    {
+      "sentence_de": "Die Mehrheit stimmt für den Antrag.",
+      "sentence_tr": "Çoğunluk önergeye oy veriyor.",
+      "blank_word": "für",
+      "category": "verb",
+      "context": "stimmen für +Akk",
+      "note": ""
+    },
+    {
+      "sentence_de": "Sie will sich für die Beleidigung rächen.",
+      "sentence_tr": "Hakaret için intikam almak istiyor.",
+      "blank_word": "für",
+      "category": "verb",
+      "context": "sich rächen für +Akk",
+      "note": ""
+    },
+    {
+      "sentence_de": "München ist für das Oktoberfest bekannt.",
+      "sentence_tr": "Münih Oktoberfest ile tanınır.",
+      "blank_word": "für",
+      "category": "verb",
+      "context": "bekannt sein für +Akk",
+      "note": ""
+    },
+    {
+      "sentence_de": "Ist dieser Job für mich geeignet?",
+      "sentence_tr": "Bu iş bana uygun mu?",
+      "blank_word": "für",
+      "category": "verb",
+      "context": "geeignet sein für +Akk",
+      "note": ""
+    },
+    {
+      "sentence_de": "Wer ist für die Planung zuständig?",
+      "sentence_tr": "Planlamadan kim sorumlu?",
+      "blank_word": "für",
+      "category": "verb",
+      "context": "zuständig sein für +Akk",
+      "note": ""
+    },
+    {
+      "sentence_de": "Er interessiert sich für Geschichte.",
+      "sentence_tr": "Tarihle ilgileniyor.",
+      "blank_word": "für",
+      "category": "verb",
+      "context": "sich interessieren für +Akk",
+      "note": ""
+    },
+    {
+      "sentence_de": "Ich habe mich gegen das Angebot entschieden.",
+      "sentence_tr": "Teklifi reddetmeye karar verdim.",
+      "blank_word": "gegen",
+      "category": "verb",
+      "context": "sich entscheiden gegen +Akk",
+      "note": ""
+    },
+    {
+      "sentence_de": "Die Katze sträubt sich gegen das Bad.",
+      "sentence_tr": "Kedi yıkanmaya karşı direniyor.",
+      "blank_word": "gegen",
+      "category": "verb",
+      "context": "sich sträuben gegen +Akk",
+      "note": ""
+    },
+    {
+      "sentence_de": "Viele sprechen sich gegen das Gesetz aus.",
+      "sentence_tr": "Birçok kişi yasaya karşı çıkıyor.",
+      "blank_word": "gegen",
+      "category": "verb",
+      "context": "sich aussprechen gegen +Akk",
+      "note": ""
+    },
+    {
+      "sentence_de": "Er ist gegen Grippe immun.",
+      "sentence_tr": "Gribe karşı bağışık.",
+      "blank_word": "gegen",
+      "category": "verb",
+      "context": "immun sein gegen +Akk",
+      "note": ""
+    },
+    {
+      "sentence_de": "Das Buch ist in drei Teile eingeteilt.",
+      "sentence_tr": "Kitap üç bölüme ayrılmış.",
+      "blank_word": "in",
+      "category": "verb",
+      "context": "einteilen in +Akk",
+      "note": ""
+    },
+    {
+      "sentence_de": "Er willigt in die Operation ein.",
+      "sentence_tr": "Ameliyata rıza gösteriyor.",
+      "blank_word": "in",
+      "category": "verb",
+      "context": "einwilligen in +Akk",
+      "note": ""
+    },
+    {
+      "sentence_de": "Sie vertieft sich in das Buch.",
+      "sentence_tr": "Kitaba dalıyor.",
+      "blank_word": "in",
+      "category": "verb",
+      "context": "sich vertiefen in +Akk",
+      "note": ""
+    },
+    {
+      "sentence_de": "Die Firma investiert in neue Technologien.",
+      "sentence_tr": "Firma yeni teknolojilere yatırım yapıyor.",
+      "blank_word": "in",
+      "category": "verb",
+      "context": "investieren in +Akk",
+      "note": ""
+    },
+    {
+      "sentence_de": "Du irrst dich in dieser Sache.",
+      "sentence_tr": "Bu konuda yanılıyorsun.",
+      "blank_word": "in",
+      "category": "verb",
+      "context": "sich irren in +Dat",
+      "note": ""
+    },
+    {
+      "sentence_de": "Sie ist gut in Mathematik.",
+      "sentence_tr": "Matematikte iyidir.",
+      "blank_word": "in",
+      "category": "verb",
+      "context": "gut sein in +Dat",
+      "note": ""
+    },
+    {
+      "sentence_de": "Er ist erfahren in der Programmierung.",
+      "sentence_tr": "Programlamada deneyimli.",
+      "blank_word": "in",
+      "category": "verb",
+      "context": "erfahren sein in +Dat",
+      "note": ""
+    },
+    {
+      "sentence_de": "Er findet sich mit der Situation ab.",
+      "sentence_tr": "Durumu kabulleniyor.",
+      "blank_word": "mit",
+      "category": "verb",
+      "context": "sich abfinden mit +Dat",
+      "note": ""
+    },
+    {
+      "sentence_de": "Das hängt mit dem Wetter zusammen.",
+      "sentence_tr": "Bu havayla bağlantılı.",
+      "blank_word": "mit",
+      "category": "verb",
+      "context": "zusammenhängen mit +Dat",
+      "note": ""
+    },
+    {
+      "sentence_de": "Wir müssen uns mit dem Problem auseinandersetzen.",
+      "sentence_tr": "Sorunla yüzleşmemiz gerekiyor.",
+      "blank_word": "mit",
+      "category": "verb",
+      "context": "sich auseinandersetzen mit +Dat",
+      "note": ""
+    },
+    {
+      "sentence_de": "Ich stimme mit dir überein.",
+      "sentence_tr": "Seninle aynı fikirdeyim.",
+      "blank_word": "mit",
+      "category": "verb",
+      "context": "übereinstimmen mit +Dat",
+      "note": ""
+    },
+    {
+      "sentence_de": "Er hat sich mit seinem Bruder versöhnt.",
+      "sentence_tr": "Kardeşiyle barıştı.",
+      "blank_word": "mit",
+      "category": "verb",
+      "context": "sich versöhnen mit +Dat",
+      "note": ""
+    },
+    {
+      "sentence_de": "Er droht mit einer Klage.",
+      "sentence_tr": "Dava açmakla tehdit ediyor.",
+      "blank_word": "mit",
+      "category": "verb",
+      "context": "drohen mit +Dat",
+      "note": ""
+    },
+    {
+      "sentence_de": "Die Wissenschaftler experimentieren mit neuen Methoden.",
+      "sentence_tr": "Bilim insanları yeni yöntemlerle deney yapıyor.",
+      "blank_word": "mit",
+      "category": "verb",
+      "context": "experimentieren mit +Dat",
+      "note": ""
+    },
+    {
+      "sentence_de": "Ich habe ihn mit seinem Bruder verwechselt.",
+      "sentence_tr": "Onu kardeşiyle karıştırdım.",
+      "blank_word": "mit",
+      "category": "verb",
+      "context": "verwechseln mit +Dat",
+      "note": ""
+    },
+    {
+      "sentence_de": "Mach dich mit dem System vertraut.",
+      "sentence_tr": "Sisteme aşinalık kazan.",
+      "blank_word": "mit",
+      "category": "verb",
+      "context": "sich vertraut machen mit +Dat",
+      "note": ""
+    },
+    {
+      "sentence_de": "Bist du mit der Arbeit fertig?",
+      "sentence_tr": "İşi bitirdin mi?",
+      "blank_word": "mit",
+      "category": "verb",
+      "context": "fertig sein mit +Dat",
+      "note": ""
+    },
+    {
+      "sentence_de": "Sie ist mit einem Arzt verheiratet.",
+      "sentence_tr": "Bir doktorla evli.",
+      "blank_word": "mit",
+      "category": "verb",
+      "context": "verheiratet sein mit +Dat",
+      "note": ""
+    },
+    {
+      "sentence_de": "Bist du mit ihr verwandt?",
+      "sentence_tr": "Onunla akraba mısın?",
+      "blank_word": "mit",
+      "category": "verb",
+      "context": "verwandt sein mit +Dat",
+      "note": ""
+    },
+    {
+      "sentence_de": "Er greift nach dem Glas.",
+      "sentence_tr": "Bardağa uzanıyor.",
+      "blank_word": "nach",
+      "category": "verb",
+      "context": "greifen nach +Dat",
+      "note": ""
+    },
+    {
+      "sentence_de": "Er sehnt sich nach Ruhe.",
+      "sentence_tr": "Huzura özlem duyuyor.",
+      "blank_word": "nach",
+      "category": "verb",
+      "context": "sich sehnen nach +Dat",
+      "note": ""
+    },
+    {
+      "sentence_de": "Man sollte nicht nach dem Aussehen urteilen.",
+      "sentence_tr": "Dış görünüşe göre yargılamamalı.",
+      "blank_word": "nach",
+      "category": "verb",
+      "context": "urteilen nach +Dat",
+      "note": ""
+    },
+    {
+      "sentence_de": "Das Kind verlangt nach Aufmerksamkeit.",
+      "sentence_tr": "Çocuk ilgi istiyor.",
+      "blank_word": "nach",
+      "category": "verb",
+      "context": "verlangen nach +Dat",
+      "note": ""
+    },
+    {
+      "sentence_de": "Die Polizei forscht nach dem Täter.",
+      "sentence_tr": "Polis faili araştırıyor.",
+      "blank_word": "nach",
+      "category": "verb",
+      "context": "forschen nach +Dat",
+      "note": ""
+    },
+    {
+      "sentence_de": "Der Tee schmeckt nach Minze.",
+      "sentence_tr": "Çay nane tadında.",
+      "blank_word": "nach",
+      "category": "verb",
+      "context": "schmecken nach +Dat",
+      "note": ""
+    },
+    {
+      "sentence_de": "Wir freuen uns über Ihren Besuch.",
+      "sentence_tr": "Ziyaretinize seviniyoruz.",
+      "blank_word": "über",
+      "category": "verb",
+      "context": "sich freuen über +Akk",
+      "note": "olan için"
+    },
+    {
+      "sentence_de": "Du sollst nicht über andere urteilen.",
+      "sentence_tr": "Başkalarını yargılamamalısın.",
+      "blank_word": "über",
+      "category": "verb",
+      "context": "urteilen über +Akk",
+      "note": ""
+    },
+    {
+      "sentence_de": "Die Firma verfügt über viel Kapital.",
+      "sentence_tr": "Firma çok sermayeye sahip.",
+      "blank_word": "über",
+      "category": "verb",
+      "context": "verfügen über +Akk",
+      "note": ""
+    },
+    {
+      "sentence_de": "Er beklagt sich über die Lautstärke.",
+      "sentence_tr": "Ses seviyesinden şikâyet ediyor.",
+      "blank_word": "über",
+      "category": "verb",
+      "context": "sich beklagen über +Akk",
+      "note": ""
+    },
+    {
+      "sentence_de": "Der König herrscht über das Land.",
+      "sentence_tr": "Kral ülkeyi yönetiyor.",
+      "blank_word": "über",
+      "category": "verb",
+      "context": "herrschen über +Akk",
+      "note": ""
+    },
+    {
+      "sentence_de": "Ich muss über alles nachdenken.",
+      "sentence_tr": "Her şeyi düşünmem lazım.",
+      "blank_word": "über",
+      "category": "verb",
+      "context": "nachdenken über +Akk",
+      "note": ""
+    },
+    {
+      "sentence_de": "Wir unterhalten uns über Politik.",
+      "sentence_tr": "Siyaset hakkında sohbet ediyoruz.",
+      "blank_word": "über",
+      "category": "verb",
+      "context": "sich unterhalten über +Akk",
+      "note": ""
+    },
+    {
+      "sentence_de": "Ich staune über seine Leistung.",
+      "sentence_tr": "Performansına hayret ediyorum.",
+      "blank_word": "über",
+      "category": "verb",
+      "context": "staunen über +Akk",
+      "note": ""
+    },
+    {
+      "sentence_de": "Die Gäste beschweren sich über das Essen.",
+      "sentence_tr": "Misafirler yemekten şikâyet ediyor.",
+      "blank_word": "über",
+      "category": "verb",
+      "context": "sich beschweren über +Akk",
+      "note": ""
+    },
+    {
+      "sentence_de": "Er ist wütend über die Entscheidung.",
+      "sentence_tr": "Karara kızgın.",
+      "blank_word": "über",
+      "category": "verb",
+      "context": "wütend sein über +Akk",
+      "note": ""
+    },
+    {
+      "sentence_de": "Ich bin erstaunt über das Ergebnis.",
+      "sentence_tr": "Sonuca şaşkınım.",
+      "blank_word": "über",
+      "category": "verb",
+      "context": "erstaunt sein über +Akk",
+      "note": ""
+    },
+    {
+      "sentence_de": "Alles dreht sich um Geld.",
+      "sentence_tr": "Her şey para etrafında dönüyor.",
+      "blank_word": "um",
+      "category": "verb",
+      "context": "sich drehen um +Akk",
+      "note": ""
+    },
+    {
+      "sentence_de": "Mach dir keine Sorgen um mich.",
+      "sentence_tr": "Benim için endişelenme.",
+      "blank_word": "um",
+      "category": "verb",
+      "context": "sich Sorgen machen um +Akk",
+      "note": ""
+    },
+    {
+      "sentence_de": "Ich bitte um einen Moment Geduld.",
+      "sentence_tr": "Bir an sabır rica ediyorum.",
+      "blank_word": "um",
+      "category": "verb",
+      "context": "bitten um +Akk",
+      "note": ""
+    },
+    {
+      "sentence_de": "Sie bewirbt sich um den Studienplatz.",
+      "sentence_tr": "Üniversite yerine başvuruyor.",
+      "blank_word": "um",
+      "category": "verb",
+      "context": "sich bewerben um +Akk",
+      "note": ""
+    },
+    {
+      "sentence_de": "Ich kümmere mich um den Garten.",
+      "sentence_tr": "Bahçeyle ilgileniyorum.",
+      "blank_word": "um",
+      "category": "verb",
+      "context": "sich kümmern um +Akk",
+      "note": ""
+    },
+    {
+      "sentence_de": "Die Familie trauert um den Verstorbenen.",
+      "sentence_tr": "Aile merhum için yas tutuyor.",
+      "blank_word": "um",
+      "category": "verb",
+      "context": "trauern um +Akk",
+      "note": ""
+    },
+    {
+      "sentence_de": "Ich gehe von einem Fehler aus.",
+      "sentence_tr": "Bir hata olduğunu varsayıyorum.",
+      "blank_word": "von",
+      "category": "verb",
+      "context": "ausgehen von +Dat",
+      "note": ""
+    },
+    {
+      "sentence_de": "Alle profitieren von dem Angebot.",
+      "sentence_tr": "Herkes tekliften yararlanıyor.",
+      "blank_word": "von",
+      "category": "verb",
+      "context": "profitieren von +Dat",
+      "note": ""
+    },
+    {
+      "sentence_de": "Die Partei distanziert sich von der Aussage.",
+      "sentence_tr": "Parti açıklamadan uzaklaşıyor.",
+      "blank_word": "von",
+      "category": "verb",
+      "context": "sich distanzieren von +Dat",
+      "note": ""
+    },
+    {
+      "sentence_de": "Ich bin von dem Buch begeistert.",
+      "sentence_tr": "Kitaptan çok etkilendim.",
+      "blank_word": "von",
+      "category": "verb",
+      "context": "begeistert sein von +Dat",
+      "note": ""
+    },
+    {
+      "sentence_de": "Ich bin von meiner Idee überzeugt.",
+      "sentence_tr": "Fikrimden eminim.",
+      "blank_word": "von",
+      "category": "verb",
+      "context": "überzeugt sein von +Dat",
+      "note": ""
+    },
+    {
+      "sentence_de": "Er lebt von seinem Gehalt.",
+      "sentence_tr": "Maaşıyla geçiniyor.",
+      "blank_word": "von",
+      "category": "verb",
+      "context": "leben von +Dat",
+      "note": ""
+    },
+    {
+      "sentence_de": "Dieses Modell unterscheidet sich vom alten.",
+      "sentence_tr": "Bu model eskisinden farklı.",
+      "blank_word": "vom",
+      "category": "verb",
+      "context": "sich unterscheiden von +Dat",
+      "note": "von + dem = vom"
+    },
+    {
+      "sentence_de": "Der Film handelt von einer Liebesgeschichte.",
+      "sentence_tr": "Film bir aşk hikâyesinden bahsediyor.",
+      "blank_word": "von",
+      "category": "verb",
+      "context": "handeln von +Dat",
+      "note": ""
+    },
+    {
+      "sentence_de": "Der Arzt rät von der Reise ab.",
+      "sentence_tr": "Doktor seyahati önermez.",
+      "blank_word": "von",
+      "category": "verb",
+      "context": "abraten von +Dat",
+      "note": ""
+    },
+    {
+      "sentence_de": "Ich bin müde von der Arbeit.",
+      "sentence_tr": "İşten yorgunum.",
+      "blank_word": "von",
+      "category": "verb",
+      "context": "müde sein von +Dat",
+      "note": ""
+    },
+    {
+      "sentence_de": "Das Kind versteckt sich vor dem Hund.",
+      "sentence_tr": "Çocuk köpekten saklanıyor.",
+      "blank_word": "vor",
+      "category": "verb",
+      "context": "sich verstecken vor +Dat",
+      "note": ""
+    },
+    {
+      "sentence_de": "Ich habe Respekt vor deiner Leistung.",
+      "sentence_tr": "Performansına saygı duyuyorum.",
+      "blank_word": "vor",
+      "category": "verb",
+      "context": "Respekt haben vor +Dat",
+      "note": ""
+    },
+    {
+      "sentence_de": "Er drückt sich vor der Arbeit.",
+      "sentence_tr": "İşten kaytarıyor.",
+      "blank_word": "vor",
+      "category": "verb",
+      "context": "sich drücken vor +Dat",
+      "note": ""
+    },
+    {
+      "sentence_de": "Sie hat Angst vor der Prüfung.",
+      "sentence_tr": "Sınavdan korkuyor.",
+      "blank_word": "vor",
+      "category": "verb",
+      "context": "Angst haben vor +Dat",
+      "note": ""
+    },
+    {
+      "sentence_de": "Hier sind wir vor dem Regen sicher.",
+      "sentence_tr": "Burada yağmurdan korunuyoruz.",
+      "blank_word": "vor",
+      "category": "verb",
+      "context": "sicher sein vor +Dat",
+      "note": ""
+    },
+    {
+      "sentence_de": "Die Polizei fordert zum Verlassen auf.",
+      "sentence_tr": "Polis terk etmeye çağırıyor.",
+      "blank_word": "zum",
+      "category": "verb",
+      "context": "auffordern zu +Dat",
+      "note": "zu + dem = zum"
+    },
+    {
+      "sentence_de": "Sie hat sich zum Studium entschlossen.",
+      "sentence_tr": "Okumaya karar verdi.",
+      "blank_word": "zum",
+      "category": "verb",
+      "context": "sich entschließen zu +Dat",
+      "note": "zu + dem = zum"
+    },
+    {
+      "sentence_de": "Er ist zu allem fähig.",
+      "sentence_tr": "Her şeye muktedir.",
+      "blank_word": "zu",
+      "category": "verb",
+      "context": "fähig sein zu +Dat",
+      "note": ""
+    },
+    {
+      "sentence_de": "Bist du zum Aufbruch bereit?",
+      "sentence_tr": "Yola çıkmaya hazır mısın?",
+      "blank_word": "zum",
+      "category": "verb",
+      "context": "bereit sein zu +Dat",
+      "note": "zu + dem = zum"
+    },
+    {
+      "sentence_de": "Das dient zur Sicherheit.",
+      "sentence_tr": "Bu güvenlik amaçlıdır.",
+      "blank_word": "zur",
+      "category": "verb",
+      "context": "dienen zu +Dat",
+      "note": "zu + der = zur"
+    },
+    {
+      "sentence_de": "Das Stipendium verhilft zum Studium.",
+      "sentence_tr": "Burs okumayı sağlıyor.",
+      "blank_word": "zum",
+      "category": "verb",
+      "context": "verhelfen zu +Dat",
+      "note": "zu + dem = zum"
+    },
+    {
+      "sentence_de": "Das Material eignet sich zum Basteln.",
+      "sentence_tr": "Malzeme el işi için uygun.",
+      "blank_word": "zum",
+      "category": "verb",
+      "context": "sich eignen zu +Dat",
+      "note": "zu + dem = zum"
+    },
+    {
+      "sentence_de": "Hast du Lust zum Schwimmen?",
+      "sentence_tr": "Yüzmeye canın var mı?",
+      "blank_word": "zum",
+      "category": "verb",
+      "context": "Lust haben zu +Dat",
+      "note": "zu + dem = zum"
+    },
+    {
+      "sentence_de": "Ich tendiere zur zweiten Option.",
+      "sentence_tr": "İkinci seçeneğe meyilliyim.",
+      "blank_word": "zur",
+      "category": "verb",
+      "context": "tendieren zu +Dat",
+      "note": "zu + der = zur"
     }
   ]
 }
