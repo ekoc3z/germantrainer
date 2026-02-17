@@ -173,6 +173,24 @@ button.active{background:var(--accent-bg);border-color:var(--accent);color:#fff}
 .prap-speak-btn{font-size:11px;padding:2px 6px;border-radius:6px;background:rgba(255,255,255,.1);border:1px solid var(--border);cursor:pointer;color:var(--text);transition:all .15s;margin-left:6px}
 .prap-speak-btn:hover{background:var(--accent-bg);border-color:var(--accent)}
 
+/* ===== PRAP RULES PANEL ===== */
+.prap-rules{background:var(--card-tint);border:1px solid var(--border);border-radius:12px;overflow:hidden;margin-bottom:16px}
+.prap-rules-toggle{display:flex;align-items:center;gap:10px;padding:14px 18px;cursor:pointer;user-select:none;transition:background .15s;border:none;background:none;color:var(--text);width:100%;font-size:14px;font-weight:700;text-align:left}
+.prap-rules-toggle:hover{background:rgba(255,255,255,.06)}
+.prap-rules-arrow{font-size:12px;color:var(--muted);transition:transform .2s}
+.prap-rules.open .prap-rules-arrow{transform:rotate(90deg)}
+.prap-rules-body{display:none;padding:0 18px 18px}
+.prap-rules.open .prap-rules-body{display:block}
+.prap-rules h4{font-size:13px;font-weight:700;color:var(--accent-light);margin:14px 0 6px;padding-bottom:4px;border-bottom:1px solid rgba(255,255,255,.1)}
+.prap-rules h4:first-child{margin-top:0}
+.prap-rules table{width:100%;border-collapse:collapse;font-size:12px;margin-bottom:10px}
+.prap-rules th{background:rgba(255,255,255,.08);padding:6px 8px;text-align:left;font-weight:700;color:var(--accent-light);border:1px solid rgba(255,255,255,.06)}
+.prap-rules td{padding:5px 8px;border:1px solid rgba(255,255,255,.04)}
+.prap-rules tr:nth-child(odd) td{background:rgba(255,255,255,.02)}
+.prap-rules td:first-child{font-weight:700;color:var(--accent);white-space:nowrap}
+.prap-rules .rule-tip{font-size:12px;color:var(--muted);line-height:1.5;margin-bottom:8px}
+.prap-rules-wrap{overflow-x:auto;-webkit-overflow-scrolling:touch;margin-bottom:8px}
+
 /* ===== MOBILE ===== */
 @media(max-width:768px){
   #sidebar{transform:translateX(-100%)}
@@ -492,6 +510,7 @@ function render(){
   grid.style.display='';
   const pc=document.getElementById('pratik-container');if(pc)pc.style.display='none';
   const prc=document.getElementById('praposition-container');if(prc)prc.style.display='none';
+  const prp=document.getElementById('prap-rules-panel');if(prp)prp.style.display='none';
   $('training-view').classList.remove('active');
   if(SEC==='rest') renderRest();
   else if(SEC==='verben') renderVerben();
@@ -883,6 +902,93 @@ function renderPraposition(){
   if(!container){container=document.createElement('div');container.id='praposition-container';container.style.cssText='display:grid;grid-template-columns:1fr;gap:12px;padding:16px;max-width:800px;margin:0 auto';grid.parentNode.insertBefore(container,grid.nextSibling)}
   container.style.display='';
   container.innerHTML='';
+
+  /* --- Rules Panel --- */
+  const rulesExist=document.getElementById('prap-rules-panel');
+  if(!rulesExist){
+    const rp=document.createElement('div');rp.id='prap-rules-panel';rp.className='prap-rules';
+    rp.innerHTML=`<button class="prap-rules-toggle" onclick="this.parentElement.classList.toggle('open')">
+      <span class="prap-rules-arrow">&#9654;</span> Praposition Kurallari (Referans)
+    </button>
+    <div class="prap-rules-body">
+
+      <h4>Wohin? (Nereye?) — Yon / Hedef</h4>
+      <div class="prap-rules-wrap"><table>
+        <tr><th>Praposition</th><th>Kullanim</th><th>Ornek</th></tr>
+        <tr><td>in + Akk</td><td>Kapali mekan / bina icine</td><td>Ich gehe <b>in die</b> Schule / <b>ins</b> Kino</td></tr>
+        <tr><td>auf + Akk</td><td>Acik alan / yuzey ustune</td><td>Er geht <b>auf den</b> Spielplatz</td></tr>
+        <tr><td>an + Akk</td><td>Kenar / sinir / su kenari</td><td>Ich fahre <b>an die</b> Nordsee</td></tr>
+        <tr><td>zu + Dat</td><td>Kisi / yer / etkinlik (genel)</td><td>Ich gehe <b>zum</b> Arzt / <b>zur</b> Post</td></tr>
+        <tr><td>nach</td><td>Artikelsiz ulke / sehir / yon</td><td>Wir fahren <b>nach</b> Deutschland</td></tr>
+      </table></div>
+      <div class="rule-tip"><b>in vs zu:</b> "in" icine girmek (bina/mekan icinde olacaksin), "zu" bir yere dogru gitmek (genel). Ornek: "Ich gehe <b>in die</b> Bibliothek" (kutuphaneye giriyorum) vs "Ich gehe <b>zur</b> Haltestelle" (duraga gidiyorum, icine girmiyorsun).</div>
+      <div class="rule-tip"><b>nach vs zu vs in:</b> "nach" artikelsiz ulke/sehir icin (nach Berlin), "in" artikelli ulke icin (in die Turkei), "zu" kisi/kurum icin (zum Arzt).</div>
+
+      <h4>Wo? (Nerede?) — Konum</h4>
+      <div class="prap-rules-wrap"><table>
+        <tr><th>Praposition</th><th>Kullanim</th><th>Ornek</th></tr>
+        <tr><td>in + Dat</td><td>Kapali mekan / bina icinde</td><td>Ich bin <b>im</b> Park / <b>in der</b> Schule</td></tr>
+        <tr><td>auf + Dat</td><td>Acik alan / yuzey uzerinde</td><td>Das Buch liegt <b>auf dem</b> Tisch</td></tr>
+        <tr><td>an + Dat</td><td>Kenar / yakin / duvarda</td><td>Das Bild hangt <b>an der</b> Wand</td></tr>
+        <tr><td>vor + Dat</td><td>Onunde</td><td>Er steht <b>vor der</b> Tur</td></tr>
+        <tr><td>hinter + Dat</td><td>Arkasinda</td><td>Die Schuhe stehen <b>hinter der</b> Tur</td></tr>
+        <tr><td>neben + Dat</td><td>Yaninda</td><td>Der Schlüssel ist <b>neben dem</b> Telefon</td></tr>
+        <tr><td>uber + Dat</td><td>Ustunde (temas yok)</td><td>Die Lampe hangt <b>uber dem</b> Tisch</td></tr>
+        <tr><td>unter + Dat</td><td>Altinda</td><td>Die Katze sitzt <b>unter dem</b> Stuhl</td></tr>
+        <tr><td>zwischen + Dat</td><td>Arasinda</td><td>Das Glas steht <b>zwischen den</b> Tellern</td></tr>
+        <tr><td>bei + Dat</td><td>Birinin yaninda / isyerinde</td><td>Wir treffen uns <b>bei</b> mir</td></tr>
+      </table></div>
+
+      <h4>Woher? (Nereden?) — Kaynak</h4>
+      <div class="prap-rules-wrap"><table>
+        <tr><th>Praposition</th><th>Kullanim</th><th>Ornek</th></tr>
+        <tr><td>aus + Dat</td><td>Icinden cikma (bina/ulke)</td><td>Ich komme <b>aus dem</b> Buro / <b>aus der</b> Turkei</td></tr>
+        <tr><td>von + Dat</td><td>Bir yerden / kisiden gelme</td><td>Ich komme <b>vom</b> Arzt / <b>vom</b> Bahnhof</td></tr>
+      </table></div>
+      <div class="rule-tip"><b>aus vs von:</b> "aus" icinde oldugun yerden cikmak (aus dem Haus, aus der Schule), "von" bir yerden/kisiden gelmek (vom Arzt, von der Arbeit).</div>
+
+      <h4>Wechselprapositionen (Degisen Prapositionen)</h4>
+      <div class="rule-tip">Bu 9 praposition hem <b>Akkusativ (Wohin?)</b> hem <b>Dativ (Wo?)</b> alabilir:<br>
+      <b>in, auf, an, uber, unter, vor, hinter, neben, zwischen</b><br><br>
+      <b>Wohin?</b> (hareket/yon) → <b>Akkusativ</b>: Ich gehe <b>in die</b> Schule.<br>
+      <b>Wo?</b> (konum/durum) → <b>Dativ</b>: Ich bin <b>in der</b> Schule.</div>
+
+      <h4>Temporal (Zaman)</h4>
+      <div class="prap-rules-wrap"><table>
+        <tr><th>Praposition</th><th>Kullanim</th><th>Ornek</th></tr>
+        <tr><td>am</td><td>Gun / gun bolumu</td><td><b>Am</b> Montag / <b>Am</b> Abend</td></tr>
+        <tr><td>im</td><td>Ay / mevsim</td><td><b>Im</b> Januar / <b>Im</b> Sommer</td></tr>
+        <tr><td>um</td><td>Saat</td><td><b>Um</b> 8 Uhr</td></tr>
+        <tr><td>seit</td><td>-den beri (devam eden)</td><td><b>Seit</b> zwei Jahren</td></tr>
+        <tr><td>vor</td><td>-den once / once</td><td><b>Vor</b> dem Essen</td></tr>
+        <tr><td>nach</td><td>-den sonra</td><td><b>Nach</b> dem Unterricht</td></tr>
+        <tr><td>wahrend</td><td>Sirasinda (+Gen)</td><td><b>Wahrend</b> der Pause</td></tr>
+        <tr><td>bis</td><td>-e kadar</td><td><b>Bis</b> nachste Woche</td></tr>
+        <tr><td>ab</td><td>-den itibaren</td><td><b>Ab</b> morgen</td></tr>
+        <tr><td>gegen</td><td>Yaklasik (saat)</td><td><b>Gegen</b> 17 Uhr</td></tr>
+        <tr><td>in + Dat</td><td>Gelecekte (sure sonra)</td><td><b>In</b> zwei Wochen</td></tr>
+        <tr><td>von...bis</td><td>-den ...-e kadar</td><td><b>Von</b> Montag <b>bis</b> Freitag</td></tr>
+      </table></div>
+      <div class="rule-tip"><b>am vs im vs um:</b> Gun/gun bolumu → am (am Montag, am Abend). Ay/mevsim → im (im Januar, im Sommer). Saat → um (um 8 Uhr).</div>
+
+      <h4>Kisaltmalar (Zusammenziehungen)</h4>
+      <div class="prap-rules-wrap"><table>
+        <tr><th>Kisaltma</th><th>Acilimi</th><th>Ornek</th></tr>
+        <tr><td>im</td><td>in + dem</td><td><b>im</b> Park, <b>im</b> Sommer</td></tr>
+        <tr><td>ins</td><td>in + das</td><td><b>ins</b> Kino, <b>ins</b> Cafe</td></tr>
+        <tr><td>am</td><td>an + dem</td><td><b>am</b> Montag, <b>am</b> Tisch</td></tr>
+        <tr><td>ans</td><td>an + das</td><td><b>ans</b> Meer</td></tr>
+        <tr><td>zum</td><td>zu + dem</td><td><b>zum</b> Arzt, <b>zum</b> Bahnhof</td></tr>
+        <tr><td>zur</td><td>zu + der</td><td><b>zur</b> Post, <b>zur</b> Bank</td></tr>
+        <tr><td>vom</td><td>von + dem</td><td><b>vom</b> Arzt, <b>vom</b> Bahnhof</td></tr>
+        <tr><td>beim</td><td>bei + dem</td><td><b>beim</b> Chef, <b>beim</b> Essen</td></tr>
+      </table></div>
+
+    </div>`;
+    container.parentNode.insertBefore(rp,container);
+  }
+  document.getElementById('prap-rules-panel').style.display='';
+
   const st=S.prap, q=st.q.toLowerCase();
   let list=DATA.praposition;
   if(st.cat) list=list.filter(x=>x.category===st.cat);
