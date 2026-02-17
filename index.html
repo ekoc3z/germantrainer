@@ -892,14 +892,13 @@ function renderPraposition(){
     const blankWord=it.blank_word||'';
     const sentenceWithBlank=(it.sentence_de||'').replace(new RegExp('\\b'+blankWord.replace(/[.*+?^${}()|[\]\\]/g,'\\$&')+'\\b','i'),'___');
     card.innerHTML=`
-      <div class="prap-cat"><span class="prap-cat-badge ${esc(it.category||'andere')}">${esc(it.category||'andere')}</span>${it.context?'<span>'+esc(it.context)+'</span>':''}</div>
       <div class="prap-sentence">${esc(sentenceWithBlank)}</div>
       <div class="prap-tr">${esc(it.sentence_tr||'')}</div>
       <div style="display:flex;align-items:center;gap:6px;flex-wrap:wrap">
-        <span class="prap-reveal-btn" data-answer="${esc(blankWord)}" data-full="${esc(it.sentence_de||'')}">Cevabi Goster</span>
+        <span class="prap-reveal-btn" data-answer="${esc(blankWord)}" data-full="${esc(it.sentence_de||'')}" data-cat="${esc(it.category||'')}" data-ctx="${esc(it.context||'')}" data-note="${esc(it.note||'')}">Cevabi Goster</span>
         <button class="prap-speak-btn" data-text="${esc(it.sentence_de||'')}">&#128266; Dinle</button>
       </div>
-      ${it.note?'<div class="prap-note">'+esc(it.note)+'</div>':''}
+      <div class="prap-details" style="display:none"></div>
     `;
     const revBtn=card.querySelector('.prap-reveal-btn');
     revBtn.onclick=function(){
@@ -908,6 +907,9 @@ function renderPraposition(){
       this.textContent=this.dataset.answer;
       const sent=card.querySelector('.prap-sentence');
       sent.innerHTML=esc(this.dataset.full).replace(new RegExp('\\b'+this.dataset.answer.replace(/[.*+?^${}()|[\]\\]/g,'\\$&')+'\\b','i'),m=>'<span class="prap-blank">'+m+'</span>');
+      const details=card.querySelector('.prap-details');
+      details.style.display='';
+      details.innerHTML='<div class="prap-cat" style="margin-top:10px"><span class="prap-cat-badge '+esc(this.dataset.cat||'andere')+'">'+esc(this.dataset.cat||'andere')+'</span>'+(this.dataset.ctx?'<span>'+esc(this.dataset.ctx)+'</span>':'')+'</div>'+(this.dataset.note?'<div class="prap-note">'+esc(this.dataset.note)+'</div>':'');
     };
     card.querySelector('.prap-speak-btn').onclick=function(){speak(this.dataset.text)};
     container.appendChild(card);
