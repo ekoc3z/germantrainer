@@ -795,7 +795,7 @@ function renderGrammatik(){
   DATA.grammatik.forEach(it=>{
     if(st.type && it.type!==st.type) return;
     if(st.level && it.level!==st.level) return;
-    if(q && !(it.topic||'').toLowerCase().includes(q) && !(it.rule||'').toLowerCase().includes(q) && !(it.type||'').toLowerCase().includes(q)) return;
+    if(q && !(it.topic||'').toLowerCase().includes(q) && !(it.rule||'').toLowerCase().includes(q) && !(it.rule_tr||'').toLowerCase().includes(q) && !(it.type||'').toLowerCase().includes(q)) return;
     count++;
     const card=document.createElement('div');card.className='card';
     const txt=document.createElement('div');txt.className='word';txt.textContent=it.topic;
@@ -813,6 +813,7 @@ function showGrammatikPopup(it){
     <div class="popup-section"><div class="popup-label">TYPE</div><div class="popup-val">${esc(it.type)}</div></div>
     <div class="popup-section"><div class="popup-label">LEVEL / KAPITEL</div><div class="popup-val">${esc(it.level||'')} ${esc(it.kapitel||'')}</div></div>
     <div class="popup-section"><div class="popup-label">RULE</div><div class="popup-val">${esc(it.rule)}</div></div>
+    ${it.rule_tr?'<div class="popup-section"><div class="popup-label">KURAL (TR)</div><div class="popup-val" style="color:var(--accent-light);font-size:14px">'+esc(it.rule_tr)+'</div></div>':''}
     <div class="popup-section"><div class="popup-label">EXAMPLE (DE) <button class="popup-speak" id="gp-spk">\u{1F50A}</button></div><div class="popup-val">${esc(it.example_de)}</div></div>
     <div class="popup-section"><div class="popup-label">EXAMPLE (EN)</div><div class="popup-val">${esc(it.example_en)}</div></div>
     <hr style="border:0;border-top:1px solid var(--border);margin:10px 0">
@@ -1172,6 +1173,7 @@ function renderTrain(){
         <div class="train-details">
           <div class="lbl">Konu</div><div class="val">${esc(it.topic)}</div>
           <div class="lbl">Kural</div><div class="val">${esc(it.rule)}</div>
+          ${it.rule_tr?'<div class="lbl">Kural (TR)</div><div class="val" style="color:var(--accent-light)">'+esc(it.rule_tr)+'</div>':''}
           <div class="lbl">Ornek</div><div class="val">${esc(it.example_de||'-')}</div>
           <div class="lbl">Seviye</div><div class="val">${esc(it.level||'')} ${esc(it.kapitel||'')}</div>
         </div>`;

@@ -45329,7 +45329,8 @@
       "example_de": "Gutes Design ist langlebig und versucht nicht, den neuesten Trends zu folgen.",
       "example_en": "Good design is durable and doesn't try to follow the latest trends.",
       "question": "Gutes Design versucht nicht, den neuesten Trends ___ folgen.",
-      "answer": "zu"
+      "answer": "zu",
+      "rule_tr": "\"zu\" ile mastar cumleleri (Infinitivsätze) fiil tamamlayicisidir. Ana cumle ve yan cumlenin ozmesi ayni oldugunda kullanilir. Fiillerden (dusunce, anlasma, karar), sifatlardan, isim ifadelerden ve kisisel olmayan yapilardan sonra gelir."
     },
     {
       "topic": "Vorzeitigkeit von Infinitivsätzen",
@@ -45340,7 +45341,8 @@
       "example_de": "Viele Designer sind froh, eine handwerkliche Ausbildung gemacht zu haben.",
       "example_en": "Many designers are happy to have completed a craft training.",
       "question": "Viele Designer sind froh, eine handwerkliche Ausbildung gemacht zu ___.",
-      "answer": "haben"
+      "answer": "haben",
+      "rule_tr": "Eszamanlilik: zu + Infinitiv (ayni anda). Oncezamanlilik (yan cumledeki eylem ana cumleden once gerceklesmis): Partizip Perfekt + zu + haben/sein. Ornek: 'gemacht zu haben' = 'yapmis olmak'."
     },
     {
       "topic": "um zu, ohne zu, (an)statt zu + Infinitiv",
@@ -45351,7 +45353,8 @@
       "example_de": "Viele Frauen haben Burda-Moden gekauft, um sich über die neuesten Trends zu informieren.",
       "example_en": "Many women bought Burda fashion to inform themselves about the latest trends.",
       "question": "Viele Frauen haben Burda-Moden gekauft, ___ sich über die neuesten Trends zu informieren.",
-      "answer": "um"
+      "answer": "um",
+      "rule_tr": "um...zu = Amac/Niyet (Ne icin?). ohne...zu = Beklenen eylemin olmamasi (-meden). (an)statt...zu = Beklenen yerine baska bir sey (-mek yerine). Bu yapilar ozne ayni oldugunda kullanilir."
     },
     {
       "topic": "Modalsätze mit indem und dadurch, dass",
@@ -45362,7 +45365,8 @@
       "example_de": "Personaler suchen nach geeigneten Kandidaten, indem sie Schlüsselbegriffe eingeben.",
       "example_en": "HR managers search for suitable candidates by entering keywords.",
       "question": "Interessante Stellen findet man oft dadurch, ___ man persönliche Kontakte fragt.",
-      "answer": "dass"
+      "answer": "dass",
+      "rule_tr": "'indem' ve 'dadurch, dass' yan cumleleri bir seyin nasil yapildigini anlatir (Yontem). 'indem' yan cumle baslatir (fiil sonda). 'dadurch, dass' ana cumlede 'dadurch' ile baslar, 'dass' yan cumlesi ile devam eder."
     },
     {
       "topic": "Adjektive mit Präposition",
@@ -45373,7 +45377,8 @@
       "example_de": "Ich bin mit der Situation zufrieden.",
       "example_en": "I am satisfied with the situation.",
       "question": "Ich bin ___ der Situation zufrieden. (Präposition?)",
-      "answer": "mit"
+      "answer": "mit",
+      "rule_tr": "Bazi sifatlar sabit edatlarla kullanilir. Akkusativ: ausreichend für, verantwortlich für, zuständig für. Dativ: zufrieden mit, abhängig von, bereit zu, fähig zu. Sifat + edat kombinasyonlarini ezbere bilmek gerekir."
     },
     {
       "topic": "Konzessive Zusammenhänge",
@@ -45384,7 +45389,8 @@
       "example_de": "Obwohl die Erstbespielung sehr erfolgreich war, war dies nur der erste Schritt.",
       "example_en": "Although the first performance was very successful, this was only the first step.",
       "question": "___ die Erstbespielung sehr erfolgreich war, war dies nur der erste Schritt.",
-      "answer": "Obwohl"
+      "answer": "Obwohl",
+      "rule_tr": "Taviz cumleleri (Konzessivsätze): beklentiye ragmen bir seyin gerceklestigini ifade eder. Baglaclar: obwohl, auch wenn, selbst wenn (yan cumle), trotzdem, dennoch (ana cumle). 'Yagmura ragmen disari cikti' gibi."
     },
     {
       "topic": "Temporalsätze (während, nachdem, wenn, als, seit, bis)",
@@ -45395,7 +45401,8 @@
       "example_de": "Als Joseph Beuys das Projekt plante, war sein Motto 'Stadtverwaldung statt Stadtverwaltung'.",
       "example_en": "When Joseph Beuys planned the project, his motto was 'urban forestation instead of urban administration'.",
       "question": "___ Joseph Beuys das Projekt der 7.000 Eichen plante, war sein Motto 'Stadtverwaldung'. (einmaliges Ereignis)",
-      "answer": "Als"
+      "answer": "Als",
+      "rule_tr": "während = eszamanli (ayni anda olan). nachdem = sonralik (yan cumlede zaman kaydirilir: nachdem + Perfekt → Präsens, nachdem + Plusquamperfekt → Präteritum). als = tek seferlik gecmis olay. wenn = tekrarlayan olay."
     },
     {
       "topic": "Textzusammenhang herstellen",
@@ -45406,7 +45413,8 @@
       "example_de": "Im Jahr 1930 wurde das Museum gegründet. Heute ist es eines der bedeutendsten.",
       "example_en": "In 1930 the museum was founded. Today it is one of the most significant.",
       "question": "Präpositionaladverbien wie dazu, damit, ___ helfen, Textzusammenhang herzustellen.",
-      "answer": "darüber"
+      "answer": "darüber",
+      "rule_tr": "Metin baglantisi (Textzusammenhang) saglamak icin: Artikel (belirli, iyelik, isaret zamirleri), zamir ve edatsal zarflar (dazu, damit, darüber) kullanilir. Bu ogeler metindeki daha once gecen kavramlara gonderme yapar."
     },
     {
       "topic": "Irreale Vergleichssätze (als ob, als wenn, als)",
@@ -45417,7 +45425,8 @@
       "example_de": "Sie hatte ein Gefühl, als ob sie Schmetterlinge im Bauch hätte.",
       "example_en": "She had a feeling as if she had butterflies in her stomach.",
       "question": "Er tat so, als ___ nichts passiert wäre. (als ob / als wenn)",
-      "answer": "ob"
+      "answer": "ob",
+      "rule_tr": "'als ob / als wenn / als' + Konjunktiv II ile gercek olmayan karsilastirmalar yapilir. 'Sanki...' anlamindadir. 'als ob/wenn' + fiil sonda, 'als' + fiil hemen sonra gelir. Ornek: 'Er tat so, als wäre nichts passiert' = 'Hicbir sey olmamis gibi davrand'."
     },
     {
       "topic": "Adversative Verbindungen",
@@ -45428,7 +45437,8 @@
       "example_de": "Während im Alltag jeder seine Rolle hat, sind hier alle gleich stark.",
       "example_en": "While everyone has their role in everyday life, here everyone is equally strong.",
       "question": "Die sportliche Leistung ___ rückt in den Hintergrund. (Verbindungsadverb für Gegensatz)",
-      "answer": "dagegen"
+      "answer": "dagegen",
+      "rule_tr": "Karsilik (Gegensatz) veya sinirlandirma (Einschränkung) ifade ederler. Baglaclar: während (yan cumle), sondern (ana cumle, degil...aksine), jedoch/allerdings/dagegen/hingegen (baglanti zarflari). Cumle ici pozisyonlarina dikkat et."
     },
     {
       "topic": "Modalpartikeln (denn, doch, ja, mal, eigentlich, halt, eh)",
@@ -45439,7 +45449,8 @@
       "example_de": "Von welchen Videos redet ihr denn?",
       "example_en": "Which videos are you talking about? (expressing interest)",
       "question": "Das war ___ ein guter Werbespot! (Überraschung ausdrücken mit Modalpartikel)",
-      "answer": "aber"
+      "answer": "aber",
+      "rule_tr": "Modal parcacilar (Modalpartikeln) sozlu iletisimde kullanilir. Fiilden sonra gelir, asla 1. pozisyonda olmaz. Saskinlik: ja, aber, vielleicht, doch. Ornek: 'Das war ja toll!' = 'Bu cok iyiymis ya!'"
     },
     {
       "topic": "Konditionale Zusammenhänge",
@@ -45450,7 +45461,8 @@
       "example_de": "Wenn man genug Geld hat, kann man reisen.",
       "example_en": "If one has enough money, one can travel.",
       "question": "Man braucht Geld, ___ kann man nicht reisen. (Verbindungsadverb)",
-      "answer": "sonst"
+      "answer": "sonst",
+      "rule_tr": "Kosul cumleleri: sofern, wenn, falls (nicht) + yan cumle. vorausgesetzt, dass. Gercek olmayan kosullar: Konjunktiv II (ware, hatte, wurde). sonst / andernfalls = yoksa, aksi takdirde."
     },
     {
       "topic": "Fragewörter wo(r) und Präpositionaladverbien da(r)",
@@ -45461,7 +45473,8 @@
       "example_de": "Weisst du, worüber Kerkeling in seinem Buch berichtet? Ja, er berichtet darüber.",
       "example_en": "Do you know what Kerkeling reports about in his book? Yes, he reports about it.",
       "question": "Weisst du, ___ Kerkeling in seinem Buch berichtet? (wo(r) + über)",
-      "answer": "worüber"
+      "answer": "worüber",
+      "rule_tr": "Nesneler icin: wo(r)+Edat (soru) ve da(r)+Edat (cevap). Ornek: Worüber sprichst du? - Darüber. Kisiler icin: Edat + wen/wem (soru) ve Edat + zamir (cevap). Ornek: Über wen? - Über ihn."
     },
     {
       "topic": "Temporale Präpositionen",
@@ -45472,7 +45485,8 @@
       "example_de": "Der Grundstein wurde am 2. Mai 1936 gelegt.",
       "example_en": "The foundation stone was laid on May 2, 1936.",
       "question": "Prora ist ein Gebäude ___ den 30er Jahren. (temporale Präposition + Dativ)",
-      "answer": "aus"
+      "answer": "aus",
+      "rule_tr": "Zamansal edatlar - Dativ ile zaman noktasi: an, aus, in, nach, vor, zu. Akkusativ ile: gegen, um. Zaman araligi - Dativ: ab, aus, bei, bis zu, nach, seit, von...an/bis, zwischen. Akkusativ: bis, für, gegen, über."
     },
     {
       "topic": "Indirekte Rede und Konjunktiv I",
@@ -45483,7 +45497,8 @@
       "example_de": "Die Autoren einer Studie sagen, das Ruhrgebiet habe grosse Potenziale.",
       "example_en": "The authors of a study say the Ruhr area has great potential.",
       "question": "Die Autoren sagen, das Ruhrgebiet ___ grosse Potenziale. (Konjunktiv I von 'haben')",
-      "answer": "habe"
+      "answer": "habe",
+      "rule_tr": "Konjunktiv I dolayli anlatim icindir (baskasinin soyledigi). Simdiki zaman: mastar koku + ek. Gecmis zaman: habe/sei + Partizip II. Gelecek: werde + Infinitiv. Konusma dilinde genellikle Konjunktiv II veya 'würde' ile degistirilir."
     },
     {
       "topic": "Wiederholung Konnektoren (temporal)",
@@ -45494,7 +45509,8 @@
       "example_de": "Ich habe mein erstes Handy gekauft, als ich 18 Jahre alt war.",
       "example_en": "I bought my first phone when I was 18 years old.",
       "question": "Ich behalte mein Handy, ___ es gut funktioniert. (so lange wie)",
-      "answer": "solange"
+      "answer": "solange",
+      "rule_tr": "Zamansal baglaclar: wenn (tekrarlayan), als (gecmiste bir kez), nachdem (sonra), bevor/ehe (once), bis (kadar), seit/seitdem (beri), solange (oldugu surece), sobald (yapar yapmaz), wahrend (sirasinda)."
     },
     {
       "topic": "Verben, Nomen und Adjektive mit Präpositionen",
@@ -45505,7 +45521,8 @@
       "example_de": "Wofür interessierst du dich? - Für neue Technologien.",
       "example_en": "What are you interested in? - In new technologies.",
       "question": "abhängen ___ - die Abhängigkeit ___ - abhängig ___ (gleiche Präposition)",
-      "answer": "von"
+      "answer": "von",
+      "rule_tr": "Bazi fiiller, isimler ve sifatlar ayni sabit edatla kullanilir. Ornek: abhängen von (fiil) → die Abhängigkeit von (isim) → abhängig von (sifat). Edati bilmek ucunu de bilmek demektir."
     },
     {
       "topic": "Wiederholung Vorgangspassiv",
@@ -45516,7 +45533,8 @@
       "example_de": "Die Kosten werden von der Krankenkasse erstattet.",
       "example_en": "The costs are reimbursed by the health insurance.",
       "question": "Die Kosten ___ von der Krankenkasse erstattet. (Präsens Passiv)",
-      "answer": "werden"
+      "answer": "werden",
+      "rule_tr": "Olusum edilgeni (Vorgangspassiv): werden + Partizip II. Präsens: werden + P.II. Präteritum: wurden + P.II. Perfekt: sein + P.II + worden. Durum edilgeni (Zustandspassiv): sein + Partizip II."
     },
     {
       "topic": "Passiv im Nebensatz",
@@ -45527,7 +45545,8 @@
       "example_de": "Sebastian geht in die Kur, nachdem die Reha bewilligt wurde.",
       "example_en": "Sebastian goes to the health resort after the rehab was approved.",
       "question": "In der Zeitung stand, dass der Unfall leicht hätte vermieden werden ___. (Modalverb am Ende)",
-      "answer": "können"
+      "answer": "können",
+      "rule_tr": "Yan cumlelerde modal fiil + edilgen yapisi: Partizip Perfekt + werden + modal fiil sonda gelir. Ornek: '...dass der Unfall hätte vermieden werden können' (onlenebilirdi)."
     },
     {
       "topic": "Passiversatzformen mit modaler Bedeutung",
@@ -45538,7 +45557,8 @@
       "example_de": "Der Vertrag ist leicht zu verstehen. / Der Vertrag lässt sich leicht verstehen.",
       "example_en": "The contract is easy to understand. / The contract can easily be understood.",
       "question": "Der Vertrag ___ sich leicht verstehen. (Passiversatz mit lassen)",
-      "answer": "lässt"
+      "answer": "lässt",
+      "rule_tr": "'yapilabilir' alternatifleri: (1) man + modal fiil, (2) sein + zu + Infinitiv, (3) sich lassen + Infinitiv, (4) -bar/-lich sifatlari. Ornek: 'lässt sich verstehen' = 'anlasilabilir'."
     },
     {
       "topic": "Das modale Partizip (zu + Partizip I)",
@@ -45549,7 +45569,8 @@
       "example_de": "Eines der zu lösenden Probleme ist die geringe Geburtenrate.",
       "example_en": "One of the problems to be solved is the low birth rate.",
       "question": "Der zu ___ Trend ist interessant. (können-Modalität, beobachten -> Partizip I)",
-      "answer": "beobachtende"
+      "answer": "beobachtende",
+      "rule_tr": "Modal Partizip = zu + Partizip I, sifat olarak cekimlenir. Iki anlam tasir: (1) können (yapilabilir): 'der zu beobachtende Trend' = gozlemlenebilir egilim. (2) müssen (yapilmasi gereken): 'die zu lösende Aufgabe' = cozulmesi gereken gorev."
     },
     {
       "topic": "Konsekutive Konnektoren",
@@ -45560,7 +45581,8 @@
       "example_de": "Die Sozialität ist komplex. Daher ist sie schwer zu programmieren.",
       "example_en": "Sociality is complex. Therefore it is difficult to program.",
       "question": "Die Sozialität ist komplex, ___ sie schwer zu programmieren ist. (Nebensatz mit Folge)",
-      "answer": "sodass"
+      "answer": "sodass",
+      "rule_tr": "Sonuc ifade etme: folglich, demnach, deshalb, deswegen, daher, darum (bu nedenle). so...dass / sodass (o kadar...ki). Infolge + Genitiv / Aufgrund + Genitiv (isimsel). 'so+sifat+dass' yapisi: 'so komplex, dass...'"
     },
     {
       "topic": "Weiterführende Nebensätze",
@@ -45571,7 +45593,8 @@
       "example_de": "Die KI-Systeme werden immer besser, was Chancen aber auch Gefahren birgt.",
       "example_en": "AI systems are getting better, which brings opportunities but also dangers.",
       "question": "Die Systeme werden immer besser, ___ Chancen aber auch Gefahren birgt. (das -> w-Form)",
-      "answer": "was"
+      "answer": "was",
+      "rule_tr": "Weiterführende Nebensätze: Ana cumlenin tamarina gonderme yapan yan cumleler (tek bir bilgiye degil). Her zaman ana cumleden SONRA gelir. 'das' yerine 'was' kullanilir. Ornek: 'Das System wird besser, was Chancen birgt.'"
     },
     {
       "topic": "Nominalisierung von Modalsätzen",
@@ -45582,7 +45605,8 @@
       "example_de": "Sie können Ihre Zeiteinteilung optimieren, indem Sie Kleinigkeiten ändern.",
       "example_en": "You can optimize your time management by changing small things.",
       "question": "Oft können Sie die Zeiteinteilung schon ___ das Ändern von Kleinigkeiten optimieren. (Präposition)",
-      "answer": "durch"
+      "answer": "durch",
+      "rule_tr": "Sozlu → Isimsel donusum (Yontem): indem / dadurch, dass → durch + Akkusativ. Ornek: 'indem Sie Kleinigkeiten andern' → 'durch das Ändern von Kleinigkeiten'. Fiil isimlestirilir (das Ändern)."
     },
     {
       "topic": "Nominalisierung von Finalsätzen",
@@ -45593,7 +45617,8 @@
       "example_de": "Mitarbeiter müssen entscheiden, wie sie zum Erreichen der Ziele vorgehen.",
       "example_en": "Employees must decide how they proceed to achieve the goals.",
       "question": "Mitarbeiter entscheiden, wie sie ___ Erreichen der Ziele vorgehen. (Präposition + Artikel)",
-      "answer": "zum"
+      "answer": "zum",
+      "rule_tr": "Sozlu → Isimsel donusum (Amac): um...zu / damit → zu + Dativ / für + Akkusativ. Ornek: 'um Ziele zu erreichen' → 'zum Erreichen der Ziele'. Fiil isimlestirilir ve edat degisir."
     },
     {
       "topic": "Irreale Folgesätze (als dass, um zu)",
@@ -45604,7 +45629,8 @@
       "example_de": "Das Leben ist zu kurz, als dass man sich nur für Materielles interessieren sollte.",
       "example_en": "Life is too short to be interested only in material things.",
       "question": "Das Leben ist zu kurz, ___ dass man sich nur für Materielles interessieren sollte.",
-      "answer": "als"
+      "answer": "als",
+      "rule_tr": "Gerceklesmayan sonuc cumleleri: 'als dass' veya 'um...zu' + Konjunktiv II. Sonuc gercekte OLMAZ. Ornek: 'zu kurz, als dass man...' = 'o kadar kisa ki insan...-amaz'. 'zu+sifat+als dass' yapisi kullanilir."
     },
     {
       "topic": "Nominalisierung von Konditionalsätzen",
@@ -45615,7 +45641,8 @@
       "example_de": "Im Falle einer Kündigung ist man nicht mehr versichert.",
       "example_en": "In the case of a resignation, one is no longer insured.",
       "question": "Im ___ einer Kündigung ist man nicht mehr versichert. (Nominal für 'falls')",
-      "answer": "Falle"
+      "answer": "Falle",
+      "rule_tr": "Sozlu → Isimsel donusum (Kosul): wenn/falls/sofern → bei + Dativ, mit + Dativ, durch + Akkusativ. Ornek: 'falls man gekündigt wird' → 'Im Falle einer Kündigung'. Isimsel yapi daha resmidir."
     },
     {
       "topic": "Nominalisierung von Temporalsätzen",
@@ -45626,7 +45653,8 @@
       "example_de": "Während ihrer Schulzeit hat sie schon von einer Weltreise geträumt.",
       "example_en": "During her school years she already dreamed of a world trip.",
       "question": "___ zum Sonderurlaub muss man viele Stunden ansparen. (bis -> nominal)",
-      "answer": "Bis"
+      "answer": "Bis",
+      "rule_tr": "Zamansal baglac → Edat donusumleri: wenn/als → bei + Dativ. während → während + Genitiv. seitdem → seit + Dativ. bis → bis zu + Dativ. bevor → vor + Dativ. nachdem → nach + Dativ."
     },
     {
       "topic": "Nominalisierung von Verben",
@@ -45637,7 +45665,8 @@
       "example_de": "Das Reisen bildet den Charakter.",
       "example_en": "Traveling builds character.",
       "question": "erklären -> die ___. (Nominalisierung mit -ung)",
-      "answer": "Erklärung"
+      "answer": "Erklärung",
+      "rule_tr": "Fiillerden isim turetme: (1) mastardan: reisen → das Reisen. (2) fiil kokunden ek ile: -ung (erklären → Erklärung), -tion, -heit, -keit, -nis, -schaft. Isimler her zaman buyuk harfle baslar ve artikel alir."
     },
     {
       "topic": "Temporale Adverbien",
@@ -45648,7 +45677,8 @@
       "example_de": "Zürst wurde das Gebäude als Ausbildungsstätte genutzt, dann als Lazarett, später als Kaserne und zuletzt als Jugendherberge.",
       "example_en": "First the building was used as a training center, then as a hospital, later as barracks, and finally as a youth hostel.",
       "question": "Die Jugendherberge ist ___ vielen Jahren geöffnet. (temporales Adverb: ab wann?)",
-      "answer": "seit"
+      "answer": "seit",
+      "rule_tr": "Zamansal zarflar ne zaman, ne siklikta veya hangi sirada oldugunu belirtir. Ne zaman: damals, neulich, jetzt, bald, morgen. Ne siklikta: immer, oft, manchmal, selten, nie. Sira: zuerst, dann, danach, schließlich."
     },
     {
       "topic": "Fugenelemente bei Komposita",
@@ -45659,7 +45689,8 @@
       "example_de": "Bevölkerungsstruktur, Familienpolitik, Gesetzesänderung",
       "example_en": "Population structure, family policy, legal amendment",
       "question": "Bevölkerung + ___ + struktur = Bevölkerungsstruktur (Fugenelement?)",
-      "answer": "s"
+      "answer": "s",
+      "rule_tr": "Bilesik kelimelerde (Komposita) yaklasik %30'unda birlesim eki (Fugenelement) vardir. Ekler: -e-, -(e)s-, -(e)n-, -er-. Genel kurallar var ama istisnalar cok, cogu ezberlenmeli. Ornek: Bevölkerung+s+struktur."
     }
   ],
   "pratik": [
