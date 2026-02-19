@@ -294,6 +294,7 @@ button.active{background:var(--accent-bg);border-color:var(--accent);color:#fff}
       <button class="v-mode" data-m="perf">Perfekt</button>
       <button class="v-mode" data-m="exde">Cumle DE</button>
       <button class="v-mode" data-m="exen">Cumle EN</button>
+      <select id="flt-verb-cat"><option value="">Tum kategoriler</option></select>
       <input type="search" id="q-verben" placeholder="Ara...">
       <button id="btn-v-normal">Normal</button>
       <button id="btn-v-training" class="training-toggle">Training</button>
@@ -418,7 +419,7 @@ let TRAINING = false;
 
 const S = {
   rest:  { mode:'de', cat:'', q:'', daily:null, audio:{} },
-  verben:{ mode:'en', q:'', daily:null, order:null },
+  verben:{ mode:'en', cat:'', q:'', daily:null, order:null },
   noun:  { mode:'full', cat:'', q:'' },
   conj:  { type:'', q:'' },
   rm:    { cat:'', level:'', q:'' },
@@ -589,6 +590,12 @@ function showRestPopup(word,obj){
 }
 
 /* ==================== VERBEN ==================== */
+function buildVerbCats(){
+  const cats=new Set(Object.values(DATA.verben).map(v=>v.category).filter(Boolean));
+  const sel=$('flt-verb-cat');
+  sel.innerHTML='<option value="">Tum kategoriler</option>';
+  [...cats].sort().forEach(c=>{const o=document.createElement('option');o.value=c;o.textContent=c;sel.appendChild(o)});
+}
 function renderVerben(){
   grid.innerHTML='';
   const st=S.verben, src=st.daily||DATA.verben, q=st.q.toLowerCase();
@@ -596,6 +603,7 @@ function renderVerben(){
   let count=0;
   keys.forEach(key=>{
     const v=src[key]; if(!v) return;
+    if(st.cat && v.category!==st.cat) return;
     if(q){
       const hay=[key,v.de||'',v.praet||'',v.perf||'',v.pres||''].join(' ').toLowerCase();
       if(!hay.includes(q)) return;
@@ -1060,7 +1068,7 @@ function buildTrainList(){
     }).map(([w,o])=>({word:w,...o}));
   } else if(SEC==='verben'){
     const src=S.verben.daily||DATA.verben;
-    tList=Object.entries(src).map(([k,v])=>({key:k,...v}));
+    tList=Object.entries(src).filter(([k,v])=>!S.verben.cat||v.category===S.verben.cat).map(([k,v])=>({key:k,...v}));
   } else if(SEC==='noun'){
     let list=DATA.noun;
     if(S.noun.cat) list=list.filter(x=>x.category===S.noun.cat);
@@ -1290,6 +1298,7 @@ $('flt-prap-cat').onchange=function(){S.prap.cat=this.value;if(TRAINING){buildTr
 
 /* ==================== SEARCH ==================== */
 $('q-rest').oninput=function(){S.rest.q=this.value;render()};
+$('flt-verb-cat').onchange=function(){S.verben.cat=this.value;if(TRAINING){buildTrainList();tIdx=0;tRevealed=false;renderTrain()}else render()};
 $('q-verben').oninput=function(){S.verben.q=this.value;render()};
 $('q-noun').oninput=function(){S.noun.q=this.value;render()};
 $('q-conj').oninput=function(){S.conj.q=this.value;render()};
@@ -1308,7 +1317,7 @@ $('btn-r-daily').onclick=()=>{
   S.rest.daily=Object.fromEntries(shuffled);S.rest.q='';$('q-rest').value='';render();
 };
 
-$('btn-v-normal').onclick=()=>{exitTraining();S.verben.daily=null;S.verben.order=null;S.verben.q='';$('q-verben').value='';render()};
+$('btn-v-normal').onclick=()=>{exitTraining();S.verben.daily=null;S.verben.order=null;S.verben.q='';S.verben.cat='';$('q-verben').value='';$('flt-verb-cat').value='';render()};
 $('btn-v-training').onclick=()=>{if(TRAINING)exitTraining();else enterTraining()};
 $('btn-v-daily').onclick=()=>{
   exitTraining();
@@ -1343,7 +1352,7 @@ function loadData(obj){
   if(obj.pratik) DATA.pratik=obj.pratik;
   if(obj.praposition) DATA.praposition=obj.praposition;
   ORIG=JSON.parse(JSON.stringify(DATA));
-  buildRestCats();buildNounCats();buildConjTypes();buildRedemittelCats();buildGrammatikTypes();buildPratikCats();buildPrapCats();
+  buildRestCats();buildVerbCats();buildNounCats();buildConjTypes();buildRedemittelCats();buildGrammatikTypes();buildPratikCats();buildPrapCats();
   updateCounts();
   if(TRAINING){buildTrainList();tIdx=0;tRevealed=false;renderTrain()}
   else render();
