@@ -3176,7 +3176,7 @@
     },
     "irgendein": {
       "meaning": "some, any / herhangi bir",
-      "category": "Determiners / Determinanten",
+      "category": "Indefinite Pronouns / Indefinitpronomen",
       "sentence": "Ich brauche irgendein Werkzeug, weil die Schraube klemmt.",
       "translation": "Vida sıkıştığı için herhangi bir alete ihtiyacım var."
     },
@@ -4034,7 +4034,7 @@
     },
     "selb-": {
       "meaning": "self-, same / kendi-, aynı",
-      "category": "Determiners / Determinanten",
+      "category": "Particles / Partikeln",
       "sentence": "Er hat das selbst gemacht, obwohl er Hilfe bekommen konnte.",
       "translation": "Yardım alabilse de bunu kendi yaptı."
     },
@@ -4166,7 +4166,7 @@
     },
     "solch-": {
       "meaning": "such / böyle",
-      "category": "Determiners / Determinanten",
+      "category": "Demonstrative Pronouns / Demonstrativpronomen",
       "sentence": "Solch ein Verhalten habe ich nicht erwartet, weil er sonst ruhig ist.",
       "translation": "Normalde sakin olduğu için böyle bir davranış beklemiyordum."
     },
@@ -4262,7 +4262,7 @@
     },
     "derselb-": {
       "meaning": "the same / aynı",
-      "category": "Determiners / Determinanten",
+      "category": "Demonstrative Pronouns / Demonstrativpronomen",
       "sentence": "Wir haben dasselbe Problem gehabt, weil das System alt ist.",
       "translation": "Sistem eski olduğu için aynı sorunu yaşadık."
     },
@@ -4340,7 +4340,7 @@
     },
     "derselbe/ dieselbe/ dasselbe": {
       "meaning": "the same (exact same thing) / aynısı, birebir aynı",
-      "category": "Determiners / Determinanten",
+      "category": "Demonstrative Pronouns / Demonstrativpronomen",
       "sentence": "Wir haben dasselbe erlebt, auch wenn wir an verschiedenen Orten waren.",
       "translation": "Farklı yerlerde olsak da aynı şeyi yaşadık."
     },
@@ -4436,7 +4436,7 @@
     },
     "derjenige / diejenige / dasjenige": {
       "meaning": "the one who / şu … olan",
-      "category": "Determiners / Determinanten",
+      "category": "Demonstrative Pronouns / Demonstrativpronomen",
       "sentence": "Derjenige, der angerufen hat, wollte anonym bleiben.",
       "translation": "Arayan kişi anonim kalmak istedi."
     },
@@ -6098,19 +6098,19 @@
     },
     "irgendwelche": {
       "meaning": "any (plural things) / herhangi şeyler",
-      "category": "Determiners / Determinanten",
+      "category": "Indefinite Pronouns / Indefinitpronomen",
       "sentence": "Hast du irgendwelche Ideen bekommen, nachdem wir darüber gesprochen haben?",
       "translation": "Bunun hakkında konuştuktan sonra herhangi bir fikir edindin mi?"
     },
     "irgendwer": {
       "meaning": "someone / birisi",
-      "category": "Determiners / Determinanten",
+      "category": "Indefinite Pronouns / Indefinitpronomen",
       "sentence": "Irgendwer hat an die Tür geklopft, während wir laut Musik gehört haben.",
       "translation": "Biz yüksek sesle müzik dinlerken biri kapıyı çaldı."
     },
     "irgendwas": {
       "meaning": "something / bir şey",
-      "category": "Determiners / Determinanten",
+      "category": "Indefinite Pronouns / Indefinitpronomen",
       "sentence": "Ich habe irgendwas gerochen, sodass ich sofort das Fenster geöffnet habe.",
       "translation": "Bir şey kokladım ve bu yüzden hemen pencereyi açtım."
     },
@@ -6434,7 +6434,7 @@
     },
     "selbst": {
       "meaning": "self / kendisi",
-      "category": "Determiners / Determinanten",
+      "category": "Particles / Partikeln",
       "sentence": "Er hat es selbst gemacht, damit er niemanden fragen muss.",
       "translation": "Kimseye sormak zorunda kalmasın diye işi kendi yaptı."
     },
@@ -6476,7 +6476,7 @@
     },
     "niemand": {
       "meaning": "nobody / kimse",
-      "category": "Determiners / Determinanten",
+      "category": "Indefinite Pronouns / Indefinitpronomen",
       "sentence": "Niemand hat reagiert, auch wenn ich die Nachricht laut vorgelesen habe.",
       "translation": "Mesajı yüksek sesle okumama rağmen kimse tepki vermedi."
     },
@@ -8438,7 +8438,7 @@
     },
     "andere/r/s": {
       "meaning": "other, another; others / diğer, başka; diğerleri, başkaları",
-      "category": "Determiners / Determinanten",
+      "category": "Indefinite Pronouns / Indefinitpronomen",
       "sentence": "Ich muss andere überzeugen. Der andere ist klüger. Hast du eine andere Idee?",
       "translation": "Başkalarını ikna etmeliyim. Diğeri daha zeki. Başka bir fikrin var mı?"
     },
@@ -8447,6 +8447,66 @@
       "category": "Adverbs / Adverbien",
       "sentence": "Er denkt anders als die meisten. Das schmeckt anders, als ich erwartet habe.",
       "translation": "Çoğu kişiden farklı düşünüyor. Tadı beklediğimden farklı."
+    },
+    "verpflichtend": {
+      "meaning": "mandatory, obligatory / zorunlu, bağlayıcı",
+      "category": "Adjectives / Adjektive",
+      "sentence": "Die Teilnahme an diesem Kurs ist verpflichtend.",
+      "translation": "Bu kursa katılım zorunludur."
+    },
+    "jemand": {
+      "meaning": "someone, somebody / biri, birisi",
+      "category": "Indefinite Pronouns / Indefinitpronomen",
+      "sentence": "Hat jemand meinen Schlüssel gesehen?",
+      "translation": "Birisi anahtarımı gördü mü?"
+    },
+    "man": {
+      "meaning": "one, you, people (general) / insan, biri (genel)",
+      "category": "Indefinite Pronouns / Indefinitpronomen",
+      "sentence": "Man sagt, dass Übung den Meister macht.",
+      "translation": "Pratik yapmanın ustalaştırdığı söylenir."
+    },
+    "etwas (Pronomen)": {
+      "meaning": "something / bir şey",
+      "category": "Indefinite Pronouns / Indefinitpronomen",
+      "sentence": "Ich möchte dir etwas zeigen.",
+      "translation": "Sana bir şey göstermek istiyorum."
+    },
+    "nichts": {
+      "meaning": "nothing / hiçbir şey",
+      "category": "Indefinite Pronouns / Indefinitpronomen",
+      "sentence": "Es gibt nichts Besseres als eine gute Tasse Kaffee.",
+      "translation": "İyi bir fincan kahveden daha güzel bir şey yok."
+    },
+    "vieles": {
+      "meaning": "many things / pek çok şey",
+      "category": "Indefinite Pronouns / Indefinitpronomen",
+      "sentence": "Vieles hat sich in den letzten Jahren verändert.",
+      "translation": "Son yıllarda pek çok şey değişti."
+    },
+    "manche": {
+      "meaning": "some, certain ones / kimileri, bazıları",
+      "category": "Indefinite Pronouns / Indefinitpronomen",
+      "sentence": "Manche verstehen das einfach nicht.",
+      "translation": "Kimileri bunu bir türlü anlamıyor."
+    },
+    "wenige": {
+      "meaning": "few, only a few / az kişi, yalnızca birkaçı",
+      "category": "Indefinite Pronouns / Indefinitpronomen",
+      "sentence": "Nur wenige wissen, wie schwer das wirklich ist.",
+      "translation": "Bunun gerçekte ne kadar zor olduğunu yalnızca birkaç kişi biliyor."
+    },
+    "beide": {
+      "meaning": "both / her ikisi, ikisi de",
+      "category": "Indefinite Pronouns / Indefinitpronomen",
+      "sentence": "Beide haben recht, aber aus verschiedenen Gründen.",
+      "translation": "Her ikisi de haklı, ancak farklı nedenlerle."
+    },
+    "schön und gut": {
+      "meaning": "that's all well and good (but...) / iyi hoş da, tamam güzel de",
+      "category": "Expressions / Ausdrücke",
+      "sentence": "Schön und gut, aber wer bezahlt das alles?",
+      "translation": "İyi hoş da, bunu kim ödeyecek?"
     }
   },
   "verben": {
