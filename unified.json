@@ -8507,6 +8507,48 @@
       "category": "Expressions / Ausdrücke",
       "sentence": "Schön und gut, aber wer bezahlt das alles?",
       "translation": "İyi hoş da, bunu kim ödeyecek?"
+    },
+    "Was ist mit...?": {
+      "meaning": "What about...? / Peki ya...? Ne oldu...?",
+      "category": "Expressions / Ausdrücke",
+      "sentence": "Was ist mit deinem Bruder? Kommt er auch?",
+      "translation": "Peki ya kardeşin? O da mı geliyor?"
+    },
+    "kurios": {
+      "meaning": "curious, strange, peculiar / tuhaf, garip, ilginç",
+      "category": "Adjectives / Adjektive",
+      "sentence": "Das ist eine kuriose Geschichte, die ich noch nie gehört habe.",
+      "translation": "Bu daha önce hiç duymadığım tuhaf bir hikaye."
+    },
+    "das kenne ich": {
+      "meaning": "I know that feeling / Bunu ben de bilirim, aynı his",
+      "category": "Expressions / Ausdrücke",
+      "sentence": "Das kenne ich — nach langen Arbeitstagen fühle ich mich genauso.",
+      "translation": "Bunu ben de bilirim — uzun iş günlerinden sonra ben de aynı hissediyorum."
+    },
+    "das kennen wir": {
+      "meaning": "we know that feeling / Bunu biz de biliriz, hepimiz yaşadık",
+      "category": "Expressions / Ausdrücke",
+      "sentence": "Das kennen wir alle — montags ist niemand wirklich motiviert.",
+      "translation": "Bunu hepimiz biliriz — pazartesileri kimse gerçekten motive değildir."
+    },
+    "kennt man": {
+      "meaning": "you know how it is, one knows that / insan bilir, herkes bilir",
+      "category": "Expressions / Ausdrücke",
+      "sentence": "Kennt man — immer wenn man es eilig hat, kommt der Bus zu spät.",
+      "translation": "İnsan bilir — acelen olduğunda otobüs hep geç gelir."
+    },
+    "genial": {
+      "meaning": "brilliant, genius, awesome / dahiyane, harika, müthiş",
+      "category": "Adjectives / Adjektive",
+      "sentence": "Diese Idee ist wirklich genial — warum ist da niemand früher drauf gekommen?",
+      "translation": "Bu fikir gerçekten dahiyane — neden bunu daha önce kimse düşünmedi?"
+    },
+    "unfair": {
+      "meaning": "unfair / haksız, adaletsiz",
+      "category": "Adjectives / Adjektive",
+      "sentence": "Es ist wirklich unfair, dass er mehr verdient, obwohl wir dieselbe Arbeit machen.",
+      "translation": "Aynı işi yapmamıza rağmen onun daha fazla kazanması gerçekten haksız."
     }
   },
   "verben": {
